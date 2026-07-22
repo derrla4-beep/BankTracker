@@ -574,6 +574,835 @@
       ],
       "last_checked": null,
       "notes": "Diversity-oriented virtual seminar introducing IB / capital markets / research career paths and upcoming Early ID + summer internship opportunities. Encourages Black, Hispanic, Native American, female, veteran, LGBTQ+ and students with disabilities. No dated open source located; watch internships page."
+    },
+    {
+      "id": "goldman-sachs-2028-sa-ib",
+      "firm_id": "goldman-sachs",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2026-08-01"
+      },
+      "predicted_open": "2027-08-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program",
+        "https://www.globalsouthopportunities.com/2026/07/05/global-162/",
+        "https://www.wallstreetplaybook.org/blog/summer-analyst-recruiting-timeline-2027"
+      ],
+      "last_checked": null,
+      "notes": "CONFLICTING SIGNALS - treat date as low-precision. Multiple timeline articles state GS Americas/EMEA 2027 Summer Analyst applications open ~August 15, 2026 (recorded here as an August 2026 month-anchor), and Global South Opportunities (2026-07-05) reports GS opening its 2027 global analyst/associate internship apps; yet other aggregators claim BB classes 'filled Dec 2025-Jan 2026.' GS runs a later, more structured Americas SA process than the boutiques. Single (imprecise) sourced cycle -> medium. Prediction 2027-08-01 = same month one year later (month-level). This is among the least certain dates in the file."
+    },
+    {
+      "id": "morgan-stanley-2028-sa-ib",
+      "firm_id": "morgan-stanley",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2026-01-01"
+      },
+      "predicted_open": "2027-01-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://jobs.anitab.org/companies/morgan-stanley/jobs/64372993-2027-investment-banking-summer-analyst-program-united-states",
+        "https://www.getsmartresume.com/article/morgan-stanley-early-career-programs"
+      ],
+      "last_checked": null,
+      "notes": "2027 US IB Summer Analyst application was open Jan 1 - Feb 15, 2026 (rolling), per the AnitaB.org job-board posting and getsmartresume. Recorded month-precision (1st of Jan). Single sourced cycle -> medium. Prediction 2027-01-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "jp-morgan-2028-sa-ib",
+      "firm_id": "jp-morgan",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2025-12-01"
+      },
+      "predicted_open": "2026-12-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210691542",
+        "https://www.extern.com/post/jpmorgan-internship-guide"
+      ],
+      "last_checked": null,
+      "notes": "JPM posted its first 2027 Global Investment Banking Summer Analyst app in December 2025 (Oracle Cloud posting; extern guide). Recorded month-precision (Dec 2025). Single sourced cycle -> medium. Prediction 2026-12-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "bank-of-america-2028-sa-ib",
+      "firm_id": "bank-of-america",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2026-01-01"
+      },
+      "predicted_open": "2027-01-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://careerservices.fas.harvard.edu/jobs/bank-of-america-merrill-lynch-baml-global-investment-banking-summer-analyst-program-2027/",
+        "https://careers.bankofamerica.com/en-us/students/job-detail/13953/global-investment-banking-summer-analyst-program-2027-multiple-locations"
+      ],
+      "last_checked": null,
+      "notes": "Global Investment Banking Summer Analyst Program 2027 opened ~January 20, 2026 (Harvard FAS posting; listing ran to ~Mar 31, 2026). Recorded month-precision (Jan 2026). Single sourced cycle -> medium. Prediction 2027-01-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "citi-2028-sa-ib",
+      "firm_id": "citi",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2026-01-01"
+      },
+      "predicted_open": "2027-01-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://www.extern.com/post/citi-internship-guide",
+        "https://www.wallstreetplaybook.org/blog/summer-analyst-recruiting-timeline-2027"
+      ],
+      "last_checked": null,
+      "notes": "Citi opened US 2027 IB Summer Analyst apps ~Dec 2025-Jan 2026 and largely filled by spring 2026 (extern guide; Wall Street Playbook). Recorded month-precision (Jan 2026). Single sourced cycle -> medium. Prediction 2027-01-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "barclays-2028-sa-ib",
+      "firm_id": "barclays",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2025-12-01"
+      },
+      "predicted_open": "2026-12-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://ibinterviewquestions.com/blog/ib-summer-internship-applications",
+        "https://www.extern.com/post/finance-internships-summer-2027-guide"
+      ],
+      "last_checked": null,
+      "notes": "Barclays posted its first 2027 Summer Analyst app in December 2025 per recruiting-timeline aggregators (ibinterviewquestions; extern). Aggregate/month-precision source only -> Dec 2025 anchor. Single sourced cycle -> medium. Prediction 2026-12-01 = same month one year later (month-level). Weaker-sourced date."
+    },
+    {
+      "id": "deutsche-bank-2028-sa-ib",
+      "firm_id": "deutsche-bank",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2025-12-01"
+      },
+      "predicted_open": "2026-12-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://ibinterviewquestions.com/blog/ib-summer-internship-applications",
+        "https://www.extern.com/post/finance-internships-summer-2027-guide"
+      ],
+      "last_checked": null,
+      "notes": "Deutsche Bank posted its first 2027 Summer Analyst app in December 2025 per recruiting-timeline aggregators. Aggregate/month-precision source only -> Dec 2025 anchor. Single sourced cycle -> medium. Prediction 2026-12-01 = same month one year later (month-level). Weaker-sourced date."
+    },
+    {
+      "id": "ubs-2028-sa-ib",
+      "firm_id": "ubs",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2026-01-01"
+      },
+      "predicted_open": "2027-01-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://www.adventiscg.com/class-of-2028-recruiting-timeline",
+        "https://ibinterviewquestions.com/blog/ib-summer-internship-applications"
+      ],
+      "last_checked": null,
+      "notes": "UBS 2027 Summer Analyst apps appeared ~Dec 2025-Jan 2026 per recruiting trackers (Adventis class-of-2028 timeline; ibinterviewquestions). Aggregate/month-precision source only -> Jan 2026 anchor. Single sourced cycle -> medium. Prediction 2027-01-01 = same month one year later (month-level). Weaker-sourced date."
+    },
+    {
+      "id": "wells-fargo-2028-sa-ib",
+      "firm_id": "wells-fargo",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2025-12-01"
+      },
+      "predicted_open": "2026-12-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://ibinterviewquestions.com/blog/ib-summer-internship-applications",
+        "https://econugblog.wordpress.com/2026/07/10/2027-internships-full-time-opportunities-wells-fargo/"
+      ],
+      "last_checked": null,
+      "notes": "Wells Fargo posted its first 2027 CIB IB Summer Analyst app in December 2025 (ibinterviewquestions); Econ UG Blog reposted 2027 Wells Fargo openings through mid-2026. Recorded month-precision (Dec 2025). Single sourced cycle -> medium. Prediction 2026-12-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "evercore-2028-sa-ib",
+      "firm_id": "evercore",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2026-01-01"
+      },
+      "predicted_open": "2027-01-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://econugblog.wordpress.com/2026/01/09/2027-summer-internships-evercore/",
+        "https://www.wallstreetoasis.com/forum/investment-banking/evercore-sa2027"
+      ],
+      "last_checked": null,
+      "notes": "2027 Summer Analyst app opened ~Jan 1, 2026 with a Feb 1 deadline (Econ UG Blog dated 2026-01-09; WSO Evercore SA2027 thread). Recorded month-precision (Jan 2026). Single sourced cycle -> medium. Prediction 2027-01-01 = same month one year later (month-level). Well-sourced."
+    },
+    {
+      "id": "pjt-partners-2028-sa-ib",
+      "firm_id": "pjt-partners",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2026-01-01"
+      },
+      "predicted_open": "2027-01-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://www.pjtpartners.com/careers/students",
+        "https://pjtpartners.wd1.myworkdayjobs.com/Students",
+        "https://www.wallstreetplaybook.org/blog/summer-analyst-recruiting-timeline-2027"
+      ],
+      "last_checked": null,
+      "notes": "PJT posted its first 2027 Summer Analyst app in January 2026 per recruiting trackers (Wall Street Playbook); apps route through the PJT Students Workday board. Recorded month-precision (Jan 2026). Single sourced cycle -> medium. Prediction 2027-01-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "perella-weinberg-partners-2028-sa-ib",
+      "firm_id": "perella-weinberg-partners",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2025-12-01"
+      },
+      "predicted_open": "2026-12-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://careeredge.bentley.edu/blog/2025/12/15/hot-opportunity-alert-perella-weinberg-2027-us-advisory-summer-analyst/",
+        "https://careerservices.fas.harvard.edu/jobs/perella-weinberg-partners-2027-us-advisory-summer-analyst/"
+      ],
+      "last_checked": null,
+      "notes": "2027 US Advisory Summer Analyst app was live by mid-December 2025 (Bentley CareerEdge 'Hot Opportunity Alert' dated 2025-12-15; Harvard FAS posting), deadline ~2026-01-18; some sources say it first posted November 2025. Recorded month-precision (Dec 2025). Single sourced cycle -> medium. Prediction 2026-12-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "guggenheim-securities-2028-sa-ib",
+      "firm_id": "guggenheim-securities",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2026-01-01"
+      },
+      "predicted_open": "2027-01-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://www.getsmartresume.com/article/guggenheim-ibd-summer-analyst",
+        "https://www.wallstreetplaybook.org/blog/summer-analyst-recruiting-timeline-2027"
+      ],
+      "last_checked": null,
+      "notes": "Guggenheim's core 2027 IBD Summer Analyst app opened early-to-mid January 2026 (getsmartresume; appeared in January per recruiting trackers on Wall Street Playbook). Recorded month-precision (Jan 2026). Single sourced cycle -> medium. Prediction 2027-01-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "rothschild-and-co-2028-sa-ib",
+      "firm_id": "rothschild-and-co",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2025-11-01"
+      },
+      "predicted_open": "2026-11-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/us-2027-global-advisory-summer-analyst/",
+        "https://www.getsmartresume.com/article/rothschild-classic-ma-analyst"
+      ],
+      "last_checked": null,
+      "notes": "US 2027 Global Advisory Summer Analyst app first posted ~November 2025 with a ~January 1, 2026 deadline (Rothschild opportunities page; getsmartresume). Recorded month-precision (Nov 2025). Single sourced cycle -> medium. Prediction 2026-11-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "jefferies-2028-sa-ib",
+      "firm_id": "jefferies",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2025-12-01"
+      },
+      "predicted_open": "2026-12-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://careerservices.upenn.edu/jobs/jefferies-llc-2027-investment-banking-summer-analyst-program-new-york-israel-coverage-group-3/",
+        "https://www.getsmartresume.com/article/jefferies-summer-analyst-associate-program"
+      ],
+      "last_checked": null,
+      "notes": "2027 IB Summer Analyst program opened ~December 2025 (UPenn Career Services posting; getsmartresume cites Dec 15, 2025). Group-specific NYC postings. Recorded month-precision (Dec 2025). Single sourced cycle -> medium. Prediction 2026-12-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "houlihan-lokey-2028-sa-ib",
+      "firm_id": "houlihan-lokey",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2025-11-01"
+      },
+      "predicted_open": "2026-11-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://careerhub.students.duke.edu/jobs/houlihan-lokey-2027-investment-banking-summer-financial-analyst-class-of-2028-los-angeles-business-services/",
+        "https://www.tealhq.com/job/2027-investment-banking-summer-analyst_7ea1aab2d5a419cdfa030c573ea2369416b54"
+      ],
+      "last_checked": null,
+      "notes": "HL posted its first 2027 Summer Financial Analyst apps (Class of 2028) ~November 2025 (Duke CareerHub posting; Teal job board). Note HL IB SA is often LA-anchored though it recruits nationally incl. NYC. Recorded month-precision (Nov 2025). Single sourced cycle -> medium. Prediction 2026-11-01 = same month one year later (month-level). Weaker-sourced date."
+    },
+    {
+      "id": "william-blair-2028-sa-ib",
+      "firm_id": "william-blair",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2025-12-01"
+      },
+      "predicted_open": "2026-12-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://www.williamblair.com/Careers/job-description?gh_jid=4977448007",
+        "https://www.blackcareernetwork.com/job/2027-investment-banking-summer-analyst-fund-placement"
+      ],
+      "last_checked": null,
+      "notes": "2027 IB Summer Analyst postings (multiple groups) were live with a ~January 22 deadline, first posted ~December 2025 (William Blair Greenhouse postings; BlackCareerNetwork). William Blair IB is Chicago-anchored (NYC has select groups). Recorded month-precision (Dec 2025). Single sourced cycle -> medium. Prediction 2026-12-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "piper-sandler-2028-sa-ib",
+      "firm_id": "piper-sandler",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2026-01-01"
+      },
+      "predicted_open": "2027-01-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://jobright.ai/jobs/info/695622f2aa05c26e7ab060b6",
+        "https://www.extern.com/post/finance-internships-summer-2027-guide"
+      ],
+      "last_checked": null,
+      "notes": "2027 IB Summer Analyst window opened January 2026 and closed February 2026 (Jobright.ai posting; extern guide). Piper Sandler IB is Minneapolis-anchored with NYC coverage groups. Recorded month-precision (Jan 2026). Single sourced cycle -> medium. Prediction 2027-01-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "raymond-james-2028-sa-ib",
+      "firm_id": "raymond-james",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2025-12-01"
+      },
+      "predicted_open": "2026-12-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://www.extern.com/post/raymond-james-internship-guide",
+        "https://www.linkedin.com/jobs/view/2027-investment-banking-summer-analyst-multiple-locations-at-raymond-james-4328596744"
+      ],
+      "last_checked": null,
+      "notes": "Raymond James 2027 IB Summer Analyst postings went live ~December 2025 (extern guide; LinkedIn multiple-locations posting). Recorded month-precision (Dec 2025). Single sourced cycle -> medium. Prediction 2026-12-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "stifel-2028-sa-ib",
+      "firm_id": "stifel",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2025-11-01"
+      },
+      "predicted_open": "2026-11-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://careeredge.bentley.edu/blog/2025/11/19/hot-opportunity-alert-stifel-summer-2027-investment-banking-summer-analyst-opportunities-multiple-locations/"
+      ],
+      "last_checked": null,
+      "notes": "2027 IB Summer Analyst opportunities (multiple locations) were live by 2025-11-19 (Bentley CareerEdge 'Hot Opportunity Alert'). Recorded month-precision (Nov 2025). Single sourced cycle -> medium. Prediction 2026-11-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "nomura-2028-sa-ib",
+      "firm_id": "nomura",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2026-06-01"
+      },
+      "predicted_open": "2027-06-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://econugblog.wordpress.com/2026/06/04/2027-investment-banking-summer-analyst-program-san-francisco-nomura/",
+        "https://www.nomura.com/careers/early-careers/"
+      ],
+      "last_checked": null,
+      "notes": "Nomura's 2027 IB Summer Analyst program was being advertised by 2026-06-04 (Econ UG Blog, San Francisco posting) - a later MM timeline; may have opened somewhat earlier. Recorded month-precision (Jun 2026). Single sourced cycle -> medium. Prediction 2027-06-01 = same month one year later (month-level). Weaker/late-cycle date."
+    },
+    {
+      "id": "solomon-partners-2028-sa-ib",
+      "firm_id": "solomon-partners",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2026-02-01"
+      },
+      "predicted_open": "2027-02-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://econugblog.wordpress.com/2026/02/11/2027-investment-banking-summer-analyst-program-chicago-solomon-partners/",
+        "https://job-boards.greenhouse.io/solomonpartnersstudentsgraduates/jobs/4621016006"
+      ],
+      "last_checked": null,
+      "notes": "Solomon Partners 2027 IB Summer Analyst program advertised by 2026-02-11 (Econ UG Blog, Chicago posting; Solomon Greenhouse board). Recorded month-precision (Feb 2026). Single sourced cycle -> medium. Prediction 2027-02-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "leerink-partners-2028-sa-ib",
+      "firm_id": "leerink-partners",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2025-11-01"
+      },
+      "predicted_open": "2026-11-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://leerink.wd5.myworkdayjobs.com/en-US/leerinkpartners/job/XMLNAME-2027-Investment-Banking-Summer-Analyst-Program_R00567",
+        "https://careerservices.fas.harvard.edu/jobs/leerink-partners-llc-2027-investment-banking-summer-analyst/"
+      ],
+      "last_checked": null,
+      "notes": "Leerink Partners 2027 IB Summer Analyst app posted ~November 3, 2025 (Leerink Workday req; Harvard FAS posting). Healthcare-focused; penultimate-year students. Recorded month-precision (Nov 2025). Single sourced cycle -> medium. Prediction 2026-11-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "santander-cib-2028-sa-ib",
+      "firm_id": "santander-cib",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2027": "2025-12-01"
+      },
+      "predicted_open": "2026-12-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://careeredge.bentley.edu/blog/2025/12/01/hot-opportunity-alert-santander-2027-investment-banking-summer-analyst/"
+      ],
+      "last_checked": null,
+      "notes": "Santander CIB 2027 IB Summer Analyst was live by 2025-12-01 (Bentley CareerEdge 'Hot Opportunity Alert'). Recorded month-precision (Dec 2025). Single sourced cycle -> medium. Prediction 2026-12-01 = same month one year later (month-level)."
+    },
+    {
+      "id": "lazard-2028-sa-ib",
+      "firm_id": "lazard",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://simplify.jobs/p/4c8ce159-deb4-46fd-81fe-0579c91ac68b/2027-Financial-Advisory-Summer-Analyst-Program",
+        "https://www.lazard.com/careers/students/"
+      ],
+      "last_checked": null,
+      "notes": "A 2027 Financial Advisory Summer Analyst posting existed (Simplify), but sources conflict on the open month (elite-boutique trackers say ~January 2026; other guides say general apps open March-April 2026). No reliable single open date -> unverified, predicted_open null. Watch the Lazard students page."
+    },
+    {
+      "id": "centerview-partners-2028-sa-ib",
+      "firm_id": "centerview-partners",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://cpd.emory.edu/jobs/centerview-partners-investment-banking-summer-analyst-new-york/",
+        "https://www.centerviewpartners.com/careers.aspx"
+      ],
+      "last_checked": null,
+      "notes": "Centerview runs a rolling/always-open IB Summer Analyst application rather than a discrete annual open date (Emory CPD posting; careers page). No datable cycle-open -> unverified, predicted_open null. Watch the careers page / apply on a rolling basis."
+    },
+    {
+      "id": "moelis-2028-sa-ib",
+      "firm_id": "moelis",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.moelis.com/careers/explore-opportunities/",
+        "https://www.getsmartresume.com/article/moelis-summer-analyst-associate-program"
+      ],
+      "last_checked": null,
+      "notes": "Moelis's formal SA portal is described as opening ~February-March 2026 with networking from January, but no dated posting was located. No reliable open date -> unverified, predicted_open null. Watch the explore-opportunities page."
+    },
+    {
+      "id": "qatalyst-partners-2028-sa-ib",
+      "firm_id": "qatalyst-partners",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://qatalyst.com/"
+      ],
+      "last_checked": null,
+      "notes": "Tech-focused boutique with a very small analyst class; no student careers page and postings route through qatalyst.sainoo.com. No dated 2027 SA open located -> unverified, predicted_open null."
+    },
+    {
+      "id": "liontree-2028-sa-ib",
+      "firm_id": "liontree",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://job-boards.greenhouse.io/liontree"
+      ],
+      "last_checked": null,
+      "notes": "Recruiting hosted on Greenhouse with no student-specific landing page; no dated 2027 SA open located -> unverified, predicted_open null. Watch the LionTree Greenhouse board."
+    },
+    {
+      "id": "greenhill-2028-sa-ib",
+      "firm_id": "greenhill",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.mizuhogroup.com/americas/careers/campus-recruiting"
+      ],
+      "last_checked": null,
+      "notes": "Now recruits as 'Mizuho | Greenhill' (acquired by Mizuho, 2023); no independent Greenhill SA posting. Overlaps the mizuho-americas entry. No dated open -> unverified, predicted_open null."
+    },
+    {
+      "id": "rbc-capital-markets-2028-sa-ib",
+      "firm_id": "rbc-capital-markets",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://jobs.rbc.com/ca/en/job/R-0000146900/2027-Capital-Markets-Global-Investment-Banking-Summer-Analyst",
+        "https://www.rbccm.com/en/careers/campus-recruiting.page"
+      ],
+      "last_checked": null,
+      "notes": "2027 Global Investment Banking Summer Analyst postings are live on jobs.rbc.com, and RBC's 2027 Sales & Trading internship was advertised by 2025-11-04 (Bentley), but no dated open specifically for the IB SA app was located -> unverified, predicted_open null. Watch the RBC campus-recruiting page."
+    },
+    {
+      "id": "baird-2028-sa-ib",
+      "firm_id": "baird",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.bairdcareers.com/internships/global-investment-banking-intern-program-us/"
+      ],
+      "last_checked": null,
+      "notes": "Baird's Global Investment Banking Intern Program (Milwaukee/Chicago/NYC) recruits on a longer MM timeline (apps often open ~late December); no dated 2027 SA open located -> unverified, predicted_open null. Watch the GIB intern program page."
+    },
+    {
+      "id": "harris-williams-2028-sa-ib",
+      "firm_id": "harris-williams",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://careers.amherst.edu/events/2026/02/03/harris-williams-summer-analyst-internship-info-session-for-nescac-students/",
+        "https://www.harriswilliams.com/careers/analysts-associates"
+      ],
+      "last_checked": null,
+      "notes": "PNC subsidiary (recruiting via pnc.wd5.myworkdayjobs.com/HarrisWilliams); a Feb 2026 sophomore info session was marketed but no dated SA app open was located -> unverified, predicted_open null. Richmond/DC/Boston-anchored M&A boutique."
+    },
+    {
+      "id": "lincoln-international-2028-sa-ib",
+      "firm_id": "lincoln-international",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.lincolninternational.com/campus-early-careers/"
+      ],
+      "last_checked": null,
+      "notes": "No dated 2027 SA open located -> unverified, predicted_open null. Watch the Lincoln campus/early-careers page."
+    },
+    {
+      "id": "oppenheimer-2028-sa-ib",
+      "firm_id": "oppenheimer",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.oppenheimer.com/careers/students-graduates"
+      ],
+      "last_checked": null,
+      "notes": "No dated 2027 SA open located -> unverified, predicted_open null. Watch the Oppenheimer students-and-graduates page."
+    },
+    {
+      "id": "truist-securities-2028-sa-ib",
+      "firm_id": "truist-securities",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://careers.truist.com/us/en/urstudent"
+      ],
+      "last_checked": null,
+      "notes": "Only 2026-cycle CIB SA postings were locatable; no dated 2027 IB SA open found -> unverified, predicted_open null. Watch the Truist student careers page."
+    },
+    {
+      "id": "bmo-capital-markets-2028-sa-ib",
+      "firm_id": "bmo-capital-markets",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://capitalmarkets.bmo.com/en/careers/campus-recruiting/"
+      ],
+      "last_checked": null,
+      "notes": "No dated 2027 SA open located -> unverified, predicted_open null. Watch the BMO Capital Markets campus-recruiting page."
+    },
+    {
+      "id": "td-securities-2028-sa-ib",
+      "firm_id": "td-securities",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://careers.td.com/student-new-grads/early-talent-programs/"
+      ],
+      "last_checked": null,
+      "notes": "TD Securities posted its 2026-cycle SA app ~December 2024; no dated 2027 IB SA open was located -> unverified, predicted_open null. Watch the TD early-talent page."
+    },
+    {
+      "id": "mizuho-americas-2028-sa-ib",
+      "firm_id": "mizuho-americas",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.mizuhogroup.com/americas/careers/campus-recruiting"
+      ],
+      "last_checked": null,
+      "notes": "Mizuho (Mizuho | Greenhill) 2026-cycle SA was cited as opening ~March 2026, but no dated 2027 IB SA open was located -> unverified, predicted_open null. Watch the Mizuho Americas campus-recruiting page."
+    },
+    {
+      "id": "mufg-2028-sa-ib",
+      "firm_id": "mufg",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://careers.mufgamericas.com/student-programs-overview"
+      ],
+      "last_checked": null,
+      "notes": "Global campus portal mufgcampus.com; no dated 2027 IB SA open located -> unverified, predicted_open null. Watch the MUFG student-programs page."
+    },
+    {
+      "id": "macquarie-2028-sa-ib",
+      "firm_id": "macquarie",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.macquarie.com/us/en/careers/graduates-and-interns.html"
+      ],
+      "last_checked": null,
+      "notes": "Macquarie Capital is the IB arm; no dated 2027 SA open located -> unverified, predicted_open null. Watch the graduates-and-interns page."
+    },
+    {
+      "id": "cantor-fitzgerald-2028-sa-ib",
+      "firm_id": "cantor-fitzgerald",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.cantor.com/careers/"
+      ],
+      "last_checked": null,
+      "notes": "No dated 2027 SA open located -> unverified, predicted_open null. Watch the Cantor careers page."
+    },
+    {
+      "id": "hsbc-2028-sa-ib",
+      "firm_id": "hsbc",
+      "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "type": "SA",
+      "target_summer": 2028,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.hsbc.com/careers/students-and-graduates"
+      ],
+      "last_checked": null,
+      "notes": "US GBM early careers (primarily NYC); no dated 2027 IB SA open located -> unverified, predicted_open null. Watch the HSBC students-and-graduates page."
+    },
+    {
+      "id": "citi-early-id-2028",
+      "firm_id": "citi",
+      "name": "Early ID Leadership Program (Sophomore)",
+      "type": "insight",
+      "target_summer": 2028,
+      "historical_opens": {
+        "2026": "2026-02-01"
+      },
+      "predicted_open": "2027-02-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://jobs.citi.com/early-career-programs-pre-internships",
+        "https://careeredge.bentley.edu/blog/2025/10/27/hot-opportunity-alert-citi-early-id-programs/",
+        "https://connections.villanova.edu/blog/2026/02/13/apply-to-citi-banks-early-id-program/"
+      ],
+      "last_checked": null,
+      "notes": "Sophomore virtual mentorship/technical-prep program feeding the Summer Analyst process. This entry tracks the NEXT Early ID cycle (~February 2027), which feeds the Summer 2028 pipeline (target_summer 2028) - distinct from citi-early-id-2027, which fed the 2027 SA process and is now closed. '2026': '2026-02-01' is the prior cycle's month-precision anchor (Citi does not publish an exact open date; the Spring 2026 app was confirmed open in February 2026, closing Feb 27-28, 2026 per the Villanova career-services post). Single sourced cycle -> medium. Prediction 2027-02-01 = same month (February) one year later, month-precision. Watch the Pre-Internships / Early ID page."
     }
   ]
 }
