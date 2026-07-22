@@ -87,7 +87,7 @@
         "https://careerdevelopment.morehouse.edu/experiences/jp-morgan-advancing-black-pathways-and-advancing-hispanic-latinos-summer-internships/"
       ],
       "last_checked": null,
-      "notes": "Diversity-only: six-week paid summer fellowship for sophomores committed to advancing underrepresented groups; feeds the Summer Analyst pipeline. Single sourced cycle (2024-12-13 announcement of the application, month-level precision). Prediction 2026-12-11 is the nearest Friday to the prior open date; treat as approximate."
+      "notes": "Diversity-only: six-week paid summer fellowship for sophomores committed to advancing underrepresented groups; feeds the Summer Analyst pipeline. Single sourced cycle: the 2024-12-13 date is an open-by upper bound from a deadline announcement, not a confirmed open date (the application was known to be open on or before that date; the true open may be earlier). Prediction 2026-12-11 is the nearest Friday to that anchor; treat as approximate."
     },
     {
       "id": "jp-morgan-winning-women-2027",
@@ -131,17 +131,18 @@
       "name": "Early ID Leadership Program (Sophomore)",
       "type": "insight",
       "target_summer": 2027,
-      "historical_opens": {},
+      "historical_opens": { "2026": "2026-02-01" },
       "predicted_open": null,
-      "confidence": "unverified",
-      "status": "unverified",
+      "confidence": "medium",
+      "status": "closed",
       "application_url": null,
       "sources": [
         "https://jobs.citi.com/early-career-programs-pre-internships",
-        "https://careeredge.bentley.edu/blog/2025/10/27/hot-opportunity-alert-citi-early-id-programs/"
+        "https://careeredge.bentley.edu/blog/2025/10/27/hot-opportunity-alert-citi-early-id-programs/",
+        "https://connections.villanova.edu/blog/2026/02/13/apply-to-citi-banks-early-id-program/"
       ],
-      "last_checked": null,
-      "notes": "Sophomore program: virtual mentorship, technical training and interview prep feeding the Summer Analyst process. 2026 cycle closed ~Feb 27-28, 2026; a career-center repost appeared as early as late Oct 2025, so the open date is ambiguous (fall vs. winter). Left unverified pending a clean open date; watch the Pre-Internships / Early ID page."
+      "last_checked": "2026-07-22",
+      "notes": "Sophomore program (current sophomores in a 4-yr degree): virtual mentorship, technical training and interview prep feeding the Summer Analyst process. Cycle mapping: the Spring 2026 application (open in February, closed Feb 27-28, 2026 per Villanova career-services post dated 2026-02-13) prepped for the 2027 Summer Analyst interview process — i.e., it fed THIS target_summer=2027 pipeline, which is therefore now closed. '2026': '2026-02-01' is a month-precision anchor (Citi does not publish an exact open date; the app was confirmed open in February 2026, and the late-Oct-2025 Bentley item was a career-center repost, not the actual open). Confidence medium = one sourced cycle. The next Early ID cycle (~Feb 2027) would feed the Summer 2028 pipeline, a separate entry. Watch the Pre-Internships / Early ID page."
     },
     {
       "id": "barclays-sophomore-springboard-2027",
