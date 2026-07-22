@@ -1,1 +1,578 @@
-{"programs": []}
+{
+  "programs": [
+    {
+      "id": "goldman-sachs-emerging-leaders-series-2027",
+      "firm_id": "goldman-sachs",
+      "name": "Emerging Leaders Series (Sophomore Insight)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/emerging-leaders-series",
+        "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/possibilities-series"
+      ],
+      "last_checked": null,
+      "notes": "GS's sophomore-tier insight/diversity summit (the Possibilities Series is the first-year program and its 2025-26 cycle is already closed). Class-of-2029 sophomores should apply here for the 2026-27 cycle. Diversity-oriented (Black, Hispanic/Latinx, Native American, LGBTQ+, women). No clean historical open date located; watch the Emerging Leaders Series page. Diversity eligibility restrictions may apply."
+    },
+    {
+      "id": "morgan-stanley-early-insights-2027",
+      "firm_id": "morgan-stanley",
+      "name": "Early Insights Program (Freshman/Sophomore)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.morganstanley.com/people-opportunities/students-graduates",
+        "https://nuplace.northeastern.edu/pipeline-programs/morgan-stanley-revenue-early-insights-program/"
+      ],
+      "last_checked": null,
+      "notes": "Virtual multi-session series for freshmen/sophomores that feeds the first stage of Summer Analyst recruiting. Secondary sources indicate prior cycles opened roughly Feb-Mar; no dated primary source for an open date found, so left unverified with the careers page as a watch target. Targets underrepresented populations (Black, female, Hispanic/Latinx, LGBTQ+)."
+    },
+    {
+      "id": "morgan-stanley-richard-fisher-scholarship-2027",
+      "firm_id": "morgan-stanley",
+      "name": "Richard B. Fisher Scholarship Program (Sophomore Diversity)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.baruch.cuny.edu/fellowships/pages/morganstanleysrichardbfisherscholarshipprogram.html",
+        "https://www.morganstanley.com/people-opportunities/students-graduates"
+      ],
+      "last_checked": null,
+      "notes": "Diversity-only: open to Black, Hispanic, Native American and LGBT sophomores/juniors (min 3.0 GPA). $15,000 scholarship + summer internship; applied for by indicating eligibility on the Summer Analyst application. Opens on the Summer Analyst app timeline (sophomore spring). No dated open source found; watch careers page."
+    },
+    {
+      "id": "jp-morgan-spring-insight-2027",
+      "firm_id": "jp-morgan",
+      "name": "Spring Insight Week (Freshman/Sophomore)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://careers.jpmorgan.com/global/en/students/programs/spring-insights"
+      ],
+      "last_checked": null,
+      "notes": "Early-insight week for freshmen/sophomores across lines of business. No dated open source located; watch the Spring Insights program page. Open to all (not diversity-restricted)."
+    },
+    {
+      "id": "jp-morgan-advancing-black-pathways-2027",
+      "firm_id": "jp-morgan",
+      "name": "Advancing Black Pathways Fellowship (Sophomore)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": { "2025": "2024-12-13" },
+      "predicted_open": "2026-12-11",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://opportunitiesforyouth.org/2024/12/13/apply-for-the-advancing-black-pathways-fellowship-program-at-jpmorgan-chase/",
+        "https://careerdevelopment.morehouse.edu/experiences/jp-morgan-advancing-black-pathways-and-advancing-hispanic-latinos-summer-internships/"
+      ],
+      "last_checked": null,
+      "notes": "Diversity-only: six-week paid summer fellowship for sophomores committed to advancing underrepresented groups; feeds the Summer Analyst pipeline. Single sourced cycle (2024-12-13 announcement of the application, month-level precision). Prediction 2026-12-11 is the nearest Friday to the prior open date; treat as approximate."
+    },
+    {
+      "id": "jp-morgan-winning-women-2027",
+      "firm_id": "jp-morgan",
+      "name": "Winning Women Early Insight Program",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://calendar.oswego.edu/event/winning_women_early_insight_program_with_jp_morgan",
+        "https://careers.jpmorgan.com/global/en/students"
+      ],
+      "last_checked": null,
+      "notes": "Women-focused two-day early-insight conference (overviews + interviews) with consideration for internship opportunities. No dated open source located; watch JPM students careers page."
+    },
+    {
+      "id": "bank-of-america-sophomore-ib-2027",
+      "firm_id": "bank-of-america",
+      "name": "Investment Banking Sophomore / Freshman-Sophomore Insights",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://careers.bankofamerica.com/en-us/students/programs",
+        "https://campus.bankofamerica.com/"
+      ],
+      "last_checked": null,
+      "notes": "BofA runs freshman/sophomore front-office insight and Sophomore Summer Analyst tracks (IB, Global Markets, Research), applied through the campus site with rolling review. No dedicated stable program URL and no dated open source; watch the campus/programs pages. (Distinct from the community-focused Student Leaders program, which is not IB.)"
+    },
+    {
+      "id": "citi-early-id-2027",
+      "firm_id": "citi",
+      "name": "Early ID Leadership Program (Sophomore)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://jobs.citi.com/early-career-programs-pre-internships",
+        "https://careeredge.bentley.edu/blog/2025/10/27/hot-opportunity-alert-citi-early-id-programs/"
+      ],
+      "last_checked": null,
+      "notes": "Sophomore program: virtual mentorship, technical training and interview prep feeding the Summer Analyst process. 2026 cycle closed ~Feb 27-28, 2026; a career-center repost appeared as early as late Oct 2025, so the open date is ambiguous (fall vs. winter). Left unverified pending a clean open date; watch the Pre-Internships / Early ID page."
+    },
+    {
+      "id": "barclays-sophomore-springboard-2027",
+      "firm_id": "barclays",
+      "name": "Sophomore Springboard / Discovery Programme",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://barclays.avature.net/sophomorespringboard",
+        "https://search.jobs.barclays/discovery"
+      ],
+      "last_checked": null,
+      "notes": "Sophomore Springboard event plus the Discovery Programme (open to students ~2 years from graduation), both feeding internship consideration. No dated open source located; watch the Springboard sign-up and Discovery pages."
+    },
+    {
+      "id": "deutsche-bank-dbachieve-2027",
+      "firm_id": "deutsche-bank",
+      "name": "dbAchieve Sophomore Insight (US)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://careers.db.com/students-graduates/insight-programmes/us/?language_id=1",
+        "https://www.wayup.com/i-Financial-Services-j-dbAchieve-Internship-Multiple-Programs-Deutsche-Bank-165280197196180/"
+      ],
+      "last_checked": null,
+      "notes": "dbAchieve is DB's selective sophomore insight/internship program; DB also runs a 'Develop with Deutsche Bank' 2-day experience (Nov & Mar). No dated open source located; watch the US Insight Programmes page."
+    },
+    {
+      "id": "ubs-sophomore-insights-2027",
+      "firm_id": "ubs",
+      "name": "Sophomore Insights / Tomorrow's Talent",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.ubs.com/global/en/careers/early-careers.html",
+        "https://www.wallstreetoasis.com/forum/investment-banking/ubs-sophomore-internships"
+      ],
+      "last_checked": null,
+      "notes": "UBS runs a sophomore-focused early-insight/diversity pathway ('Tomorrow's Talent') that feeds Summer Analyst interviews. Secondary sources suggest prior diversity-pathway apps opened ~Jan-Feb; no dated primary source, so left unverified. Watch early-careers page."
+    },
+    {
+      "id": "wells-fargo-sophomore-diversity-summit-2027",
+      "firm_id": "wells-fargo",
+      "name": "Corporate & Investment Banking Sophomore Diversity Summit",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.wellsfargojobs.com/en/early-careers/",
+        "https://www.wallstreetoasis.com/forum/investment-banking/wells-fargo-corporate-investment-banking-sophomore-diversity-summit"
+      ],
+      "last_checked": null,
+      "notes": "Diversity-oriented sophomore summit / Diversity Early Insights feeding early interview consideration ahead of the general application. No dated open source located; watch early-careers page."
+    },
+    {
+      "id": "rbc-capital-markets-spring-insight-2027",
+      "firm_id": "rbc-capital-markets",
+      "name": "Discovery Day & Spring Insight Programs (Sophomore)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": { "2025": "2024-09-17" },
+      "predicted_open": "2026-09-15",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://www.rbccm.com/en/careers/discoveryprograms.page",
+        "https://careeredge.bentley.edu/blog/2024/09/17/rbc-capital-markets-2024-2025-early-insight-programs-for-sophomores-apply-by-9-22-2/"
+      ],
+      "last_checked": null,
+      "notes": "Early-insight programs for first/second-year students (Discovery Day, Spring Insight, plus an LGBTQ+ Sophomore Insights track). 2024-25 cycle was live by 2024-09-17 with an apply-by of 2024-09-22 (career-center repost; month/September precision). Single sourced cycle -> medium. Prediction 2026-09-15 is the nearest Tuesday to the prior open; treat as approximate. This is an early-fall opener, so it is near-term."
+    },
+    {
+      "id": "evercore-sophomore-diversity-summit-2027",
+      "firm_id": "evercore",
+      "name": "Sophomore Diversity Leadership Summit / Women's Symposium",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.evercore.com/careers/students-graduates/students-graduates-u-s/",
+        "https://www.wallstreetoasis.com/forum/investment-banking/evercore-diversity-events"
+      ],
+      "last_checked": null,
+      "notes": "Diversity-oriented: Sophomore Diversity Leadership Summit and an invite-only Women's Sophomore Symposium; pipeline to first-round IB interviews (~March). A separate Evercore Diversity Scholarship ($15k + SA offer) opens ~February. No dated open source located; watch US students & graduates page."
+    },
+    {
+      "id": "lazard-sophomore-diversity-2027",
+      "firm_id": "lazard",
+      "name": "Sophomore Diversity Program / Women's Event",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.lazard.com/careers/students/",
+        "https://www.wallstreetoasis.com/forum/investment-banking/lazard-sophomore-diversity-program"
+      ],
+      "last_checked": null,
+      "notes": "Diversity-only: invite-only sophomore diversity day and a Sophomore Women's Event (Black, Hispanic/LatinX, Native American, LGBTQ, Veteran sophomores; min 3.0 GPA). No dated open source located; watch students careers page."
+    },
+    {
+      "id": "moelis-leadership-development-program-2027",
+      "firm_id": "moelis",
+      "name": "Leadership Development Program (Sophomore Diversity)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.moelis.com/careers/explore-opportunities/",
+        "https://www.moelis.com/wp-content/uploads/2024/10/2025-Leadership-Development-Program-LDP.pdf"
+      ],
+      "last_checked": null,
+      "notes": "Sophomore day-program (successor to the Young Leaders Diversity Program) intended to broaden the applicant pool from underrepresented groups but open to all. Prior deadlines fell in mid-January; the 2025 LDP flyer was posted Oct 2024. No clean open date, left unverified; watch the explore-opportunities page."
+    },
+    {
+      "id": "perella-weinberg-advisory-diversity-prep-2027",
+      "firm_id": "perella-weinberg-partners",
+      "name": "Advisory Diversity Prep Program (Sophomore)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://pwpartners.com/careers/intern-graduate-recruitment/",
+        "https://www.wallstreetoasis.com/forum/investment-banking/pwp-global-advisory-diversity-prep-program-2021"
+      ],
+      "last_checked": null,
+      "notes": "Diversity-only flagship early-insight program for women and underrepresented minorities (Black, Hispanic/Latino, Native American, LGBTQ+), run in sophomore spring as the primary summer-internship feeder. Monitor careers page starting Dec/Jan. No dated open source located."
+    },
+    {
+      "id": "pjt-partners-forward-2027",
+      "firm_id": "pjt-partners",
+      "name": "PJT Forward (Sophomore Diversity)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.pjtpartners.com/careers/students",
+        "https://pjtpartners.wd1.myworkdayjobs.com/Students"
+      ],
+      "last_checked": null,
+      "notes": "Diversity-only sophomore program for underrepresented backgrounds; acceptance typically fast-tracks candidates past first-round technicals. Prior cycles opened ~Dec/Jan. No dated open source located; watch the Students page / Workday board."
+    },
+    {
+      "id": "rothschild-and-co-sophomore-leadership-2027",
+      "firm_id": "rothschild-and-co",
+      "name": "Sophomore Leadership Program / Sophomore Women's Program",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/",
+        "https://viterbicareers.usc.edu/wp-content/uploads/2024/11/Rothschild-Co-Sophomore-Womens-Program.pdf"
+      ],
+      "last_checked": null,
+      "notes": "US Global Advisory Sophomore Leadership Program (SLP) plus a Sophomore Women's Program (SWP) — an immersion with January in-person programming in NYC. SWP deadline was ~Nov 24 in the 2024-25 cycle; no clean open date, left unverified. Watch the opportunities page."
+    },
+    {
+      "id": "centerview-partners-early-insights-2027",
+      "firm_id": "centerview-partners",
+      "name": "Early Insights (Sophomore Diversity)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.centerviewpartners.com/careers.aspx",
+        "https://careerdevelopment.princeton.edu/events/centerview-partners-early-insights-meet-greet"
+      ],
+      "last_checked": null,
+      "notes": "Early Insights program open to first-years/sophomores/juniors, encouraging Black, Latinx and Native American students interested in finance; runs coffee chats and diversity meetups. No dated open source located; watch careers page."
+    },
+    {
+      "id": "guggenheim-securities-sophomore-focus-2027",
+      "firm_id": "guggenheim-securities",
+      "name": "Sophomore FOCUS Program",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.guggenheimsecurities.com/careers",
+        "https://x.com/GuggenheimPtnrs/status/1894429805505823185"
+      ],
+      "last_checked": null,
+      "notes": "Diversity-oriented sophomore program (Fostering Opportunity, Collaboration and Upward Success): virtual programming + NYC networking reception and interviews for the Summer Analyst class. Targets Black, Hispanic/Latinx, Native American, LGBTQ+ and students with disabilities. The annual event ran ~Feb (2025); no clean open date, left unverified. Watch careers page."
+    },
+    {
+      "id": "raymond-james-sophomore-opportunities-2027",
+      "firm_id": "raymond-james",
+      "name": "Sophomore Opportunities (IB Insights Bootcamp / Showcase)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.raymondjames.com/careers/students-and-recent-grads/sophomore-opportunities",
+        "https://www.raymondjames.com/-/media/rj/dotcom/files/careers/students-and-recent-grads/sophomore_opportunities_flier.pdf"
+      ],
+      "last_checked": null,
+      "notes": "Sophomore suite: IB Insights Bootcamp (virtual sessions granting early access to the Summer Analyst app; secondary sources say it opens ~Sept with an Oct deadline, rolling), plus Sophomore Showcase and Diversity Fast Track (deadline ~Mar 1). No dated primary open source, so left unverified; watch the Sophomore Opportunities page. This is likely an early-fall opener."
+    },
+    {
+      "id": "jefferies-diversity-symposium-2027",
+      "firm_id": "jefferies",
+      "name": "Investment Banking Diversity Symposium (Sophomore)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": { "2024": "2023-12-19" },
+      "predicted_open": "2026-12-22",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://careeredge.bentley.edu/blog/2023/12/19/jefferies-applications-now-open-for-upcoming-diversity-symposiums/",
+        "https://www.jefferies.com/about/diversity-equity-inclusion/"
+      ],
+      "last_checked": null,
+      "notes": "Diversity-oriented sophomore IB symposium (fast-track to interviews). Bentley career-center 'Applications Now Open' post dated 2023-12-19 for the upcoming (early-2024) symposium — single sourced cycle -> medium. Prediction 2026-12-22 is the nearest Tuesday to the prior open; treat as approximate. Jefferies runs the symposium under class-year labels (e.g., 'Class of 2029')."
+    },
+    {
+      "id": "houlihan-lokey-rising-leaders-2027",
+      "firm_id": "houlihan-lokey",
+      "name": "Rising Leaders Diversity Program / Women's Insight Day",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://hl.com/careers/for-students/",
+        "https://hl.com/careers/early-careers/"
+      ],
+      "last_checked": null,
+      "notes": "Diversity-oriented: Rising Leaders Diversity Program (spanning sophomore/junior touchpoints) plus IB Women's Insight Days. No dated open source located; watch the for-students / early-careers pages."
+    },
+    {
+      "id": "william-blair-bridge-to-ib-2027",
+      "firm_id": "william-blair",
+      "name": "Bridge to Investment Banking (Sophomore)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.williamblair.com/investment-banking-careers/early-career/",
+        "https://blogs.mccombs.utexas.edu/mpa-weekly/2022/01/03/william-blairs-bridge-to-investment-banking-program/"
+      ],
+      "last_checked": null,
+      "notes": "Diversity/women-oriented sophomore program (also seen as 'Fast Track to Investment Banking'), a winter program feeding the Summer Analyst pipeline. No dated open source located; watch the IB early-career page."
+    },
+    {
+      "id": "baird-ascend-ib-2027",
+      "firm_id": "baird",
+      "name": "Ascend to Global Investment Banking (Sophomore Women)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.rwbaird.com/newsroom/news/2023/02/gib-baird-to-launch-inaugural-womens-internship-in-investment-banking/",
+        "https://www.bairdcareers.com/internships/global-investment-banking-intern-program-us/"
+      ],
+      "last_checked": null,
+      "notes": "Women-focused: after sophomore year, ~10 women join Baird IB (Chicago/Milwaukee/NYC) for a 10-week program with professional-development sessions. Broader IB sophomore recruiting apps open ~late December. No dated open source for Ascend; left unverified. Watch the GIB intern program page."
+    },
+    {
+      "id": "piper-sandler-career-exploration-2027",
+      "firm_id": "piper-sandler",
+      "name": "Career Exploration Program (Sophomore)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": { "2024": "2023-10-01", "2026": "2025-10-01" },
+      "predicted_open": "2026-10-01",
+      "confidence": "high",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://www.pipersandler.com/careers/students",
+        "https://www.linkedin.com/posts/pipersandler_piper-sandler-is-excited-to-announce-that-activity-7115055350071902209-3Lg0",
+        "https://econugblog.wordpress.com/2025/10/20/2026-career-exploration-program-piper-sandler/"
+      ],
+      "last_checked": null,
+      "notes": "Two-day sophomore program feeding the IB Summer Analyst track (all majors; open to all with a diversity emphasis). Both sourced cycles opened in early-mid October (LinkedIn announcement of the 10th-annual CEP in Oct 2023; the 2026 CEP was live by Oct 20, 2025 with a Oct 27 deadline; the event ran Jan 22-23, 2026). Two cycles -> high, but dates are month-level (recorded as the 1st). Prediction: opens ~early October 2026 — a near-term opener."
+    },
+    {
+      "id": "mizuho-americas-sophomore-women-in-banking-2027",
+      "firm_id": "mizuho-americas",
+      "name": "Sophomore Women in Banking Program",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.mizuhogroup.com/americas/careers/campus-recruiting",
+        "https://www.wayup.com/i-Financial-Services-j-2024-Sophomore-Women-in-Banking-Diversity-Recruiting-Program-Mizuho-387069265811744/"
+      ],
+      "last_checked": null,
+      "notes": "Women-focused: 3-day in-person program (Mizuho | Greenhill) for sophomore women, with an accelerated interview process for the summer internship. Recurs annually (2023, 2024, 2025 postings) but no clean open date located; left unverified. Watch campus-recruiting page. Note: overlaps the 'greenhill' firm entry post-merger."
+    },
+    {
+      "id": "nomura-explore-sophomore-2027",
+      "firm_id": "nomura",
+      "name": "Explore Nomura (Freshman & Sophomore Diversity)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": { "2024": "2023-10-01" },
+      "predicted_open": "2026-10-01",
+      "confidence": "medium",
+      "status": "predicted",
+      "application_url": null,
+      "sources": [
+        "https://www.nomura.com/careers/early-careers/",
+        "https://www.linkedin.com/posts/nomura_2024-explore-nomura-freshman-sophomore-activity-7114579963827163136-lbVn"
+      ],
+      "last_checked": null,
+      "notes": "Diversity-oriented early-insight for freshmen/sophomores (Black, Hispanic/Latino, Native American, LGBTQ+, women, veterans, students with disabilities); IB / Global Markets / Corporate exposure with SA interview consideration. The 2024 program was announced on LinkedIn in fall 2023 (recorded as 2023-10-01, month-level). Single sourced cycle -> medium; prediction ~October 2026 is approximate."
+    },
+    {
+      "id": "bmo-capital-markets-launch-2027",
+      "firm_id": "bmo-capital-markets",
+      "name": "Launch (First-Year/Sophomore Insight)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://capitalmarkets.bmo.com/en/careers/campus-recruiting/"
+      ],
+      "last_checked": null,
+      "notes": "'Launch' is BMO Capital Markets' early-insight program for first-year/underclassman students. No dedicated program URL and no dated open source; watch the campus-recruiting page. Existence per firm notes; details unverified."
+    },
+    {
+      "id": "macquarie-sophomore-womens-event-2027",
+      "firm_id": "macquarie",
+      "name": "Sophomore Women's Event",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.macquarie.com/us/en/careers/graduates-and-interns.html"
+      ],
+      "last_checked": null,
+      "notes": "Women-focused annual event for sophomores interested in summer internships (Macquarie Capital is the IB arm). No dated open source located; watch graduates-and-interns page."
+    },
+    {
+      "id": "stifel-emerging-leaders-seminar-2027",
+      "firm_id": "stifel",
+      "name": "Emerging Leaders Seminar (Sophomore Diversity)",
+      "type": "insight",
+      "target_summer": 2027,
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.stifel.com/careers/internships",
+        "https://www.stifel.com/Newsletters/InvestmentBanking/BAL/Marketing/StifelSays/2022/2022%20Emerging%20Leaders%20Seminar.pdf"
+      ],
+      "last_checked": null,
+      "notes": "Diversity-oriented virtual seminar introducing IB / capital markets / research career paths and upcoming Early ID + summer internship opportunities. Encourages Black, Hispanic, Native American, female, veteran, LGBTQ+ and students with disabilities. No dated open source located; watch internships page."
+    }
+  ]
+}
