@@ -7,6 +7,7 @@ TIERS = {"BB", "EB", "MM"}
 CONFIDENCES = {"high", "medium", "unverified"}
 STATUSES = {"predicted", "open", "closed", "unverified"}
 TYPES = {"SA", "insight"}
+SLOT_KEYS = {"t_minus_4w", "t_minus_1w", "t_day"}
 
 def err(errors, msg):
     errors.append(msg)
@@ -94,10 +95,20 @@ def main():
         check_date(errors, ev.get("date"), f"{label}.date")
         check_date(errors, ev.get("added"), f"{label}.added")
 
-    for pid in sync_doc.get("programs", {}):
+    for pid, slots in sync_doc.get("programs", {}).items():
         if pid not in prog_ids: err(errors, f"calendar-sync.json: unknown program id {pid!r}")
-    for eid in sync_doc.get("bu_events", {}):
+        if not isinstance(slots, dict):
+            err(errors, f"calendar-sync.json.programs[{pid}]: value must be a dict of slot keys")
+            continue
+        for slot_key, evid in slots.items():
+            if slot_key not in SLOT_KEYS:
+                err(errors, f"calendar-sync.json.programs[{pid}]: unknown slot key {slot_key!r}")
+            if not (isinstance(evid, str) and evid):
+                err(errors, f"calendar-sync.json.programs[{pid}].{slot_key}: value must be a non-empty string")
+    for eid, evid in sync_doc.get("bu_events", {}).items():
         if eid not in event_ids: err(errors, f"calendar-sync.json: unknown bu event id {eid!r}")
+        if not (isinstance(evid, str) and evid):
+            err(errors, f"calendar-sync.json.bu_events[{eid}]: value must be a non-empty string")
 
     if errors:
         print("\n".join(errors)); sys.exit(1)

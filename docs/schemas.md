@@ -44,7 +44,7 @@
 - `historical_opens`: map of cycle-year → the date that cycle's app opened. May be `{}`.
 - `confidence`: `"high"` (2+ historical years), `"medium"` (1 year), `"unverified"` (0 years).
 - `status`: `"predicted"` | `"open"` | `"closed"` | `"unverified"`.
-- `predicted_open` must be `null` when confidence is `"unverified"`; otherwise a date.
+- `predicted_open` must be `null` when confidence is `"unverified"`; otherwise a date. Unverified-confidence programs must have status `"unverified"` unless verifiably `"open"` (with `application_url`) or `"closed"`.
 - `application_url`: null until status is `"open"`.
 - `last_checked`: ISO date of last live check, or null.
 

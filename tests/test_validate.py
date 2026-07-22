@@ -53,5 +53,18 @@ ok &= test("duplicate ids rejected", run_validator(d).returncode == 1); shutil.r
 bad_firm = dict(GOOD_FIRM, tier="BOUTIQUE")
 d = make_fixture([bad_firm], [], [], {"programs": {}, "bu_events": {}})
 ok &= test("bad tier rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 8. Bad calendar-sync slot key fails
+bad_sync = {"programs": {"goldman-sachs-2028-sa-ib": {"t_minus4w": "evt1"}}, "bu_events": {}}
+d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], bad_sync)
+ok &= test("bad sync slot key rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 9. Valid calendar-sync slot key is valid
+good_sync = {"programs": {"goldman-sachs-2028-sa-ib": {"t_day": "evt1"}}, "bu_events": {}}
+d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], good_sync)
+ok &= test("valid sync slot key accepted", run_validator(d).returncode == 0); shutil.rmtree(d)
+# 10. Unverified confidence with verifiably open status is intentionally allowed
+open_prog = dict(GOOD_PROG, confidence="unverified", status="open",
+                  predicted_open=None, application_url="https://x.com/apply")
+d = make_fixture([GOOD_FIRM], [open_prog], [], {"programs": {}, "bu_events": {}})
+ok &= test("unverified confidence with open status accepted", run_validator(d).returncode == 0); shutil.rmtree(d)
 
 sys.exit(0 if ok else 1)
