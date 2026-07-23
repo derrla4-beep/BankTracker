@@ -1,1 +1,156 @@
-{"programs": {}, "bu_events": {}}
+{
+  "programs": {
+    "jp-morgan-advancing-black-pathways-2027": {
+      "t_minus_4w": "tr33h53m4inh6f9oieqq470uoo",
+      "t_minus_1w": "0nkadc5nucbctclpnbp216aeec",
+      "t_day": "2q864rpgve1rma640l4gpqiaq8"
+    },
+    "rbc-capital-markets-spring-insight-2027": {
+      "t_minus_4w": "mec7g6bqfhhnkcvm2guln6v138",
+      "t_minus_1w": "sj3ibdsdjpt8renk34845c6ah8",
+      "t_day": "sj4cirj41eb6ea0b2sv1mr0ve8"
+    },
+    "jefferies-diversity-symposium-2027": {
+      "t_minus_4w": "8ihfr1kivngics16a5rsv7j7b8",
+      "t_minus_1w": "p22911fck10tn1jj69ra8c32a4",
+      "t_day": "5dc9kkpgnastb85kntpjncfsu4"
+    },
+    "piper-sandler-career-exploration-2027": {
+      "t_minus_4w": "he6sjn098q0l3a0kcgs0huqqno",
+      "t_minus_1w": "g0nnmvc2v7ls93llpvvr61f8q4",
+      "t_day": "tde599rm943gkh8cqc8fttl3q8"
+    },
+    "nomura-explore-sophomore-2027": {
+      "t_minus_4w": "5nrbpnsn88lalh5dgonig87ibk",
+      "t_minus_1w": "br78hscg52r0cf31bubv1fvv6k",
+      "t_day": "tv7al11gb5ojn0haasl09iflbs"
+    },
+    "goldman-sachs-2028-sa-ib": {
+      "t_minus_4w": "f9sbt8ap8pf8bi30ioldcij4j4",
+      "t_minus_1w": "16rjp1uv1l9c2cknjoqe7m3818",
+      "t_day": "5h1nrqvs9lrlq0lvbgfqe0h7r0"
+    },
+    "morgan-stanley-2028-sa-ib": {
+      "t_minus_4w": "im5s45qkm7nq48t98lsgmr4n3s",
+      "t_minus_1w": "m0fk58uci3b2nasaff65mllf1o",
+      "t_day": "qqu64qctb1jgb3tvdd116el12c"
+    },
+    "jp-morgan-2028-sa-ib": {
+      "t_minus_4w": "qclh7drel6c7ac5kc52rf20psk",
+      "t_minus_1w": "f1khk0556sqv42jducks234jdc",
+      "t_day": "0ia9mnbafehdkco8fs3lqtqg48"
+    },
+    "bank-of-america-2028-sa-ib": {
+      "t_minus_4w": "ensb9mjr4ov0130rgns5qn91co",
+      "t_minus_1w": "2lb3u8k7s9gpg5p50io9j6l23s",
+      "t_day": "eumn5pen98u1ucl0qs6p5k47to"
+    },
+    "citi-2028-sa-ib": {
+      "t_minus_4w": "k2mkpu4qrdvqiibg4beb7981ks",
+      "t_minus_1w": "6vqq4cru46188k196uot1narlk",
+      "t_day": "cb9c2vse88lflb856g2i2ur5lo"
+    },
+    "barclays-2028-sa-ib": {
+      "t_minus_4w": "t34tt9qkoibu5ducbq0nea7aho",
+      "t_minus_1w": "5efb7eneclrsh0tbrlto38h900",
+      "t_day": "dkf7qsdosvd1ogc4r0ce0cr6ig"
+    },
+    "deutsche-bank-2028-sa-ib": {
+      "t_minus_4w": "0cekbjh5odi91cu7ebfmkd1nis",
+      "t_minus_1w": "noj0tk0qhfcipgp0kiseqoupso",
+      "t_day": "hpl2uhlisplss7ohj0fnqf61kc"
+    },
+    "ubs-2028-sa-ib": {
+      "t_minus_4w": "ra37r4rbn9eqpagfplofcac4gs",
+      "t_minus_1w": "ihbj33ojufcf61qm1jiif9gaf0",
+      "t_day": "27o81n3462u5c8tchmkenpkd4s"
+    },
+    "wells-fargo-2028-sa-ib": {
+      "t_minus_4w": "2g6u95t6dcg1e0kju8ib6q2omc",
+      "t_minus_1w": "t71usm0t1f3n9i48uijha06f20",
+      "t_day": "dtoa6oadp344sjs1cv8q7g9lv8"
+    },
+    "evercore-2028-sa-ib": {
+      "t_minus_4w": "htddcv9t1hgbbctrbbgl3ieafg",
+      "t_minus_1w": "q4r480mfiu6nj9ihj4ir76bbro",
+      "t_day": "cou3djd1k9g1tqu58927f0qbhg"
+    },
+    "pjt-partners-2028-sa-ib": {
+      "t_minus_4w": "28qlgg4u3nqkf8kur7lv5amjnc",
+      "t_minus_1w": "78pes7k7feju5fiac25dg7iopo",
+      "t_day": "rjfiujte10k87pgi7abf9nfak4"
+    },
+    "perella-weinberg-partners-2028-sa-ib": {
+      "t_minus_4w": "mu79udd2ips1le82ndb3b3nid0",
+      "t_minus_1w": "4uosvh0qoh4kplgtaiv8fr4r6g",
+      "t_day": "p0i91hrmvjcpka8ejqco631kr4"
+    },
+    "guggenheim-securities-2028-sa-ib": {
+      "t_minus_4w": "t3pcn181el3fvfgqllb9jetceg",
+      "t_minus_1w": "e8uaveisi091jivmlu23taqhfk",
+      "t_day": "st99k055bbajhbubmo14ujgevo"
+    },
+    "rothschild-and-co-2028-sa-ib": {
+      "t_minus_4w": "54ispa5d9f202q12g61ddgern0",
+      "t_minus_1w": "976uptajv90qe36s9qfh7bld9o",
+      "t_day": "7l1bmv008bhrti3uuoo04pnc1g"
+    },
+    "jefferies-2028-sa-ib": {
+      "t_minus_4w": "1ja9325at9j80h4ubh5q0ar844",
+      "t_minus_1w": "049ce13bn11jsef04g6jejqab8",
+      "t_day": "9b9epfuu7ogiicdoldo3kjld30"
+    },
+    "houlihan-lokey-2028-sa-ib": {
+      "t_minus_4w": "una3ivvgs9v6invvnfs52659js",
+      "t_minus_1w": "1audmimb51fn3h7s5j1n4hucvc",
+      "t_day": "i133j417a4u3stgmt59jncvl7s"
+    },
+    "william-blair-2028-sa-ib": {
+      "t_minus_4w": "9mrs8vgd2lrmr3sn9kbk3ctfgc",
+      "t_minus_1w": "t408ntm16a7rdhkdj09afbbar0",
+      "t_day": "rg9b3t1ef1jdad9lqd79mme4vs"
+    },
+    "piper-sandler-2028-sa-ib": {
+      "t_minus_4w": "b5s422u78c6v3uud6fdng8tob8",
+      "t_minus_1w": "vjjia5nns44kqtv8uk4c0776v0",
+      "t_day": "0mh7ngsvn2q09onf0f7fb800ms"
+    },
+    "raymond-james-2028-sa-ib": {
+      "t_minus_4w": "vj8t4r7c2e3s8o1qqvgq5qfiuc",
+      "t_minus_1w": "j08f5c8pgieml25lnulptjn2f0",
+      "t_day": "6nm8c0baf8va8rfkdv22t0eo28"
+    },
+    "stifel-2028-sa-ib": {
+      "t_minus_4w": "m4adb02p32trknn8jm0ap22o4c",
+      "t_minus_1w": "bilb5q77vilip9avikg3d2tom4",
+      "t_day": "3q7vciajbq6382d3tv9dn6td3s"
+    },
+    "nomura-2028-sa-ib": {
+      "t_minus_4w": "dualpu8g3mbe7vemlnqojqdo8g",
+      "t_minus_1w": "jcr9609iftetnc1kt6r4e86tds",
+      "t_day": "gndtrlei6mt3dlqv8il3lfliu4"
+    },
+    "solomon-partners-2028-sa-ib": {
+      "t_minus_4w": "r4tf7qq2lh6kf9oebdn9gfl23k",
+      "t_minus_1w": "45984fcqcmiamrivf2fi057r7g",
+      "t_day": "6vrp2n6sbd5h566glnpggptk5o"
+    },
+    "leerink-partners-2028-sa-ib": {
+      "t_minus_4w": "q19hr4qmj388il292em554og28",
+      "t_minus_1w": "a49id7p1nd66ic1g7lracpm93k",
+      "t_day": "n386iqqg8nt3mdetaqr83luiuk"
+    },
+    "santander-cib-2028-sa-ib": {
+      "t_minus_4w": "04ln8vd6gnt3cn5kuapcg45de4",
+      "t_minus_1w": "f0ehfmreg54lv2mmj959j8skac",
+      "t_day": "9hj8s2lc2jt0apmuds5f0k7lfk"
+    },
+    "citi-early-id-2028": {
+      "t_minus_4w": "v17ko6u4tq7mg2npukcqn8h6q0",
+      "t_minus_1w": "452c4vjpmfo28ehd5a39mvhjdg",
+      "t_day": "loa8nf1dt0hod5vbmukg33p07s"
+    }
+  },
+  "bu_events": {}
+}
+
