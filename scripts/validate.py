@@ -47,7 +47,11 @@ def main():
         print("\n".join(errors)); sys.exit(1)
 
     firm_ids = set()
-    for f in firms_doc.get("firms", []):
+    firms_list = firms_doc.get("firms", [])
+    if not isinstance(firms_list, list):
+        err(errors, 'firms.json: "firms" must be a list')
+        firms_list = []
+    for f in firms_list:
         fid = f.get("id", "<missing id>")
         label = f"firms.json[{fid}]"
         if fid in firm_ids: err(errors, f"{label}: duplicate id")
@@ -58,7 +62,11 @@ def main():
         if not f.get("careers_url"): err(errors, f"{label}: careers_url required")
 
     prog_ids = set()
-    for pr in progs_doc.get("programs", []):
+    progs_list = progs_doc.get("programs", [])
+    if not isinstance(progs_list, list):
+        err(errors, 'programs.json: "programs" must be a list')
+        progs_list = []
+    for pr in progs_list:
         pid = pr.get("id", "<missing id>")
         label = f"programs.json[{pid}]"
         if pid in prog_ids: err(errors, f"{label}: duplicate id")
@@ -84,7 +92,11 @@ def main():
         check_date(errors, pr.get("last_checked"), f"{label}.last_checked", allow_null=True)
 
     event_ids = set()
-    for ev in events_doc.get("events", []):
+    events_list = events_doc.get("events", [])
+    if not isinstance(events_list, list):
+        err(errors, 'bu-events.json: "events" must be a list')
+        events_list = []
+    for ev in events_list:
         eid = ev.get("id", "<missing id>")
         label = f"bu-events.json[{eid}]"
         if eid in event_ids: err(errors, f"{label}: duplicate id")
@@ -95,7 +107,11 @@ def main():
         check_date(errors, ev.get("date"), f"{label}.date")
         check_date(errors, ev.get("added"), f"{label}.added")
 
-    for pid, slots in sync_doc.get("programs", {}).items():
+    sync_programs = sync_doc.get("programs", {})
+    if not isinstance(sync_programs, dict):
+        err(errors, 'calendar-sync.json: "programs" must be a dict')
+        sync_programs = {}
+    for pid, slots in sync_programs.items():
         if pid not in prog_ids: err(errors, f"calendar-sync.json: unknown program id {pid!r}")
         if not isinstance(slots, dict):
             err(errors, f"calendar-sync.json.programs[{pid}]: value must be a dict of slot keys")
@@ -105,7 +121,11 @@ def main():
                 err(errors, f"calendar-sync.json.programs[{pid}]: unknown slot key {slot_key!r}")
             if not (isinstance(evid, str) and evid):
                 err(errors, f"calendar-sync.json.programs[{pid}].{slot_key}: value must be a non-empty string")
-    for eid, evid in sync_doc.get("bu_events", {}).items():
+    sync_bu_events = sync_doc.get("bu_events", {})
+    if not isinstance(sync_bu_events, dict):
+        err(errors, 'calendar-sync.json: "bu_events" must be a dict')
+        sync_bu_events = {}
+    for eid, evid in sync_bu_events.items():
         if eid not in event_ids: err(errors, f"calendar-sync.json: unknown bu event id {eid!r}")
         if not (isinstance(evid, str) and evid):
             err(errors, f"calendar-sync.json.bu_events[{eid}]: value must be a non-empty string")
