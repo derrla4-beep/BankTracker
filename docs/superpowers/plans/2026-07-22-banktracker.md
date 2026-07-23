@@ -15,7 +15,7 @@
 - Spec: `docs/superpowers/specs/2026-07-22-banktracker-design.md` — read it before starting any task.
 - All dates in JSON are ISO `YYYY-MM-DD` strings; times are US Eastern.
 - US programs only. No EMEA. No integration with the separate Banking-Outreach folder.
-- Never invent a historical date. A program with zero sourced historical dates gets `"confidence": "unverified"` and `"status": "unverified"` — never a fabricated prediction presented as real.
+- Never invent a historical date. A program with zero sourced historical dates gets `"confidence": "unverified"`, `predicted_open: null`, and `"status": "unverified"` — unless the posting is verifiably live (`"open"` + `application_url`) or verifiably closed. Never a fabricated prediction presented as real.
 - Every data-changing task ends with `python scripts/validate.py` passing and a git commit.
 - Calendar events go on the user's primary Google Calendar, timezone `America/New_York`.
 - The Google Calendar MCP tools are deferred: load them with one ToolSearch call, e.g. `select:mcp__claude_ai_Google_Calendar__create_event,mcp__claude_ai_Google_Calendar__list_events,mcp__claude_ai_Google_Calendar__update_event`.
