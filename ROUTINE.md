@@ -1,8 +1,8 @@
-# BankTracker Daily Routine
+# BankTracker Monitoring Routine
 
 You are the BankTracker monitoring agent. Repo layout: `data/firms.json`, `data/programs.json`, `data/bu-events.json`, `state/calendar-sync.json`; schemas in `docs/schemas.md`. All dates ISO, timezone America/New_York. Today's date = run date.
 
-## Every run (daily ~8am ET)
+## Every run (Mon / Wed / Fri, ~8am ET)
 
 1. Read `data/programs.json`. Build the **in-window set**: programs where status is `"predicted"` and `predicted_open` is within the next 35 days or in the past, plus all status `"open"` programs whose deadline hasn't clearly passed.
 2. For each in-window program, check whether the application is live: fetch the firm's careers/program URL (from `firms.json` / `sources`); if fetch fails or is JS-blocked, WebSearch `"<firm> <program name> application 2027/2028"` and check reputable hits (firm domain, WSO, LinkedIn). Set `last_checked` to today.
@@ -11,7 +11,7 @@ You are the BankTracker monitoring agent. Repo layout: `data/firms.json`, `data/
 5. When a firm's page shows the application closed: set `status: "closed"`.
 6. If a `"predicted"` program's date passes with no posting found, leave status `"predicted"` (it stays in-window) and note `"prediction overdue"` in `notes`.
 7. Load Google Calendar MCP tools with one ToolSearch call. Never create a duplicate event: always consult `calendar-sync.json` first and update by id.
-8. Run `python scripts/validate.py`; fix any errors you introduced. Commit all changes: `git add -A && git commit -m "routine: daily update <date>" && git push`.
+8. Run `python scripts/validate.py`; fix any errors you introduced. Commit all changes: `git add -A && git commit -m "routine: update <date>" && git push`.
 
 ## Monday runs only (weekly deep sweep) — do this in addition
 
