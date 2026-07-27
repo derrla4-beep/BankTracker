@@ -343,6 +343,30 @@
       "careers_url": "https://www.hsbc.com/careers/students-and-graduates",
       "insight_programs_url": null,
       "notes": "US GBM early careers based primarily in NYC."
+    },
+    {
+      "id": "keybanc-capital-markets",
+      "name": "KeyBanc Capital Markets",
+      "tier": "MM",
+      "careers_url": "https://www.key.com/about/careers/students-and-graduates/analyst-programs.html",
+      "insight_programs_url": null,
+      "notes": "KeyBank's capital-markets arm; runs the IB Sophomore Series prep pipeline (financial modeling + interview prep) feeding the Summer Analyst class."
+    },
+    {
+      "id": "standard-chartered",
+      "name": "Standard Chartered",
+      "tier": "MM",
+      "careers_url": "https://www.sc.com/en/global-careers/early-careers/",
+      "insight_programs_url": "https://www.sc.com/en/global-careers/early-careers/our-programmes/insight-programme/",
+      "notes": "UK-headquartered bank with a smaller US CIB footprint; runs a 3-day in-person NYC sophomore Insight Programme feeding the Summer Analyst pipeline."
+    },
+    {
+      "id": "bnp-paribas",
+      "name": "BNP Paribas",
+      "tier": "BB",
+      "careers_url": "https://usa.bnpparibas/en/jobs/",
+      "insight_programs_url": "https://usa.bnpparibas/en/jobs/open-sophomore-opportunity-summit/",
+      "notes": "Global BB not previously tracked; runs the Open Sophomore Opportunity Summit (with the MixCity USA gender-diversity ERG) feeding Summer Analyst interviews."
     }
   ]
 }
