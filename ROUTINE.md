@@ -24,7 +24,7 @@ So liveness alone never justifies `status: "open"`. The test is: **does the post
 5. When a firm's page shows the application closed: set `status: "closed"`.
 6. If a `"predicted"` program's date passes with no posting found, leave status `"predicted"` (it stays in-window) and note `"prediction overdue"` in `notes`.
 7. Load Google Calendar MCP tools with one ToolSearch call. Never create a duplicate event: always consult `calendar-sync.json` first and update by id.
-8. Run `python scripts/validate.py`; fix any errors you introduced. Commit all changes: `git add -A && git commit -m "routine: update <date>" && git push`.
+8. Run `python scripts/validate.py`; fix any errors you introduced. Then run `python scripts/build_dashboard.py` to rebuild `dashboard.html` from the JSON files — always, even on a run that changed nothing, so the "as of" date stays honest. Never hand-edit the `const DATA = ...;` line; edit the JSON and rebuild. Commit all changes: `git add -A && git commit -m "routine: update <date>" && git push`.
 
 ## Monday runs only (weekly deep sweep) — do this in addition
 
