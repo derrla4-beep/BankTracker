@@ -21,6 +21,7 @@
 ## data/programs.json
 ```json
 {
+  "profile": { "grad_year": 2029, "school": "Boston University", "notes": "" },
   "programs": [
     {
       "id": "goldman-sachs-2028-sa-ib",
@@ -28,19 +29,40 @@
       "name": "2028 Summer Analyst — Investment Banking (NYC)",
       "type": "SA",
       "target_summer": 2028,
+      "eligibility": {
+        "grad_years": [2029],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
       "historical_opens": { "2026": "2025-03-04", "2027": "2026-03-02" },
       "predicted_open": "2027-03-01",
       "confidence": "high",
       "status": "predicted",
       "application_url": null,
       "sources": ["https://..."],
+      "sightings": [
+        {
+          "date": "2026-07-27",
+          "url": "https://.../2027-summer-analyst",
+          "cycle": "Summer 2027",
+          "grad_years": [2028],
+          "note": "Prior cycle, live but not applicable — timing intel only."
+        }
+      ],
       "last_checked": null,
       "notes": ""
     }
   ]
 }
 ```
+- `profile.grad_year`: the student's graduation year. A program is only actionable if its `eligibility.grad_years` contains it.
 - `type`: `"SA"` | `"insight"`. `target_summer`: int (2027 or 2028).
+- `eligibility.grad_years`: non-empty list of ints — which graduating classes the program is for. Defaults to `[2029]` (the tracker's premise) until a posting says otherwise.
+- `eligibility.verified`: `true` only when the audience was read off a live posting; then `source` (URL) and `quote` (the posting's own words) are both required.
+- `sightings`: live postings found for this program's firm that belong to a **different** cycle. Recording one never changes `status`, `confidence`, `predicted_open`, or `application_url`, and never creates a calendar event. Each entry needs `date`, `url`, `cycle`, and a non-empty `grad_years`.
+- **Cycle gate:** `status: "open"` requires `eligibility.verified == true` **and** `profile.grad_year` ∈ `eligibility.grad_years`. Banks run a cycle ahead, so a live "2027 Summer Analyst" posting is for 2028 grads and belongs in `sightings`, not in `status`.
+- Only a cycle's *actual* open date belongs in `historical_opens`. A date on which a posting was merely observed already-live is an upper bound and belongs in the sighting's `note`.
 - `historical_opens`: map of cycle-year → the date that cycle's app opened. May be `{}`.
 - `confidence`: `"high"` (2+ historical years), `"medium"` (1 year), `"unverified"` (0 years).
 - `status`: `"predicted"` | `"open"` | `"closed"` | `"unverified"`.

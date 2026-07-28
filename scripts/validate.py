@@ -61,6 +61,16 @@ def main():
         if not f.get("name"): err(errors, f"{label}: name required")
         if not f.get("careers_url"): err(errors, f"{label}: careers_url required")
 
+    profile = progs_doc.get("profile")
+    my_grad_year = None
+    if not isinstance(profile, dict):
+        err(errors, 'programs.json: "profile" must be an object with a grad_year')
+    else:
+        my_grad_year = profile.get("grad_year")
+        if not isinstance(my_grad_year, int):
+            err(errors, "programs.json.profile: grad_year must be an int")
+            my_grad_year = None
+
     prog_ids = set()
     progs_list = progs_doc.get("programs", [])
     if not isinstance(progs_list, list):
@@ -90,6 +100,44 @@ def main():
         if pr.get("status") == "open" and not pr.get("application_url"):
             err(errors, f"{label}: open status requires application_url")
         check_date(errors, pr.get("last_checked"), f"{label}.last_checked", allow_null=True)
+
+        elig = pr.get("eligibility")
+        if not isinstance(elig, dict):
+            err(errors, f"{label}: eligibility object required")
+        else:
+            years = elig.get("grad_years")
+            if not (isinstance(years, list) and years and all(isinstance(y, int) for y in years)):
+                err(errors, f"{label}.eligibility: grad_years must be a non-empty list of ints")
+                years = []
+            if not isinstance(elig.get("verified"), bool):
+                err(errors, f"{label}.eligibility: verified must be true or false")
+            if elig.get("verified") and not (elig.get("source") and elig.get("quote")):
+                err(errors, f"{label}.eligibility: verified requires both source and quote")
+            # The cycle gate: never fire an alert for a program we are not eligible for,
+            # and never claim open without having read the posting's own eligibility text.
+            if pr.get("status") == "open":
+                if my_grad_year is not None and my_grad_year not in years:
+                    err(errors, f"{label}: status open but eligibility.grad_years {years} "
+                                f"excludes profile grad_year {my_grad_year} — record it under sightings instead")
+                if not elig.get("verified"):
+                    err(errors, f"{label}: status open requires eligibility.verified true "
+                                f"(read the posting's class-year line before promoting)")
+
+        sightings = pr.get("sightings")
+        if not isinstance(sightings, list):
+            err(errors, f"{label}: sightings must be a list")
+        else:
+            for i, s in enumerate(sightings):
+                slabel = f"{label}.sightings[{i}]"
+                if not isinstance(s, dict):
+                    err(errors, f"{slabel}: must be an object")
+                    continue
+                check_date(errors, s.get("date"), f"{slabel}.date")
+                if not s.get("url"): err(errors, f"{slabel}: url required")
+                if not s.get("cycle"): err(errors, f"{slabel}: cycle required")
+                sy = s.get("grad_years")
+                if not (isinstance(sy, list) and sy and all(isinstance(y, int) for y in sy)):
+                    err(errors, f"{slabel}: grad_years must be a non-empty list of ints")
 
     event_ids = set()
     events_list = events_doc.get("events", [])
