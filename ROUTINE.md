@@ -34,7 +34,7 @@ So liveness alone never justifies `status: "open"`. The test is: **does the post
 - Eligibility backfill: for programs whose `eligibility.verified` is false, opportunistically confirm the audience while you have the page open, and fill in `source`/`quote`. Any program whose posting turns out to exclude 2029 grads should have its `eligibility.grad_years` corrected and be called out under ⚠️ NEEDS ATTENTION so it can be retired or re-scoped.
 - BU events: check bu.edu/careers public events, Questrom event pages, and BB firms' campus-event pages for new in-person BU-accessible events. Add to `bu-events.json`, create 🏫 calendar events, record ids.
 
-## Digest (your final run summary — the user reads this as their morning email)
+## Digest (your final run summary)
 
 Format exactly:
 
@@ -45,9 +45,24 @@ Format exactly:
 👀 WRONG CYCLE (intel only — do not apply): <firm — posting title — cycle — who it's for>, or "none"
 🏫 BU EVENTS ADDED/UPCOMING (7 days): <event — date>, or "none"
 ⚠️ NEEDS ATTENTION: overdue predictions, unverified programs seen posted, pages that failed to load, or "none"
+✅ RUN OK <date> — checked <N> in-window (<M> open, <P> predicted ≤35d), <U> unverified swept; next predicted open: <firm> <date> (T−<days>d); commit <sha7>
 ```
 
 Keep it under ~25 lines. No preamble. Only newly-recorded sightings go in 👀 WRONG CYCLE; never repeat one from a prior run. Nothing in 👀 WRONG CYCLE ever gets a calendar event.
+
+The ✅ RUN OK footer is mandatory on **every** run and is never "none" — it is the only thing that distinguishes a quiet run from a routine that died. A run where all six lines above are "none" is a normal outcome, not a failure: report it plainly and let the footer carry the proof of life. Fill `<N>/<M>/<P>` from the in-window set built in step 1, `<U>` from the Monday sweep (0 on Wed/Fri), and `<sha7>` from the commit you just pushed. If the run pushed no commit, write `commit none` rather than omitting the field.
+
+## Delivery (do this last, every run without exception)
+
+After committing and pushing, send exactly one `PushNotification` summarizing the run. Send it on **every** run including fully quiet ones — the notification is the liveness signal, so suppressing it on a quiet run defeats its only purpose.
+
+One line, under 200 characters, no markdown. Lead with the most actionable thing:
+
+- Something newly open → `🚨 BankTracker: <N> NEWLY OPEN — <firm> <program>` (name up to two firms, then `+N more`)
+- Nothing open but something opening within 14 days → `📅 BankTracker: <firm> opens ~<date>`
+- Otherwise → `✅ BankTracker quiet <date> — <N> in-window; next: <firm> <date>`
+
+The push is a headline, not the digest — the full digest stays as your final run summary. If `PushNotification` is unavailable or errors, do not fail the run: finish normally and put `PUSH FAILED — digest not delivered` at the top of ⚠️ NEEDS ATTENTION so the failure is visible in the run log.
 
 ## Rules
 
