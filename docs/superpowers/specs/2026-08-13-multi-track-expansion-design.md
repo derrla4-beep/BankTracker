@@ -46,24 +46,32 @@ Two field changes:
 
 | Field | Change |
 |---|---|
-| `track` | **New, required.** `"IB"` \| `"CF"` \| `"DS"` |
-| `tier` | Required `BB`/`EB`/`MM` when `track == "IB"`; must be `null` otherwise |
-| `sweep_cadence` | **New.** `"every_run"` \| `"weekly"` for CF/DS; `null` for IB |
+| `tracks` | **New, required.** Non-empty list of `"IB"` \| `"CF"` \| `"DS"`, no duplicates |
+| `tier` | Required `BB`/`EB`/`MM` when `"IB" ∈ tracks`; must be `null` otherwise |
+| `sweep_cadence` | **New.** `"every_run"` \| `"weekly"` when `tracks` contains any non-IB track; `null` only when `tracks == ["IB"]` exactly |
 
 ```json
 {
-  "id": "capital-one",
-  "name": "Capital One",
-  "track": "CF",
+  "id": "amazon",
+  "name": "Amazon",
+  "tracks": ["CF", "DS"],
   "tier": null,
-  "sweep_cadence": "weekly",
+  "sweep_cadence": "every_run",
   "careers_url": "https://...",
   "insight_programs_url": null,
   "notes": ""
 }
 ```
 
-All 46 existing firms gain `"track": "IB"`, `"sweep_cadence": null`, and keep
+**`tracks` is a list, not a scalar.** Large employers recruit on more than one
+track: Amazon, ExxonMobil and Google all run corporate-finance *and* data-science
+pipelines. A scalar `track` would force an arbitrary pick and silently drop the
+other track's postings — the exact failure this project exists to prevent. It
+also constrains firms already in the file: J.P. Morgan is an IB firm with
+substantial DS hiring, and a scalar field would permanently foreclose tracking
+it as `["IB", "DS"]` later.
+
+All 46 existing firms gain `"tracks": ["IB"]`, `"sweep_cadence": null`, and keep
 their existing tier. No other change to IB rows.
 
 **Null means present-and-null.** For `tier` and `sweep_cadence`, the validator
@@ -71,7 +79,7 @@ requires the key to be present with an explicit `null` value where the table
 says null — a missing key is an error, not an implicit null. This keeps a
 typo'd or forgotten field from silently reading as "intentionally empty".
 
-**Why a separate `track` rather than extending `tier`:** `BB`/`EB`/`MM` is a
+**Why a separate track axis rather than extending `tier`:** `BB`/`EB`/`MM` is a
 prestige grade *within* investment banking; `CF`/`DS` are domains. Conflating
 them forces every "is this an IB firm?" check to become a hardcoded
 `tier in (BB, EB, MM)` list — in the validator, the routine's cycle-ahead rule,
@@ -84,17 +92,21 @@ ranking for tech companies is subjective and would not change any decision.
 
 ### 1.2 `data/programs.json`
 
-Programs do **not** store `track`. It is derived through `firm_id`.
-Denormalizing would let a program's track drift out of sync with its firm's,
-and `validate.py` already enforces that `firm_id` resolves.
-
 | Field | Change |
 |---|---|
+| `track` | **New, required.** Single `"IB"` \| `"CF"` \| `"DS"`. Must be a member of the owning firm's `tracks` |
 | `type` | Enum gains `"internship"` → `{SA, insight, internship}` |
 | `target_summer` | **No change.** `2027 \| 2028` already covers sophomore and junior summer for a 2029 grad |
 
+**Programs carry the authoritative `track`.** Per-track behavior — cycle
+inference, digest tag, sweep query, calendar treatment — is decided per posting,
+and a firm may span several tracks, so the firm cannot answer the question. The
+drift risk that would normally argue against storing it is closed by a validator
+rule instead: `program.track` must be a member of `firm.tracks`. That is a
+strictly stronger integrity check than deriving the value would have been.
+
 - `SA` becomes IB-only — "Summer Analyst" is an IB term of art. The validator
-  rejects `type: "SA"` on a non-IB firm as an integrity check.
+  rejects `type: "SA"` on any program whose `track != "IB"`.
 - `insight` stays cross-track (CF firms run sophomore insight programs too).
 - `internship` is the CF/DS workhorse type.
 
@@ -233,11 +245,18 @@ on postings that do not speak in bank dialect.
 
 ### 4.1 Check set per run
 
-| Track | Cadence |
+| Programs | Cadence |
 |---|---|
-| IB | Unchanged — in-window set from `predicted_open` (currently 1 program) |
-| CF/DS with `sweep_cadence: "every_run"` | All 3 runs/week (~6–8 firms) |
-| CF/DS with `sweep_cadence: "weekly"` | Monday deep sweep only (~25 firms) |
+| `track: "IB"` | Unchanged — in-window set from `predicted_open` (currently 1 program) |
+| `track: "CF"`/`"DS"` at a firm with `sweep_cadence: "every_run"` | All 3 runs/week |
+| `track: "CF"`/`"DS"` at a firm with `sweep_cadence: "weekly"` | Monday deep sweep only (~25 firms) |
+
+Cadence is read from the firm, applied to that firm's CF/DS programs. A firm
+that also has an IB track keeps IB's in-window logic for its IB programs — the
+two rules coexist on the same firm without interacting.
+
+**Priority set** (`sweep_cadence: "every_run"`): Anthropic, ExxonMobil, SpaceX,
+Google, Amazon.
 
 **Cost rationale.** The current Wed/Fri run checks ~1 program and is nearly
 free; Monday is the expensive run because it already sweeps 45 unverified
@@ -306,8 +325,11 @@ Narrow starter set, grown over time by the widened sweep.
   `predicted_open: null`, `historical_opens: {}`.
 - **No dates are invented.** Seeding requires only a real firm name and a real
   careers URL, both verified by fetching. Anything unverifiable is not seeded.
-- ~6–8 firms marked `sweep_cadence: "every_run"`; the rest `"weekly"`. The
-  priority set is chosen by the user during spec review.
+- Priority firms marked `sweep_cadence: "every_run"`: **Anthropic, ExxonMobil,
+  SpaceX, Google, Amazon**. All other seeded firms are `"weekly"`.
+- ExxonMobil, Google and Amazon seed as `tracks: ["CF", "DS"]` with a program
+  row per track. Anthropic and SpaceX seed as `["DS"]`. Capital One seeds as
+  `["CF"]`.
 
 ---
 
@@ -315,11 +337,18 @@ Narrow starter set, grown over time by the widened sweep.
 
 `tests/test_validate.py` extends to cover:
 
-- `track` enum accepts `IB`/`CF`/`DS`, rejects others
-- `tier` required and valid when `track == "IB"`; must be null otherwise
-- `type: "SA"` rejected on a non-IB firm
+- `firm.tracks` accepts non-empty lists over `IB`/`CF`/`DS`; rejects empty
+  lists, unknown values, and duplicate entries
+- `program.track` accepts `IB`/`CF`/`DS`, rejects others
+- `program.track` **not** in the owning `firm.tracks` is rejected
+- multi-track firm (`["CF","DS"]`) accepts programs on both tracks
+- `tier` required and valid when `"IB" ∈ tracks`; must be null otherwise
+- `type: "SA"` rejected on a program whose `track != "IB"`
 - `type: "internship"` accepted
-- `sweep_cadence` required for CF/DS, null for IB
+- `sweep_cadence` required when any non-IB track is present, null when
+  `tracks == ["IB"]` exactly
+- present-and-null enforcement: a *missing* `tier` or `sweep_cadence` key is an
+  error, not an implicit null
 - `open-questions.json` shape: required fields, date formats, nullable
   `program_id`, `firm_id` referential integrity, id uniqueness
 
@@ -352,7 +381,7 @@ plan with a strict sequence rather than parallel workstreams:
 
 1. **Schema + validator + tests** — `docs/schemas.md`, `validate.py`,
    `tests/test_validate.py`. Ends green with the existing data untouched except
-   the mechanical `track`/`sweep_cadence` backfill on 46 IB firms.
+   the mechanical `tracks`/`sweep_cadence` backfill on 46 IB firms.
 2. **`state/open-questions.json`** — empty file, validator coverage, dashboard
    builder wiring.
 3. **Seed CF/DS firms and programs** — research and verify URLs; validator green.
@@ -367,5 +396,7 @@ Step 1 is the only step that touches existing IB data. It must leave
 
 ## Open items for user review
 
-1. Which ~6–8 CF/DS firms should be `sweep_cadence: "every_run"`.
-2. Confirm the CF and DS starter firm lists once researched.
+1. ~~Which CF/DS firms are `every_run`~~ — **resolved:** Anthropic, ExxonMobil,
+   SpaceX, Google, Amazon.
+2. Confirm the full CF and DS starter firm lists once researched. Only firms
+   whose careers URL is verified by fetching get seeded.
