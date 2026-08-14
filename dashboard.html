@@ -76,6 +76,17 @@
   .panel > :last-child{flex:1}
   .panel h3{margin:0 0 10px; font-size:12px; letter-spacing:.13em; text-transform:uppercase; color:var(--ink2); font-weight:600}
 
+  /* Open-question cards — deliberately not .panel: that class is a flex column
+     whose last child stretches to fill remaining height, which is wrong for a
+     row of inline text fields like these. */
+  #questions{display:flex; flex-direction:column; gap:8px}
+  .qcard{background:var(--surface); border:1px solid var(--line); border-radius:6px; padding:10px 16px;
+         box-shadow:var(--shadow); display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 10px; font-size:13.5px}
+  .qcard strong{font-weight:600}
+  .qcard a{color:var(--st-pred); text-decoration:none}
+  .qcard a:hover,.qcard a:focus{text-decoration:underline}
+  .qcard em{color:var(--muted); font-style:normal; font-size:12px; margin-left:auto; white-space:nowrap}
+
   /* Next windows list */
   .win{display:flex; align-items:baseline; gap:10px; padding:9px 0; border-top:1px solid var(--line2)}
   .win:first-of-type{border-top:none}
@@ -144,7 +155,7 @@
   <header>
     <p class="kicker">BankTracker · Private recruiting monitor</p>
     <h1>Recruiting Radar</h1>
-    <p class="sub">Summer 2027 insight programs &amp; Summer 2028 analyst seats ·
+    <p class="sub">Investment banking, corporate finance &amp; data science — internships, insight programs &amp; analyst seats ·
       <span class="mono" id="asof"></span> · monitored Mon · Wed · Fri, 8:00 AM ET</p>
   </header>
 
@@ -176,7 +187,8 @@
     <select id="fTrack" aria-label="Filter by track"><option value="">All tracks</option>
       <option value="IB">Banking</option><option value="CF">Corporate finance</option><option value="DS">Data science</option></select>
     <select id="fType" aria-label="Filter by type"><option value="">All types</option>
-      <option value="insight">Insight / sophomore</option><option value="SA">Summer Analyst 2028</option></select>
+      <option value="insight">Insight / sophomore</option><option value="SA">Summer Analyst</option>
+      <option value="internship">Internship</option></select>
     <select id="fStatus" aria-label="Filter by status"><option value="">All statuses</option>
       <option value="open">Open</option><option value="predicted">Predicted</option>
       <option value="unverified">On watch</option><option value="closed">Closed</option></select>
@@ -185,7 +197,7 @@
   <div class="tablewrap">
     <table>
       <thead><tr>
-        <th>Firm / program</th><th>Tier</th><th>Type</th><th>Status</th><th>Confidence</th><th>Predicted open</th><th>Link</th>
+        <th>Firm / program</th><th>Tier / track</th><th>Type</th><th>Status</th><th>Confidence</th><th>Predicted open</th><th>Link</th>
       </tr></thead>
       <tbody id="rows"></tbody>
     </table>
@@ -200,9 +212,12 @@
   <footer>
     <p><b>How this works.</b> Predicted dates come from each firm's historical posting rhythm and carry ±1–2 weeks of
        accuracy; dates shown as the 1st of a month are month-level estimates. Programs marked <b>on watch</b> have no
-       reliable historical open date — their pages are checked every Monday rather than guessed.</p>
-    <p>A cloud agent re-checks in-window programs Monday, Wednesday, and Friday mornings, flips statuses the day an application posts, and keeps
-       the Google Calendar alert chain (4 weeks out · 1 week out · open day) in sync. This page is rebuilt from the
+       reliable historical open date — their pages are checked on a schedule (every run at high-priority firms, weekly
+       at the rest) rather than guessed.</p>
+    <p>A cloud agent runs Monday, Wednesday, and Friday mornings: it checks IB programs whenever they're within the
+       predicted window, and corporate finance &amp; data science programs on their firm's cadence — every run for
+       high-priority firms, every Monday for the rest. It flips statuses the day an application posts and keeps the IB
+       Google Calendar alert chain (4 weeks out · 1 week out · open day) in sync. This page is rebuilt from the
        tracker's data files at the end of every run, so the date above is the last time the data was checked.</p>
   </footer>
 </div>
@@ -238,10 +253,12 @@ const upcomingWins = predicted
   .filter(x=>x.open>=TODAY).sort((a,b)=>a.win-b.win);
 const nextWin = upcomingWins.find(x=>x.win>=TODAY) || upcomingWins[0];
 const trackN = DATA.programs.reduce((a,p)=>(a[p.track]=(a[p.track]||0)+1,a),{});
+const firmTrackN = DATA.firms.reduce((a,f)=>{const k=f.tracks.length>1?"multi":f.tracks[0]; a[k]=(a[k]||0)+1; return a;},{});
 const stats = [
   {n:DATA.firms.length, l:"Firms tracked",
+   d:["IB","CF","DS"].filter(t=>firmTrackN[t]).map(t=>firmTrackN[t]+" "+t+"-only").join(" · ")+(firmTrackN.multi?" · "+firmTrackN.multi+" multi-track":"")},
+  {n:progs.length, l:"Programs on radar",
    d:["IB","CF","DS"].filter(t=>trackN[t]).map(t=>trackN[t]+" "+t).join(" · ")},
-  {n:progs.length, l:"Programs on radar", d:predicted.length+" dated · "+progs.filter(p=>p.status==="unverified").length+" on watch"},
   {n:alertCount, l:"Calendar alerts set", d:"4-wk · 1-wk · day-of chains"},
   {n:nextWin?fmtShort(nextWin.win):"—", l:"Next networking window", d:nextWin?esc(firms[nextWin.p.firm_id].name):"", hot:true, mono:true}
 ];
@@ -352,7 +369,7 @@ render();
 const openQs=(DATA.questions||[]).filter(q=>!q.resolved);
 document.getElementById("qCount").textContent=openQs.length?openQs.length:"";
 document.getElementById("questions").innerHTML = openQs.length
-  ? openQs.map(q=>`<div class="panel"><span class="tag">${esc(TRACK[q.track]||q.track)}</span>
+  ? openQs.map(q=>`<div class="qcard"><span class="tag">${esc(TRACK[q.track]||q.track)}</span>
       <strong>${esc(q.title||q.program_id||q.firm_id)}</strong> — ${esc(q.reason)}
       ${q.url?`<a href="${esc(q.url)}" target="_blank" rel="noopener">open posting</a>`:""}
       <em>first seen ${esc(q.first_seen)}</em></div>`).join("")
