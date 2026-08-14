@@ -10,7 +10,11 @@ Run it after every routine update, before committing.
 import argparse, json, os, re, sys
 from datetime import date
 
-ANCHOR = re.compile(r"(?m)^const DATA = .*;[ \t]*$")
+# The file is read with newline="" to preserve its line endings on write, so on a
+# Windows checkout (core.autocrlf=true) the line ends ";\r\n". The trailing \r is
+# matched by a lookahead rather than consumed: consuming it would drop it from the
+# replacement and leave that one line bare-LF in an otherwise CRLF file.
+ANCHOR = re.compile(r"(?m)^const DATA = .*;[ \t]*(?=\r?$)")
 
 def load(root, rel):
     with open(os.path.join(root, rel), encoding="utf-8") as f:
