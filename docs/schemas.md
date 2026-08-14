@@ -7,7 +7,9 @@
     {
       "id": "goldman-sachs",
       "name": "Goldman Sachs",
+      "tracks": ["IB"],
       "tier": "BB",
+      "sweep_cadence": null,
       "careers_url": "https://www.goldmansachs.com/careers/students",
       "insight_programs_url": "https://...",
       "notes": ""
@@ -15,7 +17,17 @@
   ]
 }
 ```
-- `id`: kebab-case, unique. `tier`: `"BB"` | `"EB"` | `"MM"`.
+- `id`: kebab-case, unique.
+- `tracks`: non-empty list, no duplicates, over `"IB"` | `"CF"` | `"DS"`. A firm
+  may recruit on several tracks (Amazon runs both corporate-finance and
+  data-science pipelines).
+- `tier`: `"BB"` | `"EB"` | `"MM"` when `"IB"` is in `tracks`; otherwise must be
+  present and `null`. Tier grades investment banks and has no meaning off that
+  track.
+- `sweep_cadence`: `"every_run"` | `"weekly"` when `tracks` holds any non-IB
+  track; otherwise present and `null`. IB programs are paced by `predicted_open`
+  instead.
+- A *missing* `tier` or `sweep_cadence` key is an error, not an implicit null.
 - `insight_programs_url` may be `null` if the firm has no insight-program page.
 
 ## data/programs.json
@@ -27,6 +39,7 @@
       "id": "goldman-sachs-2028-sa-ib",
       "firm_id": "goldman-sachs",
       "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "track": "IB",
       "type": "SA",
       "target_summer": 2028,
       "eligibility": {
@@ -57,7 +70,11 @@
 }
 ```
 - `profile.grad_year`: the student's graduation year. A program is only actionable if its `eligibility.grad_years` contains it.
-- `type`: `"SA"` | `"insight"`. `target_summer`: int (2027 or 2028).
+- `track`: `"IB"` | `"CF"` | `"DS"`, and must be one of the owning firm's
+  `tracks`. Programs carry the authoritative track because behavior is decided
+  per posting and a firm may span several tracks.
+- `type`: `"SA"` | `"insight"` | `"internship"`. `"SA"` is investment-banking
+  only. `target_summer`: int (2027 or 2028).
 - `eligibility.grad_years`: non-empty list of ints — which graduating classes the program is for. Defaults to `[2029]` (the tracker's premise) until a posting says otherwise.
 - `eligibility.verified`: `true` only when the audience was read off a live posting; then `source` (URL) and `quote` (the posting's own words) are both required.
 - `sightings`: live postings found for this program's firm that belong to a **different** cycle. Recording one never changes `status`, `confidence`, `predicted_open`, or `application_url`, and never creates a calendar event. Each entry needs `date`, `url`, `cycle`, and a non-empty `grad_years`.
@@ -110,12 +127,12 @@
 {
   "questions": [
     {
-      "id": "capital-one-fap-2026-08-13",
+      "id": "capital-one-cf-internship-2026-08-13",
       "firm_id": "capital-one",
-      "program_id": null,
-      "track": "IB",
-      "title": "2028 Summer Analyst",
-      "url": "https://.../2028-summer-analyst",
+      "program_id": "capital-one-2027-cf-internship",
+      "track": "CF",
+      "title": "2027 Corporate Finance Internship",
+      "url": "https://.../2027-corporate-finance-internship",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-19",
@@ -134,7 +151,11 @@
   which has no posting behind it and sets both to `null`.
 - `program_id` may be `null`: the sweep can find a live posting at a firm that
   has no program row yet.
-- `track`: `"IB"` | `"CF"` | `"DS"`.
+- `track`: `"IB"` | `"CF"` | `"DS"`. Unlike a program's `track`, a question's
+  `track` is **not** constrained to be one of its firm's `tracks`. This is
+  deliberate, not an oversight: `program_id` may be `null`, i.e. the firm that
+  a question is filed against may not have any program row — or any track —
+  recorded for it yet, so there is nothing to validate the track against.
 - Recording one never changes `status`, `confidence`, `predicted_open`, or
   `application_url`, and never creates a calendar event.
 - Entries are never deleted. Settle one by setting `resolved: true`; it stays as
