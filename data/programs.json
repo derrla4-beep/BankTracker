@@ -3367,6 +3367,33 @@
       "sightings": [],
       "last_checked": null,
       "notes": ""
+    },
+    {
+      "id": "anthropic-2027-ds-internship",
+      "firm_id": "anthropic",
+      "name": "Internship program — none offered as of 2026-08-13 (watch)",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.anthropic.com/careers"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
     }
   ]
 }

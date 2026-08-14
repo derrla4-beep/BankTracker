@@ -894,6 +894,18 @@
       "careers_url": "https://www.deshaw.com/careers/internships",
       "insight_programs_url": null,
       "notes": "Official D. E. Shaw Group careers internships page."
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "tracks": [
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "every_run",
+      "careers_url": "https://www.anthropic.com/careers",
+      "insight_programs_url": null,
+      "notes": "No internship program as of 2026-08-13 — careers FAQ states \"We don't currently offer internships.\" Watched so the tracker catches the change if that reverses."
     }
   ]
 }
