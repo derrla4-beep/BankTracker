@@ -10,11 +10,45 @@ A firm having a live Summer Analyst posting does **not** mean this student's pro
 
 So liveness alone never justifies `status: "open"`. The test is: **does the posting's own stated eligibility include a 2029 grad?**
 
+### Three tracks, two different clocks
+
+Programs carry a `track`: `IB` (investment banking), `CF` (corporate finance),
+`DS` (data science). The student is a dual major — finance and data science —
+so all three matter. Firms carry a `tracks` list and may appear on several.
+
+**The cycle-ahead rule above applies to IB only.** Banks run roughly 18 months
+ahead, which is why a live "2027 Summer Analyst" posting is for 2028 grads and
+is not ours.
+
+**CF and DS run 6–12 months ahead, not 18.** For those tracks a Summer 2027
+posting is the student's *sophomore summer* and **is applicable**. Sophomores
+are genuinely hired into real CF and DS internships, unlike IB where sophomore
+year is insight programs only. Never apply the cycle-ahead rule to a CF or DS
+posting — doing so would reject every posting the student can actually take.
+
+**Reading eligibility off a non-bank posting.** Tech and corporate postings
+rarely name class years the way banks do. Treat the `quote` requirement as
+satisfied by any one of: an explicit class-year list; a graduation-date window
+that contains June 2029; or a class-standing phrase ("rising junior",
+"sophomore") that maps to a grad year via `profile.grad_year`. Quote whichever
+one you find, verbatim, as always. A posting that says nothing at all about
+eligibility is never promoted — file it as an open question.
+
 ## Every run (Mon / Wed / Fri, ~8am ET)
 
-1. Read `data/programs.json`. Build the **in-window set**: programs where status is `"predicted"` and `predicted_open` is within the next 35 days or in the past, plus all status `"open"` programs whose deadline hasn't clearly passed.
+1. Read `data/programs.json` and `data/firms.json`. Build the **check set** for this run:
+   - **IB programs:** status `"predicted"` with `predicted_open` within the next 35 days or in the past, plus all status `"open"` programs whose deadline has not clearly passed. (Unchanged.)
+   - **CF/DS programs** at a firm with `sweep_cadence: "every_run"`: always, on every run.
+   - **CF/DS programs** at a firm with `sweep_cadence: "weekly"`: on Monday runs only.
+
+   CF/DS programs have no `predicted_open`, so the in-window notion does not apply to them; cadence replaces it. A firm carrying both IB and non-IB tracks uses the IB rule for its IB programs and its cadence for the rest — the two coexist without interacting.
 2. For each in-window program, check whether the application is live: fetch the firm's careers/program URL (from `firms.json` / `sources`); if fetch fails or is JS-blocked, WebSearch `"<firm> <program name> application 2027/2028"` and check reputable hits (firm domain, WSO, LinkedIn). Set `last_checked` to today.
-3. Quick surprise sweep (once per run, not per firm): WebSearch for `2028 investment banking summer analyst application open` and `2027 sophomore insight program investment banking open`, and scan the current WSO SA-timeline thread. If a NOT-in-window program turns out to be live, treat it like an in-window hit.
+3. Quick surprise sweep (once per run, not per firm) — two searches per track, six total:
+   - **IB:** WebSearch `2028 investment banking summer analyst application open` and `2027 sophomore insight program investment banking open`, and scan the current WSO SA-timeline thread.
+   - **CF:** WebSearch `2027 corporate finance summer internship application open` and `2027 financial analyst development program sophomore internship open`.
+   - **DS:** WebSearch `2027 data science summer internship undergraduate application open` and `2027 machine learning internship sophomore application open`.
+
+   The IB queries target cycle 2028 while CF/DS target 2027. That is deliberate: it is the query-level expression of the two clocks described above. If a NOT-in-check-set program turns out to be live, treat it like a check-set hit. If a live posting belongs to a firm not in `firms.json` at all, do not discard it — file an open question with `program_id: null` so it surfaces for triage.
 4. **When you find a live posting, before touching status: determine who it is for.** Read the posting's own class-year / graduation / eligibility line and quote it. Check the posting title too — a title beginning "2027 Summer Analyst" is the Summer 2027 cycle (2028 grads), not ours. If the page will not load the eligibility text, treat the cycle as unknown, not as a match.
    - **Eligible (a 2029 grad qualifies)** → set `status: "open"`, fill `application_url`, set `eligibility` to `{grad_years: [2029, ...], verified: true, source: <url>, quote: "<their words>"}`, and update the program's `t_day` calendar event (id in `state/calendar-sync.json`) — retitle to `🚨 LIVE — apply: <Firm> <program name>`, move it to today if its date differs, put the application URL first in the description. If the program has no `t_day` event, create one today and record the id. Report under 🚨 NEWLY OPEN.
    - **Wrong cycle / not eligible** → do **not** change `status`, `confidence`, `predicted_open`, or `application_url`, and create no calendar event. Append to the program's `sightings`: `{date, url, cycle: "Summer 2027", grad_years: [2028], note}`. Report under 👀 WRONG CYCLE. Do not re-report a sighting already recorded with the same url — it is not news twice.
@@ -22,7 +56,7 @@ So liveness alone never justifies `status: "open"`. The test is: **does the post
 
    **Three-door rule — the one thing this step must guarantee.** Every live posting you touch leaves through exactly one of three doors: promoted to `status: "open"`, recorded as a wrong-cycle `sighting`, or recorded as an open question. Never none of them. A posting that looks right but yields no quotable eligibility line is the dangerous case: the validator will correctly refuse to let it be `open`, and if you stop there it disappears from the run entirely and the student never learns it went live. That is a reporting failure, not a clean outcome. When in doubt, file the open question — over-reporting costs a line in the digest, under-reporting costs an application.
 
-   **Recording an open question.** Append to `state/open-questions.json`: `{id, firm_id, program_id, track: "IB", title, url, reason, first_seen: <today>, last_seen: <today>, resolved: false}`. `reason` is one of `eligibility-unreadable`, `no-quotable-line`, `title-body-mismatch`, `page-load-failed`, `prediction-overdue`, `unverified-seen-posted`. `program_id` may be `null` when the posting is at a firm with no program row yet — that is the case where a firm outside `programs.json` turns out to be recruiting, and it is worth surfacing loudly. `url` and `title` are required except for `prediction-overdue`, which has no posting behind it.
+   **Recording an open question.** Append to `state/open-questions.json`: `{id, firm_id, program_id, track: <the program's or posting's track, "IB"|"CF"|"DS">, title, url, reason, first_seen: <today>, last_seen: <today>, resolved: false}`. `reason` is one of `eligibility-unreadable`, `no-quotable-line`, `title-body-mismatch`, `page-load-failed`, `prediction-overdue`, `unverified-seen-posted`. `program_id` may be `null` when the posting is at a firm with no program row yet — that is the case where a firm outside `programs.json` turns out to be recruiting, and it is worth surfacing loudly. `url` and `title` are required except for `prediction-overdue`, which has no posting behind it.
 
    **On later runs**, if the same url is still unresolved, update its `last_seen` to today and report it again — do not create a second entry. When you do settle it (the page loads, the eligibility becomes readable, or it turns out to be wrong-cycle and you record a sighting), set `resolved: true` and drop it from the digest. Never delete entries; resolved ones stay as history.
 
@@ -45,20 +79,22 @@ So liveness alone never justifies `status: "open"`. The test is: **does the post
 Format exactly:
 
 ```
-🚨 NEWLY OPEN (apply + use your contacts): <firm — program — application link>, or "none"
-📅 OPENING SOON (next 14 days): <firm — program — predicted date>, or "none"
-🎯 START NETWORKING (4-week window entered today/this week): <firm — program>, or "none"
-👀 WRONG CYCLE (intel only — do not apply): <firm — posting title — cycle — who it's for>, or "none"
+🚨 NEWLY OPEN (apply + use your contacts): [IB|CF|DS] <firm — program — application link>, or "none"
+📅 OPENING SOON (next 14 days): [IB] <firm — program — predicted date>, or "none"
+🎯 START NETWORKING (4-week window entered today/this week): [IB] <firm — program>, or "none"
+👀 WRONG CYCLE (intel only — do not apply): [IB|CF|DS] <firm — posting title — cycle — who it's for>, or "none"
 🏫 BU EVENTS ADDED/UPCOMING (7 days): <event — date>, or "none"
 ⚠️ NEEDS ATTENTION: one line per unresolved open question — <firm — title — reason — url — (new) or (unresolved <N>d)>, or "none"
-✅ RUN OK <date> — checked <N> in-window (<M> open, <P> predicted ≤35d), <U> unverified swept; next predicted open: <firm> <date> (T−<days>d); commit <sha7>
+✅ RUN OK <date> — checked <N> (<I> IB in-window, <C> CF/DS by cadence), <M> open, <U> unverified swept; next predicted open: <firm> <date> (T−<days>d); commit <sha7>
 ```
 
 Keep it under ~25 lines. No preamble. Only newly-recorded sightings go in 👀 WRONG CYCLE; never repeat one from a prior run. Nothing in 👀 WRONG CYCLE ever gets a calendar event.
 
+📅 OPENING SOON and 🎯 START NETWORKING are IB-only by construction: CF/DS programs carry no `predicted_open`, so there is no date to count down to. They reach the digest by going live (🚨) or by becoming an open question (⚠️), never by prediction.
+
 ⚠️ NEEDS ATTENTION is the one exception to the line cap — list **every** unresolved open question, however long it runs. Items first seen today are tagged `(new)` and listed first; older ones are tagged `(unresolved <N>d)`, counting from `first_seen`. The age tag is what keeps a months-old unreadable page from reading as fresh news. Nothing in ⚠️ NEEDS ATTENTION ever gets a calendar event — the calendar means "this is real, act on it", the digest means "eyeball this".
 
-The ✅ RUN OK footer is mandatory on **every** run and is never "none" — it is the only thing that distinguishes a quiet run from a routine that died. A run where all six lines above are "none" is a normal outcome, not a failure: report it plainly and let the footer carry the proof of life. Fill `<N>/<M>/<P>` from the in-window set built in step 1, `<U>` from the Monday sweep (0 on Wed/Fri), and `<sha7>` from the commit you just pushed. If the run pushed no commit, write `commit none` rather than omitting the field.
+The ✅ RUN OK footer is mandatory on **every** run and is never "none" — it is the only thing that distinguishes a quiet run from a routine that died. A run where all six lines above are "none" is a normal outcome, not a failure: report it plainly and let the footer carry the proof of life. Fill `<N>` (total checked), `<I>` (the IB in-window subset), and `<C>` (the CF/DS by-cadence subset) from the check set built in step 1 — `<I> + <C> = <N>`. Fill `<M>` (now `"open"`) from the same set, `<U>` from the Monday sweep (0 on Wed/Fri), and `<sha7>` from the commit you just pushed. If the run pushed no commit, write `commit none` rather than omitting the field.
 
 ## Delivery (do this last, every run without exception)
 
