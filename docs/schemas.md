@@ -15,7 +15,17 @@
   ]
 }
 ```
-- `id`: kebab-case, unique. `tier`: `"BB"` | `"EB"` | `"MM"`.
+- `id`: kebab-case, unique.
+- `tracks`: non-empty list, no duplicates, over `"IB"` | `"CF"` | `"DS"`. A firm
+  may recruit on several tracks (Amazon runs both corporate-finance and
+  data-science pipelines).
+- `tier`: `"BB"` | `"EB"` | `"MM"` when `"IB"` is in `tracks`; otherwise must be
+  present and `null`. Tier grades investment banks and has no meaning off that
+  track.
+- `sweep_cadence`: `"every_run"` | `"weekly"` when `tracks` holds any non-IB
+  track; otherwise present and `null`. IB programs are paced by `predicted_open`
+  instead.
+- A *missing* `tier` or `sweep_cadence` key is an error, not an implicit null.
 - `insight_programs_url` may be `null` if the firm has no insight-program page.
 
 ## data/programs.json
@@ -57,7 +67,11 @@
 }
 ```
 - `profile.grad_year`: the student's graduation year. A program is only actionable if its `eligibility.grad_years` contains it.
-- `type`: `"SA"` | `"insight"`. `target_summer`: int (2027 or 2028).
+- `track`: `"IB"` | `"CF"` | `"DS"`, and must be one of the owning firm's
+  `tracks`. Programs carry the authoritative track because behavior is decided
+  per posting and a firm may span several tracks.
+- `type`: `"SA"` | `"insight"` | `"internship"`. `"SA"` is investment-banking
+  only. `target_summer`: int (2027 or 2028).
 - `eligibility.grad_years`: non-empty list of ints — which graduating classes the program is for. Defaults to `[2029]` (the tracker's premise) until a posting says otherwise.
 - `eligibility.verified`: `true` only when the audience was read off a live posting; then `source` (URL) and `quote` (the posting's own words) are both required.
 - `sightings`: live postings found for this program's firm that belong to a **different** cycle. Recording one never changes `status`, `confidence`, `predicted_open`, or `application_url`, and never creates a calendar event. Each entry needs `date`, `url`, `cycle`, and a non-empty `grad_years`.

@@ -6,9 +6,10 @@ DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 TIERS = {"BB", "EB", "MM"}
 CONFIDENCES = {"high", "medium", "unverified"}
 STATUSES = {"predicted", "open", "closed", "unverified"}
-TYPES = {"SA", "insight"}
+TYPES = {"SA", "insight", "internship"}
 SLOT_KEYS = {"t_minus_4w", "t_minus_1w", "t_day"}
 TRACKS = {"IB", "CF", "DS"}
+CADENCES = {"every_run", "weekly"}
 # Why a live posting could not be classified into open / wrong-cycle.
 QUESTION_REASONS = {"eligibility-unreadable", "no-quotable-line", "title-body-mismatch",
                     "page-load-failed", "prediction-overdue", "unverified-seen-posted"}
@@ -58,13 +59,32 @@ def main():
     if not isinstance(firms_list, list):
         err(errors, 'firms.json: "firms" must be a list')
         firms_list = []
+    firm_tracks = {}
     for f in firms_list:
         fid = f.get("id", "<missing id>")
         label = f"firms.json[{fid}]"
         if fid in firm_ids: err(errors, f"{label}: duplicate id")
         firm_ids.add(fid)
         if not re.match(r"^[a-z0-9-]+$", fid): err(errors, f"{label}: id must be kebab-case")
-        if f.get("tier") not in TIERS: err(errors, f"{label}: bad tier {f.get('tier')!r}")
+        tracks = f.get("tracks")
+        if not (isinstance(tracks, list) and tracks and all(t in TRACKS for t in tracks)):
+            err(errors, f"{label}: tracks must be a non-empty list over {sorted(TRACKS)}")
+            tracks = []
+        elif len(set(tracks)) != len(tracks):
+            err(errors, f"{label}: duplicate entries in tracks {tracks}")
+        firm_tracks[fid] = tracks
+        # tier grades investment banks; it has no meaning off the IB track.
+        if "IB" in tracks:
+            if f.get("tier") not in TIERS: err(errors, f"{label}: bad tier {f.get('tier')!r}")
+        elif "tier" not in f or f["tier"] is not None:
+            err(errors, f"{label}: tier must be present and null for a non-IB firm")
+        # Cadence paces CF/DS checks. IB programs are paced by predicted_open instead,
+        # so a firm that is only IB carries no cadence.
+        if set(tracks) - {"IB"}:
+            if f.get("sweep_cadence") not in CADENCES:
+                err(errors, f"{label}: bad sweep_cadence {f.get('sweep_cadence')!r}")
+        elif "sweep_cadence" not in f or f["sweep_cadence"] is not None:
+            err(errors, f"{label}: sweep_cadence must be present and null for an IB-only firm")
         if not f.get("name"): err(errors, f"{label}: name required")
         if not f.get("careers_url"): err(errors, f"{label}: careers_url required")
 
@@ -90,6 +110,15 @@ def main():
         prog_ids.add(pid)
         if pr.get("firm_id") not in firm_ids: err(errors, f"{label}: unknown firm_id {pr.get('firm_id')!r}")
         if pr.get("type") not in TYPES: err(errors, f"{label}: bad type {pr.get('type')!r}")
+        track = pr.get("track")
+        if track not in TRACKS:
+            err(errors, f"{label}: bad track {track!r}")
+        elif track not in firm_tracks.get(pr.get("firm_id"), []):
+            err(errors, f"{label}: track {track!r} is not among its firm's tracks "
+                        f"{firm_tracks.get(pr.get('firm_id'), [])}")
+        # "Summer Analyst" is an investment-banking term of art.
+        if pr.get("type") == "SA" and track != "IB":
+            err(errors, f"{label}: type 'SA' is investment-banking only (track is {track!r})")
         if pr.get("target_summer") not in (2027, 2028): err(errors, f"{label}: bad target_summer")
         conf = pr.get("confidence")
         if conf not in CONFIDENCES: err(errors, f"{label}: bad confidence {conf!r}")

@@ -19,10 +19,11 @@ def make_fixture(firms, programs, events, sync, questions=None):
     return d
 
 PROFILE = {"grad_year": 2029, "school": "Boston University", "notes": ""}
-GOOD_FIRM = {"id": "goldman-sachs", "name": "Goldman Sachs", "tier": "BB",
-             "careers_url": "https://x.com", "insight_programs_url": None, "notes": ""}
+GOOD_FIRM = {"id": "goldman-sachs", "name": "Goldman Sachs", "tracks": ["IB"], "tier": "BB",
+             "sweep_cadence": None, "careers_url": "https://x.com",
+             "insight_programs_url": None, "notes": ""}
 GOOD_PROG = {"id": "goldman-sachs-2028-sa-ib", "firm_id": "goldman-sachs",
-             "name": "2028 SA IB", "type": "SA", "target_summer": 2028,
+             "name": "2028 SA IB", "track": "IB", "type": "SA", "target_summer": 2028,
              "eligibility": {"grad_years": [2029], "verified": False, "source": None, "quote": None},
              "historical_opens": {"2027": "2026-03-02"}, "predicted_open": "2027-03-01",
              "confidence": "medium", "status": "predicted", "application_url": None,
@@ -30,6 +31,17 @@ GOOD_PROG = {"id": "goldman-sachs-2028-sa-ib", "firm_id": "goldman-sachs",
 # An eligibility block that has actually been read off a live posting.
 VERIFIED_ELIG = {"grad_years": [2029], "verified": True,
                  "source": "https://x.com/apply", "quote": "Open to candidates graduating in 2029."}
+
+CF_FIRM = {"id": "capital-one", "name": "Capital One", "tracks": ["CF"], "tier": None,
+           "sweep_cadence": "weekly", "careers_url": "https://x.com/co",
+           "insight_programs_url": None, "notes": ""}
+CF_PROG = {"id": "capital-one-2027-cf-internship", "firm_id": "capital-one",
+           "name": "2027 Finance Internship", "track": "CF", "type": "internship",
+           "target_summer": 2027,
+           "eligibility": {"grad_years": [2029], "verified": False, "source": None, "quote": None},
+           "historical_opens": {}, "predicted_open": None,
+           "confidence": "unverified", "status": "unverified", "application_url": None,
+           "sources": ["https://x.com/co"], "sightings": [], "last_checked": None, "notes": ""}
 
 def test(name, cond):
     print(("PASS " if cond else "FAIL ") + name)
@@ -184,5 +196,59 @@ ok &= test("open question bad track rejected", run_validator(d).returncode == 1)
 d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], {"programs": {}, "bu_events": {}})
 json.dump({"questions": {}}, open(os.path.join(d, "state", "open-questions.json"), "w"))
 ok &= test("wrong questions container type rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+
+# --- tracks ---
+# 33. A CF firm with a CF program is valid
+d = make_fixture([CF_FIRM], [CF_PROG], [], {"programs": {}, "bu_events": {}})
+ok &= test("CF firm and program accepted", run_validator(d).returncode == 0); shutil.rmtree(d)
+# 34. A firm may span tracks, and carry a program on each
+multi = dict(CF_FIRM, id="amazon", name="Amazon", tracks=["CF", "DS"], sweep_cadence="every_run")
+p_cf = dict(CF_PROG, id="amazon-2027-cf", firm_id="amazon", track="CF")
+p_ds = dict(CF_PROG, id="amazon-2027-ds", firm_id="amazon", track="DS")
+d = make_fixture([multi], [p_cf, p_ds], [], {"programs": {}, "bu_events": {}})
+ok &= test("multi-track firm accepted", run_validator(d).returncode == 0); shutil.rmtree(d)
+# 35. A program cannot claim a track its firm does not have
+stray = dict(CF_PROG, track="DS")
+d = make_fixture([CF_FIRM], [stray], [], {"programs": {}, "bu_events": {}})
+ok &= test("program track outside firm tracks rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 36. Empty tracks list fails
+d = make_fixture([dict(CF_FIRM, tracks=[])], [], [], {"programs": {}, "bu_events": {}})
+ok &= test("empty tracks rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 37. Unknown track value fails
+d = make_fixture([dict(CF_FIRM, tracks=["BANKING"])], [], [], {"programs": {}, "bu_events": {}})
+ok &= test("unknown track rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 38. Duplicate entries in tracks fail
+d = make_fixture([dict(CF_FIRM, tracks=["CF", "CF"])], [], [], {"programs": {}, "bu_events": {}})
+ok &= test("duplicate tracks rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 39. A non-IB firm must not carry a tier
+d = make_fixture([dict(CF_FIRM, tier="BB")], [], [], {"programs": {}, "bu_events": {}})
+ok &= test("tier on non-IB firm rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 40. An IB firm must carry a valid tier
+d = make_fixture([dict(GOOD_FIRM, tier=None)], [], [], {"programs": {}, "bu_events": {}})
+ok &= test("null tier on IB firm rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 41. A missing key is not an implicit null
+nokey = {k: v for k, v in CF_FIRM.items() if k != "tier"}
+d = make_fixture([nokey], [], [], {"programs": {}, "bu_events": {}})
+ok &= test("missing tier key rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 42. A firm with any non-IB track needs a cadence
+d = make_fixture([dict(CF_FIRM, sweep_cadence=None)], [], [], {"programs": {}, "bu_events": {}})
+ok &= test("null cadence on CF firm rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 43. An IB-only firm is paced by predicted_open, so its cadence must be null
+d = make_fixture([dict(GOOD_FIRM, sweep_cadence="weekly")], [], [], {"programs": {}, "bu_events": {}})
+ok &= test("cadence on IB-only firm rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 44. A firm on both IB and DS still needs a cadence for its DS side
+both = dict(GOOD_FIRM, id="jp-morgan", name="J.P. Morgan", tracks=["IB", "DS"],
+            sweep_cadence="weekly")
+d = make_fixture([both], [], [], {"programs": {}, "bu_events": {}})
+ok &= test("IB+DS firm with cadence accepted", run_validator(d).returncode == 0); shutil.rmtree(d)
+# 45. "SA" is an investment-banking term and must not appear off the IB track
+d = make_fixture([CF_FIRM], [dict(CF_PROG, type="SA")], [], {"programs": {}, "bu_events": {}})
+ok &= test("SA type on non-IB track rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 46. "internship" is accepted
+d = make_fixture([CF_FIRM], [CF_PROG], [], {"programs": {}, "bu_events": {}})
+ok &= test("internship type accepted", run_validator(d).returncode == 0); shutil.rmtree(d)
+# 47. Unknown program track fails
+d = make_fixture([CF_FIRM], [dict(CF_PROG, track="OTHER")], [], {"programs": {}, "bu_events": {}})
+ok &= test("unknown program track rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
 
 sys.exit(0 if ok else 1)
