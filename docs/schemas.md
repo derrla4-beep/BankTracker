@@ -7,7 +7,9 @@
     {
       "id": "goldman-sachs",
       "name": "Goldman Sachs",
+      "tracks": ["IB"],
       "tier": "BB",
+      "sweep_cadence": null,
       "careers_url": "https://www.goldmansachs.com/careers/students",
       "insight_programs_url": "https://...",
       "notes": ""
@@ -37,6 +39,7 @@
       "id": "goldman-sachs-2028-sa-ib",
       "firm_id": "goldman-sachs",
       "name": "2028 Summer Analyst — Investment Banking (NYC)",
+      "track": "IB",
       "type": "SA",
       "target_summer": 2028,
       "eligibility": {
@@ -124,12 +127,12 @@
 {
   "questions": [
     {
-      "id": "capital-one-fap-2026-08-13",
+      "id": "capital-one-cf-internship-2026-08-13",
       "firm_id": "capital-one",
-      "program_id": null,
-      "track": "IB",
-      "title": "2028 Summer Analyst",
-      "url": "https://.../2028-summer-analyst",
+      "program_id": "capital-one-2027-cf-internship",
+      "track": "CF",
+      "title": "2027 Corporate Finance Internship",
+      "url": "https://.../2027-corporate-finance-internship",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-19",
@@ -148,7 +151,11 @@
   which has no posting behind it and sets both to `null`.
 - `program_id` may be `null`: the sweep can find a live posting at a firm that
   has no program row yet.
-- `track`: `"IB"` | `"CF"` | `"DS"`.
+- `track`: `"IB"` | `"CF"` | `"DS"`. Unlike a program's `track`, a question's
+  `track` is **not** constrained to be one of its firm's `tracks`. This is
+  deliberate, not an oversight: `program_id` may be `null`, i.e. the firm that
+  a question is filed against may not have any program row — or any track —
+  recorded for it yet, so there is nothing to validate the track against.
 - Recording one never changes `status`, `confidence`, `predicted_open`, or
   `application_url`, and never creates a calendar event.
 - Entries are never deleted. Settle one by setting `resolved: true`; it stays as
