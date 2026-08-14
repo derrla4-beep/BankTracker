@@ -237,7 +237,6 @@ const upcomingWins = predicted
   .map(p=>({p,open:d(p.predicted_open),win:new Date(d(p.predicted_open)-28*MS_D)}))
   .filter(x=>x.open>=TODAY).sort((a,b)=>a.win-b.win);
 const nextWin = upcomingWins.find(x=>x.win>=TODAY) || upcomingWins[0];
-const tierN = DATA.firms.reduce((a,f)=>(a[f.tier]=(a[f.tier]||0)+1,a),{});
 const trackN = DATA.programs.reduce((a,p)=>(a[p.track]=(a[p.track]||0)+1,a),{});
 const stats = [
   {n:DATA.firms.length, l:"Firms tracked",
@@ -353,11 +352,11 @@ render();
 const openQs=(DATA.questions||[]).filter(q=>!q.resolved);
 document.getElementById("qCount").textContent=openQs.length?openQs.length:"";
 document.getElementById("questions").innerHTML = openQs.length
-  ? openQs.map(q=>`<div class="card"><span class="tag">${TRACK[q.track]||q.track}</span>
-      <strong>${q.title||q.program_id||q.firm_id}</strong> — ${q.reason}
-      ${q.url?`<a href="${q.url}" target="_blank" rel="noopener">open posting</a>`:""}
-      <em>first seen ${q.first_seen}</em></div>`).join("")
-  : `<p>Nothing unresolved.</p>`;
+  ? openQs.map(q=>`<div class="panel"><span class="tag">${esc(TRACK[q.track]||q.track)}</span>
+      <strong>${esc(q.title||q.program_id||q.firm_id)}</strong> — ${esc(q.reason)}
+      ${q.url?`<a href="${esc(q.url)}" target="_blank" rel="noopener">open posting</a>`:""}
+      <em>first seen ${esc(q.first_seen)}</em></div>`).join("")
+  : `<div class="empty">Nothing unresolved.</div>`;
 
 /* ---- BU events ---- */
 const evs=DATA.events;

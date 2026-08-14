@@ -472,7 +472,7 @@ Replace numbered step 3 with:
    - **CF:** WebSearch `2027 corporate finance summer internship application open` and `2027 financial analyst development program sophomore internship open`.
    - **DS:** WebSearch `2027 data science summer internship undergraduate application open` and `2027 machine learning internship sophomore application open`.
 
-   The IB queries target cycle 2028 while CF/DS target 2027. That is deliberate: it is the query-level expression of the two clocks described above. If a NOT-in-check-set program turns out to be live, treat it like a check-set hit. If a live posting belongs to a firm not in `firms.json` at all, do not discard it — file an open question with `program_id: null` so it surfaces for triage.
+   The IB Summer Analyst query targets cycle 2028; the insight-program and CF/DS queries target 2027. That is deliberate: it is the query-level expression of the two clocks described above. If a NOT-in-check-set program turns out to be live, treat it like a check-set hit. If a live posting belongs to a firm not in `firms.json` at all, do not discard it — file an open question with `program_id: null` so it surfaces for triage.
 ```
 
 - [ ] **Step 4: Tag digest lines by track**
@@ -660,11 +660,11 @@ Then add the renderer beside the other render functions:
 const openQs=(DATA.questions||[]).filter(q=>!q.resolved);
 document.getElementById("qCount").textContent=openQs.length?openQs.length:"";
 document.getElementById("questions").innerHTML = openQs.length
-  ? openQs.map(q=>`<div class="card"><span class="tag">${TRACK[q.track]||q.track}</span>
-      <strong>${q.title||q.program_id||q.firm_id}</strong> — ${q.reason}
-      ${q.url?`<a href="${q.url}" target="_blank" rel="noopener">open posting</a>`:""}
-      <em>first seen ${q.first_seen}</em></div>`).join("")
-  : `<p>Nothing unresolved.</p>`;
+  ? openQs.map(q=>`<div class="panel"><span class="tag">${esc(TRACK[q.track]||q.track)}</span>
+      <strong>${esc(q.title||q.program_id||q.firm_id)}</strong> — ${esc(q.reason)}
+      ${q.url?`<a href="${esc(q.url)}" target="_blank" rel="noopener">open posting</a>`:""}
+      <em>first seen ${esc(q.first_seen)}</em></div>`).join("")
+  : `<div class="empty">Nothing unresolved.</div>`;
 ```
 
 - [ ] **Step 10: Rebuild and eyeball the page**
