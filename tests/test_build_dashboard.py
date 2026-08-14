@@ -17,6 +17,11 @@ def make_repo(newline):
     json.dump({"events": []}, open(os.path.join(d, "data", "bu-events.json"), "w"))
     json.dump({"programs": {}, "bu_events": {}},
               open(os.path.join(d, "state", "calendar-sync.json"), "w"))
+    json.dump({"questions": [{"id": "q1", "firm_id": "f1", "program_id": None,
+                              "track": "DS", "title": "T", "url": "https://x.com/j",
+                              "reason": "no-quotable-line", "first_seen": "2026-08-13",
+                              "last_seen": "2026-08-13", "resolved": False}]},
+              open(os.path.join(d, "state", "open-questions.json"), "w"))
     with open(os.path.join(d, "dashboard.html"), "w", encoding="utf-8", newline="") as f:
         f.write(PAGE.replace("\n", newline))
     return d
@@ -57,6 +62,13 @@ build(d)
 after = read(d)
 ok &= test("CRLF endings preserved on write",
            after.count("\r\n") > 0 and after.count("\n") == after.count("\r\n"))
+shutil.rmtree(d)
+
+# 4. Open questions must reach the page, or they live only in an ephemeral digest.
+d = make_repo("\n")
+build(d)
+page = read(d)
+ok &= test("open questions inlined into DATA", '"questions"' in page and "no-quotable-line" in page)
 shutil.rmtree(d)
 
 sys.exit(0 if ok else 1)

@@ -38,6 +38,7 @@ def main():
         "programs": progs_doc["programs"],
         "events": load(root, "data/bu-events.json")["events"],
         "sync": load(root, "state/calendar-sync.json"),
+        "questions": load(root, "state/open-questions.json")["questions"],
     }
 
     path = os.path.join(root, "dashboard.html")
