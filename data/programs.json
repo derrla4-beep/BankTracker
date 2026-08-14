@@ -2422,6 +2422,951 @@
       "last_checked": "2026-08-10",
       "notes": "Newly discovered firm/program (added 2026-07-27 Monday deep sweep, previously untracked). Virtual 2-day summit (leader conversations, resume/skills workshops, recruiting office hours) run with BNP's gender-diversity ERG (MixCity USA), feeding Summer Analyst interviews. Eligibility: Winter 2027-Spring 2028 grads (current rising sophomores). No dated open date found for this cycle; watch the careers page. Re-checked 2026-08-03 (Monday sweep): both known source URLs (usa.bnpparibas, bwelcome.hr.bnpparibas) returned 403 on fetch; a general web search corroborates the prior \"Winter 2027-Spring 2028 grads\" eligibility line but could not be confirmed against the firm's own page text (no direct quote obtained). Contradiction with \"current rising sophomores\" in the notes remains unresolved -> still NEEDS ATTENTION. RESOLVED 2026-08-10 (Monday sweep): the internal eligibility contradiction is resolved. WebFetch remains blocked (403/EGRESS_BLOCKED on both usa.bnpparibas and bwelcome.hr.bnpparibas), but 6+ independent WebSearch queries consistently and near-verbatim return: 'Current undergraduate, sophomore-level students with a Winter 2027-Spring 2028 graduation date are eligible to apply.' That confirms Class-of-2028 eligibility ONLY -- the prior 'current rising sophomores' language in these notes was an unsupported misreading and is retracted. This program is NOT applicable to a Class-of-2029 student despite the 'Sophomore' branding; it appears tied to a Jan 14-15 summit feeding Summer-2027-cycle interviews. NEEDS ATTENTION: recommend retiring or re-scoping this entry (watch instead for BNP's next cohort, one cycle later) since it structurally targets the wrong class year every cycle.",
       "track": "IB"
+    },
+    {
+      "id": "spacex-2027-ds-internship",
+      "firm_id": "spacex",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.spacex.com/careers/jobs/?type=intern"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "google-2027-cf-internship",
+      "firm_id": "google",
+      "name": "2027 Corporate Finance Internship",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.google.com/about/careers/applications/students"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "google-2027-ds-internship",
+      "firm_id": "google",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.google.com/about/careers/applications/students"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "amazon-2027-cf-internship",
+      "firm_id": "amazon",
+      "name": "2027 Corporate Finance Internship",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "amazon-2027-ds-internship",
+      "firm_id": "amazon",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "exxonmobil-2027-cf-internship",
+      "firm_id": "exxonmobil",
+      "name": "2027 Corporate Finance Internship",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://corporate.exxonmobil.com/careers/internship-opportunities"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "exxonmobil-2027-ds-internship",
+      "firm_id": "exxonmobil",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://corporate.exxonmobil.com/careers/internship-opportunities"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "capital-one-2027-cf-internship",
+      "firm_id": "capital-one",
+      "name": "2027 Corporate Finance Internship",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.capitalonecareers.com/students"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "capital-one-2027-ds-internship",
+      "firm_id": "capital-one",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.capitalonecareers.com/students"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "american-express-2027-cf-internship",
+      "firm_id": "american-express",
+      "name": "2027 Corporate Finance Internship",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.americanexpress.com/en-us/careers/student-programs/global-students-page.html"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "fidelity-investments-2027-cf-internship",
+      "firm_id": "fidelity-investments",
+      "name": "2027 Corporate Finance Internship",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://jobs.fidelity.com/en/students/"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "charles-schwab-2027-cf-internship",
+      "firm_id": "charles-schwab",
+      "name": "2027 Corporate Finance Internship",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.schwabjobs.com/early-careers-overview"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "synchrony-2027-cf-internship",
+      "firm_id": "synchrony",
+      "name": "2027 Corporate Finance Internship",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.synchronyuniversity.com/programs/"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "paypal-2027-cf-internship",
+      "firm_id": "paypal",
+      "name": "2027 Corporate Finance Internship",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://careers.pypl.com/university-hiring/intern-hub/"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "paypal-2027-ds-internship",
+      "firm_id": "paypal",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://careers.pypl.com/university-hiring/intern-hub/"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "visa-2027-cf-internship",
+      "firm_id": "visa",
+      "name": "2027 Corporate Finance Internship",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://corporate.visa.com/en/careers/early-careers.html"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "visa-2027-ds-internship",
+      "firm_id": "visa",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://corporate.visa.com/en/careers/early-careers.html"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "mastercard-2027-cf-internship",
+      "firm_id": "mastercard",
+      "name": "2027 Corporate Finance Internship",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://careers.mastercard.com/us/en/students"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "mastercard-2027-ds-internship",
+      "firm_id": "mastercard",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://careers.mastercard.com/us/en/students"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "johnson-and-johnson-2027-cf-internship",
+      "firm_id": "johnson-and-johnson",
+      "name": "2027 Corporate Finance Internship",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.careers.jnj.com/students"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "procter-and-gamble-2027-cf-internship",
+      "firm_id": "procter-and-gamble",
+      "name": "2027 Corporate Finance Internship",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.pgcareers.com/us/en/student-programs"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "ge-aerospace-2027-cf-internship",
+      "firm_id": "ge-aerospace",
+      "name": "2027 Corporate Finance Internship",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://careers.geaerospace.com/global/en/us-students-new-grads"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "openai-2027-ds-internship",
+      "firm_id": "openai",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://openai.com/careers/emerging-talent/"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "meta-2027-ds-internship",
+      "firm_id": "meta",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.metacareers.com/careerprograms/students/"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "microsoft-2027-ds-internship",
+      "firm_id": "microsoft",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://careers.microsoft.com/v2/global/en/students"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "apple-2027-ds-internship",
+      "firm_id": "apple",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.apple.com/careers/us/work-at-apple/students.html"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "nvidia-2027-ds-internship",
+      "firm_id": "nvidia",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "databricks-2027-ds-internship",
+      "firm_id": "databricks",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.databricks.com/company/careers/university-recruiting"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "palantir-2027-ds-internship",
+      "firm_id": "palantir",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.palantir.com/careers/students-and-early-talent/"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "stripe-2027-ds-internship",
+      "firm_id": "stripe",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://stripe.com/jobs/university"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "netflix-2027-ds-internship",
+      "firm_id": "netflix",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://jobs.netflix.com/careers/internships"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "two-sigma-2027-ds-internship",
+      "firm_id": "two-sigma",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.twosigma.com/undergraduate-students/"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "jane-street-2027-ds-internship",
+      "firm_id": "jane-street",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.janestreet.com/join-jane-street/internships/"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "citadel-2027-ds-internship",
+      "firm_id": "citadel",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.citadel.com/careers/internships/"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
+    },
+    {
+      "id": "de-shaw-2027-ds-internship",
+      "firm_id": "de-shaw",
+      "name": "2027 Data Science / ML Internship",
+      "track": "DS",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.deshaw.com/careers/internships"
+      ],
+      "sightings": [],
+      "last_checked": null,
+      "notes": ""
     }
   ]
 }

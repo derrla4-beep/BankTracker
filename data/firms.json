@@ -551,6 +551,349 @@
         "IB"
       ],
       "sweep_cadence": null
+    },
+    {
+      "id": "spacex",
+      "name": "SpaceX",
+      "tracks": [
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "every_run",
+      "careers_url": "https://www.spacex.com/careers/jobs/?type=intern",
+      "insight_programs_url": null,
+      "notes": "Fetched via rendered browser (WebFetch returns an empty JS shell for spacex.com); page lists live internship-tagged job postings."
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "tracks": [
+        "CF",
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "every_run",
+      "careers_url": "https://www.google.com/about/careers/applications/students",
+      "insight_programs_url": null,
+      "notes": "Official Students hub on Google Careers, linking to Internships and Early Career programs."
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "tracks": [
+        "CF",
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "every_run",
+      "careers_url": "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students",
+      "insight_programs_url": null,
+      "notes": "Official Amazon.jobs student internships page; lists AWS, Science, Undergraduate Non-Tech and other tracks. Finance/DS-specific tracks not itemized on this page but the site is the correct student careers hub."
+    },
+    {
+      "id": "exxonmobil",
+      "name": "ExxonMobil",
+      "tracks": [
+        "CF",
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "every_run",
+      "careers_url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
+      "insight_programs_url": null,
+      "notes": "Official ExxonMobil U.S. internship/co-op opportunities page for students."
+    },
+    {
+      "id": "capital-one",
+      "name": "Capital One",
+      "tracks": [
+        "CF",
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://www.capitalonecareers.com/students",
+      "insight_programs_url": null,
+      "notes": "Official Capital One Students and Grads overview page; 10-week paid internship programs."
+    },
+    {
+      "id": "american-express",
+      "name": "American Express",
+      "tracks": [
+        "CF"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://www.americanexpress.com/en-us/careers/student-programs/global-students-page.html",
+      "insight_programs_url": null,
+      "notes": "Official Amex student internships/graduate opportunities hub (reached via redirect from the /careers/student-programs/us/ path)."
+    },
+    {
+      "id": "fidelity-investments",
+      "name": "Fidelity Investments",
+      "tracks": [
+        "CF"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://jobs.fidelity.com/en/students/",
+      "insight_programs_url": null,
+      "notes": "Official Fidelity Careers student/early-career hub; describes the 10-week Fidelity Intern Program."
+    },
+    {
+      "id": "charles-schwab",
+      "name": "Charles Schwab",
+      "tracks": [
+        "CF"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://www.schwabjobs.com/early-careers-overview",
+      "insight_programs_url": null,
+      "notes": "Official Schwab Jobs Early Careers overview page, linking to the Internship Academy and other student programs."
+    },
+    {
+      "id": "synchrony",
+      "name": "Synchrony Financial",
+      "tracks": [
+        "CF"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://www.synchronyuniversity.com/programs/",
+      "insight_programs_url": null,
+      "notes": "Official Synchrony University programs page (Business Leadership Program internships)."
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "tracks": [
+        "CF",
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://careers.pypl.com/university-hiring/intern-hub/",
+      "insight_programs_url": null,
+      "notes": "Official PayPal Careers Intern Hub for university hiring."
+    },
+    {
+      "id": "visa",
+      "name": "Visa",
+      "tracks": [
+        "CF",
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://corporate.visa.com/en/careers/early-careers.html",
+      "insight_programs_url": null,
+      "notes": "Official Visa Students + Early Careers page."
+    },
+    {
+      "id": "mastercard",
+      "name": "Mastercard",
+      "tracks": [
+        "CF",
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://careers.mastercard.com/us/en/students",
+      "insight_programs_url": null,
+      "notes": "Official Mastercard Careers student page; internships open to enrolled Bachelor's and Master's students."
+    },
+    {
+      "id": "johnson-and-johnson",
+      "name": "Johnson & Johnson",
+      "tracks": [
+        "CF"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://www.careers.jnj.com/students",
+      "insight_programs_url": null,
+      "notes": "Official J&J Careers student/early-career page (fall, summer, and year-round internships)."
+    },
+    {
+      "id": "procter-and-gamble",
+      "name": "Procter & Gamble",
+      "tracks": [
+        "CF"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://www.pgcareers.com/us/en/student-programs",
+      "insight_programs_url": null,
+      "notes": "Official P&G Careers U.S. Student Programs page."
+    },
+    {
+      "id": "ge-aerospace",
+      "name": "GE Aerospace",
+      "tracks": [
+        "CF"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://careers.geaerospace.com/global/en/us-students-new-grads",
+      "insight_programs_url": null,
+      "notes": "Official GE Aerospace Careers U.S. Students & New Grads page."
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "tracks": [
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://openai.com/careers/emerging-talent/",
+      "insight_programs_url": null,
+      "notes": "Official OpenAI Emerging Talent page (fetched via rendered browser after WebFetch hit a 403); covers internships, residencies, and early-career roles."
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "tracks": [
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://www.metacareers.com/careerprograms/students/",
+      "insight_programs_url": null,
+      "notes": "Official Meta Careers Students and Graduates page."
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "tracks": [
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://careers.microsoft.com/v2/global/en/students",
+      "insight_programs_url": null,
+      "notes": "Official Microsoft Careers student/early-in-profession page."
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "tracks": [
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://www.apple.com/careers/us/work-at-apple/students.html",
+      "insight_programs_url": null,
+      "notes": "Official Apple Careers student page."
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "tracks": [
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
+      "insight_programs_url": null,
+      "notes": "Official NVIDIA University Recruiting and Early-Talent Programs page."
+    },
+    {
+      "id": "databricks",
+      "name": "Databricks",
+      "tracks": [
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://www.databricks.com/company/careers/university-recruiting",
+      "insight_programs_url": null,
+      "notes": "Official Databricks university recruiting page (\"Internships and early careers at Databricks\")."
+    },
+    {
+      "id": "palantir",
+      "name": "Palantir",
+      "tracks": [
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://www.palantir.com/careers/students-and-early-talent/",
+      "insight_programs_url": null,
+      "notes": "Official Palantir Careers Students and Early Talent page; verified via rendered browser (element search located Internships/New Grads tabs and program headings)."
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "tracks": [
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://stripe.com/jobs/university",
+      "insight_programs_url": null,
+      "notes": "Official Stripe university hiring page; notes interns hosted on engineering, machine learning, and data science teams."
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "tracks": [
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://jobs.netflix.com/careers/internships",
+      "insight_programs_url": null,
+      "notes": "Official Netflix Careers internships page (Emerging Talent, 12-week summer program)."
+    },
+    {
+      "id": "two-sigma",
+      "name": "Two Sigma",
+      "tracks": [
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://www.twosigma.com/undergraduate-students/",
+      "insight_programs_url": null,
+      "notes": "Official Two Sigma Undergraduate Students page (Academic Partnerships)."
+    },
+    {
+      "id": "jane-street",
+      "name": "Jane Street",
+      "tracks": [
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://www.janestreet.com/join-jane-street/internships/",
+      "insight_programs_url": null,
+      "notes": "Official Jane Street internships page."
+    },
+    {
+      "id": "citadel",
+      "name": "Citadel",
+      "tracks": [
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://www.citadel.com/careers/internships/",
+      "insight_programs_url": null,
+      "notes": "Official Citadel Careers internships page; verified via rendered browser after WebFetch hit a 403."
+    },
+    {
+      "id": "de-shaw",
+      "name": "D. E. Shaw",
+      "tracks": [
+        "DS"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://www.deshaw.com/careers/internships",
+      "insight_programs_url": null,
+      "notes": "Official D. E. Shaw Group careers internships page."
     }
   ]
 }
