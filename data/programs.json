@@ -371,8 +371,8 @@
         "https://careeredge.bentley.edu/blog/2024/09/17/rbc-capital-markets-2024-2025-early-insight-programs-for-sophomores-apply-by-9-22-2/"
       ],
       "sightings": [],
-      "last_checked": "2026-08-12",
-      "notes": "Early-insight programs for first/second-year students (Discovery Day, Spring Insight, plus an LGBTQ+ Sophomore Insights track). 2024-25 cycle was live by 2024-09-17 with an apply-by of 2024-09-22 (career-center repost; month/September precision). Single sourced cycle -> medium. Prediction 2026-09-15 is the nearest Tuesday to the prior open; treat as approximate. This is an early-fall opener, so it is near-term. Checked 2026-08-10 (Monday sweep, stale-prediction revalidation): WebFetch blocked network-wide. No 2026-27-cycle announcement found yet; the existing predicted_open (2026-09-15) remains consistent with the prior cycle's ~Oct 10 deadline. No change. Checked 2026-08-12 (daily): WebFetch still blocked network-wide (rbccm.com, prosple.com both EGRESS_BLOCKED). WebSearch found only a prior/different-cohort RBC Discovery Day reference (Canadian program, grad Dec2025-Spring2026) and no 2026-27-cycle announcement for our program. Existing predicted_open (2026-09-15) unchanged, not yet in-window for a live posting.",
+      "last_checked": "2026-08-14",
+      "notes": "Early-insight programs for first/second-year students (Discovery Day, Spring Insight, plus an LGBTQ+ Sophomore Insights track). 2024-25 cycle was live by 2024-09-17 with an apply-by of 2024-09-22 (career-center repost; month/September precision). Single sourced cycle -> medium. Prediction 2026-09-15 is the nearest Tuesday to the prior open; treat as approximate. This is an early-fall opener, so it is near-term. Checked 2026-08-10 (Monday sweep, stale-prediction revalidation): WebFetch blocked network-wide. No 2026-27-cycle announcement found yet; the existing predicted_open (2026-09-15) remains consistent with the prior cycle's ~Oct 10 deadline. No change. Checked 2026-08-12 (daily): WebFetch still blocked network-wide (rbccm.com, prosple.com both EGRESS_BLOCKED). WebSearch found only a prior/different-cohort RBC Discovery Day reference (Canadian program, grad Dec2025-Spring2026) and no 2026-27-cycle announcement for our program. Existing predicted_open (2026-09-15) unchanged, not yet in-window for a live posting. Checked 2026-08-14: WebFetch still blocked network-wide. WebSearch confirms the 2026 Spring Insight Programmes cycle (prior cohort) has closed; RBC Pathways / LGBTQ+ Sophomore Insights / general Capital Markets Insights Program pages surfaced but no dated 2026-27-cycle open announcement found. Existing predicted_open (2026-09-15) unchanged, 32 days out -- in-window but not yet live.",
       "track": "IB"
     },
     {
@@ -2447,8 +2447,8 @@
         "https://www.spacex.com/careers/jobs/?type=intern"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-14",
+      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide (EGRESS_BLOCKED on spacex.com). WebSearch found live Summer/Spring 2027 SpaceX Greenhouse postings for Software Engineering, Engineering, and Business Operations internships/co-ops (first logged ~Aug 5-6, 2026), but no Data Science- or Machine Learning-titled posting located. Still unverified; watch for a DS/ML-specific title."
     },
     {
       "id": "google-2027-cf-internship",
@@ -2474,8 +2474,8 @@
         "https://www.google.com/about/careers/applications/students"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-14",
+      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch indicates Google's STEP/internship application window is short (2-3 weeks) and typically opens Sept-Oct 2026 for Summer 2027; not yet live as of this check. No live Corporate Finance internship posting found. Still unverified."
     },
     {
       "id": "google-2027-ds-internship",
@@ -2501,8 +2501,8 @@
         "https://www.google.com/about/careers/applications/students"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-14",
+      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch indicates Google's STEP/internship application window is short (2-3 weeks) and typically opens Sept-Oct 2026 for Summer 2027; not yet live as of this check. No live Data Science/ML internship posting found. Still unverified."
     },
     {
       "id": "amazon-2027-cf-internship",
@@ -2527,9 +2527,19 @@
       "sources": [
         "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students"
       ],
-      "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "sightings": [
+        {
+          "date": "2026-08-14",
+          "url": "https://www.amazon.jobs/en/jobs/10435672/2027-amazon-finance-rotation-program-business-unit-finance-intern",
+          "cycle": "Summer 2027",
+          "grad_years": [
+            2028
+          ],
+          "note": "'2027 Amazon Finance Rotation Program' live across three tracks (Business Unit Finance Intern Job ID 10435672, Accounting Intern 10435671, Operations Finance Rotational 10435673), Seattle/Arlington. Quote: 'currently enrolled in a Bachelor's degree program in finance, economics, accounting, business administration and management, or related field with a graduation conferral date between December 2027 and June 2028.' Despite target_summer=2027 nominally being this student's sophomore-summer cycle per the CF/DS clock, this specific rotation program requires near-graduation standing (rising seniors), not sophomores -- wrong cycle for a 2029 grad."
+        }
+      ],
+      "last_checked": "2026-08-14",
+      "notes": "Checked 2026-08-14: found live Amazon Finance Rotation Program postings; recorded as wrong-cycle sighting (grad Dec2027-June2028) -- see sightings. This is a near-graduation rotational program, not a sophomore-entry pipeline, despite the CF track's usual 'Summer 2027 = sophomore summer' assumption. No sophomore-eligible Amazon CF posting found this run."
     },
     {
       "id": "amazon-2027-ds-internship",
@@ -2555,8 +2565,8 @@
         "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-14",
+      "notes": "Checked 2026-08-14: found live 'Applied Science Intern (Machine Learning...)' postings (e.g. Job ID 10409671) and a '2026 Data Science Internship' posting, but both require PhD/MS enrollment ('Applicants must be enrolled in a PhD... MS or PhD required') -- not applicable to this undergrad profile at any cycle, so not recorded as a sighting (no timing-intel value; this is a permanently distinct graduate-only pipeline, not a cycle offset). No undergraduate-track DS/ML internship posting found for Amazon this run; watch for a distinct undergrad posting."
     },
     {
       "id": "exxonmobil-2027-cf-internship",
@@ -2582,8 +2592,8 @@
         "https://corporate.exxonmobil.com/careers/internship-opportunities"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-14",
+      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch aggregators conflict/are stale (references '2026 intern opportunities' as currently accepting, plus a general expectation that the Summer-2027 cycle opens 'August 2026' as fall campus recruiting begins) -- no dated, confirmed live 2027-cycle Finance posting located. Still unverified."
     },
     {
       "id": "exxonmobil-2027-ds-internship",
@@ -2609,8 +2619,8 @@
         "https://corporate.exxonmobil.com/careers/internship-opportunities"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-14",
+      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch aggregators conflict/are stale; no dated, confirmed live 2027-cycle Data Science posting located. Still unverified."
     },
     {
       "id": "capital-one-2027-cf-internship",
@@ -2623,21 +2633,21 @@
         "grad_years": [
           2029
         ],
-        "verified": false,
-        "source": null,
-        "quote": null
+        "verified": true,
+        "source": "https://www.capitalonecareers.com/job/mclean/analyst-early-internship-program-summer-2027/31238/99109660560",
+        "quote": "You must be in Sophomore Undergraduate Standing for the 2026-2027 academic year."
       },
       "historical_opens": {},
       "predicted_open": null,
       "confidence": "unverified",
-      "status": "unverified",
-      "application_url": null,
+      "status": "open",
+      "application_url": "https://www.capitalonecareers.com/job/mclean/analyst-early-internship-program-summer-2027/31238/99109660560",
       "sources": [
         "https://www.capitalonecareers.com/students"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-14",
+      "notes": "Found live 2026-08-14 via CF surprise-sweep search (Capital One is a weekly-cadence firm, not in this Friday's check set, but surfaced anyway per the step-3 'treat like a check-set hit' rule). The real posting is the Analyst Early Internship Program (AEIP), a 10-week sophomore pipeline at McLean, VA; program name here is a tracker placeholder. Class-standing quote maps directly to grad_year 2029 per profile.notes ('sophomore year 2026-27'). AEIP explicitly welcomes Finance/Business/Economics majors alongside Data Science/Statistics/CS -- see the matching DS-track entry (capital-one-2027-ds-internship), which shares this same posting."
     },
     {
       "id": "capital-one-2027-ds-internship",
@@ -2650,21 +2660,21 @@
         "grad_years": [
           2029
         ],
-        "verified": false,
-        "source": null,
-        "quote": null
+        "verified": true,
+        "source": "https://www.capitalonecareers.com/job/mclean/analyst-early-internship-program-summer-2027/31238/99109660560",
+        "quote": "You must be in Sophomore Undergraduate Standing for the 2026-2027 academic year."
       },
       "historical_opens": {},
       "predicted_open": null,
       "confidence": "unverified",
-      "status": "unverified",
-      "application_url": null,
+      "status": "open",
+      "application_url": "https://www.capitalonecareers.com/job/mclean/analyst-early-internship-program-summer-2027/31238/99109660560",
       "sources": [
         "https://www.capitalonecareers.com/students"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-14",
+      "notes": "Found live 2026-08-14 via DS surprise-sweep search (Capital One is a weekly-cadence firm, not in this Friday's check set, but surfaced anyway per the step-3 'treat like a check-set hit' rule). Same underlying posting as capital-one-2027-cf-internship: the Analyst Early Internship Program (AEIP), a 10-week sophomore pipeline at McLean, VA, explicitly listing Data Science and Statistics among welcomed majors alongside Finance/Business/Economics/CS. Class-standing quote maps directly to grad_year 2029 per profile.notes ('sophomore year 2026-27'). Separately, a distinct 'Current Master's - Data Science Internship' posting also exists at Capital One but requires Master's enrollment -- not applicable to this undergrad profile, not tracked here."
     },
     {
       "id": "american-express-2027-cf-internship",
@@ -3392,8 +3402,8 @@
         "https://www.anthropic.com/careers"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-14",
+      "notes": "Checked 2026-08-14: WebFetch blocked network-wide. WebSearch confirms Anthropic still offers no traditional student internship program. The Anthropic Fellows Program (4-month paid AI-safety research fellowship, rolling cohorts) and Claude Corps (full-time $85k placement role for people with <2 years experience) both exist, but neither is a student internship -- Fellows targets independent researchers and Claude Corps is a full-time post-grad placement, not a sophomore/undergrad summer internship. No change; still watching for a genuine internship program."
     }
   ]
 }
