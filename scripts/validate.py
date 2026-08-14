@@ -8,6 +8,12 @@ CONFIDENCES = {"high", "medium", "unverified"}
 STATUSES = {"predicted", "open", "closed", "unverified"}
 TYPES = {"SA", "insight"}
 SLOT_KEYS = {"t_minus_4w", "t_minus_1w", "t_day"}
+TRACKS = {"IB", "CF", "DS"}
+# Why a live posting could not be classified into open / wrong-cycle.
+QUESTION_REASONS = {"eligibility-unreadable", "no-quotable-line", "title-body-mismatch",
+                    "page-load-failed", "prediction-overdue", "unverified-seen-posted"}
+# Reasons that stem from an actual posting, and so must carry a clickable url.
+POSTING_REASONS = QUESTION_REASONS - {"prediction-overdue"}
 
 def err(errors, msg):
     errors.append(msg)
@@ -43,6 +49,7 @@ def main():
     progs_doc = load("data/programs.json")
     events_doc = load("data/bu-events.json")
     sync_doc = load("state/calendar-sync.json")
+    questions_doc = load("state/open-questions.json")
     if errors:
         print("\n".join(errors)); sys.exit(1)
 
@@ -178,9 +185,40 @@ def main():
         if not (isinstance(evid, str) and evid):
             err(errors, f"calendar-sync.json.bu_events[{eid}]: value must be a non-empty string")
 
+    # Open questions: live postings a run could not classify as open or wrong-cycle.
+    # They exist so nothing a run touched exits unreported.
+    question_ids = set()
+    questions_list = questions_doc.get("questions", [])
+    if not isinstance(questions_list, list):
+        err(errors, 'open-questions.json: "questions" must be a list')
+        questions_list = []
+    for q in questions_list:
+        qid = q.get("id", "<missing id>")
+        label = f"open-questions.json[{qid}]"
+        if qid in question_ids: err(errors, f"{label}: duplicate id")
+        question_ids.add(qid)
+        if q.get("firm_id") not in firm_ids:
+            err(errors, f"{label}: unknown firm_id {q.get('firm_id')!r}")
+        # null program_id is intentional: the sweep can find a live posting at a
+        # firm that has no program row yet.
+        if q.get("program_id") is not None and q.get("program_id") not in prog_ids:
+            err(errors, f"{label}: unknown program_id {q.get('program_id')!r}")
+        if q.get("track") not in TRACKS: err(errors, f"{label}: bad track {q.get('track')!r}")
+        reason = q.get("reason")
+        if reason not in QUESTION_REASONS: err(errors, f"{label}: bad reason {reason!r}")
+        if reason in POSTING_REASONS:
+            if not q.get("url"): err(errors, f"{label}: reason {reason!r} requires a url")
+            if not q.get("title"): err(errors, f"{label}: reason {reason!r} requires a title")
+        if not isinstance(q.get("resolved"), bool):
+            err(errors, f"{label}: resolved must be true or false")
+        check_date(errors, q.get("first_seen"), f"{label}.first_seen")
+        check_date(errors, q.get("last_seen"), f"{label}.last_seen")
+
     if errors:
         print("\n".join(errors)); sys.exit(1)
-    print(f"OK: {len(firm_ids)} firms, {len(prog_ids)} programs, {len(event_ids)} BU events")
+    unresolved = sum(1 for q in questions_list if not q.get("resolved"))
+    print(f"OK: {len(firm_ids)} firms, {len(prog_ids)} programs, {len(event_ids)} BU events, "
+          f"{unresolved} open questions")
     sys.exit(0)
 
 if __name__ == "__main__":

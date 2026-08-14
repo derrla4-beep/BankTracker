@@ -6,7 +6,7 @@ def run_validator(root):
     return subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "validate.py"), "--root", root],
                           capture_output=True, text=True)
 
-def make_fixture(firms, programs, events, sync):
+def make_fixture(firms, programs, events, sync, questions=None):
     d = tempfile.mkdtemp()
     os.makedirs(os.path.join(d, "data")); os.makedirs(os.path.join(d, "state"))
     json.dump({"firms": firms}, open(os.path.join(d, "data", "firms.json"), "w"))
@@ -14,6 +14,8 @@ def make_fixture(firms, programs, events, sync):
               open(os.path.join(d, "data", "programs.json"), "w"))
     json.dump({"events": events}, open(os.path.join(d, "data", "bu-events.json"), "w"))
     json.dump(sync, open(os.path.join(d, "state", "calendar-sync.json"), "w"))
+    json.dump({"questions": questions or []},
+              open(os.path.join(d, "state", "open-questions.json"), "w"))
     return d
 
 PROFILE = {"grad_year": 2029, "school": "Boston University", "notes": ""}
@@ -120,5 +122,67 @@ ok &= test("malformed sighting rejected", run_validator(d).returncode == 1); shu
 d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], {"programs": {}, "bu_events": {}})
 json.dump({"programs": [GOOD_PROG]}, open(os.path.join(d, "data", "programs.json"), "w"))
 ok &= test("missing profile rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+
+# --- open questions (never-silently-drop) ---
+# A live posting the run could not classify must be recorded here rather than
+# vanishing: it is neither promotable to "open" nor a wrong-cycle sighting.
+GOOD_QUESTION = {"id": "goldman-sachs-2028-sa-ib-2026-08-13",
+                 "firm_id": "goldman-sachs", "program_id": "goldman-sachs-2028-sa-ib",
+                 "track": "IB", "title": "2028 Summer Analyst",
+                 "url": "https://x.com/2028-sa", "reason": "no-quotable-line",
+                 "first_seen": "2026-08-13", "last_seen": "2026-08-13", "resolved": False}
+
+# 20. A well-formed open question is valid
+d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], {"programs": {}, "bu_events": {}}, [GOOD_QUESTION])
+ok &= test("open question accepted", run_validator(d).returncode == 0); shutil.rmtree(d)
+# 21. state/open-questions.json is required, like the other state files
+d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], {"programs": {}, "bu_events": {}})
+os.remove(os.path.join(d, "state", "open-questions.json"))
+ok &= test("missing open-questions.json rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 22. Question pointing at an unknown firm fails
+bad = dict(GOOD_QUESTION, firm_id="nonexistent")
+d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], {"programs": {}, "bu_events": {}}, [bad])
+ok &= test("open question unknown firm_id rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 23. Question pointing at an unknown program fails
+bad = dict(GOOD_QUESTION, program_id="nonexistent")
+d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], {"programs": {}, "bu_events": {}}, [bad])
+ok &= test("open question unknown program_id rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 24. program_id null is allowed: the sweep can find a live posting at a firm
+#     that has no program row yet (the Capital One case).
+nullprog = dict(GOOD_QUESTION, program_id=None)
+d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], {"programs": {}, "bu_events": {}}, [nullprog])
+ok &= test("open question null program_id accepted", run_validator(d).returncode == 0); shutil.rmtree(d)
+# 25. Duplicate question ids fail
+d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], {"programs": {}, "bu_events": {}},
+                 [GOOD_QUESTION, dict(GOOD_QUESTION)])
+ok &= test("duplicate open question ids rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 26. Bad date fails
+bad = dict(GOOD_QUESTION, first_seen="08/13/2026")
+d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], {"programs": {}, "bu_events": {}}, [bad])
+ok &= test("open question bad first_seen rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 27. Unknown reason fails
+bad = dict(GOOD_QUESTION, reason="just-because")
+d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], {"programs": {}, "bu_events": {}}, [bad])
+ok &= test("open question bad reason rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 28. A posting-backed reason must carry the url the user is meant to click
+bad = dict(GOOD_QUESTION, url=None)
+d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], {"programs": {}, "bu_events": {}}, [bad])
+ok &= test("open question missing url rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 29. prediction-overdue has no posting behind it, so null url/title is correct
+overdue = dict(GOOD_QUESTION, reason="prediction-overdue", url=None, title=None)
+d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], {"programs": {}, "bu_events": {}}, [overdue])
+ok &= test("prediction-overdue with null url accepted", run_validator(d).returncode == 0); shutil.rmtree(d)
+# 30. resolved must be a boolean
+bad = dict(GOOD_QUESTION, resolved="no")
+d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], {"programs": {}, "bu_events": {}}, [bad])
+ok &= test("open question non-boolean resolved rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 31. Bad track fails
+bad = dict(GOOD_QUESTION, track="BANKING")
+d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], {"programs": {}, "bu_events": {}}, [bad])
+ok &= test("open question bad track rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
+# 32. Wrong container type fails cleanly (not a crash)
+d = make_fixture([GOOD_FIRM], [GOOD_PROG], [], {"programs": {}, "bu_events": {}})
+json.dump({"questions": {}}, open(os.path.join(d, "state", "open-questions.json"), "w"))
+ok &= test("wrong questions container type rejected", run_validator(d).returncode == 1); shutil.rmtree(d)
 
 sys.exit(0 if ok else 1)

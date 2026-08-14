@@ -104,3 +104,39 @@
 ```
 - Keys are program/event ids from the data files. Missing key = no events created yet.
 - Any of the three alert slots may be absent (e.g., T−4w was already in the past at seed time).
+
+## state/open-questions.json
+```json
+{
+  "questions": [
+    {
+      "id": "capital-one-fap-2026-08-13",
+      "firm_id": "capital-one",
+      "program_id": null,
+      "track": "IB",
+      "title": "2028 Summer Analyst",
+      "url": "https://.../2028-summer-analyst",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-19",
+      "resolved": false
+    }
+  ]
+}
+```
+- A live posting a run could not classify as either `open` or a wrong-cycle
+  `sighting`. Exists so that nothing a run touched exits unreported — see the
+  three-door rule in `ROUTINE.md` step 4.
+- `reason`: `"eligibility-unreadable"` | `"no-quotable-line"` |
+  `"title-body-mismatch"` | `"page-load-failed"` | `"prediction-overdue"` |
+  `"unverified-seen-posted"`.
+- `url` and `title` are required for every reason except `"prediction-overdue"`,
+  which has no posting behind it and sets both to `null`.
+- `program_id` may be `null`: the sweep can find a live posting at a firm that
+  has no program row yet.
+- `track`: `"IB"` | `"CF"` | `"DS"`.
+- Recording one never changes `status`, `confidence`, `predicted_open`, or
+  `application_url`, and never creates a calendar event.
+- Entries are never deleted. Settle one by setting `resolved: true`; it stays as
+  history and drops out of the digest. Re-seeing an unresolved item updates
+  `last_seen`, never creates a second entry.

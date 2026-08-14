@@ -18,11 +18,17 @@ So liveness alone never justifies `status: "open"`. The test is: **does the post
 4. **When you find a live posting, before touching status: determine who it is for.** Read the posting's own class-year / graduation / eligibility line and quote it. Check the posting title too — a title beginning "2027 Summer Analyst" is the Summer 2027 cycle (2028 grads), not ours. If the page will not load the eligibility text, treat the cycle as unknown, not as a match.
    - **Eligible (a 2029 grad qualifies)** → set `status: "open"`, fill `application_url`, set `eligibility` to `{grad_years: [2029, ...], verified: true, source: <url>, quote: "<their words>"}`, and update the program's `t_day` calendar event (id in `state/calendar-sync.json`) — retitle to `🚨 LIVE — apply: <Firm> <program name>`, move it to today if its date differs, put the application URL first in the description. If the program has no `t_day` event, create one today and record the id. Report under 🚨 NEWLY OPEN.
    - **Wrong cycle / not eligible** → do **not** change `status`, `confidence`, `predicted_open`, or `application_url`, and create no calendar event. Append to the program's `sightings`: `{date, url, cycle: "Summer 2027", grad_years: [2028], note}`. Report under 👀 WRONG CYCLE. Do not re-report a sighting already recorded with the same url — it is not news twice.
-   - **Cycle unknown** → same as wrong cycle, but say so in the note and list it under ⚠️ NEEDS ATTENTION.
+   - **Cannot classify** (any of: the page will not load or is JS-blocked; there is no eligibility/class-year text at all; there is text but you cannot quote a line that settles the audience; the title's cycle and the body's eligibility contradict each other) → do **not** change `status`, `confidence`, `predicted_open`, or `application_url`, and create no calendar event. Record an **open question** in `state/open-questions.json` and report it under ⚠️ NEEDS ATTENTION.
+
+   **Three-door rule — the one thing this step must guarantee.** Every live posting you touch leaves through exactly one of three doors: promoted to `status: "open"`, recorded as a wrong-cycle `sighting`, or recorded as an open question. Never none of them. A posting that looks right but yields no quotable eligibility line is the dangerous case: the validator will correctly refuse to let it be `open`, and if you stop there it disappears from the run entirely and the student never learns it went live. That is a reporting failure, not a clean outcome. When in doubt, file the open question — over-reporting costs a line in the digest, under-reporting costs an application.
+
+   **Recording an open question.** Append to `state/open-questions.json`: `{id, firm_id, program_id, track: "IB", title, url, reason, first_seen: <today>, last_seen: <today>, resolved: false}`. `reason` is one of `eligibility-unreadable`, `no-quotable-line`, `title-body-mismatch`, `page-load-failed`, `prediction-overdue`, `unverified-seen-posted`. `program_id` may be `null` when the posting is at a firm with no program row yet — that is the case where a firm outside `programs.json` turns out to be recruiting, and it is worth surfacing loudly. `url` and `title` are required except for `prediction-overdue`, which has no posting behind it.
+
+   **On later runs**, if the same url is still unresolved, update its `last_seen` to today and report it again — do not create a second entry. When you do settle it (the page loads, the eligibility becomes readable, or it turns out to be wrong-cycle and you record a sighting), set `resolved: true` and drop it from the digest. Never delete entries; resolved ones stay as history.
 
    Wrong-cycle sightings are valuable, not noise: the date a firm's prior cycle opened is the best predictor of when ours opens. If you can source the prior cycle's *actual* open date (not merely the date you saw it), record it in `historical_opens` and use it to set `predicted_open` for our cycle, bumping `confidence` to `medium`. A date you merely observed as already-live is an upper bound — put it in the sighting note, never in `historical_opens`.
 5. When a firm's page shows the application closed: set `status: "closed"`.
-6. If a `"predicted"` program's date passes with no posting found, leave status `"predicted"` (it stays in-window) and note `"prediction overdue"` in `notes`.
+6. If a `"predicted"` program's date passes with no posting found, leave status `"predicted"` (it stays in-window), note `"prediction overdue"` in `notes`, and record an open question with `reason: "prediction-overdue"` (`url` and `title` null) so it keeps surfacing until the posting appears or the prediction is corrected.
 7. Load Google Calendar MCP tools with one ToolSearch call. Never create a duplicate event: always consult `calendar-sync.json` first and update by id.
 8. Run `python scripts/validate.py`; fix any errors you introduced. Then run `python scripts/build_dashboard.py` to rebuild `dashboard.html` from the JSON files — always, even on a run that changed nothing, so the "as of" date stays honest. Never hand-edit the `const DATA = ...;` line; edit the JSON and rebuild. Commit all changes: `git add -A && git commit -m "routine: update <date>" && git push`.
 
@@ -44,11 +50,13 @@ Format exactly:
 🎯 START NETWORKING (4-week window entered today/this week): <firm — program>, or "none"
 👀 WRONG CYCLE (intel only — do not apply): <firm — posting title — cycle — who it's for>, or "none"
 🏫 BU EVENTS ADDED/UPCOMING (7 days): <event — date>, or "none"
-⚠️ NEEDS ATTENTION: overdue predictions, unverified programs seen posted, pages that failed to load, or "none"
+⚠️ NEEDS ATTENTION: one line per unresolved open question — <firm — title — reason — url — (new) or (unresolved <N>d)>, or "none"
 ✅ RUN OK <date> — checked <N> in-window (<M> open, <P> predicted ≤35d), <U> unverified swept; next predicted open: <firm> <date> (T−<days>d); commit <sha7>
 ```
 
 Keep it under ~25 lines. No preamble. Only newly-recorded sightings go in 👀 WRONG CYCLE; never repeat one from a prior run. Nothing in 👀 WRONG CYCLE ever gets a calendar event.
+
+⚠️ NEEDS ATTENTION is the one exception to the line cap — list **every** unresolved open question, however long it runs. Items first seen today are tagged `(new)` and listed first; older ones are tagged `(unresolved <N>d)`, counting from `first_seen`. The age tag is what keeps a months-old unreadable page from reading as fresh news. Nothing in ⚠️ NEEDS ATTENTION ever gets a calendar event — the calendar means "this is real, act on it", the digest means "eyeball this".
 
 The ✅ RUN OK footer is mandatory on **every** run and is never "none" — it is the only thing that distinguishes a quiet run from a routine that died. A run where all six lines above are "none" is a normal outcome, not a failure: report it plainly and let the footer carry the proof of life. Fill `<N>/<M>/<P>` from the in-window set built in step 1, `<U>` from the Monday sweep (0 on Wed/Fri), and `<sha7>` from the commit you just pushed. If the run pushed no commit, write `commit none` rather than omitting the field.
 
@@ -67,6 +75,7 @@ The push is a headline, not the digest — the full digest stays as your final r
 ## Rules
 
 - Never fabricate a date or a posting. Uncertain → ⚠️ NEEDS ATTENTION.
+- Never let a live posting you touched go unreported. If it did not become `open` and did not become a `sighting`, it must be an open question. Silence is the one outcome that is always wrong.
 - Never mark a program `open` for a cycle a 2029 grad cannot apply to, and never mark one `open` without having read and quoted the posting's eligibility line. `scripts/validate.py` enforces both — if it rejects your change, the posting is the problem, not the validator. Do not widen `eligibility.grad_years` to make an error go away.
 - Never delete calendar events; only create/update via calendar-sync ids.
 - Before creating any NEW calendar event, search the calendar for an event with the identical title and date first; if one exists, adopt its id into calendar-sync.json instead of creating a duplicate. After every event creation, write calendar-sync.json to disk immediately, and commit state before ending the run even if later steps fail.
