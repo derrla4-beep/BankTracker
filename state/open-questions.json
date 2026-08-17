@@ -9,7 +9,67 @@
       "url": "https://careers.bankofamerica.com/en-us/students/job-detail/14422/finance-management-summer-analyst-program-2027-multiple-locations",
       "reason": "unverified-seen-posted",
       "first_seen": "2026-08-14",
-      "last_seen": "2026-08-14",
+      "last_seen": "2026-08-17",
+      "resolved": true
+    },
+    {
+      "id": "lincoln-international-2028-sa-ib-title-body-mismatch-2026-08-17",
+      "firm_id": "lincoln-international",
+      "program_id": "lincoln-international-2028-sa-ib",
+      "track": "IB",
+      "title": "UVA info session (Oct 7 2026): \"2028 Summer Analyst\" title but eligibility listed as Winter 2027/Spring 2028 grads",
+      "url": "https://career.virginia.edu/events/2026/10/07/uva-lincoln-international-information-session-investment-banking/",
+      "reason": "title-body-mismatch",
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "resolved": false
+    },
+    {
+      "id": "ge-aerospace-fmp-eligibility-2026-08-17",
+      "firm_id": "ge-aerospace",
+      "program_id": "ge-aerospace-2027-cf-internship",
+      "track": "CF",
+      "title": "Financial Management Program (FMP) Internship, Summer 2027 -- conflicting grad-year eligibility sources",
+      "url": "https://careers.geaerospace.com/global/en/fmp",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "resolved": false
+    },
+    {
+      "id": "microsoft-ds-second-year-2026-08-17",
+      "firm_id": "microsoft",
+      "program_id": "microsoft-2027-ds-internship",
+      "track": "DS",
+      "title": "Data Science Internship Opportunities: Second-Year Students (Job ID 1808941)",
+      "url": "https://jobs.careers.microsoft.com/global/en/job/1808941/Data-Science-Internship-Opportunities:-Second-Year-Students",
+      "reason": "page-load-failed",
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "resolved": false
+    },
+    {
+      "id": "palantir-fdse-eligibility-2026-08-17",
+      "firm_id": "palantir",
+      "program_id": "palantir-2027-ds-internship",
+      "track": "DS",
+      "title": "Year at Palantir (FDSE) -- sophomore-eligible per description but DS-fit and exact eligibility text unconfirmed",
+      "url": "https://www.palantir.com/students/path/",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "resolved": false
+    },
+    {
+      "id": "imc-trading-ml-research-intern-2026-08-17",
+      "firm_id": "imc-trading",
+      "program_id": null,
+      "track": "DS",
+      "title": "Machine Learning Research Intern, Summer 2027 (Chicago & Amsterdam) -- PhD-only, new firm",
+      "url": "https://www.imc.com/us/careers/jobs/4907430101",
+      "reason": "unverified-seen-posted",
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
       "resolved": false
     }
   ]

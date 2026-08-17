@@ -44,9 +44,10 @@
       "insight_programs_url": null,
       "notes": "Diversity Insight programs for freshmen/sophomores; no dedicated stable URL, applied via campus site.",
       "tracks": [
-        "IB"
+        "IB",
+        "CF"
       ],
-      "sweep_cadence": null
+      "sweep_cadence": "weekly"
     },
     {
       "id": "citi",
@@ -906,6 +907,30 @@
       "careers_url": "https://www.anthropic.com/careers",
       "insight_programs_url": null,
       "notes": "No internship program as of 2026-08-13 — careers FAQ states \"We don't currently offer internships.\" Watched so the tracker catches the change if that reverses."
+    },
+    {
+      "id": "imc-trading",
+      "name": "IMC Trading",
+      "tier": null,
+      "careers_url": "https://www.imc.com/us/careers/students-graduates/internships",
+      "insight_programs_url": null,
+      "notes": "Proprietary trading firm. Found via 2026-08-17 CF/DS surprise sweep with a live PhD-only Machine Learning Research Intern posting -- not eligible for an undergraduate sophomore. Flagged as an open question for triage rather than discarded.",
+      "tracks": [
+        "DS"
+      ],
+      "sweep_cadence": "weekly"
+    },
+    {
+      "id": "federal-reserve-bank-of-new-york",
+      "name": "Federal Reserve Bank of New York",
+      "tier": null,
+      "careers_url": "https://www.newyorkfed.org/careers/student-programs-and-internships",
+      "insight_programs_url": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program",
+      "notes": "Central bank, not a commercial/investment bank in the recruiting-track sense. Runs an explicitly sophomore-designed 8-week Sophomore Career Exploration Program (Policy, Operations & Resiliency, Technology, Communications & Outreach tracks) feeding its junior-year pipeline. Found via 2026-08-17 CF/DS surprise sweep.",
+      "tracks": [
+        "CF"
+      ],
+      "sweep_cadence": "weekly"
     }
   ]
 }

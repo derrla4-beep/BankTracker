@@ -29,8 +29,8 @@
         "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/possibilities-series"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "GS's sophomore-tier insight/diversity summit (the Possibilities Series is the first-year program and its 2025-26 cycle is already closed). Class-of-2029 sophomores should apply here for the 2026-27 cycle. Diversity-oriented (Black, Hispanic/Latinx, Native American, LGBTQ+, women). No clean historical open date located; watch the Emerging Leaders Series page. Diversity eligibility restrictions may apply. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide this run (EGRESS_BLOCKED on every domain attempted, confirmed across multiple agents); WebSearch synthesis suggests next cycle opens 'fall 2026' for students graduating Dec 2028-June 2029 (Class of 2029) -- plausible fit but UNVERIFIED, no primary-source quote obtained. A separate search snippet describing a '2027 Summer Analyst Program' as Class-of-2029-eligible is almost certainly a summarizer conflation of two different pages and should be disregarded. Re-verify once direct page access is restored.",
+      "last_checked": "2026-08-17",
+      "notes": "GS's sophomore-tier insight/diversity summit (the Possibilities Series is the first-year program and its 2025-26 cycle is already closed). Class-of-2029 sophomores should apply here for the 2026-27 cycle. Diversity-oriented (Black, Hispanic/Latinx, Native American, LGBTQ+, women). No clean historical open date located; watch the Emerging Leaders Series page. Diversity eligibility restrictions may apply. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide this run (EGRESS_BLOCKED on every domain attempted, confirmed across multiple agents); WebSearch synthesis suggests next cycle opens 'fall 2026' for students graduating Dec 2028-June 2029 (Class of 2029) -- plausible fit but UNVERIFIED, no primary-source quote obtained. A separate search snippet describing a '2027 Summer Analyst Program' as Class-of-2029-eligible is almost certainly a summarizer conflation of two different pages and should be disregarded. Re-verify once direct page access is restored. Checked 2026-08-17 (Monday sweep): WebFetch still blocked. WebSearch snippet synthesis of GS's own Emerging Leaders Series page describes eligibility as students \"graduating between December 2028 and June 2029\" -- if accurate, that IS our Class of 2029. However this is a search-engine paraphrase, not a verbatim quote read off the live page (WebFetch blocked), so NOT promoted or recorded as eligibility.quote per the no-fabrication rule. Applications for this cycle are reported to open \"fall 2026\" -- not live yet regardless. Re-verify verbatim once direct page access is restored; this is the strongest lead in the IB insight-program batch.",
       "track": "IB"
     },
     {
@@ -47,18 +47,30 @@
         "source": null,
         "quote": null
       },
-      "historical_opens": {},
-      "predicted_open": null,
-      "confidence": "unverified",
-      "status": "unverified",
+      "historical_opens": {
+        "2026": "2026-02-01"
+      },
+      "predicted_open": "2027-02-01",
+      "confidence": "medium",
+      "status": "predicted",
       "application_url": null,
       "sources": [
         "https://www.morganstanley.com/people-opportunities/students-graduates",
         "https://nuplace.northeastern.edu/pipeline-programs/morgan-stanley-revenue-early-insights-program/"
       ],
-      "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Virtual multi-session series for freshmen/sophomores that feeds the first stage of Summer Analyst recruiting. Secondary sources indicate prior cycles opened roughly Feb-Mar; no dated primary source for an open date found, so left unverified with the careers page as a watch target. Targets underrepresented populations (Black, female, Hispanic/Latinx, LGBTQ+). Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Conflicting unverified WebSearch signals (a Feb-Mar 2026 open window vs. an Oct 23 deadline tied to a Dec2027-June2028 cohort, likely a different MS 'Early Insights' track/school). No live 2026-27 cycle confirmed. Still unverified.",
+      "sightings": [
+        {
+          "date": "2026-08-17",
+          "url": "https://www.morganstanley.com/people-opportunities/emea-early-insight-faq",
+          "cycle": "Class of 2028 cycle (applications opened Feb-Mar 2026)",
+          "grad_years": [
+            2028
+          ],
+          "note": "Most recent Early Insights cycle targeted second-years graduating Dec 2027-June 2028 (Class of 2028) -- one cycle ahead of our Class-of-2029 target, confirming the program runs annually. Used as the historical anchor to predict our cycle's open date."
+        }
+      ],
+      "last_checked": "2026-08-17",
+      "notes": "Virtual multi-session series for freshmen/sophomores that feeds the first stage of Summer Analyst recruiting. Secondary sources indicate prior cycles opened roughly Feb-Mar; no dated primary source for an open date found, so left unverified with the careers page as a watch target. Targets underrepresented populations (Black, female, Hispanic/Latinx, LGBTQ+). Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Conflicting unverified WebSearch signals (a Feb-Mar 2026 open window vs. an Oct 23 deadline tied to a Dec2027-June2028 cohort, likely a different MS 'Early Insights' track/school). No live 2026-27 cycle confirmed. Still unverified. Checked 2026-08-17 (Monday sweep): promoted unverified -> predicted. Historical anchor: most recent cycle (Class of 2028) opened Feb-Mar 2026 per Morgan Stanley's own EMEA Early Insight FAQ page (month-precision only, no exact day). predicted_open set to 2027-02-01 (same month one year later); single sourced cycle -> confidence medium. Class-of-2029 cycle itself not yet live.",
       "track": "IB"
     },
     {
@@ -85,8 +97,8 @@
         "https://www.morganstanley.com/people-opportunities/students-graduates"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Diversity-only: open to Black, Hispanic, Native American and LGBT sophomores/juniors (min 3.0 GPA). $15,000 scholarship + summer internship; applied for by indicating eligibility on the Summer Analyst application. Opens on the Summer Analyst app timeline (sophomore spring). No dated open source found; watch careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide; no dated 2026-27 cycle found via WebSearch. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Diversity-only: open to Black, Hispanic, Native American and LGBT sophomores/juniors (min 3.0 GPA). $15,000 scholarship + summer internship; applied for by indicating eligibility on the Summer Analyst application. Opens on the Summer Analyst app timeline (sophomore spring). No dated open source found; watch careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide; no dated 2026-27 cycle found via WebSearch. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. No standalone application exists -- eligibility (RBF Scholarship) is indicated on the general Morgan Stanley Summer Analyst application. No separate 2027-cycle posting or eligibility-year statement found. Still unverified.",
       "track": "IB"
     },
     {
@@ -112,8 +124,8 @@
         "https://careers.jpmorgan.com/global/en/students/programs/spring-insights"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Early-insight week for freshmen/sophomores across lines of business. No dated open source located; watch the Spring Insights program page. Open to all (not diversity-restricted). Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Only found a UK-market 'Spring into JPMorganChase 2026' instance (deadline Nov 2 2025, already closed) -- unclear if this is the same program as the US Spring Insight Week this entry tracks. No US 2027-cycle date found. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Early-insight week for freshmen/sophomores across lines of business. No dated open source located; watch the Spring Insights program page. Open to all (not diversity-restricted). Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Only found a UK-market 'Spring into JPMorganChase 2026' instance (deadline Nov 2 2025, already closed) -- unclear if this is the same program as the US Spring Insight Week this entry tracks. No US 2027-cycle date found. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Could not confirm a live US undergraduate Spring Insight Week posting with explicit Class-of-2029 eligibility language; search surfaced only UK/EMEA Spring Insight programs and generic Early Insight descriptions. Official hub: jpmorganchase.com/careers/.../spring-insights. Still unverified.",
       "track": "IB"
     },
     {
@@ -170,8 +182,8 @@
         "https://careers.jpmorgan.com/global/en/students"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Women-focused two-day early-insight conference (overviews + interviews) with consideration for internship opportunities. No dated open source located; watch JPM students careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide; no dated info found. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Women-focused two-day early-insight conference (overviews + interviews) with consideration for internship opportunities. No dated open source located; watch JPM students careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide; no dated info found. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Search results conflated an MBA \"Winning Women\" event with the separate undergrad \"Winning Women Undergrad\" program; no eligibility grad-year or live/closed status confirmed for the undergrad track. Still unverified.",
       "track": "IB"
     },
     {
@@ -257,8 +269,8 @@
         "https://search.jobs.barclays/discovery"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Sophomore Springboard event plus the Discovery Programme (open to students ~2 years from graduation), both feeding internship consideration. No dated open source located; watch the Springboard sign-up and Discovery pages. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Found live Discovery Programme role postings for the 2026 cycle (deadlines Mar-Apr 2026, already closed) but no Sophomore Springboard or 2027-cycle Discovery Programme info. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Sophomore Springboard event plus the Discovery Programme (open to students ~2 years from graduation), both feeding internship consideration. No dated open source located; watch the Springboard sign-up and Discovery pages. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Found live Discovery Programme role postings for the 2026 cycle (deadlines Mar-Apr 2026, already closed) but no Sophomore Springboard or 2027-cycle Discovery Programme info. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Barclays' sophomore-facing offering appears to be the Discovery Programme. Last known cycle: \"Sophomore status, graduating between December 2026 and June 2027\" (Class of 2027, wrong cycle, and stale -- in-person dates were March/April 2026, already past). No new cycle found live. Still unverified.",
       "track": "IB"
     },
     {
@@ -285,8 +297,8 @@
         "https://www.wayup.com/i-Financial-Services-j-dbAchieve-Internship-Multiple-Programs-Deutsche-Bank-165280197196180/"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "dbAchieve is DB's selective sophomore insight/internship program; DB also runs a 'Develop with Deutsche Bank' 2-day experience (Nov & Mar). No dated open source located; watch the US Insight Programmes page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide; no dated 2026-27 cycle found (only a stale 2019 reference surfaced). Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "dbAchieve is DB's selective sophomore insight/internship program; DB also runs a 'Develop with Deutsche Bank' 2-day experience (Nov & Mar). No dated open source located; watch the US Insight Programmes page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide; no dated 2026-27 cycle found (only a stale 2019 reference surfaced). Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. dbAchieve confirmed as \"exclusively for sophomores,\" 8-week internship requiring resume + 500-word diversity essay, but no explicit grad-year eligibility or open/closed status found. Still unverified.",
       "track": "IB"
     },
     {
@@ -313,8 +325,8 @@
         "https://www.wallstreetoasis.com/forum/investment-banking/ubs-sophomore-internships"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "UBS runs a sophomore-focused early-insight/diversity pathway ('Tomorrow's Talent') that feeds Summer Analyst interviews. Secondary sources suggest prior diversity-pathway apps opened ~Jan-Feb; no dated primary source, so left unverified. Watch early-careers page. Checked 2026-08-03 (Monday sweep): search results for the UBS \"Tomorrow's Talent - Investment Banking Insights Day\" track state eligibility as students \"graduating between December 2027 and June 2028\" (Class of 2028, a year too early for this 2029-grad student) - possibly a different track than the general Tomorrow's Talent sophomore pathway this entry assumes. Primary source could not be fetched (blocked). NEEDS ATTENTION: confirm which UBS track (if any) actually admits Class of 2029 sophomores. Checked 2026-08-10 (Monday sweep): WebFetch still blocked. Multiple independent university career-center listings (Rutgers, Amherst, UCLA, Cornell) confirm the 2026 'Tomorrow's Talent...Insights Day' event ran Jan 22 2026 with eligibility 'graduating between December 2027 and June 2028' (Class of 2028) -- reinforces the prior concern. No UBS sophomore track found with Class-of-2029 eligibility. NEEDS ATTENTION persists: this program may not be applicable and should be re-scoped or retired absent contrary evidence.",
+      "last_checked": "2026-08-17",
+      "notes": "UBS runs a sophomore-focused early-insight/diversity pathway ('Tomorrow's Talent') that feeds Summer Analyst interviews. Secondary sources suggest prior diversity-pathway apps opened ~Jan-Feb; no dated primary source, so left unverified. Watch early-careers page. Checked 2026-08-03 (Monday sweep): search results for the UBS \"Tomorrow's Talent - Investment Banking Insights Day\" track state eligibility as students \"graduating between December 2027 and June 2028\" (Class of 2028, a year too early for this 2029-grad student) - possibly a different track than the general Tomorrow's Talent sophomore pathway this entry assumes. Primary source could not be fetched (blocked). NEEDS ATTENTION: confirm which UBS track (if any) actually admits Class of 2029 sophomores. Checked 2026-08-10 (Monday sweep): WebFetch still blocked. Multiple independent university career-center listings (Rutgers, Amherst, UCLA, Cornell) confirm the 2026 'Tomorrow's Talent...Insights Day' event ran Jan 22 2026 with eligibility 'graduating between December 2027 and June 2028' (Class of 2028) -- reinforces the prior concern. No UBS sophomore track found with Class-of-2029 eligibility. NEEDS ATTENTION persists: this program may not be applicable and should be re-scoped or retired absent contrary evidence. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Most recent Tomorrow's Talent postings found state eligibility as \"sophomores graduating between December 2026 and June 2027\" -- Class of 2027, wrong cycle. No 2029-grad cycle posting found live. Still unverified.",
       "track": "IB"
     },
     {
@@ -341,8 +353,8 @@
         "https://www.wallstreetoasis.com/forum/investment-banking/wells-fargo-corporate-investment-banking-sophomore-diversity-summit"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Diversity-oriented sophomore summit / Diversity Early Insights feeding early interview consideration ahead of the general application. No dated open source located; watch early-careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Found a related but distinct 'Divine Opportunities at Wells Fargo Summit' (sophomores/juniors, grad Dec2026-June2028) -- broader cohort than expected; unclear if same program. No confirmed live 2026-27 cycle. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Diversity-oriented sophomore summit / Diversity Early Insights feeding early interview consideration ahead of the general application. No dated open source located; watch early-careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Found a related but distinct 'Divine Opportunities at Wells Fargo Summit' (sophomores/juniors, grad Dec2026-June2028) -- broader cohort than expected; unclear if same program. No confirmed live 2026-27 cycle. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Most recent CIB Equity & Inclusion Summit cycle (registration closed Jan 27 2025) required \"expected graduation between December 2026-June 2027\" -- wrong cycle and stale. No new posting found. Still unverified.",
       "track": "IB"
     },
     {
@@ -371,8 +383,8 @@
         "https://careeredge.bentley.edu/blog/2024/09/17/rbc-capital-markets-2024-2025-early-insight-programs-for-sophomores-apply-by-9-22-2/"
       ],
       "sightings": [],
-      "last_checked": "2026-08-14",
-      "notes": "Early-insight programs for first/second-year students (Discovery Day, Spring Insight, plus an LGBTQ+ Sophomore Insights track). 2024-25 cycle was live by 2024-09-17 with an apply-by of 2024-09-22 (career-center repost; month/September precision). Single sourced cycle -> medium. Prediction 2026-09-15 is the nearest Tuesday to the prior open; treat as approximate. This is an early-fall opener, so it is near-term. Checked 2026-08-10 (Monday sweep, stale-prediction revalidation): WebFetch blocked network-wide. No 2026-27-cycle announcement found yet; the existing predicted_open (2026-09-15) remains consistent with the prior cycle's ~Oct 10 deadline. No change. Checked 2026-08-12 (daily): WebFetch still blocked network-wide (rbccm.com, prosple.com both EGRESS_BLOCKED). WebSearch found only a prior/different-cohort RBC Discovery Day reference (Canadian program, grad Dec2025-Spring2026) and no 2026-27-cycle announcement for our program. Existing predicted_open (2026-09-15) unchanged, not yet in-window for a live posting. Checked 2026-08-14: WebFetch still blocked network-wide. WebSearch confirms the 2026 Spring Insight Programmes cycle (prior cohort) has closed; RBC Pathways / LGBTQ+ Sophomore Insights / general Capital Markets Insights Program pages surfaced but no dated 2026-27-cycle open announcement found. Existing predicted_open (2026-09-15) unchanged, 32 days out -- in-window but not yet live.",
+      "last_checked": "2026-08-17",
+      "notes": "Early-insight programs for first/second-year students (Discovery Day, Spring Insight, plus an LGBTQ+ Sophomore Insights track). 2024-25 cycle was live by 2024-09-17 with an apply-by of 2024-09-22 (career-center repost; month/September precision). Single sourced cycle -> medium. Prediction 2026-09-15 is the nearest Tuesday to the prior open; treat as approximate. This is an early-fall opener, so it is near-term. Checked 2026-08-10 (Monday sweep, stale-prediction revalidation): WebFetch blocked network-wide. No 2026-27-cycle announcement found yet; the existing predicted_open (2026-09-15) remains consistent with the prior cycle's ~Oct 10 deadline. No change. Checked 2026-08-12 (daily): WebFetch still blocked network-wide (rbccm.com, prosple.com both EGRESS_BLOCKED). WebSearch found only a prior/different-cohort RBC Discovery Day reference (Canadian program, grad Dec2025-Spring2026) and no 2026-27-cycle announcement for our program. Existing predicted_open (2026-09-15) unchanged, not yet in-window for a live posting. Checked 2026-08-14: WebFetch still blocked network-wide. WebSearch confirms the 2026 Spring Insight Programmes cycle (prior cohort) has closed; RBC Pathways / LGBTQ+ Sophomore Insights / general Capital Markets Insights Program pages surfaced but no dated 2026-27-cycle open announcement found. Existing predicted_open (2026-09-15) unchanged, 32 days out -- in-window but not yet live. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. WebSearch found only wrong-cycle RBC programs -- \"Capital Markets Insights Program\" (deadline already passed, eligibility \"graduating between December 2027 and June 2028\") and \"Pathways\" (eligibility \"graduating between December 2026 and June 2027\") -- neither matches this tracked Discovery Day/Spring Insight entry's Class-of-2029 cycle, and neither is confirmed to be this same program under a different name. No live posting found for our cycle. predicted_open (2026-09-15) unchanged, 29 days out, in-window but not yet live.",
       "track": "IB"
     },
     {
@@ -399,8 +411,8 @@
         "https://www.wallstreetoasis.com/forum/investment-banking/evercore-diversity-events"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Diversity-oriented: Sophomore Diversity Leadership Summit and an invite-only Women's Sophomore Symposium; pipeline to first-round IB interviews (~March). A separate Evercore Diversity Scholarship ($15k + SA offer) opens ~February. No dated open source located; watch US students & graduates page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide; no dated 2026-27 cycle confirmed (only undated historical flyer references). Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Diversity-oriented: Sophomore Diversity Leadership Summit and an invite-only Women's Sophomore Symposium; pipeline to first-round IB interviews (~March). A separate Evercore Diversity Scholarship ($15k + SA offer) opens ~February. No dated open source located; watch US students & graduates page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide; no dated 2026-27 cycle confirmed (only undated historical flyer references). Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Best data found was for a Women's Sophomore Symposium cohort \"graduating between December 2025 and Spring 2026\" -- multiple cycles old. No current posting located. Still unverified.",
       "track": "IB"
     },
     {
@@ -427,8 +439,8 @@
         "https://www.wallstreetoasis.com/forum/investment-banking/lazard-sophomore-diversity-program"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Diversity-only: invite-only sophomore diversity day and a Sophomore Women's Event (Black, Hispanic/LatinX, Native American, LGBTQ, Veteran sophomores; min 3.0 GPA). No dated open source located; watch students careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide; no reliable dated info found. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Diversity-only: invite-only sophomore diversity day and a Sophomore Women's Event (Black, Hispanic/LatinX, Native American, LGBTQ, Veteran sophomores; min 3.0 GPA). No dated open source located; watch students careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide; no reliable dated info found. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Only historical (2021) event details found (undergraduate women in sophomore year, 3.0 GPA min, invite-only). Nothing indicating a live 2026-27 posting. Still unverified.",
       "track": "IB"
     },
     {
@@ -455,8 +467,8 @@
         "https://www.moelis.com/wp-content/uploads/2024/10/2025-Leadership-Development-Program-LDP.pdf"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Sophomore day-program (successor to the Young Leaders Diversity Program) intended to broaden the applicant pool from underrepresented groups but open to all. Prior deadlines fell in mid-January; the 2025 LDP flyer was posted Oct 2024. No clean open date, left unverified; watch the explore-opportunities page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Most recent confirmed cycle (2025 LDP, for Class of 2027) had an Oct 31 2024 deadline -- consistent with an annual Oct/Nov-Jan window; the Class-of-2029-relevant cycle likely hasn't opened yet. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Sophomore day-program (successor to the Young Leaders Diversity Program) intended to broaden the applicant pool from underrepresented groups but open to all. Prior deadlines fell in mid-January; the 2025 LDP flyer was posted Oct 2024. No clean open date, left unverified; watch the explore-opportunities page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Most recent confirmed cycle (2025 LDP, for Class of 2027) had an Oct 31 2024 deadline -- consistent with an annual Oct/Nov-Jan window; the Class-of-2029-relevant cycle likely hasn't opened yet. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Most recent LDP flyer targets \"graduation date between December 2026 and May 2027\" -- wrong cycle, and that program has already run. No 2029-cycle posting found. Still unverified.",
       "track": "IB"
     },
     {
@@ -483,8 +495,8 @@
         "https://www.wallstreetoasis.com/forum/investment-banking/pwp-global-advisory-diversity-prep-program-2021"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Diversity-only flagship early-insight program for women and underrepresented minorities (Black, Hispanic/Latino, Native American, LGBTQ+), run in sophomore spring as the primary summer-internship feeder. Monitor careers page starting Dec/Jan. No dated open source located. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Found only a 2026 Europe Advisory Diversity Prep Program (deadline Jan 3 2026, already closed, different region). No US 2027-cycle info found. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Diversity-only flagship early-insight program for women and underrepresented minorities (Black, Hispanic/Latino, Native American, LGBTQ+), run in sophomore spring as the primary summer-internship feeder. Monitor careers page starting Dec/Jan. No dated open source located. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Found only a 2026 Europe Advisory Diversity Prep Program (deadline Jan 3 2026, already closed, different region). No US 2027-cycle info found. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Most recent US Advisory Prep Program eligibility: \"graduating between December 2026-June 2027\" -- wrong cycle. A 2026 Europe Advisory Diversity Prep Program posting exists but is EMEA, not US. No US posting found for 2029 grads. Still unverified.",
       "track": "IB"
     },
     {
@@ -511,8 +523,8 @@
         "https://pjtpartners.wd1.myworkdayjobs.com/Students"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Diversity-only sophomore program for underrepresented backgrounds; acceptance typically fast-tracks candidates past first-round technicals. Prior cycles opened ~Dec/Jan. No dated open source located; watch the Students page / Workday board. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Aggregator sources (getsmartresume, extern) say the next cycle 'isn't expected to open until early 2027 (~Dec 2026-Feb 2027)' -- unconfirmed estimate, not a firm-issued date. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Diversity-only sophomore program for underrepresented backgrounds; acceptance typically fast-tracks candidates past first-round technicals. Prior cycles opened ~Dec/Jan. No dated open source located; watch the Students page / Workday board. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Aggregator sources (getsmartresume, extern) say the next cycle 'isn't expected to open until early 2027 (~Dec 2026-Feb 2027)' -- unconfirmed estimate, not a firm-issued date. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Confirmed PJT Forward exists as a sophomore diversity pipeline (alternative entry point bypassing target-school screens), but no eligibility grad-year or live-application-status details surfaced. Still unverified.",
       "track": "IB"
     },
     {
@@ -539,8 +551,8 @@
         "https://viterbicareers.usc.edu/wp-content/uploads/2024/11/Rothschild-Co-Sophomore-Womens-Program.pdf"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "US Global Advisory Sophomore Leadership Program (SLP) plus a Sophomore Women's Program (SWP) — an immersion with January in-person programming in NYC. SWP deadline was ~Nov 24 in the 2024-25 cycle; no clean open date, left unverified. Watch the opportunities page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Duke's career hub currently shows a '2026 Sophomore Leadership Program' listing (i.e. last cycle, not yet a 2027-cycle posting). No reliable new date found. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "US Global Advisory Sophomore Leadership Program (SLP) plus a Sophomore Women's Program (SWP) — an immersion with January in-person programming in NYC. SWP deadline was ~Nov 24 in the 2024-25 cycle; no clean open date, left unverified. Watch the opportunities page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Duke's career hub currently shows a '2026 Sophomore Leadership Program' listing (i.e. last cycle, not yet a 2027-cycle posting). No reliable new date found. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Most recent Sophomore Leadership Program (deadline Nov 20 2025) eligibility cited as \"Class of 2027\" -- wrong cycle -- leading to a 2027 Summer Analyst interview. No 2029-eligible cycle found live yet. Still unverified.",
       "track": "IB"
     },
     {
@@ -567,8 +579,8 @@
         "https://careerdevelopment.princeton.edu/events/centerview-partners-early-insights-meet-greet"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Early Insights program open to first-years/sophomores/juniors, encouraging Black, Latinx and Native American students interested in finance; runs coffee chats and diversity meetups. No dated open source located; watch careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Aggregators describe recruiting concentrated in 'sophomore spring' (Jan-Mar) for the Summer-2027 class -- that window has passed; no info on the Class-of-2029-relevant cycle. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Early Insights program open to first-years/sophomores/juniors, encouraging Black, Latinx and Native American students interested in finance; runs coffee chats and diversity meetups. No dated open source located; watch careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Aggregators describe recruiting concentrated in 'sophomore spring' (Jan-Mar) for the Summer-2027 class -- that window has passed; no info on the Class-of-2029-relevant cycle. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. The 2026 recruitment cycle has already closed as of August 2026 (ran Jan 5-early Mar 2026, targeting Summer 2027 analysts). Centerview's sophomore programming is largely invite-only/non-public, so a new cycle would not be publicly posted yet regardless. Still unverified.",
       "track": "IB"
     },
     {
@@ -595,8 +607,8 @@
         "https://x.com/GuggenheimPtnrs/status/1894429805505823185"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Diversity-oriented sophomore program (Fostering Opportunity, Collaboration and Upward Success): virtual programming + NYC networking reception and interviews for the Summer Analyst class. Targets Black, Hispanic/Latinx, Native American, LGBTQ+ and students with disabilities. The annual event ran ~Feb (2025); no clean open date, left unverified. Watch careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide except a readable tweet -- an official Guggenheim Partners tweet (x.com/GuggenheimPtnrs/status/1985435943138930909) confirms a FOCUS Program application deadline of 'Monday, November 10' (decoded from the tweet timestamp as Nov 10 2025), already closed. No 2026-cycle posting found yet. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Diversity-oriented sophomore program (Fostering Opportunity, Collaboration and Upward Success): virtual programming + NYC networking reception and interviews for the Summer Analyst class. Targets Black, Hispanic/Latinx, Native American, LGBTQ+ and students with disabilities. The annual event ran ~Feb (2025); no clean open date, left unverified. Watch careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide except a readable tweet -- an official Guggenheim Partners tweet (x.com/GuggenheimPtnrs/status/1985435943138930909) confirms a FOCUS Program application deadline of 'Monday, November 10' (decoded from the tweet timestamp as Nov 10 2025), already closed. No 2026-cycle posting found yet. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Prior FOCUS cohort eligibility was \"graduating December 2027 or May 2028\" -- wrong cycle. Next cycle projected (unofficially) to open \"Summer-Fall 2026\" -- not confirmed live as of 8/17/26. Still unverified.",
       "track": "IB"
     },
     {
@@ -623,8 +635,8 @@
         "https://www.raymondjames.com/-/media/rj/dotcom/files/careers/students-and-recent-grads/sophomore_opportunities_flier.pdf"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Sophomore suite: IB Insights Bootcamp (virtual sessions granting early access to the Summer Analyst app; secondary sources say it opens ~Sept with an Oct deadline, rolling), plus Sophomore Showcase and Diversity Fast Track (deadline ~Mar 1). No dated primary open source, so left unverified; watch the Sophomore Opportunities page. This is likely an early-fall opener. Checked 2026-08-03 (Monday sweep): secondary aggregator (extern.com) states IB Insights Bootcamp eligibility as \"graduating between December 2027 and June 2028\" (i.e. Class of 2028, NOT this student's 2029 grad year) - conflicts with this entry's assumed eligibility.grad_years=[2029]. Primary source (raymondjames.com/careers/students-and-recent-grads/sophomore-opportunities) returned 403 on fetch, so this could not be confirmed against the firm's own wording. NEEDS ATTENTION: verify actual eligibility before this program is treated as applicable. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide (raymondjames.com still inaccessible). A secondary source (extern.com) reproduces IB Insights Bootcamp eligibility as 'must be enrolled in an accredited U.S. university and graduating between December 2027 and June 2028' -- reinforces the prior concern that this track targets Class of 2028, not 2029. Not primary-source-confirmed (no direct fetch possible this run). NEEDS ATTENTION persists: verify directly once page access is restored before treating as applicable.",
+      "last_checked": "2026-08-17",
+      "notes": "Sophomore suite: IB Insights Bootcamp (virtual sessions granting early access to the Summer Analyst app; secondary sources say it opens ~Sept with an Oct deadline, rolling), plus Sophomore Showcase and Diversity Fast Track (deadline ~Mar 1). No dated primary open source, so left unverified; watch the Sophomore Opportunities page. This is likely an early-fall opener. Checked 2026-08-03 (Monday sweep): secondary aggregator (extern.com) states IB Insights Bootcamp eligibility as \"graduating between December 2027 and June 2028\" (i.e. Class of 2028, NOT this student's 2029 grad year) - conflicts with this entry's assumed eligibility.grad_years=[2029]. Primary source (raymondjames.com/careers/students-and-recent-grads/sophomore-opportunities) returned 403 on fetch, so this could not be confirmed against the firm's own wording. NEEDS ATTENTION: verify actual eligibility before this program is treated as applicable. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide (raymondjames.com still inaccessible). A secondary source (extern.com) reproduces IB Insights Bootcamp eligibility as 'must be enrolled in an accredited U.S. university and graduating between December 2027 and June 2028' -- reinforces the prior concern that this track targets Class of 2028, not 2029. Not primary-source-confirmed (no direct fetch possible this run). NEEDS ATTENTION persists: verify directly once page access is restored before treating as applicable. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Two conflicting eligibility snippets found: the general Sophomore Opportunities hub shows \"graduating between December 2026 and June 2027,\" while an IB Insights Bootcamp listing (dated bootcamps already past) shows \"graduating between December 2027 and June 2028\" -- both wrong cycles; unclear which reflects the current live page. NEEDS ATTENTION carries over from prior runs -- recommend manual check of the hub URL. Still unverified.",
       "track": "IB"
     },
     {
@@ -681,8 +693,8 @@
         "https://hl.com/careers/early-careers/"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Diversity-oriented: Rising Leaders Diversity Program (spanning sophomore/junior touchpoints) plus IB Women's Insight Days. No dated open source located; watch the for-students / early-careers pages. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Only found a UK 'Women in Banking Insight Day' (different program/geography). No US program info found. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Diversity-oriented: Rising Leaders Diversity Program (spanning sophomore/junior touchpoints) plus IB Women's Insight Days. No dated open source located; watch the for-students / early-careers pages. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Only found a UK 'Women in Banking Insight Day' (different program/geography). No US program info found. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Confirmed program names exist (Rising Leaders Diversity Program, Women's Insight Day) but no eligibility grad-year or open/closed status could be established from search snippets. Still unverified.",
       "track": "IB"
     },
     {
@@ -709,8 +721,8 @@
         "https://blogs.mccombs.utexas.edu/mpa-weekly/2022/01/03/william-blairs-bridge-to-investment-banking-program/"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Diversity/women-oriented sophomore program (also seen as 'Fast Track to Investment Banking'), a winter program feeding the Summer Analyst pipeline. No dated open source located; watch the IB early-career page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide; no reliable dated info found. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Diversity/women-oriented sophomore program (also seen as 'Fast Track to Investment Banking'), a winter program feeding the Summer Analyst pipeline. No dated open source located; watch the IB early-career page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide; no reliable dated info found. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Most recent data found (\"Sophomores and Juniors graduating Dec 2024-June 2026\") is clearly stale/outdated. Site now shows general \"2027 Investment Banking Summer Analyst\" reqs but no Bridge-program-specific 2029-eligible posting found live. Still unverified.",
       "track": "IB"
     },
     {
@@ -737,8 +749,8 @@
         "https://www.bairdcareers.com/internships/global-investment-banking-intern-program-us/"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Women-focused: after sophomore year, ~10 women join Baird IB (Chicago/Milwaukee/NYC) for a 10-week program with professional-development sessions. Broader IB sophomore recruiting apps open ~late December. No dated open source for Ascend; left unverified. Watch the GIB intern program page. Checked 2026-08-03 (Monday sweep): a search summary suggests the 2026-cycle Ascend applications \"open in August for Chicago and September for Tysons Corner\" (unclear if this refers to the current, already-passed 2025-26 cycle for Summer 2026, or is being conflated across cycles). Primary source (bairdcareers.com/internships/global-investment-banking-intern-program-us/) returned 403 on fetch, so no dated open could be confirmed this run. NEEDS ATTENTION: possible near-term opener, needs a manual check since automated fetch is blocked. Checked 2026-08-10 (Monday sweep): WebFetch still blocked (bairdcareers.com inaccessible). Search snippets repeat 'Applications Open in August (Chicago) & September (Tysons Corner)' but the year could not be confirmed -- cannot tell if this describes a currently-live August 2026 window. NEEDS ATTENTION persists: possible near-term/live opener, needs manual verification since automated fetch remains blocked.",
+      "last_checked": "2026-08-17",
+      "notes": "Women-focused: after sophomore year, ~10 women join Baird IB (Chicago/Milwaukee/NYC) for a 10-week program with professional-development sessions. Broader IB sophomore recruiting apps open ~late December. No dated open source for Ascend; left unverified. Watch the GIB intern program page. Checked 2026-08-03 (Monday sweep): a search summary suggests the 2026-cycle Ascend applications \"open in August for Chicago and September for Tysons Corner\" (unclear if this refers to the current, already-passed 2025-26 cycle for Summer 2026, or is being conflated across cycles). Primary source (bairdcareers.com/internships/global-investment-banking-intern-program-us/) returned 403 on fetch, so no dated open could be confirmed this run. NEEDS ATTENTION: possible near-term opener, needs a manual check since automated fetch is blocked. Checked 2026-08-10 (Monday sweep): WebFetch still blocked (bairdcareers.com inaccessible). Search snippets repeat 'Applications Open in August (Chicago) & September (Tysons Corner)' but the year could not be confirmed -- cannot tell if this describes a currently-live August 2026 window. NEEDS ATTENTION persists: possible near-term/live opener, needs manual verification since automated fetch remains blocked. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Confirmed Ascend to Global Investment Banking exists as a women's sophomore-summer program (10 women, Chicago/Milwaukee/NY), but no explicit grad-year eligibility or current application status found. Still unverified.",
       "track": "IB"
     },
     {
@@ -797,8 +809,8 @@
         "https://www.wayup.com/i-Financial-Services-j-2024-Sophomore-Women-in-Banking-Diversity-Recruiting-Program-Mizuho-387069265811744/"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Women-focused: 3-day in-person program (Mizuho | Greenhill) for sophomore women, with an accelerated interview process for the summer internship. Recurs annually (2023, 2024, 2025 postings) but no clean open date located; left unverified. Watch campus-recruiting page. Note: overlaps the 'greenhill' firm entry post-merger. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Most recent confirmed cycle (2025 program) had a Nov 11 2024 deadline; no 2026 cycle found. A separate 2026/2027 Mizuho|Greenhill general SA posting exists but appears to be the broader summer-analyst pipeline, not this sophomore-specific program. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Women-focused: 3-day in-person program (Mizuho | Greenhill) for sophomore women, with an accelerated interview process for the summer internship. Recurs annually (2023, 2024, 2025 postings) but no clean open date located; left unverified. Watch campus-recruiting page. Note: overlaps the 'greenhill' firm entry post-merger. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Most recent confirmed cycle (2025 program) had a Nov 11 2024 deadline; no 2026 cycle found. A separate 2026/2027 Mizuho|Greenhill general SA posting exists but appears to be the broader summer-analyst pipeline, not this sophomore-specific program. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Most recent posting (Mizuho|Greenhill Sophomore Women in Banking) required \"graduating in Spring 2027\" with an 11-week Summer 2026 internship -- wrong cycle, and that program has already run as of Aug 2026. No new cycle found. Still unverified.",
       "track": "IB"
     },
     {
@@ -854,8 +866,8 @@
         "https://capitalmarkets.bmo.com/en/careers/campus-recruiting/"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "'Launch' is BMO Capital Markets' early-insight program for first-year/underclassman students. No dedicated program URL and no dated open source; watch the campus-recruiting page. Existence per firm notes; details unverified. Checked 2026-08-03 (Monday sweep): search results distinguish BMO \"Launch\" as a first-year-only (freshman) program from \"Elevate,\" which appears to be the actual sophomore-tier internship program. This entry may be mis-scoped/mis-named for a 2029-grad sophomore. NEEDS ATTENTION: confirm whether \"Launch\" or \"Elevate\" (or a separate insight day) is the correct sophomore-year on-ramp before further tracking. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Search evidence corroborates the prior finding: 'Launch' is BMO's freshman/first-year (5-week) program, while 'Elevate' is the actual sophomore-tier (10-week) program for students 'between their second and third year' -- i.e. Elevate, not Launch, is the correct on-ramp for this student. No live Elevate posting for the 2026-27/Summer-2027 cycle was found (only a closed Summer-2026 Elevate listing, deadline 7/30/2025). NEEDS ATTENTION: this entry should be re-scoped from 'Launch' to 'Elevate' (or split into both) once a page can be directly verified.",
+      "last_checked": "2026-08-17",
+      "notes": "'Launch' is BMO Capital Markets' early-insight program for first-year/underclassman students. No dedicated program URL and no dated open source; watch the campus-recruiting page. Existence per firm notes; details unverified. Checked 2026-08-03 (Monday sweep): search results distinguish BMO \"Launch\" as a first-year-only (freshman) program from \"Elevate,\" which appears to be the actual sophomore-tier internship program. This entry may be mis-scoped/mis-named for a 2029-grad sophomore. NEEDS ATTENTION: confirm whether \"Launch\" or \"Elevate\" (or a separate insight day) is the correct sophomore-year on-ramp before further tracking. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Search evidence corroborates the prior finding: 'Launch' is BMO's freshman/first-year (5-week) program, while 'Elevate' is the actual sophomore-tier (10-week) program for students 'between their second and third year' -- i.e. Elevate, not Launch, is the correct on-ramp for this student. No live Elevate posting for the 2026-27/Summer-2027 cycle was found (only a closed Summer-2026 Elevate listing, deadline 7/30/2025). NEEDS ATTENTION: this entry should be re-scoped from 'Launch' to 'Elevate' (or split into both) once a page can be directly verified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Reconfirms the Launch-vs-Elevate concern from prior runs: \"Launch\" is BMO's freshman-only program; \"Elevate\" is the actual sophomore-to-junior pipeline. Most recent Elevate posting eligibility: \"graduation date of December 2026 or Spring 2027\" -- wrong cycle. Entry should be retitled/relabeled from Launch to Elevate once a page can be directly verified. No live 2029-grad cycle found. Still unverified.",
       "track": "IB"
     },
     {
@@ -881,8 +893,8 @@
         "https://www.macquarie.com/us/en/careers/graduates-and-interns.html"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Women-focused annual event for sophomores interested in summer internships (Macquarie Capital is the IB arm). No dated open source located; watch graduates-and-interns page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide; only a stale 2019-cycle reference found. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Women-focused annual event for sophomores interested in summer internships (Macquarie Capital is the IB arm). No dated open source located; watch graduates-and-interns page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide; only a stale 2019-cycle reference found. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Only a stale \"class of 2021\" event description surfaced; nothing indicating a current cycle. Still unverified.",
       "track": "IB"
     },
     {
@@ -909,8 +921,8 @@
         "https://www.stifel.com/Newsletters/InvestmentBanking/BAL/Marketing/StifelSays/2022/2022%20Emerging%20Leaders%20Seminar.pdf"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Diversity-oriented virtual seminar introducing IB / capital markets / research career paths and upcoming Early ID + summer internship opportunities. Encourages Black, Hispanic, Native American, female, veteran, LGBTQ+ and students with disabilities. No dated open source located; watch internships page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Most recent confirmed cycle (2025 seminar) had an Oct 14 2025 registration deadline; no 2026 iteration announced yet. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Diversity-oriented virtual seminar introducing IB / capital markets / research career paths and upcoming Early ID + summer internship opportunities. Encourages Black, Hispanic, Native American, female, veteran, LGBTQ+ and students with disabilities. No dated open source located; watch internships page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Most recent confirmed cycle (2025 seminar) had an Oct 14 2025 registration deadline; no 2026 iteration announced yet. Still unverified. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. Most recent eligibility snippet: \"GPA 3.5+... plan to graduate between December 2025 and June 2027\" -- old and wrong cycle. No 2027-cycle (2029-grad) posting found. Still unverified.",
       "track": "IB"
     },
     {
@@ -1665,10 +1677,20 @@
             2028
           ],
           "note": "2027 Financial Advisory Summer Analyst Program live across NY/SF/Minneapolis groups (M&A/Restructuring Generalist, Corporate Strategy, Technology, Private Capital Advisory, Capital Markets Advisory). Prior cycle, live but not applicable -- timing intel only. Observed live 2026-08-10 (upper bound, true open date unknown)."
+        },
+        {
+          "date": "2026-08-17",
+          "url": "https://simplify.jobs/p/4c8ce159-deb4-46fd-81fe-0579c91ac68b/2027-Financial-Advisory-Summer-Analyst-Program",
+          "cycle": "2027 Financial Advisory Summer Analyst Program",
+          "grad_years": [
+            2027,
+            2028
+          ],
+          "note": "Eligibility \"expected graduation date in December 2027 or May/June 2028\" -- wrong cycle. Sourced from an aggregator listing; current live status not independently confirmed, could already be closed."
         }
       ],
-      "last_checked": "2026-08-10",
-      "notes": "A 2027 Financial Advisory Summer Analyst posting existed (Simplify), but sources conflict on the open month (elite-boutique trackers say ~January 2026; other guides say general apps open March-April 2026). No reliable single open date -> unverified, predicted_open null. Watch the Lazard students page. Checked 2026-07-27: a secondary aggregator (fe.training) claims the general 2027 Financial Advisory SA window (March-April 2026, or alternatively ~Jan 2026 per other estimates) has already elapsed, implying closed — but this is aggregator inference, not a firm-issued closure statement, and the two estimates conflict. NOT marked closed pending stronger evidence; needs manual check. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide; no new dated info found for the actual Summer-2028 cycle. See new sighting below for Summer-2027 (wrong-cycle) activity. Conflicting month estimates for the prior cycle's true open date remain unresolved.",
+      "last_checked": "2026-08-17",
+      "notes": "A 2027 Financial Advisory Summer Analyst posting existed (Simplify), but sources conflict on the open month (elite-boutique trackers say ~January 2026; other guides say general apps open March-April 2026). No reliable single open date -> unverified, predicted_open null. Watch the Lazard students page. Checked 2026-07-27: a secondary aggregator (fe.training) claims the general 2027 Financial Advisory SA window (March-April 2026, or alternatively ~Jan 2026 per other estimates) has already elapsed, implying closed — but this is aggregator inference, not a firm-issued closure statement, and the two estimates conflict. NOT marked closed pending stronger evidence; needs manual check. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide; no new dated info found for the actual Summer-2028 cycle. See new sighting below for Summer-2027 (wrong-cycle) activity. Conflicting month estimates for the prior cycle's true open date remain unresolved. Checked 2026-08-17 (Monday sweep, watch-the-unverified): live wrong-cycle posting found, recorded as sighting. Eligibility \"expected graduation date in December 2027 or May/June 2028\" -- wrong cycle. Sourced from an aggregator listing; current live status not independently confirmed, could already be closed.",
       "track": "IB"
     },
     {
@@ -1705,8 +1727,8 @@
           "note": "Investment Banking Summer Analyst (New York) posting live -- appears to be Centerview's rolling/continuous application rather than a discrete annual cycle. Prior cycle, live but not applicable -- timing intel only."
         }
       ],
-      "last_checked": "2026-08-10",
-      "notes": "Centerview runs a rolling/always-open IB Summer Analyst application rather than a discrete annual open date (Emory CPD posting; careers page). No datable cycle-open -> unverified, predicted_open null. Watch the careers page / apply on a rolling basis. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Confirms Centerview appears to run a rolling/continuous application rather than a discrete annual cycle -- see new sighting below. Still unverified/no datable open.",
+      "last_checked": "2026-08-17",
+      "notes": "Centerview runs a rolling/always-open IB Summer Analyst application rather than a discrete annual open date (Emory CPD posting; careers page). No datable cycle-open -> unverified, predicted_open null. Watch the careers page / apply on a rolling basis. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Confirms Centerview appears to run a rolling/continuous application rather than a discrete annual cycle -- see new sighting below. Still unverified/no datable open. Checked 2026-08-17 (Monday sweep, watch-the-unverified): Centerview reportedly accepts applications on a rolling/always-open basis with no distinct class-year posting identified; no 2028-cycle-specific listing found. Still unverified.",
       "track": "IB"
     },
     {
@@ -1743,8 +1765,8 @@
           "note": "Posting title is '2027 Summer Analyst, Investment Banking - New York City'. Reported as NEWLY OPEN on 2026-07-27 and promoted to status 'open' in error: this is the prior recruiting cycle, not the Summer 2028 cycle this entry tracks. Reverted 2026-07-28. Useful as timing intel for when the Summer 2028 app opens. Observed live on 2026-07-27; the true open date may be earlier, so this is an upper bound, not a historical_opens anchor. Once the real Summer 2027 open date is sourced it becomes a usable predictor for the Summer 2028 cycle."
         }
       ],
-      "last_checked": "2026-08-10",
-      "notes": "Moelis's formal SA portal is described as opening ~February-March 2026 with networking from January, but no dated posting was located. No reliable open date -> unverified, predicted_open null. Watch the explore-opportunities page. 2026-07-28: the Summer 2027 cycle was observed live on 2026-07-27 (see sightings); that is the prior cycle, not this one. Use it to time the Summer 2028 open. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Re-observed the same Summer-2027 (wrong-cycle) NYC/Houston postings already on file (one snippet suggests they may now be closed to applications). No new Summer-2028 info; no change.",
+      "last_checked": "2026-08-17",
+      "notes": "Moelis's formal SA portal is described as opening ~February-March 2026 with networking from January, but no dated posting was located. No reliable open date -> unverified, predicted_open null. Watch the explore-opportunities page. 2026-07-28: the Summer 2027 cycle was observed live on 2026-07-27 (see sightings); that is the prior cycle, not this one. Use it to time the Summer 2028 open. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Re-observed the same Summer-2027 (wrong-cycle) NYC/Houston postings already on file (one snippet suggests they may now be closed to applications). No new Summer-2028 info; no change. Checked 2026-08-17 (Monday sweep, watch-the-unverified): 2028-cycle applications expected to open ~Nov 2026-Jan 2027; nothing posted yet. Still unverified.",
       "track": "IB"
     },
     {
@@ -1780,8 +1802,8 @@
           "note": "'2027 Summer Investment Banking Analyst (graduating class of 2028)' posting live, seen via university career-center mirrors. Prior cycle, live but not applicable -- timing intel only."
         }
       ],
-      "last_checked": "2026-08-10",
-      "notes": "Tech-focused boutique with a very small analyst class; no student careers page and postings route through qatalyst.sainoo.com. No dated 2027 SA open located -> unverified, predicted_open null. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) activity found via university career-center mirrors. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Tech-focused boutique with a very small analyst class; no student careers page and postings route through qatalyst.sainoo.com. No dated 2027 SA open located -> unverified, predicted_open null. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) activity found via university career-center mirrors. Still unverified. Checked 2026-08-17 (Monday sweep, watch-the-unverified): 2027-cycle expected to post Aug-Dec 2026; no live job posting found for either cycle, only speculative recruiting-timeline pages. Still unverified.",
       "track": "IB"
     },
     {
@@ -1815,10 +1837,19 @@
             2028
           ],
           "note": "Posting title is '2027 US Advisory Summer Analyst - NY' (SF twin at jobs/4855254007). Reported as NEWLY OPEN on 2026-07-27 and promoted to status 'open' in error: this is the prior recruiting cycle, not the Summer 2028 cycle this entry tracks. Reverted 2026-07-28. Useful as timing intel for when the Summer 2028 app opens. Observed live on 2026-07-27; the true open date may be earlier, so this is an upper bound, not a historical_opens anchor. Once the real Summer 2027 open date is sourced it becomes a usable predictor for the Summer 2028 cycle."
+        },
+        {
+          "date": "2026-08-17",
+          "url": "https://job-boards.greenhouse.io/liontree/jobs/4855254007",
+          "cycle": "2027 US Advisory Summer Analyst (posted ~Dec 2025)",
+          "grad_years": [
+            2028
+          ],
+          "note": "Job title itself states \"2027 US Advisory Summer Analyst\" -- the 2028-grad cycle, wrong for a 2029 grad. Listed at both NY and SF locations."
         }
       ],
-      "last_checked": "2026-08-10",
-      "notes": "Recruiting hosted on Greenhouse with no student-specific landing page; no dated 2027 SA open located -> unverified, predicted_open null. Watch the LionTree Greenhouse board. 2026-07-28: the Summer 2027 cycle was observed live on 2026-07-27 (see sightings); that is the prior cycle, not this one. Use it to time the Summer 2028 open. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Re-observed the same Summer-2027 (wrong-cycle) NY/SF postings already on file, plus a separate Winter-2027 off-cycle internship listing. No new Summer-2028 info; no change.",
+      "last_checked": "2026-08-17",
+      "notes": "Recruiting hosted on Greenhouse with no student-specific landing page; no dated 2027 SA open located -> unverified, predicted_open null. Watch the LionTree Greenhouse board. 2026-07-28: the Summer 2027 cycle was observed live on 2026-07-27 (see sightings); that is the prior cycle, not this one. Use it to time the Summer 2028 open. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Re-observed the same Summer-2027 (wrong-cycle) NY/SF postings already on file, plus a separate Winter-2027 off-cycle internship listing. No new Summer-2028 info; no change. Checked 2026-08-17 (Monday sweep, watch-the-unverified): live wrong-cycle posting found, recorded as sighting. Job title itself states \"2027 US Advisory Summer Analyst\" -- the 2028-grad cycle, wrong for a 2029 grad. Listed at both NY and SF locations.",
       "track": "IB"
     },
     {
@@ -1854,8 +1885,8 @@
           "note": "'Mizuho | Greenhill 2026/2027 Summer Internship Program - Investment Banking' live on Workday, plus separate '2027 Chicago IB Summer Analyst' and '2027 M&A Summer Analyst - SF' listings. Prior cycle, live but not applicable -- timing intel only. NYC applicability not confirmed."
         }
       ],
-      "last_checked": "2026-08-10",
-      "notes": "Now recruits as 'Mizuho | Greenhill' (acquired by Mizuho, 2023); no independent Greenhill SA posting. Overlaps the mizuho-americas entry. No dated open -> unverified, predicted_open null. Checked 2026-07-27: found a live Mizuho Workday posting titled \"Mizuho | Greenhill 2026-2027 Summer Internship Program – Investment Banking\", but its URL path indicates Australia/Sydney, not the NYC role this entry tracks -- likely not applicable. Another source claims a Jan-2026 deadline (implying closed) but wasn't corroborated on a primary US/NYC page. Left unverified pending manual check of the Mizuho Americas campus-recruiting page directly. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) Mizuho|Greenhill activity. Still unverified/no datable open.",
+      "last_checked": "2026-08-17",
+      "notes": "Now recruits as 'Mizuho | Greenhill' (acquired by Mizuho, 2023); no independent Greenhill SA posting. Overlaps the mizuho-americas entry. No dated open -> unverified, predicted_open null. Checked 2026-07-27: found a live Mizuho Workday posting titled \"Mizuho | Greenhill 2026-2027 Summer Internship Program – Investment Banking\", but its URL path indicates Australia/Sydney, not the NYC role this entry tracks -- likely not applicable. Another source claims a Jan-2026 deadline (implying closed) but wasn't corroborated on a primary US/NYC page. Left unverified pending manual check of the Mizuho Americas campus-recruiting page directly. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) Mizuho|Greenhill activity. Still unverified/no datable open. Checked 2026-08-17 (Monday sweep, watch-the-unverified): A 2027-cycle (wrong-cycle, grad Dec2026-Aug2027) posting existed but its application deadline (Jan 22, 2026) has already passed. No 2028-cycle posting found. Still unverified.",
       "track": "IB"
     },
     {
@@ -1890,10 +1921,19 @@
             2028
           ],
           "note": "Posting title is '2027 Capital Markets Global Investment Banking Summer Analyst'. Reported as NEWLY OPEN on 2026-07-27 and promoted to status 'open' in error: this is the prior recruiting cycle, not the Summer 2028 cycle this entry tracks. Reverted 2026-07-28. Useful as timing intel for when the Summer 2028 app opens. Observed live on 2026-07-27; the true open date may be earlier, so this is an upper bound, not a historical_opens anchor. Once the real Summer 2027 open date is sourced it becomes a usable predictor for the Summer 2028 cycle."
+        },
+        {
+          "date": "2026-08-17",
+          "url": "https://jobs.rbc.com/ca/en/job/RBCAA0088R0000157584EXTERNALENCA/2027-Capital-Markets-Corporate-Banking-Summer-Analyst",
+          "cycle": "2027 Capital Markets, Corporate Banking Summer Analyst",
+          "grad_years": [
+            2028
+          ],
+          "note": "Title \"2027 Capital Markets, Corporate Banking Summer Analyst\"; eligibility \"graduation date in Spring 2028 or December 2027.\" Application deadline listed as Aug 15, 2026 (may have just closed)."
         }
       ],
-      "last_checked": "2026-08-10",
-      "notes": "2027 Global Investment Banking Summer Analyst postings are live on jobs.rbc.com, and RBC's 2027 Sales & Trading internship was advertised by 2025-11-04 (Bentley), but no dated open specifically for the IB SA app was located -> unverified, predicted_open null. Watch the RBC campus-recruiting page. 2026-07-28: the Summer 2027 cycle was observed live on 2026-07-27 (see sightings); that is the prior cycle, not this one. Use it to time the Summer 2028 open. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Re-observed the same Summer-2027 (wrong-cycle) posting already on file, plus additional Toronto/Montreal/Vancouver listings for the same cycle. No new Summer-2028 info; no change.",
+      "last_checked": "2026-08-17",
+      "notes": "2027 Global Investment Banking Summer Analyst postings are live on jobs.rbc.com, and RBC's 2027 Sales & Trading internship was advertised by 2025-11-04 (Bentley), but no dated open specifically for the IB SA app was located -> unverified, predicted_open null. Watch the RBC campus-recruiting page. 2026-07-28: the Summer 2027 cycle was observed live on 2026-07-27 (see sightings); that is the prior cycle, not this one. Use it to time the Summer 2028 open. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Re-observed the same Summer-2027 (wrong-cycle) posting already on file, plus additional Toronto/Montreal/Vancouver listings for the same cycle. No new Summer-2028 info; no change. Checked 2026-08-17 (Monday sweep, watch-the-unverified): live wrong-cycle posting found, recorded as sighting. Title \"2027 Capital Markets, Corporate Banking Summer Analyst\"; eligibility \"graduation date in Spring 2028 or December 2027.\" Application deadline listed as Aug 15, 2026 (may have just closed).",
       "track": "IB"
     },
     {
@@ -1919,8 +1959,8 @@
         "https://www.bairdcareers.com/internships/global-investment-banking-intern-program-us/"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Baird's Global Investment Banking Intern Program (Milwaukee/Chicago/NYC) recruits on a longer MM timeline (apps often open ~late December); no dated 2027 SA open located -> unverified, predicted_open null. Watch the GIB intern program page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide (bairdcareers.com inaccessible). No dated Summer-2027 or Summer-2028 posting located; a third-party guide projects Summer-2028 apps opening 'late December 2026' but this is an unconfirmed estimate. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "Baird's Global Investment Banking Intern Program (Milwaukee/Chicago/NYC) recruits on a longer MM timeline (apps often open ~late December); no dated 2027 SA open located -> unverified, predicted_open null. Watch the GIB intern program page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide (bairdcareers.com inaccessible). No dated Summer-2027 or Summer-2028 posting located; a third-party guide projects Summer-2028 apps opening 'late December 2026' but this is an unconfirmed estimate. Still unverified. Checked 2026-08-17 (Monday sweep, watch-the-unverified): 2028-cycle applications expected late Dec 2026; nothing posted yet. Still unverified.",
       "track": "IB"
     },
     {
@@ -1957,8 +1997,8 @@
           "note": "'2027 M&A Summer Analyst (BOS)' live on PNC's Workday board; recruiting also active for Minneapolis/SF/NYC per a Feb 3 2026 NESCAC info session. Prior cycle, live but not applicable -- timing intel only."
         }
       ],
-      "last_checked": "2026-08-10",
-      "notes": "PNC subsidiary (recruiting via pnc.wd5.myworkdayjobs.com/HarrisWilliams); a Feb 2026 sophomore info session was marketed but no dated SA app open was located -> unverified, predicted_open null. Richmond/DC/Boston-anchored M&A boutique. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) activity. Still unverified/no datable open.",
+      "last_checked": "2026-08-17",
+      "notes": "PNC subsidiary (recruiting via pnc.wd5.myworkdayjobs.com/HarrisWilliams); a Feb 2026 sophomore info session was marketed but no dated SA app open was located -> unverified, predicted_open null. Richmond/DC/Boston-anchored M&A boutique. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) activity. Still unverified/no datable open. Checked 2026-08-17 (Monday sweep, watch-the-unverified): A 2027-cycle posting reportedly went up Jan 2026 with Feb-sophomore-year deadlines -- likely already closed; no 2028-cycle posting found. Still unverified.",
       "track": "IB"
     },
     {
@@ -1994,8 +2034,8 @@
           "note": "'2027 Summer Analyst Intern' postings live for Private Funds Advisory and M&A (Chicago) groups. Reported eligibility (secondhand, unverified): grads 'Winter 2027 or Spring 2028', min 3.5 GPA. Prior cycle, live but not applicable -- timing intel only."
         }
       ],
-      "last_checked": "2026-08-10",
-      "notes": "No dated 2027 SA open located -> unverified, predicted_open null. Watch the Lincoln campus/early-careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) activity. Still unverified/no datable open.",
+      "last_checked": "2026-08-17",
+      "notes": "No dated 2027 SA open located -> unverified, predicted_open null. Watch the Lincoln campus/early-careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) activity. Still unverified/no datable open. Checked 2026-08-17 (Monday sweep, watch-the-unverified): a UVA career-center event listing (Oct 7 2026) is titled for \"2028 Summer Analyst Investment Banking opportunities\" (our cycle) but describes eligibility as \"Graduating in Winter 2027 or Spring 2028\" (Class of 2028) -- title and body contradict each other. Could be an aggregator/calendar paraphrase rather than Lincoln's own wording. Filed as an open question rather than guessed at; recommend verifying directly against Lincoln's own careers page.",
       "track": "IB"
     },
     {
@@ -2031,8 +2071,8 @@
           "note": "'2027 Investment Banking Summer Internship' postings (Public Finance NY and others) found; one search result indicates the general 2027 IB Internship track is already closed as of this check, while a separate 'Business Segments and Corporate Infrastructure' 2027 track was reported as opening later. Prior cycle -- timing intel only."
         }
       ],
-      "last_checked": "2026-08-10",
-      "notes": "No dated 2027 SA open located -> unverified, predicted_open null. Watch the Oppenheimer students-and-graduates page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) activity; that cycle's core IB track is reportedly already closed. Still unverified/no datable open.",
+      "last_checked": "2026-08-17",
+      "notes": "No dated 2027 SA open located -> unverified, predicted_open null. Watch the Oppenheimer students-and-graduates page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) activity; that cycle's core IB track is reportedly already closed. Still unverified/no datable open. Checked 2026-08-17 (Monday sweep, watch-the-unverified): 2027-cycle postings existed (\"2027 Investment Banking Summer Internship - Public Finance\" and \"...Technology (San Francisco)\") but a separate source states Oppenheimer is no longer accepting applications for the 2027 IB and Equity Research Internship Program -- that posting appears already closed. No 2028-cycle posting found. Still unverified.",
       "track": "IB"
     },
     {
@@ -2066,10 +2106,20 @@
             2028
           ],
           "note": "'2027 Truist Securities IB Summer Analyst Program' live across NYC/Chicago/Atlanta/Houston. Reported eligibility (secondhand, unverified): grads 'December 2027 - June 2028'. Prior cycle -- timing intel only."
+        },
+        {
+          "date": "2026-08-17",
+          "url": "https://careers.truist.com/",
+          "cycle": "2027 Truist Securities IB Summer Analyst Program",
+          "grad_years": [
+            2027,
+            2028
+          ],
+          "note": "\"2027 Truist Securities - Investment Banking - Summer Analyst Program\" postings (NYC, Atlanta, Chicago, Houston, plus DCM/Energy IB/Real Estate IB variants). Eligibility: \"scheduled graduation of their final degree by December 2027-June 2028.\""
         }
       ],
-      "last_checked": "2026-08-10",
-      "notes": "Only 2026-cycle CIB SA postings were locatable; no dated 2027 IB SA open found -> unverified, predicted_open null. Watch the Truist student careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) activity. Still unverified/no datable open.",
+      "last_checked": "2026-08-17",
+      "notes": "Only 2026-cycle CIB SA postings were locatable; no dated 2027 IB SA open found -> unverified, predicted_open null. Watch the Truist student careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) activity. Still unverified/no datable open. Checked 2026-08-17 (Monday sweep, watch-the-unverified): live wrong-cycle posting found, recorded as sighting. \"2027 Truist Securities - Investment Banking - Summer Analyst Program\" postings (NYC, Atlanta, Chicago, Houston, plus DCM/Energy IB/Real Estate IB variants). Eligibility: \"scheduled graduation of their final degree by December 2027-June 2028.\"",
       "track": "IB"
     },
     {
@@ -2103,10 +2153,20 @@
             2028
           ],
           "note": "Multiple 'Summer 2027 Investment Banking Analyst' Workday postings live (Toronto, Montreal, Calgary, Vancouver, SF) with deadlines reported Jan 20-Mar 15 2026 (per search snippets, unverified). Prior cycle -- timing intel only."
+        },
+        {
+          "date": "2026-08-17",
+          "url": "https://www.tealhq.com/",
+          "cycle": "Summer 2027 Internship - Investment Banking - New York (BMO)",
+          "grad_years": [
+            2027,
+            2028
+          ],
+          "note": "Title indicates the 2027 cycle -- wrong for our 2029 grad. Source data was mixed: a separate Canada-market BMO listing on Prosple gave a different eligibility window (\"graduating by December 2026 or Spring 2027\"), possibly a stale/regional listing rather than the actual US 2028-target program. Recommend a manual spot-check of the live BMO Careers page."
         }
       ],
-      "last_checked": "2026-08-10",
-      "notes": "No dated 2027 SA open located -> unverified, predicted_open null. Watch the BMO Capital Markets campus-recruiting page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) activity across multiple Canadian/US locations. Still unverified/no datable open.",
+      "last_checked": "2026-08-17",
+      "notes": "No dated 2027 SA open located -> unverified, predicted_open null. Watch the BMO Capital Markets campus-recruiting page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) activity across multiple Canadian/US locations. Still unverified/no datable open. Checked 2026-08-17 (Monday sweep, watch-the-unverified): live wrong-cycle posting found, recorded as sighting. Title indicates the 2027 cycle -- wrong for our 2029 grad. Source data was mixed: a separate Canada-market BMO listing on Prosple gave a different eligibility window (\"graduating by December 2026 or Spring 2027\"), possibly a stale/regional listing rather than the actual US 2028-target program. Recommend a manual spot-check of the live BMO Careers page.",
       "track": "IB"
     },
     {
@@ -2140,10 +2200,19 @@
             2028
           ],
           "note": "'2027 Investment Banking Summer Analyst' postings (Generalist/Tech/Consumer/Healthcare) live. Reported eligibility (secondhand, unverified): grads 'December 2027 or spring/summer 2028'; deadline reported ~Feb 1 2026. Prior cycle -- timing intel only."
+        },
+        {
+          "date": "2026-08-17",
+          "url": "https://prosple.com/graduate-employers/td-securities",
+          "cycle": "Summer Analyst Program (Jun 2027)",
+          "grad_years": [
+            2028
+          ],
+          "note": "Eligibility \"pursuing a bachelor's degree with anticipated graduation between December 2027 and June 2028\" -- wrong cycle."
         }
       ],
-      "last_checked": "2026-08-10",
-      "notes": "TD Securities posted its 2026-cycle SA app ~December 2024; no dated 2027 IB SA open was located -> unverified, predicted_open null. Watch the TD early-talent page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) activity. Still unverified/no datable open.",
+      "last_checked": "2026-08-17",
+      "notes": "TD Securities posted its 2026-cycle SA app ~December 2024; no dated 2027 IB SA open was located -> unverified, predicted_open null. Watch the TD early-talent page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) activity. Still unverified/no datable open. Checked 2026-08-17 (Monday sweep, watch-the-unverified): live wrong-cycle posting found, recorded as sighting. Eligibility \"pursuing a bachelor's degree with anticipated graduation between December 2027 and June 2028\" -- wrong cycle.",
       "track": "IB"
     },
     {
@@ -2177,10 +2246,19 @@
             2028
           ],
           "note": "'Mizuho | Greenhill 2026/2027 Summer Internship Program - IB' live (same underlying posting overlaps the greenhill-2028-sa-ib entry). Reported eligibility (secondhand, unverified): grads 'December 2027 - June 2028'. Prior cycle -- timing intel only."
+        },
+        {
+          "date": "2026-08-17",
+          "url": "https://www.tealhq.com/",
+          "cycle": "2027 Chicago Investment Banking Summer Analyst Program (Mizuho)",
+          "grad_years": [
+            2028
+          ],
+          "note": "Eligibility \"graduation date between December 2027 and June 2028\" -- wrong cycle. Also seen as a Mizuho|Greenhill \"2026/2027 Summer Internship Program\" listing on Workday."
         }
       ],
-      "last_checked": "2026-08-10",
-      "notes": "Mizuho (Mizuho | Greenhill) 2026-cycle SA was cited as opening ~March 2026, but no dated 2027 IB SA open was located -> unverified, predicted_open null. Watch the Mizuho Americas campus-recruiting page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) Mizuho|Greenhill activity (same underlying posting as the greenhill-2028-sa-ib entry). Still unverified/no datable open.",
+      "last_checked": "2026-08-17",
+      "notes": "Mizuho (Mizuho | Greenhill) 2026-cycle SA was cited as opening ~March 2026, but no dated 2027 IB SA open was located -> unverified, predicted_open null. Watch the Mizuho Americas campus-recruiting page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) Mizuho|Greenhill activity (same underlying posting as the greenhill-2028-sa-ib entry). Still unverified/no datable open. Checked 2026-08-17 (Monday sweep, watch-the-unverified): live wrong-cycle posting found, recorded as sighting. Eligibility \"graduation date between December 2027 and June 2028\" -- wrong cycle. Also seen as a Mizuho|Greenhill \"2026/2027 Summer Internship Program\" listing on Workday.",
       "track": "IB"
     },
     {
@@ -2206,8 +2284,8 @@
         "https://careers.mufgamericas.com/student-programs-overview"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Global campus portal mufgcampus.com; no dated 2027 IB SA open located -> unverified, predicted_open null. Watch the MUFG student-programs page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Only a closed Summer-2026-cycle Workday listing (deadline ~9/12/25) was found; no live Summer-2027 or Summer-2028 posting located. NEEDS ATTENTION: current-cycle status genuinely unclear -- MUFG may simply not have posted its next cycle yet, but this could not be distinguished from a fetch failure.",
+      "last_checked": "2026-08-17",
+      "notes": "Global campus portal mufgcampus.com; no dated 2027 IB SA open located -> unverified, predicted_open null. Watch the MUFG student-programs page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Only a closed Summer-2026-cycle Workday listing (deadline ~9/12/25) was found; no live Summer-2027 or Summer-2028 posting located. NEEDS ATTENTION: current-cycle status genuinely unclear -- MUFG may simply not have posted its next cycle yet, but this could not be distinguished from a fetch failure. Checked 2026-08-17 (Monday sweep, watch-the-unverified): Only found older \"May 2026\" cycle postings (grad Winter 2026/Spring 2027) -- stale/prior cycle, not evidence of a 2027 or 2028 posting. Still unverified.",
       "track": "IB"
     },
     {
@@ -2243,8 +2321,8 @@
           "note": "'2027 Macquarie Capital Summer Internship Program' posting found. Reported eligibility (secondhand, unverified): grads 'December 2027 - June 2028'; deadline reported Feb 16 2026 (likely already closed by this check). Prior cycle -- timing intel only."
         }
       ],
-      "last_checked": "2026-08-10",
-      "notes": "Macquarie Capital is the IB arm; no dated 2027 SA open located -> unverified, predicted_open null. Watch the graduates-and-interns page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) activity (reported deadline Feb 16 2026, likely already closed). Still unverified/no datable open.",
+      "last_checked": "2026-08-17",
+      "notes": "Macquarie Capital is the IB arm; no dated 2027 SA open located -> unverified, predicted_open null. Watch the graduates-and-interns page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. See new sighting below for Summer-2027 (wrong-cycle) activity (reported deadline Feb 16 2026, likely already closed). Still unverified/no datable open. Checked 2026-08-17 (Monday sweep, watch-the-unverified): A 2027-cycle wrong-cycle posting existed (Macquarie Capital Summer Internship Program, grad Dec2027-June2028) but its application window closed Feb 16, 2026. No 2028-cycle posting found. Still unverified.",
       "track": "IB"
     },
     {
@@ -2270,8 +2348,8 @@
         "https://www.cantor.com/careers/"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "No dated 2027 SA open located -> unverified, predicted_open null. Watch the Cantor careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. A WSO thread references an active Cantor Fitzgerald 'SA 2027' process with Superdays underway, and a third-party blog (Adventis) speculates a Summer-2028 posting could appear 'August 2026' -- both unconfirmed against Cantor's own site. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "No dated 2027 SA open located -> unverified, predicted_open null. Watch the Cantor careers page. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. A WSO thread references an active Cantor Fitzgerald 'SA 2027' process with Superdays underway, and a third-party blog (Adventis) speculates a Summer-2028 posting could appear 'August 2026' -- both unconfirmed against Cantor's own site. Still unverified. Checked 2026-08-17 (Monday sweep, watch-the-unverified): No concrete evidence of any live posting for either cycle. Still unverified.",
       "track": "IB"
     },
     {
@@ -2297,8 +2375,8 @@
         "https://www.hsbc.com/careers/students-and-graduates"
       ],
       "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "US GBM early careers (primarily NYC); no dated 2027 IB SA open located -> unverified, predicted_open null. Watch the HSBC students-and-graduates page. Checked 2026-07-27: a secondary guide (extern.com) speculates the next (2028-target) US cycle \"expected to open around August-October 2027\" but cites no firm source and gives only a vague range -- not promoted to predicted_open per no-fabrication rule. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Aggregators indicate the Summer-2027 cycle 'opened late summer/autumn 2025' and 'has already been filled'; no concrete posting URL located to record as a sighting. Still unverified.",
+      "last_checked": "2026-08-17",
+      "notes": "US GBM early careers (primarily NYC); no dated 2027 IB SA open located -> unverified, predicted_open null. Watch the HSBC students-and-graduates page. Checked 2026-07-27: a secondary guide (extern.com) speculates the next (2028-target) US cycle \"expected to open around August-October 2027\" but cites no firm source and gives only a vague range -- not promoted to predicted_open per no-fabrication rule. Checked 2026-08-10 (Monday sweep): WebFetch blocked network-wide. Aggregators indicate the Summer-2027 cycle 'opened late summer/autumn 2025' and 'has already been filled'; no concrete posting URL located to record as a sighting. Still unverified. Checked 2026-08-17 (Monday sweep, watch-the-unverified): Applications for summer 2028 expected to open Aug-Oct 2027; nothing live now. Still unverified.",
       "track": "IB"
     },
     {
@@ -2418,9 +2496,19 @@
         "https://usa.bnpparibas/en/jobs/open-sophomore-opportunity-summit/",
         "https://bwelcome.hr.bnpparibas/en_US/externalcareers/JobDetail/New-York-New-York-United-States-Open-Sophomore-Opportunity-Summit/65334"
       ],
-      "sightings": [],
-      "last_checked": "2026-08-10",
-      "notes": "Newly discovered firm/program (added 2026-07-27 Monday deep sweep, previously untracked). Virtual 2-day summit (leader conversations, resume/skills workshops, recruiting office hours) run with BNP's gender-diversity ERG (MixCity USA), feeding Summer Analyst interviews. Eligibility: Winter 2027-Spring 2028 grads (current rising sophomores). No dated open date found for this cycle; watch the careers page. Re-checked 2026-08-03 (Monday sweep): both known source URLs (usa.bnpparibas, bwelcome.hr.bnpparibas) returned 403 on fetch; a general web search corroborates the prior \"Winter 2027-Spring 2028 grads\" eligibility line but could not be confirmed against the firm's own page text (no direct quote obtained). Contradiction with \"current rising sophomores\" in the notes remains unresolved -> still NEEDS ATTENTION. RESOLVED 2026-08-10 (Monday sweep): the internal eligibility contradiction is resolved. WebFetch remains blocked (403/EGRESS_BLOCKED on both usa.bnpparibas and bwelcome.hr.bnpparibas), but 6+ independent WebSearch queries consistently and near-verbatim return: 'Current undergraduate, sophomore-level students with a Winter 2027-Spring 2028 graduation date are eligible to apply.' That confirms Class-of-2028 eligibility ONLY -- the prior 'current rising sophomores' language in these notes was an unsupported misreading and is retracted. This program is NOT applicable to a Class-of-2029 student despite the 'Sophomore' branding; it appears tied to a Jan 14-15 summit feeding Summer-2027-cycle interviews. NEEDS ATTENTION: recommend retiring or re-scoping this entry (watch instead for BNP's next cohort, one cycle later) since it structurally targets the wrong class year every cycle.",
+      "sightings": [
+        {
+          "date": "2026-08-17",
+          "url": "https://usa.bnpparibas/en/jobs/open-sophomore-opportunity-summit/",
+          "cycle": "Winter 2027-Spring 2028 grads (Class of 2028)",
+          "grad_years": [
+            2028
+          ],
+          "note": "BNP Paribas's own careers page states eligibility as \"current undergraduate, sophomore-level students with a Winter 2027-Spring 2028 graduation date\" -- Class of 2028, not our Class of 2029. Page reads as an evergreen/rolling template rather than a dated single-cycle posting, so no clean open date to record in historical_opens."
+        }
+      ],
+      "last_checked": "2026-08-17",
+      "notes": "Newly discovered firm/program (added 2026-07-27 Monday deep sweep, previously untracked). Virtual 2-day summit (leader conversations, resume/skills workshops, recruiting office hours) run with BNP's gender-diversity ERG (MixCity USA), feeding Summer Analyst interviews. Eligibility: Winter 2027-Spring 2028 grads (current rising sophomores). No dated open date found for this cycle; watch the careers page. Re-checked 2026-08-03 (Monday sweep): both known source URLs (usa.bnpparibas, bwelcome.hr.bnpparibas) returned 403 on fetch; a general web search corroborates the prior \"Winter 2027-Spring 2028 grads\" eligibility line but could not be confirmed against the firm's own page text (no direct quote obtained). Contradiction with \"current rising sophomores\" in the notes remains unresolved -> still NEEDS ATTENTION. RESOLVED 2026-08-10 (Monday sweep): the internal eligibility contradiction is resolved. WebFetch remains blocked (403/EGRESS_BLOCKED on both usa.bnpparibas and bwelcome.hr.bnpparibas), but 6+ independent WebSearch queries consistently and near-verbatim return: 'Current undergraduate, sophomore-level students with a Winter 2027-Spring 2028 graduation date are eligible to apply.' That confirms Class-of-2028 eligibility ONLY -- the prior 'current rising sophomores' language in these notes was an unsupported misreading and is retracted. This program is NOT applicable to a Class-of-2029 student despite the 'Sophomore' branding; it appears tied to a Jan 14-15 summit feeding Summer-2027-cycle interviews. NEEDS ATTENTION: recommend retiring or re-scoping this entry (watch instead for BNP's next cohort, one cycle later) since it structurally targets the wrong class year every cycle. Checked 2026-08-17 (Monday sweep): WebFetch blocked. WebSearch confirms the page is live but targets Class of 2028 (Winter 2027-Spring 2028 grads), not our Class of 2029 -- recorded as a sighting. Could not confirm from search snippets alone whether the page is currently accepting applications vs. a rolling template; recommend a manual check of the tal.net apply link.",
       "track": "IB"
     },
     {
@@ -2447,8 +2535,8 @@
         "https://www.spacex.com/careers/jobs/?type=intern"
       ],
       "sightings": [],
-      "last_checked": "2026-08-14",
-      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide (EGRESS_BLOCKED on spacex.com). WebSearch found live Summer/Spring 2027 SpaceX Greenhouse postings for Software Engineering, Engineering, and Business Operations internships/co-ops (first logged ~Aug 5-6, 2026), but no Data Science- or Machine Learning-titled posting located. Still unverified; watch for a DS/ML-specific title."
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide (EGRESS_BLOCKED on spacex.com). WebSearch found live Summer/Spring 2027 SpaceX Greenhouse postings for Software Engineering, Engineering, and Business Operations internships/co-ops (first logged ~Aug 5-6, 2026), but no Data Science- or Machine Learning-titled posting located. Still unverified; watch for a DS/ML-specific title. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. No DS-titled posting found. SpaceX has live Summer/Spring 2027 postings on Greenhouse for Software Engineering, Business Operations, Silicon Engineering, and general Engineering internships, but no distinct \"Data Science\"/\"Machine Learning\" internship title. Not promotable without a DS-titled posting."
     },
     {
       "id": "google-2027-cf-internship",
@@ -2474,8 +2562,8 @@
         "https://www.google.com/about/careers/applications/students"
       ],
       "sightings": [],
-      "last_checked": "2026-08-14",
-      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch indicates Google's STEP/internship application window is short (2-3 weeks) and typically opens Sept-Oct 2026 for Summer 2027; not yet live as of this check. No live Corporate Finance internship posting found. Still unverified."
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch indicates Google's STEP/internship application window is short (2-3 weeks) and typically opens Sept-Oct 2026 for Summer 2027; not yet live as of this check. No live Corporate Finance internship posting found. Still unverified. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. Could not find a direct careers.google.com posting URL (only aggregator/guide sites). BOLD Immersion is the closest CF-adjacent fit; sources conflict on whether it's sophomore-eligible (one says \"for students completing their 2nd year\"; another describes the main BOLD internship as \"for rising undergraduate seniors\"). Application window typically opens Sept-Dec 2026 -- not yet open as of today."
     },
     {
       "id": "google-2027-ds-internship",
@@ -2501,8 +2589,8 @@
         "https://www.google.com/about/careers/applications/students"
       ],
       "sightings": [],
-      "last_checked": "2026-08-14",
-      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch indicates Google's STEP/internship application window is short (2-3 weeks) and typically opens Sept-Oct 2026 for Summer 2027; not yet live as of this check. No live Data Science/ML internship posting found. Still unverified."
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch indicates Google's STEP/internship application window is short (2-3 weeks) and typically opens Sept-Oct 2026 for Summer 2027; not yet live as of this check. No live Data Science/ML internship posting found. Still unverified. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. STEP program eligibility (\"first or second year undergraduate student in CS, CE, or related field\") maps directly to our rising-sophomore status for Summer 2027 -- a strong future fit -- but the application window typically opens September-October 2026 and no live careers.google.com posting was found as of 2026-08-17. Recheck in September."
     },
     {
       "id": "amazon-2027-cf-internship",
@@ -2536,10 +2624,19 @@
             2028
           ],
           "note": "'2027 Amazon Finance Rotation Program' live across three tracks (Business Unit Finance Intern Job ID 10435672, Accounting Intern 10435671, Operations Finance Rotational 10435673), Seattle/Arlington. Quote: 'currently enrolled in a Bachelor's degree program in finance, economics, accounting, business administration and management, or related field with a graduation conferral date between December 2027 and June 2028.' Despite target_summer=2027 nominally being this student's sophomore-summer cycle per the CF/DS clock, this specific rotation program requires near-graduation standing (rising seniors), not sophomores -- wrong cycle for a 2029 grad."
+        },
+        {
+          "date": "2026-08-17",
+          "url": "https://www.amazon.jobs/en/jobs/10435671/2027-amazon-finance-rotation-program-accounting-intern",
+          "cycle": "2027 Amazon Finance Rotation Program (grad Dec2027-June2028)",
+          "grad_years": [
+            2028
+          ],
+          "note": "Live postings confirmed on amazon.jobs (\"2027 Amazon Finance Rotation Program - Accounting Intern\", \"...Business Unit Finance Intern\", \"2027 Amazon Operations Finance Rotational Program Summer Internship\"). Eligibility: \"Candidates must have a graduation conferral date between December 2027 and June 2028.\" Excludes our June-2029 grad."
         }
       ],
-      "last_checked": "2026-08-14",
-      "notes": "Checked 2026-08-14: found live Amazon Finance Rotation Program postings; recorded as wrong-cycle sighting (grad Dec2027-June2028) -- see sightings. This is a near-graduation rotational program, not a sophomore-entry pipeline, despite the CF track's usual 'Summer 2027 = sophomore summer' assumption. No sophomore-eligible Amazon CF posting found this run."
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-14: found live Amazon Finance Rotation Program postings; recorded as wrong-cycle sighting (grad Dec2027-June2028) -- see sightings. This is a near-graduation rotational program, not a sophomore-entry pipeline, despite the CF track's usual 'Summer 2027 = sophomore summer' assumption. No sophomore-eligible Amazon CF posting found this run. Checked 2026-08-17 (every-run sweep): live posting found, wrong grad-year window -- recorded as sighting."
     },
     {
       "id": "amazon-2027-ds-internship",
@@ -2565,8 +2662,8 @@
         "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students"
       ],
       "sightings": [],
-      "last_checked": "2026-08-14",
-      "notes": "Checked 2026-08-14: found live 'Applied Science Intern (Machine Learning...)' postings (e.g. Job ID 10409671) and a '2026 Data Science Internship' posting, but both require PhD/MS enrollment ('Applicants must be enrolled in a PhD... MS or PhD required') -- not applicable to this undergrad profile at any cycle, so not recorded as a sighting (no timing-intel value; this is a permanently distinct graduate-only pipeline, not a cycle offset). No undergraduate-track DS/ML internship posting found for Amazon this run; watch for a distinct undergrad posting."
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-14: found live 'Applied Science Intern (Machine Learning...)' postings (e.g. Job ID 10409671) and a '2026 Data Science Internship' posting, but both require PhD/MS enrollment ('Applicants must be enrolled in a PhD... MS or PhD required') -- not applicable to this undergrad profile at any cycle, so not recorded as a sighting (no timing-intel value; this is a permanently distinct graduate-only pipeline, not a cycle offset). No undergraduate-track DS/ML internship posting found for Amazon this run; watch for a distinct undergrad posting. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. No 2027-cycle posting found (only a 2026-cycle \"Data Science Internship - PhD or Masters Student\" listing). Amazon's Applied Scientist/Data Scientist internship tracks structurally require an MS or PhD, so even once a 2027 posting appears it will likely exclude an undergraduate sophomore regardless of grad year. Amazon Propel (undergrad-friendly early-career program) was named in a general resource list but no live DS-specific Propel posting was located."
     },
     {
       "id": "exxonmobil-2027-cf-internship",
@@ -2592,8 +2689,8 @@
         "https://corporate.exxonmobil.com/careers/internship-opportunities"
       ],
       "sightings": [],
-      "last_checked": "2026-08-14",
-      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch aggregators conflict/are stale (references '2026 intern opportunities' as currently accepting, plus a general expectation that the Summer-2027 cycle opens 'August 2026' as fall campus recruiting begins) -- no dated, confirmed live 2027-cycle Finance posting located. Still unverified."
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch aggregators conflict/are stale (references '2026 intern opportunities' as currently accepting, plus a general expectation that the Summer-2027 cycle opens 'August 2026' as fall campus recruiting begins) -- no dated, confirmed live 2027-cycle Finance posting located. Still unverified. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. Not live. Multiple sources agree Summer 2027 intern postings are expected to open August 2026 when fall campus recruiting begins -- we are at the edge of that window (today is 8/17/26); recheck soon. Prior-cycle general eligibility read \"must have completed at least your sophomore year by the start of the internship\" (favorable if repeated, but not yet reissued)."
     },
     {
       "id": "exxonmobil-2027-ds-internship",
@@ -2619,8 +2716,8 @@
         "https://corporate.exxonmobil.com/careers/internship-opportunities"
       ],
       "sightings": [],
-      "last_checked": "2026-08-14",
-      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch aggregators conflict/are stale; no dated, confirmed live 2027-cycle Data Science posting located. Still unverified."
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch aggregators conflict/are stale; no dated, confirmed live 2027-cycle Data Science posting located. Still unverified. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. Not live; same August-2026 opening timeline as CF above. One specific prior listing found (\"PhD Students Seeking Internship Opportunities... Data Science\") is PhD-only, but ExxonMobil's general internship eligibility language elsewhere lists \"data science\" among eligible fields of study at the Bachelor's level for its Business/Commercial internship. No current live 2027 posting to quote."
     },
     {
       "id": "capital-one-2027-cf-internship",
@@ -2646,8 +2743,8 @@
         "https://www.capitalonecareers.com/students"
       ],
       "sightings": [],
-      "last_checked": "2026-08-14",
-      "notes": "Found live 2026-08-14 via CF surprise-sweep search (Capital One is a weekly-cadence firm, not in this Friday's check set, but surfaced anyway per the step-3 'treat like a check-set hit' rule). The real posting is the Analyst Early Internship Program (AEIP), a 10-week sophomore pipeline at McLean, VA; program name here is a tracker placeholder. Class-standing quote maps directly to grad_year 2029 per profile.notes ('sophomore year 2026-27'). AEIP explicitly welcomes Finance/Business/Economics majors alongside Data Science/Statistics/CS -- see the matching DS-track entry (capital-one-2027-ds-internship), which shares this same posting."
+      "last_checked": "2026-08-17",
+      "notes": "Found live 2026-08-14 via CF surprise-sweep search (Capital One is a weekly-cadence firm, not in this Friday's check set, but surfaced anyway per the step-3 'treat like a check-set hit' rule). The real posting is the Analyst Early Internship Program (AEIP), a 10-week sophomore pipeline at McLean, VA; program name here is a tracker placeholder. Class-standing quote maps directly to grad_year 2029 per profile.notes ('sophomore year 2026-27'). AEIP explicitly welcomes Finance/Business/Economics majors alongside Data Science/Statistics/CS -- see the matching DS-track entry (capital-one-2027-ds-internship), which shares this same posting. Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. Reconfirmed still live: Analyst Early Internship Program, Summer 2027 posting unchanged. Eligibility \"Must be in Sophomore Undergraduate Standing for the 2026-2027 academic year\" -- directly matches our Class of 2029."
     },
     {
       "id": "capital-one-2027-ds-internship",
@@ -2673,13 +2770,13 @@
         "https://www.capitalonecareers.com/students"
       ],
       "sightings": [],
-      "last_checked": "2026-08-14",
-      "notes": "Found live 2026-08-14 via DS surprise-sweep search (Capital One is a weekly-cadence firm, not in this Friday's check set, but surfaced anyway per the step-3 'treat like a check-set hit' rule). Same underlying posting as capital-one-2027-cf-internship: the Analyst Early Internship Program (AEIP), a 10-week sophomore pipeline at McLean, VA, explicitly listing Data Science and Statistics among welcomed majors alongside Finance/Business/Economics/CS. Class-standing quote maps directly to grad_year 2029 per profile.notes ('sophomore year 2026-27'). Separately, a distinct 'Current Master's - Data Science Internship' posting also exists at Capital One but requires Master's enrollment -- not applicable to this undergrad profile, not tracked here."
+      "last_checked": "2026-08-17",
+      "notes": "Found live 2026-08-14 via DS surprise-sweep search (Capital One is a weekly-cadence firm, not in this Friday's check set, but surfaced anyway per the step-3 'treat like a check-set hit' rule). Same underlying posting as capital-one-2027-cf-internship: the Analyst Early Internship Program (AEIP), a 10-week sophomore pipeline at McLean, VA, explicitly listing Data Science and Statistics among welcomed majors alongside Finance/Business/Economics/CS. Class-standing quote maps directly to grad_year 2029 per profile.notes ('sophomore year 2026-27'). Separately, a distinct 'Current Master's - Data Science Internship' posting also exists at Capital One but requires Master's enrollment -- not applicable to this undergrad profile, not tracked here. Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. Same posting/program as the CF entry above; reconfirmed still live. (A separate \"Current Master's - Data Science Internship - Summer 2027\" also exists at Capital One but is grad-student-only, not relevant here.)"
     },
     {
       "id": "american-express-2027-cf-internship",
       "firm_id": "american-express",
-      "name": "2027 Corporate Finance Internship",
+      "name": "Campus Undergraduate Summer Internship Program - 2027 Sophomore Finance",
       "track": "CF",
       "type": "internship",
       "target_summer": 2027,
@@ -2687,21 +2784,21 @@
         "grad_years": [
           2029
         ],
-        "verified": false,
-        "source": null,
-        "quote": null
+        "verified": true,
+        "source": "https://careers.americanexpress.com/en/sites/CX_1/job/26011904/",
+        "quote": "Applicants must be currently enrolled in a full-time bachelor's degree program with a graduation date between December 2028 and June 2029."
       },
       "historical_opens": {},
       "predicted_open": null,
       "confidence": "unverified",
-      "status": "unverified",
-      "application_url": null,
+      "status": "open",
+      "application_url": "https://careers.americanexpress.com/en/sites/CX_1/job/26011904/",
       "sources": [
         "https://www.americanexpress.com/en-us/careers/student-programs/global-students-page.html"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "PROMOTED TO OPEN 2026-08-17: this is a distinct sophomore-track posting (\"2027 Sophomore Finance\"), separate from AmEx's general 2027 Finance internship which targets a later grad window and is not sophomore-eligible. Eligibility quote directly includes our June-2029 grad date."
     },
     {
       "id": "fidelity-investments-2027-cf-internship",
@@ -2727,8 +2824,8 @@
         "https://jobs.fidelity.com/en/students/"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. No Summer 2027 finance/CF posting found yet. Fidelity's Summer 2027 application window is reported to open mid-September through mid-October 2026. Recheck then."
     },
     {
       "id": "charles-schwab-2027-cf-internship",
@@ -2754,8 +2851,8 @@
         "https://www.schwabjobs.com/early-careers-overview"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. Only Summer 2026 finance postings currently live (e.g. \"2026 Charles Schwab Finance Internship - Treasury Modeling Team\"). Guides indicate 2027 postings won't appear until September-November 2026. Recheck then."
     },
     {
       "id": "synchrony-2027-cf-internship",
@@ -2780,9 +2877,20 @@
       "sources": [
         "https://www.synchronyuniversity.com/programs/"
       ],
-      "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "sightings": [
+        {
+          "date": "2026-08-17",
+          "url": "https://www.wayup.com/i-Financial-Services-j-BLP-Intern-Finance-Synchrony-748700431140144/",
+          "cycle": "Business Leadership Program - Finance (rising juniors/seniors only)",
+          "grad_years": [
+            2027,
+            2028
+          ],
+          "note": "Quote: \"Rising juniors, seniors, and first-year HR graduate students are eligible for the 10-12-week paid summer internship.\" Explicitly excludes sophomores. A separate \"Business Leadership Program Sophomore Externship\" exists but is an externship, not this tracked internship track."
+        }
+      ],
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): live posting found, eligibility excludes our grad year -- recorded as sighting. Quote: \"Rising juniors, seniors, and first-year HR graduate students are eligible for the 10-12-week paid summer internship.\" Explicitly excludes sophomores. A separate \"Business Leadership Program Sophomore Externship\" exists but is an externship, not this tracked internship track."
     },
     {
       "id": "paypal-2027-cf-internship",
@@ -2808,8 +2916,8 @@
         "https://careers.pypl.com/university-hiring/intern-hub/"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. No confirmed-live 2027 posting; official portal (careers.pypl.com) postings expected Sept-Oct 2026. Generic guide cites an eligibility pattern of \"December 2027 through June 2028\" for summer 2027 roles, which would exclude us, but this could not be confirmed against an actual live posting this run."
     },
     {
       "id": "paypal-2027-ds-internship",
@@ -2835,8 +2943,8 @@
         "https://careers.pypl.com/university-hiring/intern-hub/"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. Same as the CF entry above -- not confirmed live; generic guide eligibility pattern would exclude us once live."
     },
     {
       "id": "visa-2027-cf-internship",
@@ -2861,9 +2969,19 @@
       "sources": [
         "https://corporate.visa.com/en/careers/early-careers.html"
       ],
-      "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "sightings": [
+        {
+          "date": "2026-08-17",
+          "url": "https://corporate.visa.com/en/careers/early-careers.html",
+          "cycle": "Summer Internship Program (Nov2027-Aug2028 grads)",
+          "grad_years": [
+            2028
+          ],
+          "note": "Quote: \"Eligible candidates must have a final graduation date between November 2027 and August 2028.\" Excludes our June-2029 grad. Visa also runs an Early Insights Program for freshmen/sophomores from underrepresented backgrounds, but it is a mentorship pipeline (not a paid CF internship) restricted to underrepresented-background applicants."
+        }
+      ],
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): live posting found, eligibility excludes our grad year -- recorded as sighting. Quote: \"Eligible candidates must have a final graduation date between November 2027 and August 2028.\" Excludes our June-2029 grad. Visa also runs an Early Insights Program for freshmen/sophomores from underrepresented backgrounds, but it is a mentorship pipeline (not a paid CF internship) restricted to underrepresented-background applicants."
     },
     {
       "id": "visa-2027-ds-internship",
@@ -2889,8 +3007,8 @@
         "https://corporate.visa.com/en/careers/early-careers.html"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. The only US-relevant DS listing found (\"Data Science Summer Internship for students graduating in 2027\") is based in Warsaw, Poland, and requires Polish work authorization/fluency -- not applicable. No US Visa DS internship found with 2029-inclusive eligibility."
     },
     {
       "id": "mastercard-2027-cf-internship",
@@ -2915,9 +3033,19 @@
       "sources": [
         "https://careers.mastercard.com/us/en/students"
       ],
-      "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "sightings": [
+        {
+          "date": "2026-08-17",
+          "url": "https://careers.mastercard.com/us/en/students",
+          "cycle": "rolling internship postings since ~June 2026, targeting the following year's grads",
+          "grad_years": [
+            2027
+          ],
+          "note": "General Mastercard internship eligibility targets students \"expected to complete their studies the following year\" -- i.e. rising seniors, not a 2029 grad. No dedicated sophomore CF track found."
+        }
+      ],
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): live posting found, eligibility excludes our grad year -- recorded as sighting. General Mastercard internship eligibility targets students \"expected to complete their studies the following year\" -- i.e. rising seniors, not a 2029 grad. No dedicated sophomore CF track found."
     },
     {
       "id": "mastercard-2027-ds-internship",
@@ -2942,36 +3070,47 @@
       "sources": [
         "https://careers.mastercard.com/us/en/students"
       ],
-      "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "sightings": [
+        {
+          "date": "2026-08-17",
+          "url": "https://careers.mastercard.com/us/en/students",
+          "cycle": "Summer 2027 roles (Dec2027-June2028 grads)",
+          "grad_years": [
+            2028
+          ],
+          "note": "Quote: \"For summer 2027 roles, the expected graduation window is December 2027 through June 2028.\" Excludes our June-2029 grad. No sophomore-specific DS track found."
+        }
+      ],
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): live posting found, eligibility excludes our grad year -- recorded as sighting. Quote: \"For summer 2027 roles, the expected graduation window is December 2027 through June 2028.\" Excludes our June-2029 grad. No sophomore-specific DS track found."
     },
     {
       "id": "johnson-and-johnson-2027-cf-internship",
       "firm_id": "johnson-and-johnson",
-      "name": "2027 Corporate Finance Internship",
+      "name": "Summer 2027 Finance Internship",
       "track": "CF",
       "type": "internship",
       "target_summer": 2027,
       "eligibility": {
         "grad_years": [
+          2028,
           2029
         ],
-        "verified": false,
-        "source": null,
-        "quote": null
+        "verified": true,
+        "source": "https://builtin.com/job/summer-2027-finance-internship/9513835",
+        "quote": "...pursuing an undergraduate or fifth-year master's degree in Finance, Accounting, Economics, Data Analytics, or another business-related field, with an expected graduation date in 2028 or 2029."
       },
       "historical_opens": {},
       "predicted_open": null,
       "confidence": "unverified",
-      "status": "unverified",
-      "application_url": null,
+      "status": "open",
+      "application_url": "https://builtin.com/job/summer-2027-finance-internship/9513835",
       "sources": [
         "https://www.careers.jnj.com/students"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "PROMOTED TO OPEN 2026-08-17: feeds J&J's Finance Leadership Development Program (FLDP). Posting explicitly includes an expected graduation date of 2029 alongside 2028 -- both juniors and sophomores eligible. Mirrored on ZipRecruiter, ACCA Global, Prosple; live on careers.jnj.com per Extern as of July 2026. Qualified applicants reviewed early Fall 2026."
     },
     {
       "id": "procter-and-gamble-2027-cf-internship",
@@ -2996,9 +3135,19 @@
       "sources": [
         "https://www.pgcareers.com/us/en/student-programs"
       ],
-      "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "sightings": [
+        {
+          "date": "2026-08-17",
+          "url": "https://www.pgcareers.com/us/en/student-programs",
+          "cycle": "penultimate-year internship (Dec2027-July2028 grads)",
+          "grad_years": [
+            2028
+          ],
+          "note": "Quote: \"Applicants must be penultimate-year undergraduate (graduating December 2027 through July 2028 for summer 2027 roles) or current graduate students.\" \"Penultimate-year\" explicitly targets juniors/rising seniors, excluding our June-2029 grad. No sophomore-specific finance track found."
+        }
+      ],
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): live posting found, eligibility excludes our grad year -- recorded as sighting. Quote: \"Applicants must be penultimate-year undergraduate (graduating December 2027 through July 2028 for summer 2027 roles) or current graduate students.\" \"Penultimate-year\" explicitly targets juniors/rising seniors, excluding our June-2029 grad. No sophomore-specific finance track found."
     },
     {
       "id": "ge-aerospace-2027-cf-internship",
@@ -3024,8 +3173,8 @@
         "https://careers.geaerospace.com/global/en/us-students-new-grads"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): Financial Management Program (FMP) Internship confirmed LIVE for Summer 2027 (rolling since ~July 2026; careers.geaerospace.com/global/en/fmp). Grad-year eligibility is inconsistent across sources -- one aggregator (Extern) claims eligibility for \"graduating December 2026, May/June 2027, 2028 or 2029\" (would include us), but an older cached posting (2024 cycle) shows \"graduation date on or before May 2026.\" Could not confirm which language is on the live current-cycle posting without WebFetch. Filed as an open question rather than guessed at."
     },
     {
       "id": "openai-2027-ds-internship",
@@ -3051,8 +3200,8 @@
         "https://openai.com/careers/emerging-talent/"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. Summer 2027 internship postings not found live. Multiple sources indicate OpenAI's internship applications for summer 2027 are expected to open September-November 2026."
     },
     {
       "id": "meta-2027-ds-internship",
@@ -3078,8 +3227,8 @@
         "https://www.metacareers.com/careerprograms/students/"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. Meta's standard Data Science/Analytics internship track appears to require Junior standing or above; secondary sources describe sophomores as directed to Meta University instead (a diversity/underrepresented-groups pipeline, not itself a DS internship). Could not confirm a quotable, current-cycle DS-specific track open to our grad year via generic program hub pages -- no specific job posting found to file as an open question against."
     },
     {
       "id": "microsoft-2027-ds-internship",
@@ -3105,8 +3254,8 @@
         "https://careers.microsoft.com/v2/global/en/students"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): found a specific live listing titled \"Data Science Internship Opportunities: Second-Year Students\" (Job ID 1808941, jobs.careers.microsoft.com) -- the title itself suggests sophomore eligibility, a strong candidate match, but WebFetch is blocked and no verbatim eligibility text could be pulled from the page itself. Filed as an open question rather than promoted without a quotable line."
     },
     {
       "id": "apple-2027-ds-internship",
@@ -3132,8 +3281,8 @@
         "https://www.apple.com/careers/us/work-at-apple/students.html"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. Apple has active 2027-cycle student internship postings (general Bachelor's/Master's/PhD language, no explicit class-year gating found in summaries), but no listing specifically titled \"Data Science Intern\" was located, and only a generic search-results page (not a specific posting) was found -- not enough to confirm or exclude sophomore eligibility, and no specific posting to file as an open question against."
     },
     {
       "id": "nvidia-2027-ds-internship",
@@ -3159,8 +3308,8 @@
         "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. Standard NVIDIA Data Science internship postings for Summer 2027 are expected to open Aug-Oct 2026 and were not confirmed live. Separately, NVIDIA's \"Ignite\" is a 12-week freshman/sophomore pre-internship program but is explicitly scoped to \"historically underrepresented communities\" -- not general eligibility, so not promotable regardless of class year."
     },
     {
       "id": "databricks-2027-ds-internship",
@@ -3186,8 +3335,8 @@
         "https://www.databricks.com/company/careers/university-recruiting"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. Databricks' Data Science internship track specifically requires a Master's or PhD in a quantitative field (unlike their Software Engineering track, which accepts Bachelor's students) -- structurally excludes an undergraduate sophomore regardless of grad year."
     },
     {
       "id": "palantir-2027-ds-internship",
@@ -3213,8 +3362,8 @@
         "https://www.palantir.com/careers/students-and-early-talent/"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): Palantir's \"Year at Palantir\" program (FDSE -- Forward Deployed Software Engineer) is described as open to sophomores and juniors studying CS, math, software engineering, physics, or data science (palantir.com/students/path/). This is a software-engineering-track role rather than a dedicated data-science role, so it's an uncertain fit for our \"DS\" category, and no verbatim eligibility quote was obtainable (WebFetch blocked). Filed as an open question rather than guessed at."
     },
     {
       "id": "stripe-2027-ds-internship",
@@ -3240,8 +3389,8 @@
         "https://stripe.com/jobs/university"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. Data Scientist Intern listings found require enrollment in a quantitative PhD or Master's program (grad winter 2026 or spring/summer 2027) -- structurally excludes an undergraduate sophomore."
     },
     {
       "id": "netflix-2027-ds-internship",
@@ -3267,8 +3416,8 @@
         "https://jobs.netflix.com/careers/internships"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. Data-adjacent intern postings found (Data Engineering Intern) require an M.S. or Ph.D. -- no distinct Bachelor's-eligible Data Science Intern listing located at Netflix."
     },
     {
       "id": "two-sigma-2027-ds-internship",
@@ -3294,8 +3443,8 @@
         "https://www.twosigma.com/undergraduate-students/"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. Two Sigma's Data Scientist Internship explicitly targets students with \"approximately one year remaining\" (rising seniors). A First-Year Software Engineering Internship exists for freshmen but is a SWE track, not data science. No true sophomore-eligible data-science internship exists."
     },
     {
       "id": "jane-street-2027-ds-internship",
@@ -3321,8 +3470,8 @@
         "https://www.janestreet.com/join-jane-street/internships/"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. Jane Street's main internship (QT/QR/SWE/ML Researcher/Data Engineer) targets juniors, Master's, and PhD students. Sophomores are routed to early-insight/pipeline programs (FTTP, FOCUS, WiSE, INSIGHT, JSIP) instead -- these are not internships with a data-science placement. No true sophomore DS internship."
     },
     {
       "id": "citadel-2027-ds-internship",
@@ -3348,8 +3497,8 @@
         "https://www.citadel.com/careers/internships/"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. A live \"Sector Data Scientist - 2027 Intern (US)\" listing exists, but research indicates freshmen/sophomores are directed to feeder programs (Discover Citadel, Datathons/Data Open, Trading Invitational) rather than applying to this internship directly -- the direct-apply track is effectively junior/senior-level. No confirmed sophomore path into the actual internship."
     },
     {
       "id": "de-shaw-2027-ds-internship",
@@ -3375,8 +3524,8 @@
         "https://www.deshaw.com/careers/internships"
       ],
       "sightings": [],
-      "last_checked": null,
-      "notes": ""
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. D.E. Shaw's Quantitative Analyst/Software Developer Intern listings (Summer 2027) target students close to graduation (rising-senior pattern typical of the firm). A sophomore-accessible offering exists (the Discovery Fellowship) but is a 3-day spring insight fellowship, not an internship, and is restricted to sophomore women specifically."
     },
     {
       "id": "anthropic-2027-ds-internship",
@@ -3402,8 +3551,72 @@
         "https://www.anthropic.com/careers"
       ],
       "sightings": [],
-      "last_checked": "2026-08-14",
-      "notes": "Checked 2026-08-14: WebFetch blocked network-wide. WebSearch confirms Anthropic still offers no traditional student internship program. The Anthropic Fellows Program (4-month paid AI-safety research fellowship, rolling cohorts) and Claude Corps (full-time $85k placement role for people with <2 years experience) both exist, but neither is a student internship -- Fellows targets independent researchers and Claude Corps is a full-time post-grad placement, not a sophomore/undergrad summer internship. No change; still watching for a genuine internship program."
+      "last_checked": "2026-08-17",
+      "notes": "Checked 2026-08-14: WebFetch blocked network-wide. WebSearch confirms Anthropic still offers no traditional student internship program. The Anthropic Fellows Program (4-month paid AI-safety research fellowship, rolling cohorts) and Claude Corps (full-time $85k placement role for people with <2 years experience) both exist, but neither is a student internship -- Fellows targets independent researchers and Claude Corps is a full-time post-grad placement, not a sophomore/undergrad summer internship. No change; still watching for a genuine internship program. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. Unchanged from the 2026-08-14 check -- Anthropic still has no conventional internship program. The Anthropic Fellows Program (4-month paid AI safety research fellowship) and Claude Corps Fellowship (12-month nonprofit AI-deployment role, no educational requirement) both exist but neither fits the tracker's CF/DS internship definition."
+    },
+    {
+      "id": "ny-fed-sophomore-career-exploration-2027",
+      "firm_id": "federal-reserve-bank-of-new-york",
+      "name": "Sophomore Career Exploration Program",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program"
+      ],
+      "sightings": [],
+      "last_checked": "2026-08-17",
+      "notes": "New find, 2026-08-17 CF/DS surprise sweep: 8-week program beginning early June, explicitly for sophomores, with a mentor pairing and consideration for the junior-level pipeline (recruitment feeder for NY Fed entry-level hiring). Tracks: Policy (Supervision/Markets/Research) or Operations & Resiliency/Technology/Communications & Outreach. Program info for the next cycle is reported to become available September 2026 -- not live as of 8/17/26. Watch the program page."
+    },
+    {
+      "id": "bank-of-america-2028-cf-finance-management",
+      "firm_id": "bank-of-america",
+      "name": "Finance Management Summer Analyst Program",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2028,
+      "eligibility": {
+        "grad_years": [
+          2029
+        ],
+        "verified": false,
+        "source": null,
+        "quote": null
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "unverified",
+      "application_url": null,
+      "sources": [
+        "https://careers.bankofamerica.com/en-us/students/job-detail/14422/finance-management-summer-analyst-program-2027-multiple-locations"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-17",
+          "url": "https://careers.bankofamerica.com/en-us/students/job-detail/14422/finance-management-summer-analyst-program-2027-multiple-locations",
+          "cycle": "2027 cycle (Nov2027-Aug2028 grads)",
+          "grad_years": [
+            2028
+          ],
+          "note": "Resolves the 2026-08-14 open question (unverified-seen-posted). Confirmed via careers.bankofamerica.com Job ID 14422 (also mirrored AnitaB.org Job ID 81285433, and a possibly-duplicate Job ID 14323/14007 posting). Quote: \"eligible candidates must have a final graduation date between November 2027 and August 2028.\" This BofA CFO-Group program runs on IB-style cycle-ahead timing (like BofA's IB Summer Analyst program), not the 6-12-month CF/DS pattern -- \"Summer 2027\" here serves Class-of-2028 rising seniors, not our sophomore-summer cohort. 10-week internship, min GPA 3.2."
+        }
+      ],
+      "last_checked": "2026-08-17",
+      "notes": "New program row, 2026-08-17: added to resolve the 2026-08-14 open question (bank-of-america-cf-finance-management-sa-2026-08-14). Bank of America's firm entry updated to add the CF track (was IB-only) and sweep_cadence set to weekly. Current live posting is wrong-cycle (Class of 2028); our Class-of-2029 cycle would be the \"Summer 2028\"-labeled iteration, not yet posted. target_summer set to 2028 to match BofA's observed IB-style cycle-ahead pattern for this program, unlike the typical CF/DS 2027 convention."
     }
   ]
 }
