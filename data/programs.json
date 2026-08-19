@@ -383,8 +383,8 @@
         "https://careeredge.bentley.edu/blog/2024/09/17/rbc-capital-markets-2024-2025-early-insight-programs-for-sophomores-apply-by-9-22-2/"
       ],
       "sightings": [],
-      "last_checked": "2026-08-17",
-      "notes": "Early-insight programs for first/second-year students (Discovery Day, Spring Insight, plus an LGBTQ+ Sophomore Insights track). 2024-25 cycle was live by 2024-09-17 with an apply-by of 2024-09-22 (career-center repost; month/September precision). Single sourced cycle -> medium. Prediction 2026-09-15 is the nearest Tuesday to the prior open; treat as approximate. This is an early-fall opener, so it is near-term. Checked 2026-08-10 (Monday sweep, stale-prediction revalidation): WebFetch blocked network-wide. No 2026-27-cycle announcement found yet; the existing predicted_open (2026-09-15) remains consistent with the prior cycle's ~Oct 10 deadline. No change. Checked 2026-08-12 (daily): WebFetch still blocked network-wide (rbccm.com, prosple.com both EGRESS_BLOCKED). WebSearch found only a prior/different-cohort RBC Discovery Day reference (Canadian program, grad Dec2025-Spring2026) and no 2026-27-cycle announcement for our program. Existing predicted_open (2026-09-15) unchanged, not yet in-window for a live posting. Checked 2026-08-14: WebFetch still blocked network-wide. WebSearch confirms the 2026 Spring Insight Programmes cycle (prior cohort) has closed; RBC Pathways / LGBTQ+ Sophomore Insights / general Capital Markets Insights Program pages surfaced but no dated 2026-27-cycle open announcement found. Existing predicted_open (2026-09-15) unchanged, 32 days out -- in-window but not yet live. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. WebSearch found only wrong-cycle RBC programs -- \"Capital Markets Insights Program\" (deadline already passed, eligibility \"graduating between December 2027 and June 2028\") and \"Pathways\" (eligibility \"graduating between December 2026 and June 2027\") -- neither matches this tracked Discovery Day/Spring Insight entry's Class-of-2029 cycle, and neither is confirmed to be this same program under a different name. No live posting found for our cycle. predicted_open (2026-09-15) unchanged, 29 days out, in-window but not yet live.",
+      "last_checked": "2026-08-19",
+      "notes": "Early-insight programs for first/second-year students (Discovery Day, Spring Insight, plus an LGBTQ+ Sophomore Insights track). 2024-25 cycle was live by 2024-09-17 with an apply-by of 2024-09-22 (career-center repost; month/September precision). Single sourced cycle -> medium. Prediction 2026-09-15 is the nearest Tuesday to the prior open; treat as approximate. This is an early-fall opener, so it is near-term. Checked 2026-08-10 (Monday sweep, stale-prediction revalidation): WebFetch blocked network-wide. No 2026-27-cycle announcement found yet; the existing predicted_open (2026-09-15) remains consistent with the prior cycle's ~Oct 10 deadline. No change. Checked 2026-08-12 (daily): WebFetch still blocked network-wide (rbccm.com, prosple.com both EGRESS_BLOCKED). WebSearch found only a prior/different-cohort RBC Discovery Day reference (Canadian program, grad Dec2025-Spring2026) and no 2026-27-cycle announcement for our program. Existing predicted_open (2026-09-15) unchanged, not yet in-window for a live posting. Checked 2026-08-14: WebFetch still blocked network-wide. WebSearch confirms the 2026 Spring Insight Programmes cycle (prior cohort) has closed; RBC Pathways / LGBTQ+ Sophomore Insights / general Capital Markets Insights Program pages surfaced but no dated 2026-27-cycle open announcement found. Existing predicted_open (2026-09-15) unchanged, 32 days out -- in-window but not yet live. Checked 2026-08-17 (Monday sweep): WebFetch still blocked network-wide. WebSearch found only wrong-cycle RBC programs -- \"Capital Markets Insights Program\" (deadline already passed, eligibility \"graduating between December 2027 and June 2028\") and \"Pathways\" (eligibility \"graduating between December 2026 and June 2027\") -- neither matches this tracked Discovery Day/Spring Insight entry's Class-of-2029 cycle, and neither is confirmed to be this same program under a different name. No live posting found for our cycle. predicted_open (2026-09-15) unchanged, 29 days out, in-window but not yet live. Checked 2026-08-19 (in-window check): WebFetch still blocked network-wide (rbccm.com EGRESS_BLOCKED). WebSearch again surfaced only the LGBTQ+ Sophomore Insights Program (eligibility \"graduating between December 2026 and Spring 2027\" -- Class of 2027, wrong cycle) and RBC Pathways (sophomore diversity program, no dated 2026-27 open found) -- neither confirmed as this tracked Discovery Day/Spring Insight entry under a new cycle. No live Class-of-2029 posting found. predicted_open (2026-09-15) unchanged, 27 days out, in-window but not yet live. T-4w networking window (2026-08-18) entered this week.",
       "track": "IB"
     },
     {
@@ -2535,8 +2535,8 @@
         "https://www.spacex.com/careers/jobs/?type=intern"
       ],
       "sightings": [],
-      "last_checked": "2026-08-17",
-      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide (EGRESS_BLOCKED on spacex.com). WebSearch found live Summer/Spring 2027 SpaceX Greenhouse postings for Software Engineering, Engineering, and Business Operations internships/co-ops (first logged ~Aug 5-6, 2026), but no Data Science- or Machine Learning-titled posting located. Still unverified; watch for a DS/ML-specific title. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. No DS-titled posting found. SpaceX has live Summer/Spring 2027 postings on Greenhouse for Software Engineering, Business Operations, Silicon Engineering, and general Engineering internships, but no distinct \"Data Science\"/\"Machine Learning\" internship title. Not promotable without a DS-titled posting."
+      "last_checked": "2026-08-19",
+      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide (EGRESS_BLOCKED on spacex.com). WebSearch found live Summer/Spring 2027 SpaceX Greenhouse postings for Software Engineering, Engineering, and Business Operations internships/co-ops (first logged ~Aug 5-6, 2026), but no Data Science- or Machine Learning-titled posting located. Still unverified; watch for a DS/ML-specific title. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. No DS-titled posting found. SpaceX has live Summer/Spring 2027 postings on Greenhouse for Software Engineering, Business Operations, Silicon Engineering, and general Engineering internships, but no distinct \"Data Science\"/\"Machine Learning\" internship title. Not promotable without a DS-titled posting. Checked 2026-08-19 (every-run sweep): WebFetch blocked, WebSearch only. Still no DS/ML-titled SpaceX posting found. No change."
     },
     {
       "id": "google-2027-cf-internship",
@@ -2562,8 +2562,8 @@
         "https://www.google.com/about/careers/applications/students"
       ],
       "sightings": [],
-      "last_checked": "2026-08-17",
-      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch indicates Google's STEP/internship application window is short (2-3 weeks) and typically opens Sept-Oct 2026 for Summer 2027; not yet live as of this check. No live Corporate Finance internship posting found. Still unverified. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. Could not find a direct careers.google.com posting URL (only aggregator/guide sites). BOLD Immersion is the closest CF-adjacent fit; sources conflict on whether it's sophomore-eligible (one says \"for students completing their 2nd year\"; another describes the main BOLD internship as \"for rising undergraduate seniors\"). Application window typically opens Sept-Dec 2026 -- not yet open as of today."
+      "last_checked": "2026-08-19",
+      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch indicates Google's STEP/internship application window is short (2-3 weeks) and typically opens Sept-Oct 2026 for Summer 2027; not yet live as of this check. No live Corporate Finance internship posting found. Still unverified. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. Could not find a direct careers.google.com posting URL (only aggregator/guide sites). BOLD Immersion is the closest CF-adjacent fit; sources conflict on whether it's sophomore-eligible (one says \"for students completing their 2nd year\"; another describes the main BOLD internship as \"for rising undergraduate seniors\"). Application window typically opens Sept-Dec 2026 -- not yet open as of today. Checked 2026-08-19 (every-run sweep): WebFetch blocked, WebSearch only. No live posting found; still no direct careers.google.com CF listing. No change."
     },
     {
       "id": "google-2027-ds-internship",
@@ -2589,8 +2589,8 @@
         "https://www.google.com/about/careers/applications/students"
       ],
       "sightings": [],
-      "last_checked": "2026-08-17",
-      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch indicates Google's STEP/internship application window is short (2-3 weeks) and typically opens Sept-Oct 2026 for Summer 2027; not yet live as of this check. No live Data Science/ML internship posting found. Still unverified. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. STEP program eligibility (\"first or second year undergraduate student in CS, CE, or related field\") maps directly to our rising-sophomore status for Summer 2027 -- a strong future fit -- but the application window typically opens September-October 2026 and no live careers.google.com posting was found as of 2026-08-17. Recheck in September."
+      "last_checked": "2026-08-19",
+      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch indicates Google's STEP/internship application window is short (2-3 weeks) and typically opens Sept-Oct 2026 for Summer 2027; not yet live as of this check. No live Data Science/ML internship posting found. Still unverified. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. STEP program eligibility (\"first or second year undergraduate student in CS, CE, or related field\") maps directly to our rising-sophomore status for Summer 2027 -- a strong future fit -- but the application window typically opens September-October 2026 and no live careers.google.com posting was found as of 2026-08-17. Recheck in September. Checked 2026-08-19 (every-run sweep): WebFetch blocked, WebSearch only. STEP mentioned again in search summaries but still no live posting found. No change."
     },
     {
       "id": "amazon-2027-cf-internship",
@@ -2635,8 +2635,8 @@
           "note": "Live postings confirmed on amazon.jobs (\"2027 Amazon Finance Rotation Program - Accounting Intern\", \"...Business Unit Finance Intern\", \"2027 Amazon Operations Finance Rotational Program Summer Internship\"). Eligibility: \"Candidates must have a graduation conferral date between December 2027 and June 2028.\" Excludes our June-2029 grad."
         }
       ],
-      "last_checked": "2026-08-17",
-      "notes": "Checked 2026-08-14: found live Amazon Finance Rotation Program postings; recorded as wrong-cycle sighting (grad Dec2027-June2028) -- see sightings. This is a near-graduation rotational program, not a sophomore-entry pipeline, despite the CF track's usual 'Summer 2027 = sophomore summer' assumption. No sophomore-eligible Amazon CF posting found this run. Checked 2026-08-17 (every-run sweep): live posting found, wrong grad-year window -- recorded as sighting."
+      "last_checked": "2026-08-19",
+      "notes": "Checked 2026-08-14: found live Amazon Finance Rotation Program postings; recorded as wrong-cycle sighting (grad Dec2027-June2028) -- see sightings. This is a near-graduation rotational program, not a sophomore-entry pipeline, despite the CF track's usual 'Summer 2027 = sophomore summer' assumption. No sophomore-eligible Amazon CF posting found this run. Checked 2026-08-17 (every-run sweep): live posting found, wrong grad-year window -- recorded as sighting. Checked 2026-08-19 (every-run sweep): same three Finance Rotation Program postings (Accounting/Business Unit/Operations Finance, job IDs 10435671-73) still live, same wrong grad-year window -- already recorded above, not re-logged as a new sighting. No sophomore-eligible posting found."
     },
     {
       "id": "amazon-2027-ds-internship",
@@ -2662,8 +2662,8 @@
         "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students"
       ],
       "sightings": [],
-      "last_checked": "2026-08-17",
-      "notes": "Checked 2026-08-14: found live 'Applied Science Intern (Machine Learning...)' postings (e.g. Job ID 10409671) and a '2026 Data Science Internship' posting, but both require PhD/MS enrollment ('Applicants must be enrolled in a PhD... MS or PhD required') -- not applicable to this undergrad profile at any cycle, so not recorded as a sighting (no timing-intel value; this is a permanently distinct graduate-only pipeline, not a cycle offset). No undergraduate-track DS/ML internship posting found for Amazon this run; watch for a distinct undergrad posting. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. No 2027-cycle posting found (only a 2026-cycle \"Data Science Internship - PhD or Masters Student\" listing). Amazon's Applied Scientist/Data Scientist internship tracks structurally require an MS or PhD, so even once a 2027 posting appears it will likely exclude an undergraduate sophomore regardless of grad year. Amazon Propel (undergrad-friendly early-career program) was named in a general resource list but no live DS-specific Propel posting was located."
+      "last_checked": "2026-08-19",
+      "notes": "Checked 2026-08-14: found live 'Applied Science Intern (Machine Learning...)' postings (e.g. Job ID 10409671) and a '2026 Data Science Internship' posting, but both require PhD/MS enrollment ('Applicants must be enrolled in a PhD... MS or PhD required') -- not applicable to this undergrad profile at any cycle, so not recorded as a sighting (no timing-intel value; this is a permanently distinct graduate-only pipeline, not a cycle offset). No undergraduate-track DS/ML internship posting found for Amazon this run; watch for a distinct undergrad posting. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. No 2027-cycle posting found (only a 2026-cycle \"Data Science Internship - PhD or Masters Student\" listing). Amazon's Applied Scientist/Data Scientist internship tracks structurally require an MS or PhD, so even once a 2027 posting appears it will likely exclude an undergraduate sophomore regardless of grad year. Amazon Propel (undergrad-friendly early-career program) was named in a general resource list but no live DS-specific Propel posting was located. Checked 2026-08-19 (every-run sweep): WebFetch blocked, WebSearch only. Same PhD/Masters-only pattern reconfirmed; no undergrad-track posting found. No change."
     },
     {
       "id": "exxonmobil-2027-cf-internship",
@@ -2689,8 +2689,8 @@
         "https://corporate.exxonmobil.com/careers/internship-opportunities"
       ],
       "sightings": [],
-      "last_checked": "2026-08-17",
-      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch aggregators conflict/are stale (references '2026 intern opportunities' as currently accepting, plus a general expectation that the Summer-2027 cycle opens 'August 2026' as fall campus recruiting begins) -- no dated, confirmed live 2027-cycle Finance posting located. Still unverified. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. Not live. Multiple sources agree Summer 2027 intern postings are expected to open August 2026 when fall campus recruiting begins -- we are at the edge of that window (today is 8/17/26); recheck soon. Prior-cycle general eligibility read \"must have completed at least your sophomore year by the start of the internship\" (favorable if repeated, but not yet reissued)."
+      "last_checked": "2026-08-19",
+      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch aggregators conflict/are stale (references '2026 intern opportunities' as currently accepting, plus a general expectation that the Summer-2027 cycle opens 'August 2026' as fall campus recruiting begins) -- no dated, confirmed live 2027-cycle Finance posting located. Still unverified. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. Not live. Multiple sources agree Summer 2027 intern postings are expected to open August 2026 when fall campus recruiting begins -- we are at the edge of that window (today is 8/17/26); recheck soon. Prior-cycle general eligibility read \"must have completed at least your sophomore year by the start of the internship\" (favorable if repeated, but not yet reissued). Checked 2026-08-19 (every-run sweep): WebFetch blocked, WebSearch only. Still no dated live 2027-cycle Finance posting found (\"Accounting/Finance Internship\" listing shows not currently active); recruiting expected Aug-Nov 2026. No change."
     },
     {
       "id": "exxonmobil-2027-ds-internship",
@@ -2716,8 +2716,8 @@
         "https://corporate.exxonmobil.com/careers/internship-opportunities"
       ],
       "sightings": [],
-      "last_checked": "2026-08-17",
-      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch aggregators conflict/are stale; no dated, confirmed live 2027-cycle Data Science posting located. Still unverified. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. Not live; same August-2026 opening timeline as CF above. One specific prior listing found (\"PhD Students Seeking Internship Opportunities... Data Science\") is PhD-only, but ExxonMobil's general internship eligibility language elsewhere lists \"data science\" among eligible fields of study at the Bachelor's level for its Business/Commercial internship. No current live 2027 posting to quote."
+      "last_checked": "2026-08-19",
+      "notes": "Checked 2026-08-14 (first check): WebFetch blocked network-wide. WebSearch aggregators conflict/are stale; no dated, confirmed live 2027-cycle Data Science posting located. Still unverified. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. Not live; same August-2026 opening timeline as CF above. One specific prior listing found (\"PhD Students Seeking Internship Opportunities... Data Science\") is PhD-only, but ExxonMobil's general internship eligibility language elsewhere lists \"data science\" among eligible fields of study at the Bachelor's level for its Business/Commercial internship. No current live 2027 posting to quote. Checked 2026-08-19 (every-run sweep): WebFetch blocked, WebSearch only. Confirms data science remains a listed eligible field of study for Bachelor's-level internships once fall postings open; still no live 2027 posting found. No change."
     },
     {
       "id": "capital-one-2027-cf-internship",
@@ -3285,6 +3285,45 @@
       "notes": "Checked 2026-08-17 (weekly-cadence sweep, first check): WebFetch blocked, WebSearch only. Apple has active 2027-cycle student internship postings (general Bachelor's/Master's/PhD language, no explicit class-year gating found in summaries), but no listing specifically titled \"Data Science Intern\" was located, and only a generic search-results page (not a specific posting) was found -- not enough to confirm or exclude sophomore eligibility, and no specific posting to file as an open question against."
     },
     {
+      "id": "apple-2027-cf-internship",
+      "firm_id": "apple",
+      "name": "Launch@Apple, Finance Development Experience – 2027 Opportunities",
+      "track": "CF",
+      "type": "internship",
+      "target_summer": 2027,
+      "eligibility": {
+        "grad_years": [
+          2028,
+          2029
+        ],
+        "verified": true,
+        "source": "https://jobs.apple.com/en-us/details/200644525/launch-apple-finance-development-experience-2027-opportunities",
+        "quote": "pursuing a Bachelor's degree in Business Administration, Finance, Accounting, Economics, Data Analytics/Data Science, or a related field, graduating December 2028 or Spring 2029"
+      },
+      "historical_opens": {},
+      "predicted_open": null,
+      "confidence": "unverified",
+      "status": "open",
+      "application_url": "https://jobs.apple.com/en-us/details/200644525/launch-apple-finance-development-experience-2027-opportunities",
+      "sources": [
+        "https://jobs.apple.com/en-us/details/200644525/launch-apple-finance-development-experience-2027-opportunities",
+        "https://careers.uw.edu/blog/2026/02/27/launchapple-finance-development-experience-2027-opportunities/"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-19",
+          "url": "https://jobs.apple.com/en-us/details/200646124-0836/finance-development-program-2027-internship-opportunities?team=STDNT",
+          "cycle": "Finance Development Program (FDP) — 2027 Internship Opportunities",
+          "grad_years": [
+            2028
+          ],
+          "note": "Apple's standard (non-Launch) Finance Development Program -- the near-grad rotational track feeding Financial Analyst roles, distinct from Launch@Apple. Eligibility: Bachelor's degree in Finance/Data Science/Math/Statistics/Business/Economics/Accounting or related, graduating Winter 2027 or Spring 2028 -- Class of 2028, wrong cycle for a 2029 grad. Launch@Apple (this row's open posting) is the correct sophomore on-ramp; this FDP posting is not applicable."
+        }
+      ],
+      "last_checked": "2026-08-19",
+      "notes": "NEW FIRM TRACK + NEWLY OPEN 2026-08-19: found via the CF surprise-sweep query ('2027 financial analyst development program sophomore internship open'). Apple was already tracked for DS; added CF to its tracks list. Launch@Apple is Apple Finance's underclassman on-ramp: Virtual Cohort Sessions Jan-Apr 2027 (Fridays) followed by an in-person Finance Development Experience (FDE) Jul 12-Aug 13 2027. Eligibility quote explicitly includes 'Spring 2029' -- this Class-of-2029 sophomore qualifies. WebFetch blocked network-wide (jobs.apple.com, careers.uw.edu both EGRESS_BLOCKED); eligibility and open-status corroborated across the UW career-center repost plus multiple independent job-board mirrors (career.io, Jobright, Talent.com) all showing the identical graduation-date language and an active posting -- no closure signal found anywhere. Also found Apple's separate standard Finance Development Program (FDP) 2027 posting, wrong cycle (Class of 2028) -- recorded as a sighting on this row rather than a new row since no distinct FDP program entry exists yet (candidate for the next Monday deep sweep)."
+    },
+    {
       "id": "nvidia-2027-ds-internship",
       "firm_id": "nvidia",
       "name": "2027 Data Science / ML Internship",
@@ -3551,8 +3590,8 @@
         "https://www.anthropic.com/careers"
       ],
       "sightings": [],
-      "last_checked": "2026-08-17",
-      "notes": "Checked 2026-08-14: WebFetch blocked network-wide. WebSearch confirms Anthropic still offers no traditional student internship program. The Anthropic Fellows Program (4-month paid AI-safety research fellowship, rolling cohorts) and Claude Corps (full-time $85k placement role for people with <2 years experience) both exist, but neither is a student internship -- Fellows targets independent researchers and Claude Corps is a full-time post-grad placement, not a sophomore/undergrad summer internship. No change; still watching for a genuine internship program. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. Unchanged from the 2026-08-14 check -- Anthropic still has no conventional internship program. The Anthropic Fellows Program (4-month paid AI safety research fellowship) and Claude Corps Fellowship (12-month nonprofit AI-deployment role, no educational requirement) both exist but neither fits the tracker's CF/DS internship definition."
+      "last_checked": "2026-08-19",
+      "notes": "Checked 2026-08-14: WebFetch blocked network-wide. WebSearch confirms Anthropic still offers no traditional student internship program. The Anthropic Fellows Program (4-month paid AI-safety research fellowship, rolling cohorts) and Claude Corps (full-time $85k placement role for people with <2 years experience) both exist, but neither is a student internship -- Fellows targets independent researchers and Claude Corps is a full-time post-grad placement, not a sophomore/undergrad summer internship. No change; still watching for a genuine internship program. Checked 2026-08-17 (every-run sweep): WebFetch blocked, WebSearch only. Unchanged from the 2026-08-14 check -- Anthropic still has no conventional internship program. The Anthropic Fellows Program (4-month paid AI safety research fellowship) and Claude Corps Fellowship (12-month nonprofit AI-deployment role, no educational requirement) both exist but neither fits the tracker's CF/DS internship definition. Checked 2026-08-19 (every-run sweep): WebFetch blocked, WebSearch only. Still no traditional internship program; Fellows Program reconfirmed as a fellowship (cohorts Jan/Aug 2027), not an undergrad internship. No change."
     },
     {
       "id": "ny-fed-sophomore-career-exploration-2027",

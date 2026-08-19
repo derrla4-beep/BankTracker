@@ -780,6 +780,7 @@
       "id": "apple",
       "name": "Apple",
       "tracks": [
+        "CF",
         "DS"
       ],
       "tier": null,
