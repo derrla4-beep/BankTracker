@@ -1,1 +1,14 @@
-{"events": []}
+{
+  "events": [
+    {
+      "id": "bu-eng-applied-sciences-fair-2026-10-01",
+      "firm_id": null,
+      "title": "Engineering & Applied Sciences Career Fair",
+      "date": "2026-10-01",
+      "time": "12:00",
+      "location": "Boston University (Engineering/GSU facilities, exact building unconfirmed)",
+      "source_url": "https://www.bu.edu/eng/student-engagement-careers/careers/events/",
+      "added": "2026-08-24"
+    }
+  ]
+}

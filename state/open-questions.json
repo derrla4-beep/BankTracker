@@ -21,8 +21,8 @@
       "url": "https://career.virginia.edu/events/2026/10/07/uva-lincoln-international-information-session-investment-banking/",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-17",
-      "last_seen": "2026-08-17",
-      "resolved": false
+      "last_seen": "2026-08-24",
+      "resolved": true
     },
     {
       "id": "ge-aerospace-fmp-eligibility-2026-08-17",
@@ -33,7 +33,7 @@
       "url": "https://careers.geaerospace.com/global/en/fmp",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-17",
-      "last_seen": "2026-08-17",
+      "last_seen": "2026-08-24",
       "resolved": false
     },
     {
@@ -45,7 +45,7 @@
       "url": "https://jobs.careers.microsoft.com/global/en/job/1808941/Data-Science-Internship-Opportunities:-Second-Year-Students",
       "reason": "page-load-failed",
       "first_seen": "2026-08-17",
-      "last_seen": "2026-08-17",
+      "last_seen": "2026-08-24",
       "resolved": false
     },
     {
@@ -57,8 +57,8 @@
       "url": "https://www.palantir.com/students/path/",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-17",
-      "last_seen": "2026-08-17",
-      "resolved": false
+      "last_seen": "2026-08-24",
+      "resolved": true
     },
     {
       "id": "imc-trading-ml-research-intern-2026-08-17",
@@ -69,7 +69,7 @@
       "url": "https://www.imc.com/us/careers/jobs/4907430101",
       "reason": "unverified-seen-posted",
       "first_seen": "2026-08-17",
-      "last_seen": "2026-08-21",
+      "last_seen": "2026-08-24",
       "resolved": false
     },
     {
@@ -82,6 +82,222 @@
       "reason": "unverified-seen-posted",
       "first_seen": "2026-08-21",
       "last_seen": "2026-08-21",
+      "resolved": false
+    },
+    {
+      "id": "nomura-explore-sophomore-2027-no-quotable-line-2026-08-24",
+      "firm_id": "nomura",
+      "program_id": "nomura-explore-sophomore-2027",
+      "track": "IB",
+      "title": "Explore Nomura Freshman & Sophomore Diversity Program (US) \u2014 live status/eligibility unclear",
+      "url": "https://www.nomura.com/careers/early-careers/insight-programs/",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "spacex-2027-ds-internship-title-body-mismatch-2026-08-24",
+      "firm_id": "spacex",
+      "program_id": "spacex-2027-ds-internship",
+      "track": "DS",
+      "title": "SpaceX Summer 2027 Business Operations / Software Engineering Internship (Freshman/Sophomore) \u2014 no distinct DS/ML title found",
+      "url": "https://job-boards.greenhouse.io/spacex/jobs/8621771002",
+      "reason": "title-body-mismatch",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "google-2027-ds-internship-title-body-mismatch-2026-08-24",
+      "firm_id": "google",
+      "program_id": "google-2027-ds-internship",
+      "track": "DS",
+      "title": "Google STEP Program \u2014 sophomore-eligible general CS pipeline, not DS-branded; live 2027 application link unconfirmed",
+      "url": "https://buildyourfuture.withgoogle.com/programs/step",
+      "reason": "title-body-mismatch",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "exxonmobil-2027-cf-internship-no-quotable-line-2026-08-24",
+      "firm_id": "exxonmobil",
+      "program_id": "exxonmobil-2027-cf-internship",
+      "track": "CF",
+      "title": "Business & Commercial Students Seeking Internship Opportunities (ExxonMobil)",
+      "url": "https://jobs.exxonmobil.com/job/Spring-Business-%26-Commercial-Students-Seeking-Internship-Opportunities-TX-77389/1415260100/",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "exxonmobil-2027-ds-internship-no-quotable-line-2026-08-24",
+      "firm_id": "exxonmobil",
+      "program_id": "exxonmobil-2027-ds-internship",
+      "track": "DS",
+      "title": "ExxonMobil internship hub \u2014 Data Science listed as an eligible field, no distinct DS posting/eligibility line found",
+      "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "mastercard-2027-cf-internship-no-quotable-line-2026-08-24",
+      "firm_id": "mastercard",
+      "program_id": "mastercard-2027-cf-internship",
+      "track": "CF",
+      "title": "Mastercard Summer 2027 campus internships \u2014 live rolling postings confirmed, no CF-specific quotable eligibility line found",
+      "url": "https://careers.mastercard.com/us/en/students",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "mastercard-2027-ds-internship-no-quotable-line-2026-08-24",
+      "firm_id": "mastercard",
+      "program_id": "mastercard-2027-ds-internship",
+      "track": "DS",
+      "title": "Mastercard Summer 2027 campus internships \u2014 live rolling postings confirmed, no DS-specific quotable eligibility line found",
+      "url": "https://careers.mastercard.com/us/en/data-science-jobs",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "apple-2027-ds-internship-no-quotable-line-2026-08-24",
+      "firm_id": "apple",
+      "program_id": "apple-2027-ds-internship",
+      "track": "DS",
+      "title": "Apple 2027 Internship cycle confirmed live; no Data-Science-titled Summer 2027 posting found",
+      "url": "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "nvidia-2027-ds-internship-no-quotable-line-2026-08-24",
+      "firm_id": "nvidia",
+      "program_id": "nvidia-2027-ds-internship",
+      "track": "DS",
+      "title": "NVIDIA Ignite (freshman/sophomore pre-internship track) \u2014 strong eligibility fit but no live application link/status confirmed",
+      "url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "jane-street-2027-ds-internship-title-body-mismatch-2026-08-24",
+      "firm_id": "jane-street",
+      "program_id": "jane-street-2027-ds-internship",
+      "track": "DS",
+      "title": "Jane Street JSIP (2nd-year-eligible) vs. main SWE/QT track (juniors only) \u2014 unclear fit / live status unconfirmed",
+      "url": "https://www.janestreet.com/join-jane-street/programs-and-events/jsip/",
+      "reason": "title-body-mismatch",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "citadel-2027-ds-internship-eligibility-unreadable-2026-08-24",
+      "firm_id": "citadel",
+      "program_id": "citadel-2027-ds-internship",
+      "track": "DS",
+      "title": "Citadel Sector Data Scientist \u2013 2027 Intern (US) \u2014 no class-year eligibility line found",
+      "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/",
+      "reason": "eligibility-unreadable",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "houlihan-lokey-rising-leaders-2027-no-quotable-line-2026-08-24",
+      "firm_id": "houlihan-lokey",
+      "program_id": "houlihan-lokey-rising-leaders-2027",
+      "track": "IB",
+      "title": "Rising Leaders Diversity Program / Women's Insight Day \u2014 no live-application confirmation or eligibility text found",
+      "url": "https://hl.com/careers/early-careers/",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "baird-ascend-ib-2027-no-quotable-line-2026-08-24",
+      "firm_id": "baird",
+      "program_id": "baird-ascend-ib-2027",
+      "track": "IB",
+      "title": "Ascend to Global Investment Banking \u2014 recurring Aug (Chicago) / Sept (Tysons Corner) open pattern, no live application link confirmed this pass",
+      "url": "https://www.bairdcareers.com/internships/global-investment-banking-intern-program-us/",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "centerview-partners-2028-sa-ib-no-quotable-line-2026-08-24",
+      "firm_id": "centerview-partners",
+      "program_id": "centerview-partners-2028-sa-ib",
+      "track": "IB",
+      "title": "Centerview Partners Investment Banking Summer Analyst (Emory repost, no cycle year shown)",
+      "url": "https://cpd.emory.edu/jobs/centerview-partners-investment-banking-summer-analyst-new-york/",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "moelis-2028-sa-ib-no-quotable-line-2026-08-24",
+      "firm_id": "moelis",
+      "program_id": "moelis-2028-sa-ib",
+      "track": "IB",
+      "title": "Moelis & Company Investment Banking Summer Analyst (Bright Network listing, no cycle year shown)",
+      "url": "https://www.brightnetwork.co.uk/graduate-jobs/moelis-company/summer-analyst-investment-banking",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "wells-fargo-cf-internship-2026-08-24",
+      "firm_id": "wells-fargo",
+      "program_id": "wells-fargo-2027-cf-internship",
+      "track": "CF",
+      "title": "2027 Finance Summer Internship - Early Careers",
+      "url": "https://www.wellsfargojobs.com/en/jobs/r-555860/2027-finance-summer-internship-early-careers/",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "massachusetts-life-sciences-center-ds-2026-08-24",
+      "firm_id": "massachusetts-life-sciences-center",
+      "program_id": "massachusetts-life-sciences-center-2027-ds-internship",
+      "track": "DS",
+      "title": "Data Science Internship Program",
+      "url": "https://www.masslifesciences.com/programs/datascienceinternshipchallenge/",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "resolved": false
+    },
+    {
+      "id": "citadel-datathon-2026-08-24",
+      "firm_id": "citadel",
+      "program_id": "citadel-2027-ds-datathon",
+      "track": "DS",
+      "title": "Citadel Discover Datathon \u2014 eligibility spans Dec2027-June2029 (includes Class of 2029); live-application status unconfirmed this pass",
+      "url": "https://www.citadel.com/careers/programs-and-events/datathons/",
+      "reason": "unverified-seen-posted",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
       "resolved": false
     }
   ]

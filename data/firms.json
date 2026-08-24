@@ -105,9 +105,10 @@
       "insight_programs_url": null,
       "notes": "",
       "tracks": [
-        "IB"
+        "IB",
+        "CF"
       ],
-      "sweep_cadence": null
+      "sweep_cadence": "weekly"
     },
     {
       "id": "evercore",
@@ -907,7 +908,7 @@
       "sweep_cadence": "every_run",
       "careers_url": "https://www.anthropic.com/careers",
       "insight_programs_url": null,
-      "notes": "No internship program as of 2026-08-13 — careers FAQ states \"We don't currently offer internships.\" Watched so the tracker catches the change if that reverses."
+      "notes": "No internship program as of 2026-08-13 \u2014 careers FAQ states \"We don't currently offer internships.\" Watched so the tracker catches the change if that reverses."
     },
     {
       "id": "imc-trading",
@@ -930,6 +931,18 @@
       "notes": "Central bank, not a commercial/investment bank in the recruiting-track sense. Runs an explicitly sophomore-designed 8-week Sophomore Career Exploration Program (Policy, Operations & Resiliency, Technology, Communications & Outreach tracks) feeding its junior-year pipeline. Found via 2026-08-17 CF/DS surprise sweep.",
       "tracks": [
         "CF"
+      ],
+      "sweep_cadence": "weekly"
+    },
+    {
+      "id": "massachusetts-life-sciences-center",
+      "name": "Massachusetts Life Sciences Center",
+      "tier": null,
+      "careers_url": "https://www.masslifesciences.com/programs/datascienceinternshipchallenge/",
+      "insight_programs_url": null,
+      "notes": "State-funded life-sciences economic-development org running a Data Science Internship Program spanning Bachelor's/Master's/Doctorate levels. Found via 2026-08-24 CF/DS surprise sweep; genuinely outside the typical bank/tech/corporate firm set but kept per the never-discard-a-live-posting rule.",
+      "tracks": [
+        "DS"
       ],
       "sweep_cadence": "weekly"
     }
