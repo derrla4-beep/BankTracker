@@ -30,11 +30,12 @@
       "tier": "BB",
       "careers_url": "https://careers.jpmorgan.com/global/en/students",
       "insight_programs_url": "https://careers.jpmorgan.com/global/en/students/programs/spring-insights",
-      "notes": "Spring Insights + Advancing Black Pathways / Winning Women diversity programs.",
+      "notes": "Spring Insights + Advancing Black Pathways / Winning Women diversity programs. Also runs a Corporate Analyst Development Program (Summer Analyst, Corporate Sector) on the CF track, found 2026-08-26.",
       "tracks": [
-        "IB"
+        "IB",
+        "CF"
       ],
-      "sweep_cadence": null
+      "sweep_cadence": "weekly"
     },
     {
       "id": "bank-of-america",
