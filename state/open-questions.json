@@ -31,9 +31,9 @@
       "track": "CF",
       "title": "Financial Management Program (FMP) Internship, Summer 2027 -- conflicting grad-year eligibility sources",
       "url": "https://careers.geaerospace.com/global/en/fmp",
-      "reason": "no-quotable-line",
+      "reason": "page-load-failed",
       "first_seen": "2026-08-17",
-      "last_seen": "2026-08-24",
+      "last_seen": "2026-08-31",
       "resolved": false
     },
     {
@@ -42,10 +42,10 @@
       "program_id": "microsoft-2027-ds-internship",
       "track": "DS",
       "title": "Data Science Internship Opportunities: Second-Year Students (Job ID 1808941)",
-      "url": "https://jobs.careers.microsoft.com/global/en/job/1808941/Data-Science-Internship-Opportunities:-Second-Year-Students",
+      "url": "https://jobs.careers.microsoft.com/global/en/job/1884365",
       "reason": "page-load-failed",
       "first_seen": "2026-08-17",
-      "last_seen": "2026-08-24",
+      "last_seen": "2026-08-31",
       "resolved": false
     },
     {
@@ -102,10 +102,10 @@
       "program_id": "spacex-2027-ds-internship",
       "track": "DS",
       "title": "SpaceX Summer 2027 Business Operations / Software Engineering Internship (Freshman/Sophomore) \u2014 no distinct DS/ML title found",
-      "url": "https://job-boards.greenhouse.io/spacex/jobs/8621771002",
+      "url": "https://job-boards.greenhouse.io/spacex/jobs/8621740002",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-08-31",
       "resolved": false
     },
     {
@@ -126,10 +126,10 @@
       "program_id": "exxonmobil-2027-cf-internship",
       "track": "CF",
       "title": "Business & Commercial Students Seeking Internship Opportunities (ExxonMobil)",
-      "url": "https://jobs.exxonmobil.com/job/Spring-Business-%26-Commercial-Students-Seeking-Internship-Opportunities-TX-77389/1415260100/",
+      "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-08-31",
       "resolved": false
     },
     {
@@ -141,7 +141,7 @@
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-08-31",
       "resolved": false
     },
     {
@@ -153,7 +153,7 @@
       "url": "https://careers.mastercard.com/us/en/students",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
+      "last_seen": "2026-08-31",
       "resolved": false
     },
     {
@@ -162,10 +162,10 @@
       "program_id": "mastercard-2027-ds-internship",
       "track": "DS",
       "title": "Mastercard Summer 2027 campus internships \u2014 live rolling postings confirmed, no DS-specific quotable eligibility line found",
-      "url": "https://careers.mastercard.com/us/en/data-science-jobs",
+      "url": "https://careers.mastercard.com/us/en/students",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
+      "last_seen": "2026-08-31",
       "resolved": false
     },
     {
@@ -173,11 +173,11 @@
       "firm_id": "apple",
       "program_id": "apple-2027-ds-internship",
       "track": "DS",
-      "title": "Apple 2027 Internship cycle confirmed live; no Data-Science-titled Summer 2027 posting found",
-      "url": "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN",
-      "reason": "no-quotable-line",
+      "title": "Applied Data Solutions Program, Internships \u2013 Summer 2027 (Apple)",
+      "url": "https://jobs.apple.com/en-us/details/200673612-0836/applied-data-solutions-program-internships-summer-2027",
+      "reason": "eligibility-unreadable",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
+      "last_seen": "2026-08-31",
       "resolved": false
     },
     {
@@ -187,9 +187,9 @@
       "track": "DS",
       "title": "NVIDIA Ignite (freshman/sophomore pre-internship track) \u2014 strong eligibility fit but no live application link/status confirmed",
       "url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
-      "reason": "no-quotable-line",
+      "reason": "unverified-seen-posted",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
+      "last_seen": "2026-08-31",
       "resolved": false
     },
     {
@@ -211,9 +211,9 @@
       "track": "DS",
       "title": "Citadel Sector Data Scientist \u2013 2027 Intern (US) \u2014 no class-year eligibility line found",
       "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/",
-      "reason": "eligibility-unreadable",
+      "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
+      "last_seen": "2026-08-31",
       "resolved": false
     },
     {
@@ -273,8 +273,8 @@
       "url": "https://www.wellsfargojobs.com/en/jobs/r-555860/2027-finance-summer-internship-early-careers/",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-28",
-      "resolved": false
+      "last_seen": "2026-08-31",
+      "resolved": true
     },
     {
       "id": "massachusetts-life-sciences-center-ds-2026-08-24",
@@ -285,7 +285,7 @@
       "url": "https://www.masslifesciences.com/programs/datascienceinternshipchallenge/",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
+      "last_seen": "2026-08-31",
       "resolved": false
     },
     {
@@ -293,11 +293,11 @@
       "firm_id": "citadel",
       "program_id": "citadel-2027-ds-datathon",
       "track": "DS",
-      "title": "Citadel Discover Datathon \u2014 eligibility spans Dec2027-June2029 (includes Class of 2029); live-application status unconfirmed this pass",
+      "title": "Citadel Discover Datathon \u2014 conflicting eligibility text across search passes (Dec2027-June2029 vs Dec2026-June2028 for a differently-named 'Summer Invitational Datathon')",
       "url": "https://www.citadel.com/careers/programs-and-events/datathons/",
-      "reason": "unverified-seen-posted",
+      "reason": "title-body-mismatch",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
+      "last_seen": "2026-08-31",
       "resolved": false
     },
     {
@@ -309,7 +309,7 @@
       "url": "https://www.rbccm.com/en/careers/discoveryprograms",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-28",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-08-31",
       "resolved": false
     }
   ]
