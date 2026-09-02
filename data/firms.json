@@ -946,6 +946,18 @@
         "DS"
       ],
       "sweep_cadence": "weekly"
+    },
+    {
+      "id": "fti-consulting",
+      "name": "FTI Consulting",
+      "tier": null,
+      "careers_url": "https://www.fticonsulting.com/careers/students",
+      "insight_programs_url": null,
+      "notes": "Global expert/advisory firm; found via 2026-09-02 CF/DS surprise sweep with a live '2027 Intern \u2013 Corporate Finance' posting (grad window December 2027\u2013September 2028 \u2014 Class of 2028, not our Class of 2029 cycle). Flagged as an open question for triage rather than discarded.",
+      "tracks": [
+        "CF"
+      ],
+      "sweep_cadence": "weekly"
     }
   ]
 }
