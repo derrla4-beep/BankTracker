@@ -958,6 +958,18 @@
         "CF"
       ],
       "sweep_cadence": "weekly"
+    },
+    {
+      "id": "adobe",
+      "name": "Adobe",
+      "tier": null,
+      "careers_url": "https://careers.adobe.com",
+      "insight_programs_url": null,
+      "notes": "Found via 2026-09-07 CF/DS surprise sweep: a live-looking '2027 Intern - Machine Learning Engineer' posting (careers.adobe.com), not independently page-verified (WebFetch egress-blocked this session). Flagged as an open question for triage rather than discarded.",
+      "tracks": [
+        "DS"
+      ],
+      "sweep_cadence": "weekly"
     }
   ]
 }

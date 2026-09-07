@@ -33,7 +33,7 @@
       "url": "https://careers.geaerospace.com/global/en/fmp",
       "reason": "page-load-failed",
       "first_seen": "2026-08-17",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-07",
       "resolved": false
     },
     {
@@ -45,7 +45,7 @@
       "url": "https://jobs.careers.microsoft.com/global/en/job/1884365",
       "reason": "page-load-failed",
       "first_seen": "2026-08-17",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-07",
       "resolved": false
     },
     {
@@ -69,7 +69,7 @@
       "url": "https://www.imc.com/us/careers/jobs/4907430101",
       "reason": "unverified-seen-posted",
       "first_seen": "2026-08-17",
-      "last_seen": "2026-08-28",
+      "last_seen": "2026-09-07",
       "resolved": false
     },
     {
@@ -105,7 +105,7 @@
       "url": "https://job-boards.greenhouse.io/spacex/jobs/8621740002",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-04",
+      "last_seen": "2026-09-07",
       "resolved": false
     },
     {
@@ -129,7 +129,7 @@
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-04",
+      "last_seen": "2026-09-07",
       "resolved": false
     },
     {
@@ -141,7 +141,7 @@
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-04",
+      "last_seen": "2026-09-07",
       "resolved": false
     },
     {
@@ -153,7 +153,7 @@
       "url": "https://careers.mastercard.com/us/en/students",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-07",
       "resolved": false
     },
     {
@@ -165,8 +165,8 @@
       "url": "https://careers.mastercard.com/us/en/students",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-31",
-      "resolved": false
+      "last_seen": "2026-09-07",
+      "resolved": true
     },
     {
       "id": "apple-2027-ds-internship-no-quotable-line-2026-08-24",
@@ -177,7 +177,7 @@
       "url": "https://jobs.apple.com/en-us/details/200673612-0836/applied-data-solutions-program-internships-summer-2027",
       "reason": "eligibility-unreadable",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-07",
       "resolved": false
     },
     {
@@ -189,7 +189,7 @@
       "url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
       "reason": "unverified-seen-posted",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-07",
       "resolved": false
     },
     {
@@ -201,7 +201,7 @@
       "url": "https://www.janestreet.com/join-jane-street/programs-and-events/jsip/",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
+      "last_seen": "2026-09-07",
       "resolved": false
     },
     {
@@ -213,7 +213,7 @@
       "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-07",
       "resolved": false
     },
     {
@@ -249,7 +249,7 @@
       "url": "https://cpd.emory.edu/jobs/centerview-partners-investment-banking-summer-analyst-new-york/",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
+      "last_seen": "2026-09-07",
       "resolved": false
     },
     {
@@ -261,8 +261,8 @@
       "url": "https://www.brightnetwork.co.uk/graduate-jobs/moelis-company/summer-analyst-investment-banking",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
-      "resolved": false
+      "last_seen": "2026-09-07",
+      "resolved": true
     },
     {
       "id": "wells-fargo-cf-internship-2026-08-24",
@@ -285,7 +285,7 @@
       "url": "https://www.masslifesciences.com/programs/datascienceinternshipchallenge/",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-07",
       "resolved": false
     },
     {
@@ -297,7 +297,7 @@
       "url": "https://www.citadel.com/careers/programs-and-events/datathons/",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-31",
+      "last_seen": "2026-09-07",
       "resolved": false
     },
     {
@@ -309,7 +309,7 @@
       "url": "https://www.rbccm.com/en/careers/discoveryprograms",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-04",
+      "last_seen": "2026-09-07",
       "resolved": false
     },
     {
@@ -322,6 +322,54 @@
       "reason": "unverified-seen-posted",
       "first_seen": "2026-09-02",
       "last_seen": "2026-09-02",
+      "resolved": false
+    },
+    {
+      "id": "goldman-sachs-emerging-leaders-series-2027-page-load-failed-2026-09-07",
+      "firm_id": "goldman-sachs",
+      "program_id": "goldman-sachs-emerging-leaders-series-2027",
+      "track": "IB",
+      "title": "Emerging Leaders Series (Sophomore Insight) -- strong multi-source signal of a LIVE posting with eligibility 'graduating between December 2028 - June 2029' (matches our profile exactly) and an application deadline reported as 'Sunday, October 4'; goldmansachs.com is EGRESS_BLOCKED this session so no verbatim page quote could be obtained to promote to open",
+      "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/emerging-leaders-series",
+      "reason": "page-load-failed",
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "resolved": false
+    },
+    {
+      "id": "two-sigma-2027-ds-internship-title-body-mismatch-2026-09-07",
+      "firm_id": "two-sigma",
+      "program_id": "two-sigma-2027-ds-internship",
+      "track": "DS",
+      "title": "Quantitative Researcher - Intern [2027 Summer] -- closest DS-adjacent live posting under Two Sigma's Quantitative Research & Data Science function; no title literally 'Data Science Intern' found",
+      "url": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Intern-2027-Summer/13945",
+      "reason": "title-body-mismatch",
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "resolved": false
+    },
+    {
+      "id": "de-shaw-2027-ds-internship-title-body-mismatch-2026-09-07",
+      "firm_id": "de-shaw",
+      "program_id": "de-shaw-2027-ds-internship",
+      "track": "DS",
+      "title": "Quantitative Analyst Intern, Summer 2027 -- closest live posting found at D.E. Shaw; no title literally 'Data Science Intern' found",
+      "url": "https://www.deshaw.com/careers/quantitative-analyst-intern-new-york-summer-2027-5890",
+      "reason": "title-body-mismatch",
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
+      "resolved": false
+    },
+    {
+      "id": "adobe-ml-intern-2027-2026-09-07",
+      "firm_id": "adobe",
+      "program_id": null,
+      "track": "DS",
+      "title": "2027 Intern - Machine Learning Engineer",
+      "url": "https://careers.adobe.com/us/en/job/R171519/2027-Intern-Machine-Learning-Engineer",
+      "reason": "unverified-seen-posted",
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-07",
       "resolved": false
     }
   ]
