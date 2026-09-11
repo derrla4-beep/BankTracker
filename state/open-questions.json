@@ -105,7 +105,7 @@
       "url": "https://job-boards.greenhouse.io/spacex/jobs/8621740002",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-09",
+      "last_seen": "2026-09-11",
       "resolved": false
     },
     {
@@ -129,7 +129,7 @@
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-09",
+      "last_seen": "2026-09-11",
       "resolved": false
     },
     {
@@ -141,7 +141,7 @@
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-09",
+      "last_seen": "2026-09-11",
       "resolved": false
     },
     {
@@ -285,7 +285,7 @@
       "url": "https://www.masslifesciences.com/programs/datascienceinternshipchallenge/",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-11",
       "resolved": false
     },
     {
@@ -309,7 +309,7 @@
       "url": "https://www.rbccm.com/en/careers/discoveryprograms",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-09",
+      "last_seen": "2026-09-11",
       "resolved": false
     },
     {
@@ -321,7 +321,7 @@
       "url": "https://careers.rhsmith.umd.edu/jobs/fti-consulting-inc-2027-intern-corporate-finance/",
       "reason": "unverified-seen-posted",
       "first_seen": "2026-09-02",
-      "last_seen": "2026-09-02",
+      "last_seen": "2026-09-11",
       "resolved": false
     },
     {
@@ -381,7 +381,7 @@
       "url": "https://www.evercore.com/careers/students-graduates/students-graduates-u-s/",
       "reason": "page-load-failed",
       "first_seen": "2026-09-09",
-      "last_seen": "2026-09-09",
+      "last_seen": "2026-09-11",
       "resolved": false
     }
   ]
