@@ -33,7 +33,7 @@
       "url": "https://careers.geaerospace.com/global/en/fmp",
       "reason": "page-load-failed",
       "first_seen": "2026-08-17",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-14",
       "resolved": false
     },
     {
@@ -45,7 +45,7 @@
       "url": "https://jobs.careers.microsoft.com/global/en/job/1884365",
       "reason": "page-load-failed",
       "first_seen": "2026-08-17",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-14",
       "resolved": false
     },
     {
@@ -105,7 +105,7 @@
       "url": "https://job-boards.greenhouse.io/spacex/jobs/8621740002",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-11",
+      "last_seen": "2026-09-14",
       "resolved": false
     },
     {
@@ -129,7 +129,7 @@
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-11",
+      "last_seen": "2026-09-14",
       "resolved": false
     },
     {
@@ -141,7 +141,7 @@
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-11",
+      "last_seen": "2026-09-14",
       "resolved": false
     },
     {
@@ -177,7 +177,7 @@
       "url": "https://jobs.apple.com/en-us/details/200673612-0836/applied-data-solutions-program-internships-summer-2027",
       "reason": "eligibility-unreadable",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-14",
       "resolved": false
     },
     {
@@ -189,7 +189,7 @@
       "url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
       "reason": "unverified-seen-posted",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-14",
       "resolved": false
     },
     {
@@ -213,7 +213,7 @@
       "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-14",
       "resolved": false
     },
     {
@@ -237,7 +237,7 @@
       "url": "https://www.bairdcareers.com/internships/global-investment-banking-intern-program-us/",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
+      "last_seen": "2026-09-14",
       "resolved": false
     },
     {
@@ -285,7 +285,7 @@
       "url": "https://www.masslifesciences.com/programs/datascienceinternshipchallenge/",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-11",
+      "last_seen": "2026-09-14",
       "resolved": false
     },
     {
@@ -295,9 +295,9 @@
       "track": "DS",
       "title": "Citadel Discover Datathon \u2014 conflicting eligibility text across search passes (Dec2027-June2029 vs Dec2026-June2028 for a differently-named 'Summer Invitational Datathon')",
       "url": "https://www.citadel.com/careers/programs-and-events/datathons/",
-      "reason": "title-body-mismatch",
+      "reason": "page-load-failed",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-14",
       "resolved": false
     },
     {
@@ -333,7 +333,7 @@
       "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/emerging-leaders-series",
       "reason": "page-load-failed",
       "first_seen": "2026-09-07",
-      "last_seen": "2026-09-07",
+      "last_seen": "2026-09-14",
       "resolved": false
     },
     {
@@ -382,6 +382,30 @@
       "reason": "page-load-failed",
       "first_seen": "2026-09-09",
       "last_seen": "2026-09-11",
+      "resolved": false
+    },
+    {
+      "id": "ny-fed-sophomore-career-exploration-2027-page-load-failed-2026-09-14",
+      "firm_id": "federal-reserve-bank-of-new-york",
+      "program_id": "ny-fed-sophomore-career-exploration-2027",
+      "track": "CF",
+      "title": "2027 Summer Intern - Sophomore Intern (multiple groups) \u2014 Federal Reserve Bank of New York, deadline Sept 28 2026",
+      "url": "https://zapply.jobs/jobs/d5693f3a-b565-4390-880e-b46887c8b181/",
+      "reason": "page-load-failed",
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "resolved": false
+    },
+    {
+      "id": "amd-ml-ai-intern-2027-2026-09-14",
+      "firm_id": "amd",
+      "program_id": null,
+      "track": "DS",
+      "title": "2027 Undergrad Machine Learning (ML)/Artificial Intelligence (AI) intern/co-op \u2014 AMD",
+      "url": "https://careers.amd.com/careers-home/jobs/90892?lang=en-us",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-09-14",
+      "last_seen": "2026-09-14",
       "resolved": false
     }
   ]

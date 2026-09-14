@@ -970,6 +970,18 @@
         "DS"
       ],
       "sweep_cadence": "weekly"
+    },
+    {
+      "id": "amd",
+      "name": "Advanced Micro Devices (AMD)",
+      "tier": null,
+      "careers_url": "https://careers.amd.com",
+      "insight_programs_url": null,
+      "notes": "Found via 2026-09-14 CF/DS surprise sweep with a live '2027 Undergrad Machine Learning (ML)/Artificial Intelligence (AI) intern/co-op' posting; not independently page-verified (WebFetch egress-blocked this session). Flagged as an open question for triage rather than discarded.",
+      "tracks": [
+        "DS"
+      ],
+      "sweep_cadence": "weekly"
     }
   ]
 }
