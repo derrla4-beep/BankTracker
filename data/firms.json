@@ -982,6 +982,18 @@
         "DS"
       ],
       "sweep_cadence": "weekly"
+    },
+    {
+      "id": "lawrence-livermore-national-laboratory",
+      "name": "Lawrence Livermore National Laboratory",
+      "tier": null,
+      "careers_url": "https://data-science.llnl.gov/dssi/apply",
+      "insight_programs_url": null,
+      "notes": "Federal research laboratory; runs the Data Science Summer Institute (DSSI), an undergraduate-titled Summer internship. Found via 2026-09-21 DS surprise sweep.",
+      "tracks": [
+        "DS"
+      ],
+      "sweep_cadence": "weekly"
     }
   ]
 }
