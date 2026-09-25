@@ -105,7 +105,7 @@
       "url": "https://job-boards.greenhouse.io/spacex/jobs/8621740002",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-25",
       "resolved": false
     },
     {
@@ -129,7 +129,7 @@
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-25",
       "resolved": false
     },
     {
@@ -141,7 +141,7 @@
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-25",
       "resolved": false
     },
     {
@@ -309,7 +309,7 @@
       "url": "https://www.rbccm.com/en/careers/discoveryprograms",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-25",
       "resolved": false
     },
     {
@@ -417,7 +417,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-25",
       "resolved": false
     },
     {
@@ -513,7 +513,7 @@
       "url": "https://www.google.com/about/careers/applications/jobs/results/100460871561421510-business-undergraduate-intern-summer-2027",
       "reason": "no-quotable-line",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-25",
       "resolved": false
     },
     {
@@ -525,7 +525,31 @@
       "url": "https://www.amazon.jobs/en/jobs/10554390/financial-analyst-intern-2027",
       "reason": "no-quotable-line",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-23",
+      "last_seen": "2026-09-25",
+      "resolved": false
+    },
+    {
+      "id": "amazon-financial-analyst-intern-2027-10499685-2026-09-25",
+      "firm_id": "amazon",
+      "program_id": "amazon-2027-cf-internship",
+      "track": "CF",
+      "title": "2027 Financial Analyst Intern (Job ID: 10499685) -- distinct posting from already-tracked Job ID 10554390; search synthesis suggests graduation-date-Q1-2027-or-recent-2026-grad eligibility (would be wrong cycle for us) but WebFetch blocked so no verbatim page quote obtainable",
+      "url": "https://www.amazon.jobs/en/jobs/10499685/2027-financial-analyst-intern",
+      "reason": "page-load-failed",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "resolved": false
+    },
+    {
+      "id": "fidelity-investments-2027-cf-internship-page-load-failed-2026-09-25",
+      "firm_id": "fidelity-investments",
+      "program_id": "fidelity-investments-2027-cf-internship",
+      "track": "CF",
+      "title": "Summer 2027 Undergraduate Internship - Finance (Job ID 2134157) -- live posting found via surprise sweep; WebFetch blocked (jobs.fidelity.com) so no verbatim eligibility quote obtainable",
+      "url": "https://jobs.fidelity.com/en/jobs/2134157/summer-2027-undergraduate-internship-finance/",
+      "reason": "page-load-failed",
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
       "resolved": false
     }
   ]
