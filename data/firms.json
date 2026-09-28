@@ -994,6 +994,18 @@
         "DS"
       ],
       "sweep_cadence": "weekly"
+    },
+    {
+      "id": "scotiabank",
+      "name": "Scotiabank",
+      "tier": "BB",
+      "careers_url": "https://jobs.scotiabank.com/",
+      "insight_programs_url": null,
+      "notes": "Global Banking and Markets. Found via 2026-09-28 Monday BB/EB hunt: 'Houston Insights Day & 2028 Investment Banking Internship Program' (Energy coverage group), eligibility 'graduation between December 2028 and Spring 2029' -- matches our Class of 2029 exactly. Also runs a recurring 'THRIVE' rotational program for 2nd-year undergrads across Capital Markets/Corporate Banking/IB (not yet independently verified).",
+      "tracks": [
+        "IB"
+      ],
+      "sweep_cadence": null
     }
   ]
 }
