@@ -105,7 +105,7 @@
       "url": "https://job-boards.greenhouse.io/spacex/jobs/8621740002",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-02",
       "resolved": false
     },
     {
@@ -129,7 +129,7 @@
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-02",
       "resolved": false
     },
     {
@@ -141,7 +141,7 @@
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-02",
       "resolved": false
     },
     {
@@ -309,7 +309,7 @@
       "url": "https://www.rbccm.com/en/careers/discoveryprograms",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-02",
       "resolved": false
     },
     {
@@ -417,7 +417,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-02",
       "resolved": false
     },
     {
@@ -513,7 +513,7 @@
       "url": "https://www.google.com/about/careers/applications/jobs/results/100460871561421510-business-undergraduate-intern-summer-2027",
       "reason": "no-quotable-line",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-02",
       "resolved": false
     },
     {
@@ -525,8 +525,8 @@
       "url": "https://www.amazon.jobs/en/jobs/10554390/financial-analyst-intern-2027",
       "reason": "no-quotable-line",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-25",
-      "resolved": false
+      "last_seen": "2026-10-02",
+      "resolved": true
     },
     {
       "id": "amazon-financial-analyst-intern-2027-10499685-2026-09-25",
@@ -537,8 +537,8 @@
       "url": "https://www.amazon.jobs/en/jobs/10499685/2027-financial-analyst-intern",
       "reason": "page-load-failed",
       "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "resolved": false
+      "last_seen": "2026-10-02",
+      "resolved": true
     },
     {
       "id": "fidelity-investments-2027-cf-internship-page-load-failed-2026-09-25",
@@ -557,11 +557,11 @@
       "firm_id": "leerink-partners",
       "program_id": "leerink-partners-2028-sa-ib",
       "track": "IB",
-      "title": "2028 Investment Banking Summer Analyst Program (Workday req R00670, distinct from prior R00567 '2027...' posting) -- strong multi-source signal it is live now with 'penultimate year' (sophomore) eligibility matching Class of 2029, interviews reported for January 2027, but leerink.wd5.myworkdayjobs.com is EGRESS_BLOCKED so no verbatim primary-source quote obtainable this run.",
+      "title": "2028 Investment Banking Summer Analyst Program (Workday req R00670, distinct from prior R00567 '2027...' posting) -- strong multi-source signal it is live now with 'penultimate year' (sophomore) eligibility matching Class of 2029, interviews reported for January 2027, but leerink.wd5.myworkdayjobs.com is EGRESS_BLOCKED so no verbatim primary-source quote obtainable this run. -- 2026-10-02: two independent WebSearch passes reproduce an identical secondary-source (ZipRecruiter) quote for req R00670: \"an exemplary academic record on track to complete an undergraduate degree in May 2029\" (would match Class of 2029 exactly) -- still a secondary mirror, not a primary-page read; leerink.wd5.myworkdayjobs.com remains EGRESS_BLOCKED, so left unpromoted per the page-won't-load rule.",
       "url": "https://leerink.wd5.myworkdayjobs.com/en-US/leerinkpartners/job/XMLNAME-2028-Investment-Banking-Summer-Analyst-Program_R00670",
       "reason": "page-load-failed",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-02",
       "resolved": false
     },
     {
@@ -653,11 +653,35 @@
       "firm_id": "scotiabank",
       "program_id": null,
       "track": "IB",
-      "title": "Scotiabank Houston Insights Day & 2028 Investment Banking Internship Program (Energy coverage group) -- new firm, not previously tracked. Quote: 'Candidates must be pursuing an undergraduate degree with graduation between December 2028 and Spring 2029, ideally within Finance, Economics, Accounting, or Business.' Matches our Class of 2029 exactly. Insights Day Nov 19-20 2026 (Houston, travel covered); APPLICATION DEADLINE OCT 2, 2026 -- imminent, ~4 days away.",
+      "title": "Scotiabank Houston Insights Day & 2028 Investment Banking Internship Program (Energy coverage group) -- new firm, not previously tracked. Quote: 'Candidates must be pursuing an undergraduate degree with graduation between December 2028 and Spring 2029, ideally within Finance, Economics, Accounting, or Business.' Matches our Class of 2029 exactly. Insights Day Nov 19-20 2026 (Houston, travel covered); APPLICATION DEADLINE OCT 2, 2026 -- imminent, ~4 days away. -- 2026-10-02: RECONFIRMED via WebSearch, deadline is TODAY (Oct 2 2026, 11:59pm ET). WebFetch EGRESS_BLOCKED on jobs.scotiabank.com, internvest.com, and prosple.com this run (and on an unrelated control domain, en.wikipedia.org -- confirms network-wide block, not source-specific) -- still no verbatim primary-source quote obtainable, only the same search-synthesized eligibility text already on file. Per the page-won't-load rule, left unpromoted even though the deadline is closing tonight.",
       "url": "https://jobs.scotiabank.com/job/Houston-Scotiabank-Houston-Insights-Day-%26-2028-Investment-Banking-Internship-Program-Energy-TX-78234/606133317/",
       "reason": "unverified-seen-posted",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-09-28",
+      "last_seen": "2026-10-02",
+      "resolved": false
+    },
+    {
+      "id": "piper-sandler-career-exploration-2027-prediction-overdue-2026-10-02",
+      "firm_id": "piper-sandler",
+      "program_id": "piper-sandler-career-exploration-2027",
+      "track": "IB",
+      "title": null,
+      "url": null,
+      "reason": "prediction-overdue",
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
+      "resolved": false
+    },
+    {
+      "id": "nomura-explore-sophomore-2027-prediction-overdue-2026-10-02",
+      "firm_id": "nomura",
+      "program_id": "nomura-explore-sophomore-2027",
+      "track": "IB",
+      "title": null,
+      "url": null,
+      "reason": "prediction-overdue",
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
       "resolved": false
     }
   ]
