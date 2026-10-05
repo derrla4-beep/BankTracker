@@ -1006,6 +1006,30 @@
         "IB"
       ],
       "sweep_cadence": null
+    },
+    {
+      "id": "target",
+      "name": "Target",
+      "tier": null,
+      "careers_url": "https://corporate.target.com/careers",
+      "insight_programs_url": null,
+      "notes": "Found via 2026-10-05 CF/DS surprise sweep: live 'Financial Analyst Intern - Minneapolis, MN (Starting Summer, 2027)' posting, part of Target's 3-year Financial Analyst Development Program (FADP) pipeline. corporate.target.com EGRESS_BLOCKED this session; secondary-source eligibility synthesis suggests a Dec2027-June2029 grad window (would include our 2029 grad) but no verbatim quote obtained. Flagged as an open question for triage rather than discarded.",
+      "tracks": [
+        "CF"
+      ],
+      "sweep_cadence": "weekly"
+    },
+    {
+      "id": "snowflake",
+      "name": "Snowflake",
+      "tier": null,
+      "careers_url": "https://careers.snowflake.com/",
+      "insight_programs_url": null,
+      "notes": "Found via 2026-10-05 Monday CF/DS hunt: secondary sources describe a university-intern pipeline open to 'sophomore or above' undergrads in CS/Data Science/Engineering/Business with F-1 CPT support, application window reported open since ~late August 2026 with priority screening through Sept 30 2026. careers.snowflake.com EGRESS_BLOCKED this session so no verbatim quote or specific job posting obtained. Flagged as an open question for triage rather than discarded.",
+      "tracks": [
+        "DS"
+      ],
+      "sweep_cadence": "weekly"
     }
   ]
 }

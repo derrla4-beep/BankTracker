@@ -19,6 +19,26 @@
       "location": "Virtual",
       "source_url": "https://careers.bu.edu/events/2026/09/28/trillium-trading-virtual-information-session-boston-university-2/",
       "added": "2026-09-28"
+    },
+    {
+      "id": "bu-fall-career-fair-2026-10-19",
+      "firm_id": null,
+      "title": "BU Fall Career Fair",
+      "date": "2026-10-19",
+      "time": null,
+      "location": null,
+      "source_url": "https://www.bu.edu/csmet/?p=27150",
+      "added": "2026-10-05"
+    },
+    {
+      "id": "bu-virtual-career-fair-2026-10-28",
+      "firm_id": null,
+      "title": "BU Virtual Career Fair",
+      "date": "2026-10-28",
+      "time": null,
+      "location": "Virtual",
+      "source_url": "https://www.bu.edu/csmet/?p=27150",
+      "added": "2026-10-05"
     }
   ]
 }
