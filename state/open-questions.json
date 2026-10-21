@@ -101,11 +101,11 @@
       "firm_id": "spacex",
       "program_id": "spacex-2027-ds-internship",
       "track": "DS",
-      "title": "SpaceX Summer 2027 Business Operations / Software Engineering Internship (Freshman/Sophomore) \u2014 no distinct DS/ML title found -- 2026-10-12: reconfirmed -- only 'Software Engineering' and 'Business Operations' internship tracks found for Summer/Spring 2027; still no distinct DS/ML-branded title. -- 2026-10-16: reconfirmed, still only SWE/BizOps tracks, no distinct DS/ML title.",
+      "title": "SpaceX Summer 2027 Business Operations / Software Engineering Internship (Freshman/Sophomore) \u2014 no distinct DS/ML title found -- 2026-10-12: reconfirmed -- only 'Software Engineering' and 'Business Operations' internship tracks found for Summer/Spring 2027; still no distinct DS/ML-branded title. -- 2026-10-16: reconfirmed, still only SWE/BizOps tracks, no distinct DS/ML title. -- 2026-10-21: reconfirmed -- still only SWE/BizOps tracks, no distinct DS/ML title, no quotable grad-year line.",
       "url": "https://job-boards.greenhouse.io/spacex/jobs/8621740002",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-21",
       "resolved": false
     },
     {
@@ -125,11 +125,11 @@
       "firm_id": "exxonmobil",
       "program_id": "exxonmobil-2027-cf-internship",
       "track": "CF",
-      "title": "Business & Commercial Students Seeking Internship Opportunities (ExxonMobil) -- 2026-10-12: the rolling 'Business and Commercial Students' posting now shows a closed Aug 5-26 2026 recruitment window (labeled ambiguously as '2026 intern opportunities'); no distinct Summer-2027 posting with eligibility text found. -- 2026-10-16: still no distinct Summer-2027 US CF posting found.",
+      "title": "Business & Commercial Students Seeking Internship Opportunities (ExxonMobil) -- 2026-10-12: the rolling 'Business and Commercial Students' posting now shows a closed Aug 5-26 2026 recruitment window (labeled ambiguously as '2026 intern opportunities'); no distinct Summer-2027 posting with eligibility text found. -- 2026-10-16: still no distinct Summer-2027 US CF posting found. -- 2026-10-21: still no distinct Summer-2027 US CF posting found; only a closed UK placement located.",
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-21",
       "resolved": false
     },
     {
@@ -137,11 +137,11 @@
       "firm_id": "exxonmobil",
       "program_id": "exxonmobil-2027-ds-internship",
       "track": "DS",
-      "title": "ExxonMobil internship hub \u2014 Data Science listed as an eligible field, no distinct DS posting/eligibility line found -- 2026-10-12: still no distinct Data Science-titled posting found; Data Analytics is mentioned only in passing on the generic internship-opportunities page. -- 2026-10-16: still no distinct Summer-2027 DS posting found.",
+      "title": "ExxonMobil internship hub \u2014 Data Science listed as an eligible field, no distinct DS posting/eligibility line found -- 2026-10-12: still no distinct Data Science-titled posting found; Data Analytics is mentioned only in passing on the generic internship-opportunities page. -- 2026-10-16: still no distinct Summer-2027 DS posting found. -- 2026-10-21: still no distinct Summer-2027 US DS posting found; only a closed UK placement located.",
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-21",
       "resolved": false
     },
     {
@@ -305,11 +305,11 @@
       "firm_id": "rbc-capital-markets",
       "program_id": "rbc-capital-markets-spring-insight-2027",
       "track": "IB",
-      "title": "Discovery Day & Spring Insight Programs page shows a \"graduation date between December 2027 - Spring 2028\" eligibility line that contradicts the program's sophomore framing; unclear if this is the live 2026-27 cycle or stale content -- 2026-10-16: no change, still unresolved (WebFetch DNS-blocked this session).",
+      "title": "Discovery Day & Spring Insight Programs page shows a \"graduation date between December 2027 - Spring 2028\" eligibility line that contradicts the program's sophomore framing; unclear if this is the live 2026-27 cycle or stale content -- 2026-10-16: no change, still unresolved (WebFetch DNS-blocked this session). -- 2026-10-21: no change, still unresolved (WebFetch DNS-blocked this session).",
       "url": "https://www.rbccm.com/en/careers/discoveryprograms",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-28",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-21",
       "resolved": false
     },
     {
@@ -417,7 +417,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-21",
       "resolved": false
     },
     {
@@ -509,12 +509,12 @@
       "firm_id": "google",
       "program_id": "google-2027-cf-internship",
       "track": "CF",
-      "title": "Business Undergraduate Intern, Summer 2027 (Finance track) -- live posting requires 'currently attending a bachelor's degree program..., preferably in the penultimate year (junior)'; no explicit graduation-date window, and 'preferably' does not clearly exclude sophomores, so no line settles Class-of-2029 eligibility -- 2026-10-12: clarified that the posting's 'penultimate year (junior)' language is a PREFERRED qualification, not a minimum requirement -- a sophomore would not be automatically excluded. However the posting's own stated deadline ('October 9th') appears to have already passed as of today (Oct 12); could not confirm the listing is still live or whether Google will repost. Left unpromoted pending a primary-source re-check (google.com was unreachable network-wide this session). -- 2026-10-16: same posting resurfaces in search snippets, no new eligibility detail, still unresolved.",
+      "title": "Business Undergraduate Intern, Summer 2027 (Finance track) -- live posting requires 'currently attending a bachelor's degree program..., preferably in the penultimate year (junior)'; no explicit graduation-date window, and 'preferably' does not clearly exclude sophomores, so no line settles Class-of-2029 eligibility -- 2026-10-12: clarified that the posting's 'penultimate year (junior)' language is a PREFERRED qualification, not a minimum requirement -- a sophomore would not be automatically excluded. However the posting's own stated deadline ('October 9th') appears to have already passed as of today (Oct 12); could not confirm the listing is still live or whether Google will repost. Left unpromoted pending a primary-source re-check (google.com was unreachable network-wide this session). -- 2026-10-16: same posting resurfaces in search snippets, no new eligibility detail, still unresolved. -- 2026-10-21: RESOLVED -- posting's own text reads \"intended for students in their penultimate year of a Bachelor's degree, depending on their program and circumstances\" -- settles as Class of 2028, wrong-cycle; recorded as a sighting instead.",
       "url": "https://www.google.com/about/careers/applications/jobs/results/100460871561421510-business-undergraduate-intern-summer-2027",
       "reason": "no-quotable-line",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-16",
-      "resolved": false
+      "last_seen": "2026-10-21",
+      "resolved": true
     },
     {
       "id": "amazon-financial-analyst-intern-2027-10554390-2026-09-23",
@@ -557,11 +557,11 @@
       "firm_id": "leerink-partners",
       "program_id": "leerink-partners-2028-sa-ib",
       "track": "IB",
-      "title": "2028 Investment Banking Summer Analyst Program (Workday req R00670, distinct from prior R00567 '2027...' posting) -- strong multi-source signal it is live now with 'penultimate year' (sophomore) eligibility matching Class of 2029, interviews reported for January 2027, but leerink.wd5.myworkdayjobs.com is EGRESS_BLOCKED so no verbatim primary-source quote obtainable this run. -- 2026-10-02: two independent WebSearch passes reproduce an identical secondary-source (ZipRecruiter) quote for req R00670: \"an exemplary academic record on track to complete an undergraduate degree in May 2029\" (would match Class of 2029 exactly) -- still a secondary mirror, not a primary-page read; leerink.wd5.myworkdayjobs.com remains EGRESS_BLOCKED, so left unpromoted per the page-won't-load rule. -- 2026-10-12: no change -- leerink.wd5.myworkdayjobs.com (req R00670) still unreachable; third-party trackers continue to project an early-Nov-2026 opening for the Summer 2028 cycle. -- 2026-10-16: conflicting third-party signals (one guide claims already-open, another projects early-Nov); still unverified, R00670 not retracted.",
+      "title": "2028 Investment Banking Summer Analyst Program (Workday req R00670, distinct from prior R00567 '2027...' posting) -- strong multi-source signal it is live now with 'penultimate year' (sophomore) eligibility matching Class of 2029, interviews reported for January 2027, but leerink.wd5.myworkdayjobs.com is EGRESS_BLOCKED so no verbatim primary-source quote obtainable this run. -- 2026-10-02: two independent WebSearch passes reproduce an identical secondary-source (ZipRecruiter) quote for req R00670: \"an exemplary academic record on track to complete an undergraduate degree in May 2029\" (would match Class of 2029 exactly) -- still a secondary mirror, not a primary-page read; leerink.wd5.myworkdayjobs.com remains EGRESS_BLOCKED, so left unpromoted per the page-won't-load rule. -- 2026-10-12: no change -- leerink.wd5.myworkdayjobs.com (req R00670) still unreachable; third-party trackers continue to project an early-Nov-2026 opening for the Summer 2028 cycle. -- 2026-10-16: conflicting third-party signals (one guide claims already-open, another projects early-Nov); still unverified, R00670 not retracted. -- 2026-10-21: R00670 not resurfaced in search this round; leerink.wd5.myworkdayjobs.com still DNS-blocked. Conflicting secondary signals on whether 2028 SA is open at all. Unverified, not retracted.",
       "url": "https://leerink.wd5.myworkdayjobs.com/en-US/leerinkpartners/job/XMLNAME-2028-Investment-Banking-Summer-Analyst-Program_R00670",
       "reason": "page-load-failed",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-21",
       "resolved": false
     },
     {
@@ -669,7 +669,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-21",
       "resolved": false
     },
     {
@@ -681,7 +681,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-21",
       "resolved": false
     },
     {
@@ -953,11 +953,11 @@
       "firm_id": "amazon",
       "program_id": "amazon-2027-ds-internship",
       "track": "DS",
-      "title": "Amazon's general 'Software Development Engineer Intern - Summer 2027 (USA)' track (job ID ~10552937, corroborated across 3+ mirrors but not independently fetched) explicitly lists Data Science as an eligible field of study, with a stated grad window of Oct2027-Sep2029 (contains June 2029). Not DS-titled, so flagged rather than promoted -- Amazon has no standalone undergrad-level 'Data Science Intern' title; the only DS-titled Amazon internships found are Master's/PhD-only -- 2026-10-16: also found Japan-based Applied Scientist/SDE postings citing grad years incl. 2029 via third-party mirrors (mygwork/cake.me/iagora), unverified, unclear if same req family; not promoted.",
+      "title": "Amazon's general 'Software Development Engineer Intern - Summer 2027 (USA)' track (job ID ~10552937, corroborated across 3+ mirrors but not independently fetched) explicitly lists Data Science as an eligible field of study, with a stated grad window of Oct2027-Sep2029 (contains June 2029). Not DS-titled, so flagged rather than promoted -- Amazon has no standalone undergrad-level 'Data Science Intern' title; the only DS-titled Amazon internships found are Master's/PhD-only -- 2026-10-16: also found Japan-based Applied Scientist/SDE postings citing grad years incl. 2029 via third-party mirrors (mygwork/cake.me/iagora), unverified, unclear if same req family; not promoted. -- 2026-10-21: reconfirmed -- US Amazon 'data science' reqs found remain Master's/PhD-only; no bachelor's-eligible US DS posting located.",
       "url": "https://www.amazon.jobs/en/jobs/10552937",
       "reason": "title-body-mismatch",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-21",
       "resolved": false
     },
     {
@@ -965,11 +965,23 @@
       "firm_id": "google",
       "program_id": "google-2027-ds-internship",
       "track": "DS",
-      "title": "Google's live Summer-2027 Data-Science-titled postings ('Data Science PhD Intern, 2027' London/Zurich; 'Data Scientist, Research Intern, PhD, Summer 2027' US; 'Data Scientist, Product Intern, MS, Summer 2027' US, reported closed Oct 9) all explicitly require PhD or Master's enrollment -- no undergraduate-level Data Science internship found at Google. Degree-level exclusion, not a grad-year mismatch, so filed here rather than as a sighting.",
+      "title": "Google's live Summer-2027 Data-Science-titled postings ('Data Science PhD Intern, 2027' London/Zurich; 'Data Scientist, Research Intern, PhD, Summer 2027' US; 'Data Scientist, Product Intern, MS, Summer 2027' US, reported closed Oct 9) all explicitly require PhD or Master's enrollment -- no undergraduate-level Data Science internship found at Google. Degree-level exclusion, not a grad-year mismatch, so filed here rather than as a sighting. -- 2026-10-21: reconfirmed -- all live Google DS-titled postings require PhD or Master's enrollment; no undergraduate-level Data Science internship found at Google.",
       "url": "https://www.google.com/about/careers/applications/students",
       "reason": "title-body-mismatch",
       "first_seen": "2026-10-16",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-21",
+      "resolved": false
+    },
+    {
+      "id": "anthropic-fellows-program-2026-10-21",
+      "firm_id": "anthropic",
+      "program_id": "anthropic-2027-ds-internship",
+      "track": "DS",
+      "title": "Anthropic Fellows Program (STEM Fellows / Conceptual Reasoning Fellows, Jan-May 2027 cohort) -- per secondary sources, requires an already-conferred bachelor's degree, so likely NOT applicable to an undergrad Class of 2029, but worth a human check since it's a materially new program (previously none existed) and secondary-source eligibility paraphrase hasn't been confirmed against Anthropic's own page text.",
+      "url": "https://www.anthropic.com/careers",
+      "reason": "unverified-seen-posted",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
       "resolved": false
     }
   ]
