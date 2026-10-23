@@ -105,7 +105,7 @@
       "url": "https://job-boards.greenhouse.io/spacex/jobs/8621740002",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-10-21",
+      "last_seen": "2026-10-23",
       "resolved": false
     },
     {
@@ -129,7 +129,7 @@
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-10-21",
+      "last_seen": "2026-10-23",
       "resolved": false
     },
     {
@@ -141,7 +141,7 @@
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-10-21",
+      "last_seen": "2026-10-23",
       "resolved": false
     },
     {
@@ -309,7 +309,7 @@
       "url": "https://www.rbccm.com/en/careers/discoveryprograms",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-28",
-      "last_seen": "2026-10-21",
+      "last_seen": "2026-10-23",
       "resolved": false
     },
     {
@@ -417,7 +417,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-10-21",
+      "last_seen": "2026-10-23",
       "resolved": false
     },
     {
@@ -501,7 +501,7 @@
       "url": "https://data-science.llnl.gov/dssi/apply",
       "reason": "no-quotable-line",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-10-12",
+      "last_seen": "2026-10-23",
       "resolved": false
     },
     {
@@ -669,7 +669,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-21",
+      "last_seen": "2026-10-23",
       "resolved": false
     },
     {
@@ -681,7 +681,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-21",
+      "last_seen": "2026-10-23",
       "resolved": false
     },
     {
@@ -921,7 +921,7 @@
       "url": "https://data-science.llnl.gov/dssi/apply",
       "reason": "no-quotable-line",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-10-12",
+      "last_seen": "2026-10-23",
       "resolved": false
     },
     {
@@ -957,7 +957,7 @@
       "url": "https://www.amazon.jobs/en/jobs/10552937",
       "reason": "title-body-mismatch",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-10-21",
+      "last_seen": "2026-10-23",
       "resolved": false
     },
     {
@@ -969,7 +969,7 @@
       "url": "https://www.google.com/about/careers/applications/students",
       "reason": "title-body-mismatch",
       "first_seen": "2026-10-16",
-      "last_seen": "2026-10-21",
+      "last_seen": "2026-10-23",
       "resolved": false
     },
     {
@@ -981,7 +981,43 @@
       "url": "https://www.anthropic.com/careers",
       "reason": "unverified-seen-posted",
       "first_seen": "2026-10-21",
-      "last_seen": "2026-10-21",
+      "last_seen": "2026-10-23",
+      "resolved": false
+    },
+    {
+      "id": "nomura-discover-nomura-2027-geography-unconfirmed-2026-10-23",
+      "firm_id": "nomura",
+      "program_id": null,
+      "track": "IB",
+      "title": "Discover Nomura Programme -- Insight Programme 2027 (eligibility quoted 'graduating in 2029', geography/identity vs. tracked 'Explore Nomura' unconfirmed)",
+      "url": "https://higherin.com/jobs/44104/nomura/discover-nomura-programme-insight-programme-2027",
+      "reason": "eligibility-unreadable",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "resolved": false
+    },
+    {
+      "id": "rothschild-sophomore-leadership-program-2027-eligibility-unreadable-2026-10-23",
+      "firm_id": "rothschild-and-co",
+      "program_id": null,
+      "track": "IB",
+      "title": "US Global Advisory 2027 Sophomore Leadership Program (conflicting secondary sources on grad-year eligibility and deadline)",
+      "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/us-global-advisory--2027-sophomore-leadership-program2/",
+      "reason": "eligibility-unreadable",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "resolved": false
+    },
+    {
+      "id": "evercore-2028-sa-ib-no-quotable-line-2026-10-23",
+      "firm_id": "evercore",
+      "program_id": "evercore-2028-sa-ib",
+      "track": "IB",
+      "title": "Evercore 2028 Summer Analyst -- Advisory (M&A): multiple third-party sources consistently claim this is OPEN NOW (Sept 8-Nov 15 2026 window) for the Dec2028-June2029 grad window (our cycle) -- URGENT, ~23 days to deadline, but no verbatim primary-source quote obtainable (evercore.com DNS-blocked)",
+      "url": "https://www.superdayai.com/blog/evercore-summer-analyst-2028-timeline",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
       "resolved": false
     }
   ]
