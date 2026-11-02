@@ -1030,6 +1030,18 @@
         "DS"
       ],
       "sweep_cadence": "weekly"
+    },
+    {
+      "id": "ally-financial",
+      "name": "Ally Financial",
+      "tracks": [
+        "CF"
+      ],
+      "tier": null,
+      "sweep_cadence": "weekly",
+      "careers_url": "https://www.ally.com/go/allyearlytalent",
+      "insight_programs_url": null,
+      "notes": "Found via 2026-11-02 Monday CF surprise sweep: a third-party guide (extern.com, dated Oct 2026) reports Ally's Summer 2027 internship hub opened early September 2026 and stays open on a rolling basis (no fixed deadline); Corporate Finance is listed as one of the hub's internship categories on Ally's own careers page. No specific Corporate-Finance-titled Summer 2027 requisition or eligibility line located yet (ally.com ENOTFOUND network-wide this session, no verbatim primary-source quote obtainable). A live Summer 2027 Accounting internship (different track) was also found, listing rising-junior/senior framing -- unclear if Corporate Finance follows the same eligibility."
     }
   ]
 }
