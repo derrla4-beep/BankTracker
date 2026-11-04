@@ -309,7 +309,7 @@
       "url": "https://www.rbccm.com/en/careers/discoveryprograms",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-28",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-04",
       "resolved": false
     },
     {
@@ -417,7 +417,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-04",
       "resolved": false
     },
     {
@@ -561,7 +561,7 @@
       "url": "https://leerink.wd5.myworkdayjobs.com/en-US/leerinkpartners/job/XMLNAME-2028-Investment-Banking-Summer-Analyst-Program_R00670",
       "reason": "page-load-failed",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-04",
       "resolved": false
     },
     {
@@ -669,7 +669,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-04",
       "resolved": false
     },
     {
@@ -681,7 +681,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-04",
       "resolved": false
     },
     {
@@ -957,7 +957,7 @@
       "url": "https://www.amazon.jobs/en/jobs/10552937",
       "reason": "title-body-mismatch",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-04",
       "resolved": false
     },
     {
@@ -969,7 +969,7 @@
       "url": "https://www.google.com/about/careers/applications/students",
       "reason": "title-body-mismatch",
       "first_seen": "2026-10-16",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-04",
       "resolved": false
     },
     {
@@ -993,7 +993,7 @@
       "url": "https://higherin.com/jobs/44104/nomura/discover-nomura-programme-insight-programme-2027",
       "reason": "eligibility-unreadable",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-04",
       "resolved": false
     },
     {
@@ -1005,7 +1005,7 @@
       "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/us-global-advisory--2027-sophomore-leadership-program2/",
       "reason": "eligibility-unreadable",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-04",
       "resolved": false
     },
     {
@@ -1041,7 +1041,7 @@
       "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/us-2028-global-advisory-summer-analyst/",
       "reason": "page-load-failed",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-04",
       "resolved": false
     },
     {
@@ -1053,7 +1053,7 @@
       "url": "https://www.wellsfargojobs.com/en/jobs/r-584479/2028-investment-banking-summer-internship-early-careers-houston/",
       "reason": "page-load-failed",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-10-30",
+      "last_seen": "2026-11-04",
       "resolved": false
     },
     {
@@ -1065,7 +1065,7 @@
       "url": "https://www.adventiscg.com/class-of-2029-recruiting-timeline",
       "reason": "page-load-failed",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-10-30",
+      "last_seen": "2026-11-04",
       "resolved": false
     },
     {
@@ -1078,6 +1078,42 @@
       "reason": "unverified-seen-posted",
       "first_seen": "2026-11-02",
       "last_seen": "2026-11-02",
+      "resolved": false
+    },
+    {
+      "id": "keybanc-capital-markets-sophomore-series-2027-prediction-overdue-2026-11-04",
+      "firm_id": "keybanc-capital-markets",
+      "program_id": "keybanc-capital-markets-sophomore-series-2027",
+      "track": "IB",
+      "title": null,
+      "url": null,
+      "reason": "prediction-overdue",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "resolved": false
+    },
+    {
+      "id": "standard-chartered-insight-programme-2027-page-load-failed-2026-11-04",
+      "firm_id": "standard-chartered",
+      "program_id": "standard-chartered-insight-programme-2027",
+      "track": "IB",
+      "title": "US 2027 Spring Insight Programme (sophomores) -- unconfirmed open/close dates (Extern: closes Nov 15 2026 vs a conflicting Dec 31 2026 end-date elsewhere in the same guide)",
+      "url": "https://www.sc.com/en/global-careers/early-careers/our-programmes/insight-programme/",
+      "reason": "page-load-failed",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "resolved": false
+    },
+    {
+      "id": "google-2027-cf-internship-no-quotable-line-2026-11-04",
+      "firm_id": "google",
+      "program_id": "google-2027-cf-internship",
+      "track": "CF",
+      "title": "Business Undergraduate Intern, Summer 2027",
+      "url": "https://google.com/about/careers/applications/jobs/results/100460871561421510-business-undergraduate-intern-summer-2027",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
       "resolved": false
     }
   ]
