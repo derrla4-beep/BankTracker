@@ -105,7 +105,7 @@
       "url": "https://job-boards.greenhouse.io/spacex/jobs/8621740002",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -129,7 +129,7 @@
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -141,7 +141,7 @@
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -417,7 +417,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -561,7 +561,7 @@
       "url": "https://leerink.wd5.myworkdayjobs.com/en-US/leerinkpartners/job/XMLNAME-2028-Investment-Banking-Summer-Analyst-Program_R00670",
       "reason": "page-load-failed",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -669,7 +669,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -681,7 +681,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -957,7 +957,7 @@
       "url": "https://www.amazon.jobs/en/jobs/10552937",
       "reason": "title-body-mismatch",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -969,7 +969,7 @@
       "url": "https://www.google.com/about/careers/applications/students",
       "reason": "title-body-mismatch",
       "first_seen": "2026-10-16",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -981,7 +981,7 @@
       "url": "https://www.anthropic.com/careers",
       "reason": "unverified-seen-posted",
       "first_seen": "2026-10-21",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -1017,7 +1017,7 @@
       "url": "https://www.superdayai.com/blog/evercore-summer-analyst-2028-timeline",
       "reason": "no-quotable-line",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-10-30",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -1025,11 +1025,11 @@
       "firm_id": "piper-sandler",
       "program_id": "piper-sandler-2028-sa-ib",
       "track": "IB",
-      "title": "NEW specific requisition found distinct from the generic program row: '2028 Campus Recruiting - Investment Banking Summer Analyst - Energy, Power & Infrastructure' (Houston, TX, req R-100745). Two independent mirrors (WayUp repost + Google's own indexed snippet of the Workday URL) give an IDENTICAL quote: 'Anticipated graduation date from an undergraduate institution of December 2028 or May/June 2029' -- matches our Class of 2029 exactly. A third-party tracker (the-trackr, unreachable to confirm) claims the window is open 15 Oct-6 Nov 2026 (~11 days left). pipersandler.wd501.myworkdayjobs.com DNS-blocked on every direct attempt this session. Strongest unconfirmed IB lead found this run -- flagging urgently given the imminent deadline, but not promoted without a primary-source read.",
+      "title": "NEW specific requisition found distinct from the generic program row: '2028 Campus Recruiting - Investment Banking Summer Analyst - Energy, Power & Infrastructure' (Houston, TX, req R-100745). Two independent mirrors (WayUp repost + Google's own indexed snippet of the Workday URL) give an IDENTICAL quote: 'Anticipated graduation date from an undergraduate institution of December 2028 or May/June 2029' -- matches our Class of 2029 exactly. A third-party tracker (the-trackr, unreachable to confirm) claims the window is open 15 Oct-6 Nov 2026 (~11 days left). pipersandler.wd501.myworkdayjobs.com DNS-blocked on every direct attempt this session. Strongest unconfirmed IB lead found this run -- flagging urgently given the imminent deadline, but not promoted without a primary-source read. -- 2026-11-06: today (Nov 6) is the claimed close of the third-party-reported 15 Oct-6 Nov window; still unconfirmed, pipersandler.wd501.myworkdayjobs.com still ENOTFOUND. No primary-source read obtained before the claimed deadline.",
       "url": "https://pipersandler.wd501.myworkdayjobs.com/piper_sandler_careers/job/Houston-4-TX-Main-Street/XMLNAME-2028-Campus-Recruiting---Investment-Banking-Summer-Analyst---Energy--Power---Infrastructure_R-100745",
       "reason": "page-load-failed",
       "first_seen": "2026-10-26",
-      "last_seen": "2026-10-28",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -1041,7 +1041,7 @@
       "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/us-2028-global-advisory-summer-analyst/",
       "reason": "page-load-failed",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -1053,7 +1053,7 @@
       "url": "https://www.wellsfargojobs.com/en/jobs/r-584479/2028-investment-banking-summer-internship-early-careers-houston/",
       "reason": "page-load-failed",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -1065,7 +1065,7 @@
       "url": "https://www.adventiscg.com/class-of-2029-recruiting-timeline",
       "reason": "page-load-failed",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -1089,7 +1089,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -1101,7 +1101,7 @@
       "url": "https://www.sc.com/en/global-careers/early-careers/our-programmes/insight-programme/",
       "reason": "page-load-failed",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-06",
       "resolved": false
     },
     {
@@ -1113,7 +1113,43 @@
       "url": "https://google.com/about/careers/applications/jobs/results/100460871561421510-business-undergraduate-intern-summer-2027",
       "reason": "no-quotable-line",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-06",
+      "resolved": false
+    },
+    {
+      "id": "houlihan-lokey-2028-sa-ib-prediction-overdue-2026-11-06",
+      "firm_id": "houlihan-lokey",
+      "program_id": "houlihan-lokey-2028-sa-ib",
+      "track": "IB",
+      "title": null,
+      "url": null,
+      "reason": "prediction-overdue",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "resolved": false
+    },
+    {
+      "id": "stifel-2028-sa-ib-prediction-overdue-2026-11-06",
+      "firm_id": "stifel",
+      "program_id": "stifel-2028-sa-ib",
+      "track": "IB",
+      "title": null,
+      "url": null,
+      "reason": "prediction-overdue",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "resolved": false
+    },
+    {
+      "id": "barclays-2028-sa-ib-no-quotable-line-2026-11-06",
+      "firm_id": "barclays",
+      "program_id": "barclays-2028-sa-ib",
+      "track": "IB",
+      "title": "Banking Analyst Summer Internship Program 2028 Houston -- first '2028'-titled Barclays posting seen (prior sightings were all '2027'-titled, Class of 2028). Snippet showed only a generic work-authorization clause; a graduation-date rule ('target graduation date within one year of the conclusion of this internship') is documented on a separate 2027 Houston req and could not be confirmed as appearing on this 2028 req itself. search.jobs.barclays ENOTFOUND this session, no verbatim quote obtainable.",
+      "url": "https://search.jobs.barclays/job/houston/banking-analyst-summer-internship-program-2028-houston/13015/102785736256",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
       "resolved": false
     }
   ]
