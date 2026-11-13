@@ -909,7 +909,7 @@
       "sweep_cadence": "every_run",
       "careers_url": "https://www.anthropic.com/careers",
       "insight_programs_url": null,
-      "notes": "No internship program as of 2026-08-13 \u2014 careers FAQ states \"We don't currently offer internships.\" Watched so the tracker catches the change if that reverses."
+      "notes": "No internship program as of 2026-08-13 — careers FAQ states \"We don't currently offer internships.\" Watched so the tracker catches the change if that reverses."
     },
     {
       "id": "imc-trading",
@@ -953,7 +953,7 @@
       "tier": null,
       "careers_url": "https://www.fticonsulting.com/careers/students",
       "insight_programs_url": null,
-      "notes": "Global expert/advisory firm; found via 2026-09-02 CF/DS surprise sweep with a live '2027 Intern \u2013 Corporate Finance' posting (grad window December 2027\u2013September 2028 \u2014 Class of 2028, not our Class of 2029 cycle). Flagged as an open question for triage rather than discarded.",
+      "notes": "Global expert/advisory firm; found via 2026-09-02 CF/DS surprise sweep with a live '2027 Intern – Corporate Finance' posting (grad window December 2027–September 2028 — Class of 2028, not our Class of 2029 cycle). Flagged as an open question for triage rather than discarded.",
       "tracks": [
         "CF"
       ],
@@ -1054,6 +1054,30 @@
         "IB"
       ],
       "sweep_cadence": null
+    },
+    {
+      "id": "apollo-global-management",
+      "name": "Apollo Global Management",
+      "tier": "EB",
+      "careers_url": "https://www.apollo.com/careers",
+      "insight_programs_url": null,
+      "notes": "Alternative-investment manager, not a traditional bank; tier classified EB (closest fit to a small, highly selective single-firm analyst program) since tracks includes IB. Found via 2026-11-13 Friday IB surprise sweep: runs a '2027 Sophomore Summer Analyst' track (Enterprise Solutions, Engineering) explicitly described by a third-party guide (Extern) as Class-of-2029-eligible; per that same guide the posting went live ~Sep 30 2026 and was no longer listed by Oct 22 2026 -- likely already closed for this cycle. No Apollo-owned eligibility quote obtained.",
+      "tracks": [
+        "IB"
+      ],
+      "sweep_cadence": null
+    },
+    {
+      "id": "liberty-mutual",
+      "name": "Liberty Mutual",
+      "tier": null,
+      "careers_url": "https://jobs.libertymutualgroup.com/careers/early-talent/internships-coops-apprenticeships/",
+      "insight_programs_url": null,
+      "notes": "Insurance company, not previously tracked. Found via 2026-11-13 Friday CF surprise sweep: runs a 'Finance Internship Program' (11-week, Boston) and separately a freshman/sophomore 'Unite Summit' exploratory networking event (not itself an internship). No live, sophomore-eligible Summer 2027 Finance posting confirmed yet.",
+      "tracks": [
+        "CF"
+      ],
+      "sweep_cadence": "weekly"
     }
   ]
 }
