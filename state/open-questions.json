@@ -33,7 +33,7 @@
       "url": "https://careers.geaerospace.com/global/en/job/R5030147/Finance-Intern-US-Summer-2027",
       "reason": "page-load-failed",
       "first_seen": "2026-08-17",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -45,7 +45,7 @@
       "url": "https://jobs.careers.microsoft.com/global/en/job/1884365",
       "reason": "page-load-failed",
       "first_seen": "2026-08-17",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -81,7 +81,7 @@
       "url": "https://careers.microsoft.com/v2/global/en/financerotation",
       "reason": "unverified-seen-posted",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -89,7 +89,7 @@
       "firm_id": "nomura",
       "program_id": "nomura-explore-sophomore-2027",
       "track": "IB",
-      "title": "Explore Nomura Freshman & Sophomore Diversity Program (US) — live status/eligibility unclear",
+      "title": "Explore Nomura Freshman & Sophomore Diversity Program (US) \u2014 live status/eligibility unclear",
       "url": "https://www.nomura.com/careers/early-careers/insight-programs/",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
@@ -101,11 +101,11 @@
       "firm_id": "spacex",
       "program_id": "spacex-2027-ds-internship",
       "track": "DS",
-      "title": "SpaceX Summer 2027 Business Operations / Software Engineering Internship (Freshman/Sophomore) — no distinct DS/ML title found -- 2026-10-12: reconfirmed -- only 'Software Engineering' and 'Business Operations' internship tracks found for Summer/Spring 2027; still no distinct DS/ML-branded title. -- 2026-10-16: reconfirmed, still only SWE/BizOps tracks, no distinct DS/ML title. -- 2026-10-21: reconfirmed -- still only SWE/BizOps tracks, no distinct DS/ML title, no quotable grad-year line. -- 2026-11-09: reconfirmed, still only SWE/BizOps tracks, no distinct DS/ML title.",
+      "title": "SpaceX Summer 2027 Business Operations / Software Engineering Internship (Freshman/Sophomore) \u2014 no distinct DS/ML title found -- 2026-10-12: reconfirmed -- only 'Software Engineering' and 'Business Operations' internship tracks found for Summer/Spring 2027; still no distinct DS/ML-branded title. -- 2026-10-16: reconfirmed, still only SWE/BizOps tracks, no distinct DS/ML title. -- 2026-10-21: reconfirmed -- still only SWE/BizOps tracks, no distinct DS/ML title, no quotable grad-year line. -- 2026-11-09: reconfirmed, still only SWE/BizOps tracks, no distinct DS/ML title.",
       "url": "https://job-boards.greenhouse.io/spacex/jobs/8621740002",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -113,7 +113,7 @@
       "firm_id": "google",
       "program_id": "google-2027-ds-internship",
       "track": "DS",
-      "title": "Google STEP Program — sophomore-eligible general CS pipeline, not DS-branded; live 2027 application link unconfirmed",
+      "title": "Google STEP Program \u2014 sophomore-eligible general CS pipeline, not DS-branded; live 2027 application link unconfirmed",
       "url": "https://buildyourfuture.withgoogle.com/programs/step",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-24",
@@ -129,7 +129,7 @@
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -137,11 +137,11 @@
       "firm_id": "exxonmobil",
       "program_id": "exxonmobil-2027-ds-internship",
       "track": "DS",
-      "title": "ExxonMobil internship hub — Data Science listed as an eligible field, no distinct DS posting/eligibility line found -- 2026-10-12: still no distinct Data Science-titled posting found; Data Analytics is mentioned only in passing on the generic internship-opportunities page. -- 2026-10-16: still no distinct Summer-2027 DS posting found. -- 2026-10-21: still no distinct Summer-2027 US DS posting found; only a closed UK placement located. -- 2026-11-09: still no distinct Summer-2027 US DS posting found. -- 2026-11-13: a US 'Trading Fusion' team (data engineering/data science/visualization) was located, but its stated eligibility is 'open to students graduating in 2026/2027 or having graduated within the last three years' -- would exclude our 2029 grad, but this is a search-summary paraphrase, not a verbatim primary-page quote (corporate.exxonmobil.com unreachable this session). Still no distinct, confirmed Summer-2027 US DS posting with a verified eligibility line.",
+      "title": "ExxonMobil internship hub \u2014 Data Science listed as an eligible field, no distinct DS posting/eligibility line found -- 2026-10-12: still no distinct Data Science-titled posting found; Data Analytics is mentioned only in passing on the generic internship-opportunities page. -- 2026-10-16: still no distinct Summer-2027 DS posting found. -- 2026-10-21: still no distinct Summer-2027 US DS posting found; only a closed UK placement located. -- 2026-11-09: still no distinct Summer-2027 US DS posting found. -- 2026-11-13: a US 'Trading Fusion' team (data engineering/data science/visualization) was located, but its stated eligibility is 'open to students graduating in 2026/2027 or having graduated within the last three years' -- would exclude our 2029 grad, but this is a search-summary paraphrase, not a verbatim primary-page quote (corporate.exxonmobil.com unreachable this session). Still no distinct, confirmed Summer-2027 US DS posting with a verified eligibility line.",
       "url": "https://corporate.exxonmobil.com/careers/internship-opportunities",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -149,11 +149,11 @@
       "firm_id": "mastercard",
       "program_id": "mastercard-2027-cf-internship",
       "track": "CF",
-      "title": "Mastercard Summer 2027 campus internships — live rolling postings confirmed, no CF-specific quotable eligibility line found -- 2026-09-28: live req R-287632 located, still no verbatim eligibility quote. -- 2026-10-12: prior req R-287632 could not be relocated via search this round; no CF-specific eligibility text found. -- 2026-11-09: still no finance-specific req relocated this round.",
+      "title": "Mastercard Summer 2027 campus internships \u2014 live rolling postings confirmed, no CF-specific quotable eligibility line found -- 2026-09-28: live req R-287632 located, still no verbatim eligibility quote. -- 2026-10-12: prior req R-287632 could not be relocated via search this round; no CF-specific eligibility text found. -- 2026-11-09: still no finance-specific req relocated this round.",
       "url": "https://careers.mastercard.com/us/en/students",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -161,7 +161,7 @@
       "firm_id": "mastercard",
       "program_id": "mastercard-2027-ds-internship",
       "track": "DS",
-      "title": "Mastercard Summer 2027 campus internships — live rolling postings confirmed, no DS-specific quotable eligibility line found",
+      "title": "Mastercard Summer 2027 campus internships \u2014 live rolling postings confirmed, no DS-specific quotable eligibility line found",
       "url": "https://careers.mastercard.com/us/en/students",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
@@ -173,7 +173,7 @@
       "firm_id": "apple",
       "program_id": "apple-2027-ds-internship",
       "track": "DS",
-      "title": "Applied Data Solutions Program, Internships – Summer 2027 (Apple) -- 2026-09-28: found a distinct 'Machine Learning and Artificial Intelligence Undergrad Internships' posting with a promising grad-window signal (Dec2027-June2029, would include us); still unconfirmed verbatim (EGRESS_BLOCKED). -- 2026-10-12: jobs.apple.com unreachable again (network-wide outage); mirrors show only generic availability language for both ADSP and the ML/AI undergrad posting, no verbatim grad-window quote obtainable this round. -- 2026-11-09: jobs.apple.com still unreachable (ENOTFOUND); ML/AI undergrad posting remains labeled Summer 2026, no Summer-2027 verbatim quote obtained.",
+      "title": "Applied Data Solutions Program, Internships \u2013 Summer 2027 (Apple) -- 2026-09-28: found a distinct 'Machine Learning and Artificial Intelligence Undergrad Internships' posting with a promising grad-window signal (Dec2027-June2029, would include us); still unconfirmed verbatim (EGRESS_BLOCKED). -- 2026-10-12: jobs.apple.com unreachable again (network-wide outage); mirrors show only generic availability language for both ADSP and the ML/AI undergrad posting, no verbatim grad-window quote obtainable this round. -- 2026-11-09: jobs.apple.com still unreachable (ENOTFOUND); ML/AI undergrad posting remains labeled Summer 2026, no Summer-2027 verbatim quote obtained.",
       "url": "https://jobs.apple.com/en-us/details/200673612-0836/applied-data-solutions-program-internships-summer-2027",
       "reason": "eligibility-unreadable",
       "first_seen": "2026-08-24",
@@ -185,11 +185,11 @@
       "firm_id": "nvidia",
       "program_id": "nvidia-2027-ds-internship",
       "track": "DS",
-      "title": "NVIDIA Ignite (freshman/sophomore pre-internship track) — strong eligibility fit but no live application link/status confirmed -- 2026-10-12: no 2027-cohort NVIDIA Ignite posting located yet (the 2026 cohort, which explicitly matched 'class of 2029 or class of 2028', ran Oct 6-19 2025 and is long closed). nvidia.com unreachable to check directly.",
+      "title": "NVIDIA Ignite (freshman/sophomore pre-internship track) \u2014 strong eligibility fit but no live application link/status confirmed -- 2026-10-12: no 2027-cohort NVIDIA Ignite posting located yet (the 2026 cohort, which explicitly matched 'class of 2029 or class of 2028', ran Oct 6-19 2025 and is long closed). nvidia.com unreachable to check directly.",
       "url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
       "reason": "unverified-seen-posted",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -197,11 +197,11 @@
       "firm_id": "jane-street",
       "program_id": "jane-street-2027-ds-internship",
       "track": "DS",
-      "title": "Jane Street JSIP (2nd-year-eligible) vs. main SWE/QT track (juniors only) — unclear fit / live status unconfirmed -- 2026-09-28: core internship still appears junior/Master's/PhD-only, with sophomores routed to separate pipeline programs (FTTP/FOCUS/WiSE/INSIGHT/JSIP). -- 2026-10-12: JSIP's own eligibility text ('undergraduate students in their first or second year at the time of applying') is a clean class-standing match, but a currently-open 2027-cycle application could not be confirmed (only a past Feb 2026 first-year deadline located); janestreet.com unreachable this round. -- 2026-11-09: JSIP's own 2027 cycle/deadline still unannounced; Jane Street's other 2027 programs (INSIGHT/WiSE/FTTP) have dated deadlines but aren't JSIP.",
+      "title": "Jane Street JSIP (2nd-year-eligible) vs. main SWE/QT track (juniors only) \u2014 unclear fit / live status unconfirmed -- 2026-09-28: core internship still appears junior/Master's/PhD-only, with sophomores routed to separate pipeline programs (FTTP/FOCUS/WiSE/INSIGHT/JSIP). -- 2026-10-12: JSIP's own eligibility text ('undergraduate students in their first or second year at the time of applying') is a clean class-standing match, but a currently-open 2027-cycle application could not be confirmed (only a past Feb 2026 first-year deadline located); janestreet.com unreachable this round. -- 2026-11-09: JSIP's own 2027 cycle/deadline still unannounced; Jane Street's other 2027 programs (INSIGHT/WiSE/FTTP) have dated deadlines but aren't JSIP.",
       "url": "https://www.janestreet.com/join-jane-street/programs-and-events/jsip/",
       "reason": "title-body-mismatch",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -209,11 +209,11 @@
       "firm_id": "citadel",
       "program_id": "citadel-2027-ds-internship",
       "track": "DS",
-      "title": "Citadel Sector Data Scientist – 2027 Intern (US) — no class-year eligibility line found -- 2026-10-12: reconfirmed -- posting lists eligible majors and 'currently pursuing a bachelor's degree' but still no class-year/graduation-date line. -- 2026-11-09: reconfirmed -- official listing still lists eligible majors but no class-year/graduation-date line.",
+      "title": "Citadel Sector Data Scientist \u2013 2027 Intern (US) \u2014 no class-year eligibility line found -- 2026-10-12: reconfirmed -- posting lists eligible majors and 'currently pursuing a bachelor's degree' but still no class-year/graduation-date line. -- 2026-11-09: reconfirmed -- official listing still lists eligible majors but no class-year/graduation-date line.",
       "url": "https://www.citadel.com/careers/details/sector-data-scientist-2027-intern-us/",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -221,11 +221,11 @@
       "firm_id": "houlihan-lokey",
       "program_id": "houlihan-lokey-rising-leaders-2027",
       "track": "IB",
-      "title": "Rising Leaders Diversity Program / Women's Insight Day — no live-application confirmation or eligibility text found -- 2026-10-12: no program actually named 'Rising Leaders' found anywhere on HL's site or in search; only 'Women's Insight Day' exists, next date unconfirmed (one third-party guide guesses late Oct 2026). -- 2026-11-02: no change -- no program literally named 'Rising Leaders' found; only 'Women's Insight Day' (2025 cycle deadline was Oct 20 2025, Class of 2028) exists under that branding. No live 2027/2029-eligible cycle found. -- 2026-11-09: no program literally named 'Rising Leaders' found at HL this round either (the only hit under that name belongs to the unrelated Aspen Strategy Group); program's existence itself is now in doubt -- flag for triage/possible retirement.",
+      "title": "Rising Leaders Diversity Program / Women's Insight Day \u2014 no live-application confirmation or eligibility text found -- 2026-10-12: no program actually named 'Rising Leaders' found anywhere on HL's site or in search; only 'Women's Insight Day' exists, next date unconfirmed (one third-party guide guesses late Oct 2026). -- 2026-11-02: no change -- no program literally named 'Rising Leaders' found; only 'Women's Insight Day' (2025 cycle deadline was Oct 20 2025, Class of 2028) exists under that branding. No live 2027/2029-eligible cycle found. -- 2026-11-09: no program literally named 'Rising Leaders' found at HL this round either (the only hit under that name belongs to the unrelated Aspen Strategy Group); program's existence itself is now in doubt -- flag for triage/possible retirement.",
       "url": "https://hl.com/careers/early-careers/",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -233,11 +233,11 @@
       "firm_id": "baird",
       "program_id": "baird-ascend-ib-2027",
       "track": "IB",
-      "title": "Ascend to Global Investment Banking — recurring Aug (Chicago) / Sept (Tysons Corner) open pattern, no live application link confirmed this pass -- 2026-10-12: bairdcareers.com unreachable; no confirmation of whether the 2026 Ascend (Chicago/Tysons Corner) session already ran or is still open for registration. -- 2026-11-02: no change -- no official 2027 Ascend application page found; a possibly-related 'Women In Banking Sophomore Internship' third-party listing describes October applications but link to Ascend unconfirmed. ibrecruiting@rwbaird.com available as direct contact. -- 2026-11-09: no official 2026/2027 Ascend posting found; Extern's unconfirmed 'Women In Banking Sophomore Internship, opens October' claim persists.",
+      "title": "Ascend to Global Investment Banking \u2014 recurring Aug (Chicago) / Sept (Tysons Corner) open pattern, no live application link confirmed this pass -- 2026-10-12: bairdcareers.com unreachable; no confirmation of whether the 2026 Ascend (Chicago/Tysons Corner) session already ran or is still open for registration. -- 2026-11-02: no change -- no official 2027 Ascend application page found; a possibly-related 'Women In Banking Sophomore Internship' third-party listing describes October applications but link to Ascend unconfirmed. ibrecruiting@rwbaird.com available as direct contact. -- 2026-11-09: no official 2026/2027 Ascend posting found; Extern's unconfirmed 'Women In Banking Sophomore Internship, opens October' claim persists.",
       "url": "https://www.bairdcareers.com/internships/global-investment-banking-intern-program-us/",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -285,7 +285,7 @@
       "url": "https://www.masslifesciences.com/programs/datascienceinternshipchallenge/",
       "reason": "no-quotable-line",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -297,7 +297,7 @@
       "url": "https://www.citadel.com/careers/programs-and-events/datathons/apply-womens-datathon/",
       "reason": "page-load-failed",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -317,7 +317,7 @@
       "firm_id": "fti-consulting",
       "program_id": null,
       "track": "CF",
-      "title": "2027 Intern – Corporate Finance",
+      "title": "2027 Intern \u2013 Corporate Finance",
       "url": "https://careers.rhsmith.umd.edu/jobs/fti-consulting-inc-2027-intern-corporate-finance/",
       "reason": "unverified-seen-posted",
       "first_seen": "2026-09-02",
@@ -333,7 +333,7 @@
       "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/emerging-leaders-series",
       "reason": "page-load-failed",
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -389,7 +389,7 @@
       "firm_id": "federal-reserve-bank-of-new-york",
       "program_id": "ny-fed-sophomore-career-exploration-2027",
       "track": "CF",
-      "title": "2027 Summer Intern - Sophomore Intern (multiple groups) — Federal Reserve Bank of New York, deadline Sept 28 2026 -- URGENT 2026-09-28: TWO independent searches this run converge on 'undergraduate sophomores' eligibility and an application deadline of TODAY (2026-09-28, 11:59pm ET); still EGRESS_BLOCKED so no verbatim primary-source confirmation obtained. -- RESOLVED 2026-10-12: newyorkfed.org confirms the 2027 cohort is CLOSED ('Applications for our summer 2026 sophomore internships have closed... check back in September 2026 for information on our 2027 program'); the 2027 cycle's own Sept 28 2026 deadline has passed. Watch for the next (2028) cycle around Sept 2027.",
+      "title": "2027 Summer Intern - Sophomore Intern (multiple groups) \u2014 Federal Reserve Bank of New York, deadline Sept 28 2026 -- URGENT 2026-09-28: TWO independent searches this run converge on 'undergraduate sophomores' eligibility and an application deadline of TODAY (2026-09-28, 11:59pm ET); still EGRESS_BLOCKED so no verbatim primary-source confirmation obtained. -- RESOLVED 2026-10-12: newyorkfed.org confirms the 2027 cohort is CLOSED ('Applications for our summer 2026 sophomore internships have closed... check back in September 2026 for information on our 2027 program'); the 2027 cycle's own Sept 28 2026 deadline has passed. Watch for the next (2028) cycle around Sept 2027.",
       "url": "https://zapply.jobs/jobs/d5693f3a-b565-4390-880e-b46887c8b181/",
       "reason": "page-load-failed",
       "first_seen": "2026-09-14",
@@ -401,7 +401,7 @@
       "firm_id": "amd",
       "program_id": null,
       "track": "DS",
-      "title": "2027 Undergrad Machine Learning (ML)/Artificial Intelligence (AI) intern/co-op — AMD -- 2026-10-12: reconfirmed live via surprise sweep, still no class-year eligibility text located (careers.amd.com unreachable this session).",
+      "title": "2027 Undergrad Machine Learning (ML)/Artificial Intelligence (AI) intern/co-op \u2014 AMD -- 2026-10-12: reconfirmed live via surprise sweep, still no class-year eligibility text located (careers.amd.com unreachable this session).",
       "url": "https://careers.amd.com/careers-home/jobs/90892?lang=en-us",
       "reason": "no-quotable-line",
       "first_seen": "2026-09-14",
@@ -417,7 +417,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -465,7 +465,7 @@
       "url": "https://pwpcareers.tal.net/vx/mobile-1/appcentre-pwpext/brand-4/candidate/so/pm/1/pl/1/opp/787-U-S-Perella-Weinberg-Advisory-Prep-Program/en-GB",
       "reason": "no-quotable-line",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -477,7 +477,7 @@
       "url": "https://careers.jpmorgan.com/global/en/students",
       "reason": "no-quotable-line",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -489,7 +489,7 @@
       "url": "https://www.wayup.com/i-Financial-Services-j-Synchrony-Business-Leadership-Program-Sophomore-Externship-Synchrony-Bank-374799621242493/",
       "reason": "no-quotable-line",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -501,7 +501,7 @@
       "url": "https://data-science.llnl.gov/dssi/apply",
       "reason": "no-quotable-line",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -549,7 +549,7 @@
       "url": "https://jobs.fidelity.com/en/jobs/2134157/summer-2027-undergraduate-internship-finance/",
       "reason": "page-load-failed",
       "first_seen": "2026-09-25",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -561,7 +561,7 @@
       "url": "https://leerink.wd5.myworkdayjobs.com/en-US/leerinkpartners/job/XMLNAME-2028-Investment-Banking-Summer-Analyst-Program_R00670",
       "reason": "page-load-failed",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -573,7 +573,7 @@
       "url": "https://www.schwabjobs.com/job/westlake/2027-enterprise-finance-intern/33727/100828011488",
       "reason": "page-load-failed",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -633,7 +633,7 @@
       "url": "https://www.pgcareers.com/us/en/student-programs",
       "reason": "page-load-failed",
       "first_seen": "2026-09-28",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -669,7 +669,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -681,7 +681,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -717,7 +717,7 @@
       "url": "https://www.morganstanley.com/people-opportunities/students-graduates/morgan-stanley-richard-b-fisher-scholarship-program",
       "reason": "page-load-failed",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-10-26",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -729,7 +729,7 @@
       "url": "https://www.pjtpartners.com/careers/students",
       "reason": "no-quotable-line",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -741,7 +741,7 @@
       "url": "https://www.guggenheimsecurities.com/careers",
       "reason": "no-quotable-line",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -753,7 +753,7 @@
       "url": "https://www.raymondjames.com/careers/students-and-recent-grads/sophomore-opportunities",
       "reason": "eligibility-unreadable",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -765,7 +765,7 @@
       "url": "https://capitalmarkets.bmo.com/en/careers/campus-recruiting/",
       "reason": "title-body-mismatch",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -777,7 +777,7 @@
       "url": "https://www.themuse.com/jobs/tdbank/2026-invest-in-success-program-new-york",
       "reason": "no-quotable-line",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -789,7 +789,7 @@
       "url": "https://www.hsbc.com/careers/students-and-graduates",
       "reason": "title-body-mismatch",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -801,7 +801,7 @@
       "url": "https://www.harriswilliams.com/careers/analysts",
       "reason": "no-quotable-line",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -811,9 +811,9 @@
       "track": "IB",
       "title": "'2027 Summer Analyst (Advisory), New York/San Francisco' -- job-boards.greenhouse.io/liontree could not be read directly (network-wide WebFetch outage this session); search snippets only paraphrase ('11-week program for rising seniors'), no quotable eligibility line obtained -- UPDATE 2026-10-26: multiple independent aggregators (jobleads.com, jobera.com, jorb.ai) now show a live Greenhouse posting titled 'LionTree - 2028 US Advisory Summer Analyst - NY' (job 5250586007, matching SF posting), reportedly published ~Oct 9 2026 -- the FIRST time this program's title has read '2028' rather than '2027' across 5 prior sightings. job-boards.greenhouse.io still DNS-blocked on every direct attempt (confirmed network-wide this session). No verbatim eligibility text obtainable; left unclassified per the page-won't-load rule. Priority re-fetch target for the next run. -- 2026-11-02: reconfirmed -- the 'LionTree - 2028 US Advisory Summer Analyst' NY (job 5250586007) and SF postings remain live per third-party aggregators; one guide notes the postings carry no stated qualifications/eligibility section at all (only application-form fields: resume, GPA, LinkedIn, visa question). job-boards.greenhouse.io still unreachable directly. No verbatim eligibility text exists to quote even if the page loaded. Left unclassified per the page-won't-load / no-quotable-line rule.",
       "url": "https://job-boards.greenhouse.io/liontree/jobs/5250586007",
-      "reason": "page-load-failed",
+      "reason": "no-quotable-line",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -825,7 +825,7 @@
       "url": "https://www.extern.com/post/lincoln-international-internship-guide",
       "reason": "title-body-mismatch",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-10-26",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -837,7 +837,7 @@
       "url": "https://careers.pypl.com/university-hiring/intern-hub/",
       "reason": "page-load-failed",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -861,7 +861,7 @@
       "url": "https://www.metacareers.com/careerprograms/students/",
       "reason": "no-quotable-line",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -873,7 +873,7 @@
       "url": "https://openai.com/careers/emerging-talent/",
       "reason": "page-load-failed",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -885,7 +885,7 @@
       "url": "https://stripe.com/jobs/university",
       "reason": "no-quotable-line",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -897,7 +897,7 @@
       "url": "https://jobs.netflix.com/careers/internships",
       "reason": "page-load-failed",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-02",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -909,7 +909,7 @@
       "url": "https://careers.jpmorgan.com/global/en/students",
       "reason": "eligibility-unreadable",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -921,7 +921,7 @@
       "url": "https://data-science.llnl.gov/dssi/apply",
       "reason": "no-quotable-line",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -933,7 +933,7 @@
       "url": "https://www.capitalonecareers.com/students",
       "reason": "eligibility-unreadable",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -957,7 +957,7 @@
       "url": "https://www.amazon.jobs/en/jobs/10552937",
       "reason": "title-body-mismatch",
       "first_seen": "2026-10-12",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -969,7 +969,7 @@
       "url": "https://www.google.com/about/careers/applications/students",
       "reason": "title-body-mismatch",
       "first_seen": "2026-10-16",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1005,7 +1005,7 @@
       "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/us-global-advisory--2027-sophomore-leadership-program2/",
       "reason": "eligibility-unreadable",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1017,7 +1017,7 @@
       "url": "https://www.superdayai.com/blog/evercore-summer-analyst-2028-timeline",
       "reason": "no-quotable-line",
       "first_seen": "2026-10-23",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1041,7 +1041,7 @@
       "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/us-2028-global-advisory-summer-analyst/",
       "reason": "page-load-failed",
       "first_seen": "2026-10-28",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1053,7 +1053,7 @@
       "url": "https://www.wellsfargojobs.com/en/jobs/r-584479/2028-investment-banking-summer-internship-early-careers-houston/",
       "reason": "page-load-failed",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1065,7 +1065,7 @@
       "url": "https://www.adventiscg.com/class-of-2029-recruiting-timeline",
       "reason": "page-load-failed",
       "first_seen": "2026-10-30",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1089,7 +1089,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1101,7 +1101,7 @@
       "url": "https://www.sc.com/en/global-careers/early-careers/our-programmes/insight-programme/",
       "reason": "page-load-failed",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1113,7 +1113,7 @@
       "url": "https://google.com/about/careers/applications/jobs/results/100460871561421510-business-undergraduate-intern-summer-2027",
       "reason": "no-quotable-line",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1125,7 +1125,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1137,7 +1137,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1149,7 +1149,7 @@
       "url": "https://search.jobs.barclays/job/houston/banking-analyst-summer-internship-program-2028-houston/13015/102785736256",
       "reason": "no-quotable-line",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1161,7 +1161,7 @@
       "url": "https://careers.bankofamerica.com/en-us/students/job-detail/15270/global-investment-banking-summer-analyst-program-2028-energy-houston-texas-united-states",
       "reason": "page-load-failed",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1173,7 +1173,7 @@
       "url": "https://www.careers.jnj.com/en/jobs/r-079030/summer-2027-finance-internship/",
       "reason": "page-load-failed",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1185,7 +1185,7 @@
       "url": "https://www.capitalonecareers.com/job/mclean/analyst-early-internship-program-summer-2027/31238/99109660560",
       "reason": "page-load-failed",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1197,7 +1197,7 @@
       "url": "https://jobs.anitab.org/companies/paypal/jobs/99026115-data-scientist-intern-summer-2027",
       "reason": "no-quotable-line",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1209,7 +1209,7 @@
       "url": "https://www.williamblair.com/Careers/Campus-Recruiting",
       "reason": "title-body-mismatch",
       "first_seen": "2026-11-09",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1233,7 +1233,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1245,7 +1245,7 @@
       "url": null,
       "reason": "prediction-overdue",
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1257,7 +1257,7 @@
       "url": "https://www.metaintro.com/company/houlihan-lokey",
       "reason": "no-quotable-line",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1269,7 +1269,7 @@
       "url": "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students",
       "reason": "no-quotable-line",
       "first_seen": "2026-11-13",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-16",
       "resolved": false
     },
     {
@@ -1294,6 +1294,78 @@
       "reason": "no-quotable-line",
       "first_seen": "2026-11-13",
       "last_seen": "2026-11-13",
+      "resolved": false
+    },
+    {
+      "id": "baird-2028-sa-ib-unverified-seen-posted-2026-11-16",
+      "firm_id": "baird",
+      "program_id": "baird-2028-sa-ib",
+      "track": "IB",
+      "title": "Baird 2028 Summer Analyst -- Investment Banking (Chicago, Milwaukee) -- third-party guide (Extern, updated 2026-10-09) claims this posted ~Sep30-Oct8 2026, no deadline stated, $110k base cited; no Baird-owned page reachable this session and no verbatim eligibility/grad-year line found.",
+      "url": "https://www.extern.com/post/investment-banking-internships-2028-guide",
+      "reason": "unverified-seen-posted",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "resolved": false
+    },
+    {
+      "id": "bmo-capital-markets-2028-sa-ib-unverified-seen-posted-2026-11-16",
+      "firm_id": "bmo-capital-markets",
+      "program_id": "bmo-capital-markets-2028-sa-ib",
+      "track": "IB",
+      "title": "BMO Capital Markets Investment Banking Intern -- Summer 2028 (New York) -- Simplify listing, deadline Jan 4 2027, eligibility paraphrased as 'graduation in December 2028 or Spring 2029' which WOULD match our Class of 2029 cycle if confirmed; no verbatim primary-source quote obtained (BMO/Workday page unreachable this session). Strongest unconfirmed IB lead this run -- priority direct verification next run.",
+      "url": "https://simplify.jobs/p/6d3d25df-3425-4bd9-94e1-3a1db22666e2",
+      "reason": "unverified-seen-posted",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "resolved": false
+    },
+    {
+      "id": "moelis-2028-sa-ib-page-load-failed-2026-11-16",
+      "firm_id": "moelis",
+      "program_id": "moelis-2028-sa-ib",
+      "track": "IB",
+      "title": "Moelis 2028 Summer Analyst, Investment Banking -- Houston (Job ID 451) -- confirmed real live posting on Moelis's own tal.net portal, open since Oct 5 2026, closes Dec 14 2026; search-engine synthesis of the page's eligibility states 'expected graduation between December 2028 and July 2029' which WOULD include our June-2029 grad, but WebFetch could not reach moelis-careers.tal.net for a verbatim quote. Most actionable open lead this run given the Dec 14 deadline -- recommend a direct check before it closes.",
+      "url": "https://moelis-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/451-2028-Summer-Analyst-Investment-Banking-Houston/en-GB",
+      "reason": "page-load-failed",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "resolved": false
+    },
+    {
+      "id": "societe-generale-global-markets-sa-2027-no-quotable-line-2026-11-16",
+      "firm_id": "societe-generale",
+      "program_id": null,
+      "track": "IB",
+      "title": "2027 Global Markets Summer Analyst Program -- New York (standard IB cycle-ahead naming, likely Class of 2028) -- plus a separately-titled '2027 Sophomore Global Markets Summer Analyst Program' (exact URL/eligibility unconfirmed this session) that may actually be our Class-of-2029 cycle; needs direct verification.",
+      "url": "https://careers.societegenerale.com/en/sg_careers_offers_entity/88566",
+      "reason": "no-quotable-line",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "resolved": false
+    },
+    {
+      "id": "loop-capital-2027-summer-intern-cib-2026-11-16",
+      "firm_id": "loop-capital",
+      "program_id": null,
+      "track": "IB",
+      "title": "2027 Summer Intern -- Corporate Investment Banking (Chicago/NY/Miami) -- live per third-party guide since ~Oct 12 2026, no deadline or eligibility/class-year text found; Loop's own careers board unreachable this session.",
+      "url": "https://www.extern.com/post/loop-capital-internship-guide",
+      "reason": "page-load-failed",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "resolved": false
+    },
+    {
+      "id": "bny-mellon-2027-ds-internship-2026-11-16",
+      "firm_id": "bny-mellon",
+      "program_id": null,
+      "track": "DS",
+      "title": "2027 BNY Summer Internship Program -- Engineering (Data Science) -- seen on third-party job boards, no eligibility/class-year text obtained this session (bny.com unreachable).",
+      "url": "https://app.joinrunway.io/explore/job/cmt7b1r4c00107d2jbrsckix4",
+      "reason": "page-load-failed",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
       "resolved": false
     }
   ]

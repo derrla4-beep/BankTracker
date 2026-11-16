@@ -728,7 +728,7 @@
       "sweep_cadence": "weekly",
       "careers_url": "https://www.pgcareers.com/us/en/student-programs",
       "insight_programs_url": null,
-      "notes": "Official P&G Careers U.S. Student Programs page."
+      "notes": "Official P&G Careers U.S. Student Programs page. 2026-11-16 Monday sweep: found a 'Standout Emerging Leaders' pathway program (pgcareers.com/us/en/Standout-Emerging-Leaders, Handshake mirror) stating eligibility 'Sophomore (or within three years of graduation)' across several functions incl. Finance & Accounting -- reads as a mentorship/pipeline program feeding future internships, not itself a dated internship application; flagged for triage on whether it deserves its own program row."
     },
     {
       "id": "ge-aerospace",
@@ -909,7 +909,7 @@
       "sweep_cadence": "every_run",
       "careers_url": "https://www.anthropic.com/careers",
       "insight_programs_url": null,
-      "notes": "No internship program as of 2026-08-13 — careers FAQ states \"We don't currently offer internships.\" Watched so the tracker catches the change if that reverses."
+      "notes": "No internship program as of 2026-08-13 \u2014 careers FAQ states \"We don't currently offer internships.\" Watched so the tracker catches the change if that reverses."
     },
     {
       "id": "imc-trading",
@@ -953,7 +953,7 @@
       "tier": null,
       "careers_url": "https://www.fticonsulting.com/careers/students",
       "insight_programs_url": null,
-      "notes": "Global expert/advisory firm; found via 2026-09-02 CF/DS surprise sweep with a live '2027 Intern – Corporate Finance' posting (grad window December 2027–September 2028 — Class of 2028, not our Class of 2029 cycle). Flagged as an open question for triage rather than discarded.",
+      "notes": "Global expert/advisory firm; found via 2026-09-02 CF/DS surprise sweep with a live '2027 Intern \u2013 Corporate Finance' posting (grad window December 2027\u2013September 2028 \u2014 Class of 2028, not our Class of 2029 cycle). Flagged as an open question for triage rather than discarded.",
       "tracks": [
         "CF"
       ],
@@ -1076,6 +1076,42 @@
       "notes": "Insurance company, not previously tracked. Found via 2026-11-13 Friday CF surprise sweep: runs a 'Finance Internship Program' (11-week, Boston) and separately a freshman/sophomore 'Unite Summit' exploratory networking event (not itself an internship). No live, sophomore-eligible Summer 2027 Finance posting confirmed yet.",
       "tracks": [
         "CF"
+      ],
+      "sweep_cadence": "weekly"
+    },
+    {
+      "id": "societe-generale",
+      "name": "Societe Generale",
+      "tier": "BB",
+      "careers_url": "https://careers.societegenerale.com/en/sg_careers_offers_entity/88566",
+      "insight_programs_url": null,
+      "notes": "Global BB not previously tracked; found via 2026-11-16 Monday IB surprise sweep. Runs a '2027 Global Markets Summer Analyst Program' (NY) -- standard IB cycle-ahead naming, likely Class of 2028. A separately-titled '2027 Sophomore Global Markets Summer Analyst Program' may target our Class of 2029 cycle but its exact posting URL and eligibility text were not independently reachable this session (WebFetch network-blocked) -- flagged as an open question against the one confirmed URL pending direct verification of the sophomore-titled variant.",
+      "tracks": [
+        "IB"
+      ],
+      "sweep_cadence": null
+    },
+    {
+      "id": "loop-capital",
+      "name": "Loop Capital",
+      "tier": "MM",
+      "careers_url": "https://www.loopcapital.com/careers",
+      "insight_programs_url": null,
+      "notes": "Boutique/MM investment bank not previously tracked; found via 2026-11-16 Monday IB surprise sweep. Third-party guide (Extern, Oct 2026) reports nine paid '2027 Summer Intern' postings live across divisions (Chicago/NY/Miami) as of Oct 12 2026, including one in Corporate Investment Banking; no deadline or eligibility/class-year text found, Loop's own careers board unreachable this session.",
+      "tracks": [
+        "IB"
+      ],
+      "sweep_cadence": null
+    },
+    {
+      "id": "bny-mellon",
+      "name": "BNY (Bank of New York Mellon)",
+      "tier": null,
+      "careers_url": "https://www.bny.com/corporate/global/en/about-us/careers/students/pre-internship.html",
+      "insight_programs_url": null,
+      "notes": "Financial-services firm not previously tracked; found via 2026-11-16 Monday DS surprise sweep. Runs a general 'pre-internship' early-career track plus a separately-listed '2027 BNY Summer Internship Program -- Engineering (Data Science)' seen on third-party job boards (also posted for Lake Mary, FL); no eligibility/class-year text obtained this session (bny.com unreachable).",
+      "tracks": [
+        "DS"
       ],
       "sweep_cadence": "weekly"
     }
