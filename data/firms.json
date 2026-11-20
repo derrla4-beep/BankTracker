@@ -909,7 +909,7 @@
       "sweep_cadence": "every_run",
       "careers_url": "https://www.anthropic.com/careers",
       "insight_programs_url": null,
-      "notes": "No internship program as of 2026-08-13 \u2014 careers FAQ states \"We don't currently offer internships.\" Watched so the tracker catches the change if that reverses."
+      "notes": "No internship program as of 2026-08-13 — careers FAQ states \"We don't currently offer internships.\" Watched so the tracker catches the change if that reverses."
     },
     {
       "id": "imc-trading",
@@ -953,7 +953,7 @@
       "tier": null,
       "careers_url": "https://www.fticonsulting.com/careers/students",
       "insight_programs_url": null,
-      "notes": "Global expert/advisory firm; found via 2026-09-02 CF/DS surprise sweep with a live '2027 Intern \u2013 Corporate Finance' posting (grad window December 2027\u2013September 2028 \u2014 Class of 2028, not our Class of 2029 cycle). Flagged as an open question for triage rather than discarded.",
+      "notes": "Global expert/advisory firm; found via 2026-09-02 CF/DS surprise sweep with a live '2027 Intern – Corporate Finance' posting (grad window December 2027–September 2028 — Class of 2028, not our Class of 2029 cycle). Flagged as an open question for triage rather than discarded.",
       "tracks": [
         "CF"
       ],
@@ -1110,6 +1110,18 @@
       "careers_url": "https://www.bny.com/corporate/global/en/about-us/careers/students/pre-internship.html",
       "insight_programs_url": null,
       "notes": "Financial-services firm not previously tracked; found via 2026-11-16 Monday DS surprise sweep. Runs a general 'pre-internship' early-career track plus a separately-listed '2027 BNY Summer Internship Program -- Engineering (Data Science)' seen on third-party job boards (also posted for Lake Mary, FL); no eligibility/class-year text obtained this session (bny.com unreachable).",
+      "tracks": [
+        "DS"
+      ],
+      "sweep_cadence": "weekly"
+    },
+    {
+      "id": "blackrock",
+      "name": "BlackRock",
+      "tier": null,
+      "careers_url": "https://careers.blackrock.com/en/students-and-graduates-americas",
+      "insight_programs_url": null,
+      "notes": "Asset manager not previously tracked; found via 2026-11-20 Friday DS surprise sweep. Runs a '2027 Summer Internship Program (AMERS)' (NY and other locations, 9 weeks, June-August) spanning Analytics & Modeling, Analytics & Risk, Technology, Client & Product, and Corporate & Strategic Functions. Official posting (careers.blackrock.com/job/new-york/2027-summer-internship-program-amers/45831/90628276544) states eligibility as graduating 'September 2027 through July 2028' -- Class of 2028, wrong cycle for our Class of 2029 sophomore. No program row created yet (no live Class-of-2029-eligible posting found); filed as an open question for triage.",
       "tracks": [
         "DS"
       ],
