@@ -728,7 +728,7 @@
       "sweep_cadence": "weekly",
       "careers_url": "https://www.pgcareers.com/us/en/student-programs",
       "insight_programs_url": null,
-      "notes": "Official P&G Careers U.S. Student Programs page. 2026-11-16 Monday sweep: found a 'Standout Emerging Leaders' pathway program (pgcareers.com/us/en/Standout-Emerging-Leaders, Handshake mirror) stating eligibility 'Sophomore (or within three years of graduation)' across several functions incl. Finance & Accounting -- reads as a mentorship/pipeline program feeding future internships, not itself a dated internship application; flagged for triage on whether it deserves its own program row."
+      "notes": "Official P&G Careers U.S. Student Programs page. 2026-11-16 Monday sweep: found a 'Standout Emerging Leaders' pathway program (pgcareers.com/us/en/Standout-Emerging-Leaders, Handshake mirror) stating eligibility 'Sophomore (or within three years of graduation)' across several functions incl. Finance & Accounting -- reads as a mentorship/pipeline program feeding future internships, not itself a dated internship application; flagged for triage on whether it deserves its own program row. -- 2026-11-23: Reconfirmed via WebSearch that the 'Standout Emerging Leaders (Commercial Track)' pathway is real and sophomore-friendly (business/finance/economics majors, ranks Finance & Accounting as a functional preference, leads to a following-summer internship placement) but still no concrete URL/dated posting captured to create its own tracked program row."
     },
     {
       "id": "ge-aerospace",
@@ -909,7 +909,7 @@
       "sweep_cadence": "every_run",
       "careers_url": "https://www.anthropic.com/careers",
       "insight_programs_url": null,
-      "notes": "No internship program as of 2026-08-13 — careers FAQ states \"We don't currently offer internships.\" Watched so the tracker catches the change if that reverses."
+      "notes": "No internship program as of 2026-08-13 \u2014 careers FAQ states \"We don't currently offer internships.\" Watched so the tracker catches the change if that reverses."
     },
     {
       "id": "imc-trading",
@@ -953,7 +953,7 @@
       "tier": null,
       "careers_url": "https://www.fticonsulting.com/careers/students",
       "insight_programs_url": null,
-      "notes": "Global expert/advisory firm; found via 2026-09-02 CF/DS surprise sweep with a live '2027 Intern – Corporate Finance' posting (grad window December 2027–September 2028 — Class of 2028, not our Class of 2029 cycle). Flagged as an open question for triage rather than discarded.",
+      "notes": "Global expert/advisory firm; found via 2026-09-02 CF/DS surprise sweep with a live '2027 Intern \u2013 Corporate Finance' posting (grad window December 2027\u2013September 2028 \u2014 Class of 2028, not our Class of 2029 cycle). Flagged as an open question for triage rather than discarded.",
       "tracks": [
         "CF"
       ],
@@ -1122,6 +1122,66 @@
       "careers_url": "https://careers.blackrock.com/en/students-and-graduates-americas",
       "insight_programs_url": null,
       "notes": "Asset manager not previously tracked; found via 2026-11-20 Friday DS surprise sweep. Runs a '2027 Summer Internship Program (AMERS)' (NY and other locations, 9 weeks, June-August) spanning Analytics & Modeling, Analytics & Risk, Technology, Client & Product, and Corporate & Strategic Functions. Official posting (careers.blackrock.com/job/new-york/2027-summer-internship-program-amers/45831/90628276544) states eligibility as graduating 'September 2027 through July 2028' -- Class of 2028, wrong cycle for our Class of 2029 sophomore. No program row created yet (no live Class-of-2029-eligible posting found); filed as an open question for triage.",
+      "tracks": [
+        "DS"
+      ],
+      "sweep_cadence": "weekly"
+    },
+    {
+      "id": "citizens-bank",
+      "name": "Citizens Bank",
+      "tier": "MM",
+      "careers_url": "https://jobs.citizensbank.com/",
+      "insight_programs_url": null,
+      "notes": "Regional bank not previously tracked. Found via 2026-11-23 Monday IB surprise sweep: a live '2027 Investment Banking Analyst' posting (Boston, MA) -- SA-type, wrong cycle (Class of 2028), no eligibility quote retrieved.",
+      "tracks": [
+        "IB"
+      ],
+      "sweep_cadence": null
+    },
+    {
+      "id": "raine-group",
+      "name": "Raine Group",
+      "tier": "EB",
+      "careers_url": "https://jobs.lever.co/raine",
+      "insight_programs_url": null,
+      "notes": "Media/tech/sports advisory elite boutique not previously tracked. Found via 2026-11-23 Monday IB surprise sweep: a live '2027 Summer Analyst (New York & London)' posting -- SA-type, wrong cycle (Class of 2028), no eligibility quote retrieved.",
+      "tracks": [
+        "IB"
+      ],
+      "sweep_cadence": null
+    },
+    {
+      "id": "optiver",
+      "name": "Optiver",
+      "tier": null,
+      "careers_url": "https://www.optiver.com/join-us/jobs/",
+      "insight_programs_url": null,
+      "notes": "Quant trading firm (peer of Two Sigma/Jane Street/Citadel/IMC) not previously tracked. Found via 2026-11-23 Monday DS surprise sweep: a live 'Quantitative Intern (Summer 2027)' posting with a promising but unverified (search-snippet only, not verbatim) eligibility signal: 'expects graduation between December 2027 and June 2029', 'sophomore standing or higher'. Highest-confidence new DS find this sweep -- priority direct verification once optiver.com is reachable.",
+      "tracks": [
+        "DS"
+      ],
+      "sweep_cadence": "weekly"
+    },
+    {
+      "id": "t-rowe-price",
+      "name": "T. Rowe Price",
+      "tier": null,
+      "careers_url": "https://www.troweprice.com/corporate/en/careers.html",
+      "insight_programs_url": null,
+      "notes": "Asset manager not previously tracked. Found via 2026-11-23 Monday CF surprise sweep: a live '2027 CFO Rotational Program' posting, confirmed via quote 'full-time bachelor's student with an expected graduation between December 2026 and May/June 2027' -- targets graduating seniors, wrong cycle for our sophomore. Kept on file in case an earlier-stage program appears later.",
+      "tracks": [
+        "CF"
+      ],
+      "sweep_cadence": "weekly"
+    },
+    {
+      "id": "jhu-apl",
+      "name": "Johns Hopkins University Applied Physics Laboratory",
+      "tier": null,
+      "careers_url": "https://www.jhuapl.edu/careers",
+      "insight_programs_url": null,
+      "notes": "Government-adjacent research lab (peer of Lawrence Livermore) not previously tracked. Found via 2026-11-23 Monday DS surprise sweep: a tentative live posting title '2027 Internship - Artificial Intelligence and Machine Learning (AI/ML) Research Assistant' (title only, body unread -- WebFetch blocked). Lower confidence; needs direct verification.",
       "tracks": [
         "DS"
       ],
