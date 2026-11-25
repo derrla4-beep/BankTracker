@@ -1186,6 +1186,54 @@
         "DS"
       ],
       "sweep_cadence": "weekly"
+    },
+    {
+      "id": "peraton",
+      "name": "Peraton",
+      "tier": null,
+      "careers_url": "https://careers-peraton.icims.com/jobs/170320/summer-2027-data-science-intern/job",
+      "insight_programs_url": null,
+      "notes": "Government-services/defense contractor not previously tracked. Found via 2026-11-25 Wed DS surprise sweep: a live-looking 'Summer 2027 Data Science Intern' posting (Herndon VA / Blacksburg VA); careers-peraton.icims.com ENOTFOUND this session, no eligibility quote obtained. Flagged as an open question for triage rather than discarded.",
+      "tracks": [
+        "DS"
+      ],
+      "sweep_cadence": "weekly"
+    },
+    {
+      "id": "kempner-institute",
+      "name": "Kempner Institute",
+      "tier": null,
+      "careers_url": "https://kempnerinstitute.harvard.edu/kempner-institute-undergraduate-summer-internship-program-in-ml-research-engineering/",
+      "insight_programs_url": null,
+      "notes": "Harvard research institute, not previously tracked. Found via 2026-11-25 Wed DS surprise sweep: runs an 'Undergraduate Summer Internship Program in AI/ML Research & Engineering'; kempnerinstitute.harvard.edu ENOTFOUND this session, no eligibility quote obtained. Flagged as an open question for triage rather than discarded.",
+      "tracks": [
+        "DS"
+      ],
+      "sweep_cadence": "weekly"
+    },
+    {
+      "id": "umass-ai-for-the-commonwealth",
+      "name": "UMass AI for the Commonwealth",
+      "tier": null,
+      "careers_url": "https://groups.cs.umass.edu/pit/?p=5078",
+      "insight_programs_url": null,
+      "notes": "UMass research-outreach program, not previously tracked. Found via 2026-11-25 Wed DS surprise sweep: a '2027 AI for the Commonwealth' program; eligibility snippet suggests sophomore/junior CS eligibility but may be UMass-students-only (unconfirmed); groups.cs.umass.edu ENOTFOUND this session, no eligibility quote obtained. Flagged as an open question for triage rather than discarded.",
+      "tracks": [
+        "DS"
+      ],
+      "sweep_cadence": "weekly"
+    },
+    {
+      "id": "hudson-river-trading",
+      "name": "Hudson River Trading",
+      "tier": null,
+      "careers_url": "https://www.hudsonrivertrading.com/student-opportunities",
+      "insight_programs_url": null,
+      "notes": "Quant trading firm (peer of Two Sigma/Jane Street/Citadel/IMC) not previously tracked. Found via 2026-11-25 Wed DS surprise sweep: live Summer 2027 postings (Data Scientist Intern 2027; Algorithm Development/Quant Research Trading Internship) via third-party boards; hudsonrivertrading.com ENOTFOUND this session, no eligibility quote obtained. Flagged as an open question for triage rather than discarded.",
+      "tracks": [
+        "DS"
+      ],
+      "sweep_cadence": "weekly"
     }
   ]
 }
